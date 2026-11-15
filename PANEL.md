@@ -1,6 +1,6 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-15 21:42 UTC*
+*Actualizado: 2026-11-15 21:55 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|

@@ -29,5 +29,16 @@
     "estado_video": "creado",
     "costo_usd": 0.0,
     "fin": "2026-11-15T21:42:51+00:00"
+  },
+  {
+    "id": "20261115-214434-largo",
+    "tipo": "largo",
+    "inicio": "2026-11-15T21:44:34+00:00",
+    "estado": "ok",
+    "tema": "Paul is dead",
+    "video": "2026-11-15-largo-paul-is-dead",
+    "estado_video": "creado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-15T21:55:57+00:00"
   }
 ]
