@@ -70,7 +70,7 @@ def imagen_ia(prompt, destino, semilla, vertical, estilo):
 
 # ---------- Pexels ----------
 def clip_pexels(consulta, destino, vertical, usados):
-    if not PEXELS_API_KEY:
+    if not PEXELS_API_KEY or "SIN_PEXELS" in usados:
         return None
     try:
         r = requests.get("https://api.pexels.com/videos/search", timeout=30,
@@ -79,6 +79,9 @@ def clip_pexels(consulta, destino, vertical, usados):
                                  "size": "medium", "per_page": 15})
         if not r.ok:
             print(f"[visual] Pexels {r.status_code}")
+            if r.status_code in (401, 403):
+                print("[visual] la clave de Pexels no es válida: revisa PEXELS_API_KEY en GitHub. Sigo solo con IA.")
+                usados.add("SIN_PEXELS")
             return None
         videos = [v for v in r.json().get("videos", []) if v["id"] not in usados and v.get("duration", 0) >= 4]
         random.shuffle(videos)

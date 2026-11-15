@@ -22,8 +22,10 @@ FUENTES = {
 COLA = 1.2
 
 
-def _ff(args, cwd=None):
-    subprocess.run(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", *args], check=True, cwd=cwd)
+def _ff(args, cwd=None, limite=900):
+    """FFmpeg sin leer el teclado (-nostdin) y con tiempo máximo, para que nunca se quede colgado."""
+    subprocess.run(["ffmpeg", "-nostdin", "-y", "-hide_banner", "-loglevel", "error", *args],
+                   check=True, cwd=cwd, stdin=subprocess.DEVNULL, timeout=limite)
 
 
 def asegurar_fuentes(destino):
@@ -205,11 +207,13 @@ def montar(escenas, total_voz, carpeta, salida, vertical, estilo, gancho="", cap
         clip_escena(e, dur, movs[i % len(movs)], clip, w, h, escala)
         lista.append(f"file '{clip.name}'")
     (carpeta / "clips.txt").write_text("\n".join(lista), encoding="utf-8")
+    print("[montaje] uniendo escenas")
     _ff(["-f", "concat", "-safe", "0", "-i", "clips.txt", "-c", "copy", "video_mudo.mp4"], cwd=carpeta)
 
     (carpeta / "voces.txt").write_text("\n".join(f"file '{e['wav'].name}'" for e in escenas), encoding="utf-8")
     _ff(["-f", "concat", "-safe", "0", "-i", "voces.txt", "-c", "copy", "narracion.wav"], cwd=carpeta)
 
+    print("[montaje] música y efectos")
     origen_musica = musica(total, carpeta / "musica.wav")
     if vertical:
         momentos = [e["inicio"] for e in escenas[1:]]
@@ -231,5 +235,5 @@ def montar(escenas, total_voz, carpeta, salida, vertical, estilo, gancho="", cap
          "-c:v", "libx264", "-preset", "medium" if vertical else "faster", "-crf", "21",
          "-maxrate", "9M" if vertical else "12M", "-bufsize", "18M" if vertical else "24M", "-profile:v", "high",
          "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart", str(salida.resolve())],
-        cwd=carpeta)
+        cwd=carpeta, limite=1200 if vertical else 7200)
     return {"duracion": round(total, 1), "musica": origen_musica, "fuente_subs": fuente}

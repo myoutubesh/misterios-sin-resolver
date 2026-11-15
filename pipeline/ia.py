@@ -97,10 +97,15 @@ def _gemini(prompt, max_tokens, buscar_web=False):
     ultimo = None
     for modelo in _modelos_gemini(cliente):
         try:
+            extra = {}
+            if modelo.startswith("gemini-3"):  # piensa menos: mucho más rápido y suficiente para guiones
+                extra["thinking_config"] = types.ThinkingConfig(thinking_level="low")
+            t0 = time.time()
             r = cliente.models.generate_content(
                 model=modelo, contents=prompt,
                 config=types.GenerateContentConfig(response_mime_type="application/json", temperature=0.9,
-                                                   max_output_tokens=max_tokens))
+                                                   max_output_tokens=max_tokens, **extra))
+            print(f"[ia] Gemini {modelo} respondió en {time.time() - t0:.0f}s")
             _anotar("gemini", modelo)
             return r.text
         except Exception as e:  # noqa: BLE001
