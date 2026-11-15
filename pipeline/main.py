@@ -46,8 +46,13 @@ def metadatos(g, art, formato, capitulos, creditos):
         partes.append(f"🎞️ Clips de archivo: Pexels ({autores}).")
     partes.append("🎨 Imágenes ilustrativas generadas con IA y narración con voz sintética. Las teorías y leyendas "
                   "se presentan como tales; los hechos provienen de las fuentes citadas.")
-    hashtags = " ".join("#" + h for h in g.get("hashtags", []))
-    partes.append(f"\n{hashtags} #misterio" + (" #shorts" if formato == "short" else " #documental"))
+    extra = ["misterio", "shorts" if formato == "short" else "documental"]
+    lista = []
+    for h in [*g.get("hashtags", []), *extra]:
+        h = h.lstrip("#").strip()
+        if h and h.lower() not in [x.lower() for x in lista]:
+            lista.append(h)
+    partes.append("\n" + " ".join("#" + h for h in lista))
     desc = "\n".join(partes)
     return {"titulo": titulo[:100], "descripcion": desc[:4900], "tags": g.get("tags", [])[:15]}
 
