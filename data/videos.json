@@ -1,1 +1,43 @@
-[]
+[
+  {
+    "id": "2026-11-15-short-ariel-school-ufo-incident",
+    "fecha": "2026-11-15T21:42:51+00:00",
+    "formato": "short",
+    "estado": "creado",
+    "tema": "Ariel School UFO incident",
+    "tema_clave": "Ariel School UFO incident",
+    "categoria": "paranormal",
+    "interes_wikipedia": 4.6,
+    "titulo_yt": "El misterioso encuentro en la escuela Ariel de 1994 #shorts",
+    "estructura": "en_medias_res",
+    "estilo": "luna_fria",
+    "duracion": 57.4,
+    "escenas": 9,
+    "clips_reales": 0,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Ariel_School_UFO_incident"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  }
+]

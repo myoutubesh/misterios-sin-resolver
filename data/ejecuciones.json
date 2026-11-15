@@ -18,5 +18,16 @@
     "fin": "2026-11-15T20:26:09+00:00",
     "error": "CalledProcessError: Command '['ffmpeg', '-y', '-hide_banner', '-loglevel', 'error', '-i', 'video_mudo.mp4', '-i', 'narracion.wav', '-i', 'musica.wav', '-i', 'efectos.wav', '-filter_complex', '[0:v]colorbalance=bs=.12:ms=.06:hs=-.04,eq=saturation=0.75:contrast=1.05,noise=alls=5:allf=t,vignette=angle=PI/4.5,subtitles=subs.ass:fontsdir=fonts,format=yuv420p[v];[1:a]aformat=sample_rates=44100:channel_layouts=stereo,apad,asplit[n1][n2];[2:a]volume=0.22[m];[3:a]volume=0.55[fx];[m][n2]sidechaincompress=",
     "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 94, in crear_video\n    info = montaje.montar(escenas, total_voz, trabajo, video, vertical, estilo,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/montaje.py\", line 229, in montar\n    _ff([\"-i\", \"video_mudo.mp4\", \"-i\", \"narracion.wav\", \"-i\", \"musica.wav\", \"-i\", \"efectos.wav\",\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/montaje.py\", line 26, in _ff\n    subprocess.run([\"ffmpeg\", \"-y\", \"-hide_banner\", \"-loglevel\", \"error\", *args], check=True, cwd=cwd)\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['ffmpeg', '-y', '-hide_banner', '-loglevel', 'error', '-i', 'video_mudo.mp4', '-i', 'narracion.wav', '-i', 'musica.wav', '-i', 'efectos.wav', '-filter_complex', '[0:v]colorbalance=bs=.12:ms=.06:hs=-.04,eq=saturation=0.75:contrast=1.05,noise=alls=5:allf=t,vignette=angle=PI/4.5,subtitles=subs.ass:fontsdir=fonts,format=yuv420p[v];[1:a]aformat=sample_rates=44100:channel_layouts=stereo,apad,asplit[n1][n2];[2:a]volume=0.22[m];[3:a]volume=0.55[fx];[m][n2]sidechaincompress=threshold=0.04:ratio=5:attack=15:release=450[md];[n1][md][fx]amix=inputs=3:duration=longest:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]', '-map', '[v]', '-map', '[a]', '-t', '46.58', '-c:v', 'libx264', '-preset', 'medium', '-crf', '21', '-maxrate', '9M', '-bufsize', '18M', '-profile:v', 'high', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-movflags', '+faststart', '/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/out/2026-11-15-short-centralia-pennsylvania/short.mp4']' returned non-zero exit status 8.\n"
+  },
+  {
+    "id": "20261115-213101-short",
+    "tipo": "short",
+    "inicio": "2026-11-15T21:31:01+00:00",
+    "estado": "ok",
+    "tema": "Ariel School UFO incident",
+    "video": "2026-11-15-short-ariel-school-ufo-incident",
+    "estado_video": "creado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-15T21:42:51+00:00"
   }
 ]
