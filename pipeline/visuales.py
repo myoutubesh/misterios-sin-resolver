@@ -22,7 +22,7 @@ ESTILOS = [
      "acento": "&H004DB8FF&", "caja": "&H00203040&"},
     {"nombre": "luna_fria",
      "img": "cold moonlit cinematic photograph, realistic, 35mm film, blue hour, mist, desolate, high detail",
-     "grade": "colorbalance=bs=.12:ms=.06:hs=-.04,eq=saturation=0.75:contrast=1.05", "acento": "&H00FFE08A&",
+     "grade": "colorbalance=bs=.12:bm=.06:bh=-.04,eq=saturation=0.75:contrast=1.05", "acento": "&H00FFE08A&",
      "caja": "&H00603010&"},
     {"nombre": "grabado",
      "img": "dark engraving illustration, old book woodcut etching style, black ink cross-hatching, aged paper, ominous",

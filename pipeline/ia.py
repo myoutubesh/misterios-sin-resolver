@@ -95,7 +95,7 @@ def _gemini(prompt, max_tokens, buscar_web=False):
 
     cliente = genai.Client(api_key=GEMINI_API_KEY)
     ultimo = None
-    for modelo in GEMINI_MODELOS:
+    for modelo in _modelos_gemini(cliente):
         try:
             r = cliente.models.generate_content(
                 model=modelo, contents=prompt,
@@ -106,7 +106,35 @@ def _gemini(prompt, max_tokens, buscar_web=False):
         except Exception as e:  # noqa: BLE001
             print(f"[ia] Gemini {modelo} falló: {str(e)[:200]}")
             ultimo = e
+            if "404" in str(e):
+                _GEMINI_NO_EXISTE.add(modelo)
     raise RuntimeError(ultimo)
+
+
+_GEMINI_NO_EXISTE = set()
+_GEMINI_DESCUBIERTOS = []
+
+
+def _modelos_gemini(cliente):
+    """Modelos configurados y, detrás, los 'flash' que tu clave realmente puede usar (Google los retira seguido)."""
+    if not _GEMINI_DESCUBIERTOS:
+        try:
+            nombres = []
+            for m in cliente.models.list():
+                nombre = (m.name or "").removeprefix("models/")
+                acciones = getattr(m, "supported_actions", None) or []
+                if ("flash" in nombre and "generateContent" in acciones
+                        and not any(x in nombre for x in ("lite", "image", "tts", "live", "audio", "preview", "exp"))):
+                    nombres.append(nombre)
+            _GEMINI_DESCUBIERTOS.extend(sorted(nombres, reverse=True))
+            print(f"[ia] modelos Gemini disponibles: {_GEMINI_DESCUBIERTOS[:5]}")
+        except Exception as e:  # noqa: BLE001
+            print(f"[ia] no pude listar modelos Gemini: {str(e)[:150]}")
+    lista = []
+    for m in GEMINI_MODELOS + _GEMINI_DESCUBIERTOS:
+        if m not in lista and m not in _GEMINI_NO_EXISTE:
+            lista.append(m)
+    return lista
 
 
 # ---------- Pollinations ----------
