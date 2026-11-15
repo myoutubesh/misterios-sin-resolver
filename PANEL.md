@@ -1,15 +1,16 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-15 21:55 UTC*
+*Actualizado: 2026-11-15 22:12 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| — | — | 1 | 0 | 0 | 2 | $0.00 |
+| — | — | 2 | 0 | 1 | 2 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-15 | short | [El misterio del Diablo de Jersey #shorts](https://youtu.be/tgejcauNSRI) | programado | — |
 | 2026-11-15 | short | El misterioso encuentro en la escuela Ariel de 1994 #shorts | creado | — |
 
 ## Errores recientes

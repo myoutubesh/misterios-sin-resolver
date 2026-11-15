@@ -40,5 +40,16 @@
     "estado_video": "creado",
     "costo_usd": 0.0,
     "fin": "2026-11-15T21:55:57+00:00"
+  },
+  {
+    "id": "20261115-220214-short",
+    "tipo": "short",
+    "inicio": "2026-11-15T22:02:14+00:00",
+    "estado": "ok",
+    "tema": "Jersey Devil",
+    "video": "2026-11-15-short-jersey-devil",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-15T22:12:25+00:00"
   }
 ]

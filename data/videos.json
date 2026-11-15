@@ -39,5 +39,51 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-15-short-jersey-devil",
+    "fecha": "2026-11-15T22:12:22+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Jersey Devil",
+    "tema_clave": "Jersey Devil",
+    "categoria": "leyendas",
+    "interes_wikipedia": 5.69,
+    "titulo_yt": "El misterio del Diablo de Jersey #shorts",
+    "estructura": "tres_detalles",
+    "estilo": "archivo_antiguo",
+    "duracion": 62.8,
+    "escenas": 9,
+    "clips_reales": 0,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Jersey_Devil",
+      "https://es.wikipedia.org/wiki/Diablo_de_Jersey"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "tgejcauNSRI",
+    "privacidad": "private",
+    "publicar_en": "2026-11-16T15:00:00Z",
+    "url": "https://youtu.be/tgejcauNSRI"
   }
 ]
