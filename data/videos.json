@@ -85,5 +85,47 @@
     "privacidad": "private",
     "publicar_en": "2026-11-16T15:00:00Z",
     "url": "https://youtu.be/tgejcauNSRI"
+  },
+  {
+    "id": "2026-11-15-short-jimmy-hoffa",
+    "fecha": "2026-11-15T22:56:49+00:00",
+    "formato": "short",
+    "estado": "creado",
+    "tema": "Jimmy Hoffa",
+    "tema_clave": "Jimmy Hoffa",
+    "categoria": "desapariciones",
+    "interes_wikipedia": 6.22,
+    "titulo_yt": "El misterio sin resolver de Jimmy Hoffa #shorts",
+    "estructura": "tres_detalles",
+    "estilo": "noche_turquesa",
+    "duracion": 59.8,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Jimmy_Hoffa",
+      "https://es.wikipedia.org/wiki/Jimmy_Hoffa"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
