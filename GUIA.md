@@ -38,10 +38,15 @@ El sistema **no publica** guiones escritos solo con el respaldo gratuito (Pollin
 
 Puedes poner las dos: el sistema usa Claude primero y Gemini si Claude falla.
 
-## Paso 3. Clips de video reales: Pexels (3 min, gratis)
+## Paso 3. Clips de video reales: Pixabay (3 min, gratis)
 
-1. Crea una cuenta en **pexels.com** → entra a **pexels.com/api** → *Your API Key*.
-2. Copia la clave. Con ella, los videos mezclan imágenes IA con clips reales de archivo, así se ven menos "hechos en serie" y se generan mucho más rápido.
+Con esta clave los videos mezclan imágenes IA con clips reales de archivo: se ven menos "hechos en serie" y se generan más rápido.
+
+1. Crea una cuenta en **pixabay.com** e inicia sesión.
+2. Entra a **pixabay.com/api/docs/**. En la sección *Parameters*, junto a `key`, aparece tu clave (letras y números en verde).
+3. Cópiala y guárdala en GitHub como secret **`PIXABAY_API_KEY`** (Paso 7.4).
+
+*Pexels* también funciona (secret `PEXELS_API_KEY`), pero en noviembre de 2026 tenía pausada la entrega de claves nuevas. Si tienes las dos, se usa Pexels primero.
 
 ## Paso 4. Imágenes más rápidas: Pollinations (opcional, 3 min, gratis)
 
@@ -106,7 +111,8 @@ YouTube deja en **privado** los videos subidos por proyectos nuevos de Google Cl
    |---|---|---|
    | `ANTHROPIC_API_KEY` | clave del Paso 2A | esta o la de Gemini |
    | `GEMINI_API_KEY` | clave del Paso 2B | esta o la de Claude |
-   | `PEXELS_API_KEY` | clave del Paso 3 | muy recomendado |
+   | `PIXABAY_API_KEY` | clave del Paso 3 | muy recomendado |
+   | `PEXELS_API_KEY` | clave de Pexels (opcional) | no |
    | `POLLINATIONS_TOKEN` | token del Paso 4 | opcional |
    | `YT_CLIENT_ID` | del Paso 5 | sí |
    | `YT_CLIENT_SECRET` | del Paso 5 | sí |

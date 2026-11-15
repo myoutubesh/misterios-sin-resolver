@@ -42,8 +42,10 @@ def metadatos(g, art, formato, capitulos, creditos):
     fuentes = art.get("fuentes", []) + g.get("fuentes_extra", [])
     partes.append("📚 Fuentes:\n" + "\n".join(f"• {u}" for u in dict.fromkeys(fuentes)))
     if creditos:
-        autores = ", ".join(dict.fromkeys(c["autor"] for c in creditos if c.get("autor")))
-        partes.append(f"🎞️ Clips de archivo: Pexels ({autores}).")
+        for fuente in dict.fromkeys(c.get("fuente", "Pexels") for c in creditos):
+            autores = ", ".join(dict.fromkeys(c["autor"] for c in creditos
+                                              if c.get("autor") and c.get("fuente", "Pexels") == fuente))
+            partes.append(f"🎞️ Clips de archivo: {fuente} ({autores}).")
     partes.append("🎨 Imágenes ilustrativas generadas con IA y narración con voz sintética. Las teorías y leyendas "
                   "se presentan como tales; los hechos provienen de las fuentes citadas.")
     extra = ["misterio", "shorts" if formato == "short" else "documental"]

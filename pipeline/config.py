@@ -39,6 +39,7 @@ VOZ_RATE_LARGO = os.getenv("VOZ_RATE_LARGO", "-2%")
 
 # ---------- Visuales ----------
 PEXELS_API_KEY = os.getenv("PEXELS_API_KEY", "").strip()
+PIXABAY_API_KEY = os.getenv("PIXABAY_API_KEY", "").strip()   # alternativa gratis a Pexels
 IMG_MODELO = os.getenv("IMG_MODELO", "flux")
 ESTILO_BASE = "no text, no letters, no watermark, no logo"
 

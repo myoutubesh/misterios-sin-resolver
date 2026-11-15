@@ -9,7 +9,7 @@ import urllib.parse
 
 import requests
 
-from .config import ESTILO_BASE, IMG_MODELO, PEXELS_API_KEY, POLLINATIONS_TOKEN, USER_AGENT
+from .config import ESTILO_BASE, IMG_MODELO, PEXELS_API_KEY, PIXABAY_API_KEY, POLLINATIONS_TOKEN, USER_AGENT
 from .ia import esperar_limite
 
 ESTILOS = [
@@ -106,6 +106,49 @@ def clip_pexels(consulta, destino, vertical, usados):
     return None
 
 
+# ---------- Pixabay (alternativa gratis; licencia libre, sin atribución obligatoria) ----------
+def clip_pixabay(consulta, destino, vertical, usados):
+    if not PIXABAY_API_KEY or "SIN_PIXABAY" in usados:
+        return None
+    try:
+        r = requests.get("https://pixabay.com/api/videos/", timeout=30,
+                         params={"key": PIXABAY_API_KEY, "q": consulta[:100], "safesearch": "true", "per_page": 30})
+        if not r.ok:
+            print(f"[visual] Pixabay {r.status_code}")
+            if r.status_code in (400, 401, 403) and "key" in r.text.lower():
+                print("[visual] la clave de Pixabay no es válida: revisa PIXABAY_API_KEY en GitHub.")
+                usados.add("SIN_PIXABAY")
+            return None
+        videos = [v for v in r.json().get("hits", []) if f"px{v['id']}" not in usados and v.get("duration", 0) >= 4]
+        random.shuffle(videos)
+        # Pixabay casi no tiene videos verticales: se recortan al centro, por eso pedimos la mayor resolución
+        orden = ("large", "medium") if vertical else ("medium", "large")
+        for v in videos[:5]:
+            archivo = next((v["videos"][k] for k in orden
+                            if v.get("videos", {}).get(k, {}).get("url") and v["videos"][k].get("height", 0) >= 700), None)
+            if not archivo:
+                continue
+            with requests.get(archivo["url"], timeout=120, stream=True) as d:
+                d.raise_for_status()
+                with open(destino, "wb") as f:
+                    for trozo in d.iter_content(1 << 20):
+                        f.write(trozo)
+            usados.add(f"px{v['id']}")
+            return {"id": v["id"], "autor": v.get("user"), "url": v.get("pageURL"), "duracion": v.get("duration"),
+                    "fuente": "Pixabay"}
+    except Exception as e:  # noqa: BLE001
+        print(f"[visual] Pixabay falló con '{consulta}': {e}")
+    return None
+
+
+def clip_real(consulta, destino, vertical, usados):
+    info = clip_pexels(consulta, destino, vertical, usados)
+    if info:
+        info.setdefault("fuente", "Pexels")
+        return info
+    return clip_pixabay(consulta, destino, vertical, usados)
+
+
 def preparar(escenas, carpeta, vertical, estilo, proporcion_real):
     """Asigna a cada escena una imagen IA o un clip real. Devuelve créditos de Pexels."""
     base = random.randint(1, 10_000_000)
@@ -114,12 +157,12 @@ def preparar(escenas, carpeta, vertical, estilo, proporcion_real):
     n = len(escenas)
     # La primera escena (gancho) siempre lleva imagen IA hecha a medida
     reales = set()
-    if PEXELS_API_KEY and proporcion_real > 0:
+    if (PEXELS_API_KEY or PIXABAY_API_KEY) and proporcion_real > 0:
         reales = set(random.sample(range(1, n), k=min(n - 1, round((n - 1) * proporcion_real))))
     for i, esc in enumerate(escenas):
         if i in reales:
             ruta = carpeta / f"vid_{i:03d}.mp4"
-            info = clip_pexels(esc["stock"], ruta, vertical, usados)
+            info = clip_real(esc["stock"], ruta, vertical, usados)
             if info:
                 esc["visual"], esc["archivo"] = "clip", ruta
                 creditos.append(info)
