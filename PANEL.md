@@ -1,12 +1,17 @@
-# Panel: Misterios Sin Resolver
+# Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-15 17:31 UTC*
+*Actualizado: 2026-11-15 20:26 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| — | — | 0 | 0 | 0 | 0 | $0.00 |
+| — | — | 0 | 0 | 0 | 2 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+
+## Errores recientes
+
+- 2026-11-15T20:18 · short · `CalledProcessError: Command '['ffmpeg', '-y', '-hide_banner', '-loglevel', 'error', '-i', 'video_mudo.mp4', '-i', 'narracion.wav', '-i', 'musica.wav', '-i', 'efectos.wav', '-filter_complex', '[0:v]colorbalance=bs=.12:ms=.06:hs=-.04,eq=saturation=0.75:contrast=1.05,noise=alls=5:allf=t,vignette=angle=PI/4.5,subtitles=subs.ass:fontsdir=fonts,format=yuv420p[v];[1:a]aformat=sample_rates=44100:channel_layouts=stereo,apad,asplit[n1][n2];[2:a]volume=0.22[m];[3:a]volume=0.55[fx];[m][n2]sidechaincompress=`
+- 2026-11-15T20:06 · short · `CalledProcessError: Command '['ffmpeg', '-y', '-hide_banner', '-loglevel', 'error', '-i', 'video_mudo.mp4', '-i', 'narracion.wav', '-i', 'musica.wav', '-i', 'efectos.wav', '-filter_complex', '[0:v]colorbalance=bs=.12:ms=.06:hs=-.04,eq=saturation=0.75:contrast=1.05,noise=alls=5:allf=t,vignette=angle=PI/4.5,subtitles=subs.ass:fontsdir=fonts,format=yuv420p[v];[1:a]aformat=sample_rates=44100:channel_layouts=stereo,apad,asplit[n1][n2];[2:a]volume=0.22[m];[3:a]volume=0.55[fx];[m][n2]sidechaincompress=`
