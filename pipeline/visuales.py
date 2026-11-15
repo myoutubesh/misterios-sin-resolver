@@ -114,7 +114,7 @@ def clip_pixabay(consulta, destino, vertical, usados):
         r = requests.get("https://pixabay.com/api/videos/", timeout=30,
                          params={"key": PIXABAY_API_KEY, "q": consulta[:100], "safesearch": "true", "per_page": 30})
         if not r.ok:
-            print(f"[visual] Pixabay {r.status_code}")
+            print(f"[visual] Pixabay {r.status_code}: {r.text[:150].replace(PIXABAY_API_KEY, '***')}")
             if r.status_code in (400, 401, 403) and "key" in r.text.lower():
                 print("[visual] la clave de Pixabay no es válida: revisa PIXABAY_API_KEY en GitHub.")
                 usados.add("SIN_PIXABAY")
