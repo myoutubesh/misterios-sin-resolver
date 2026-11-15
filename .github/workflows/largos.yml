@@ -2,8 +2,8 @@ name: Videos largos
 
 on:
   schedule:
-    # Martes y viernes a las 16:00 UTC (10:00 en CDMX). El video se puede programar para más tarde
-    # con la variable YT_HORA_PUBLICACION_LARGOS.
+    # Martes y viernes a las 16:00 UTC (10:00 en CDMX). Tarda 1-3 horas; queda subido en privado
+    # antes de las 18:00 para que lo publiques tú.
     - cron: "0 16 * * 2,5"
   workflow_dispatch:
     inputs:
