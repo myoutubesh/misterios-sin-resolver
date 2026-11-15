@@ -1,0 +1,91 @@
+name: Videos largos
+
+on:
+  schedule:
+    # Martes y viernes a las 16:00 UTC (10:00 en CDMX). El video se puede programar para más tarde
+    # con la variable YT_HORA_PUBLICACION_LARGOS.
+    - cron: "0 16 * * 2,5"
+  workflow_dispatch:
+    inputs:
+      tema:
+        description: "Tema opcional (título de Wikipedia en inglés)"
+        required: false
+      subir:
+        description: "¿Subir a YouTube?"
+        type: boolean
+        default: true
+      prueba:
+        description: "Modo prueba (video corto, no se sube)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: datos-del-canal
+  cancel-in-progress: false
+
+jobs:
+  largo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Instalar ffmpeg y dependencias
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q -r requirements.txt
+
+      - name: Crear y publicar el video largo
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          POLLINATIONS_TOKEN: ${{ secrets.POLLINATIONS_TOKEN }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          CLAUDE_MODELO: ${{ vars.CLAUDE_MODELO || 'claude-opus-5-5' }}
+          YT_PRIVACIDAD: ${{ vars.YT_PRIVACIDAD || 'public' }}
+          YT_HORA_PUBLICACION: ${{ vars.YT_HORA_PUBLICACION_LARGOS }}
+          CANAL_NOMBRE: ${{ vars.CANAL_NOMBRE || 'Misterios Sin Resolver' }}
+          TEMA: ${{ github.event.inputs.tema }}
+          SUBIR: ${{ github.event.inputs.subir }}
+          PRUEBA: ${{ github.event.inputs.prueba }}
+        run: |
+          ARGS=(largo)
+          if [ -n "$TEMA" ]; then ARGS+=(--tema "$TEMA"); fi
+          if [ "$SUBIR" = "false" ]; then ARGS+=(--no-subir); fi
+          if [ "$PRUEBA" = "true" ]; then ARGS+=(--prueba); fi
+          if ! python -u -m pipeline.main "${ARGS[@]}"; then
+            if [ -f out/SUBIDO ]; then echo "El video ya se subió; no reintento."; exit 1; fi
+            echo "Falló; reintento en 5 minutos…"; sleep 300
+            python -u -m pipeline.main "${ARGS[@]}"
+          fi
+
+      - name: Guardar video como artefacto (7 días)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: largo-${{ github.run_number }}
+          path: |
+            out/*/video.mp4
+            out/*/miniatura.jpg
+            out/*/meta.json
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Guardar registros y panel
+        if: always()
+        run: |
+          git config user.name "bot-misterios"
+          git config user.email "bot-misterios@users.noreply.github.com"
+          git add data docs PANEL.md
+          git commit -m "Largo: registros $(date -u +%F_%H%M)" || exit 0
+          git pull --rebase -X theirs || true
+          git push

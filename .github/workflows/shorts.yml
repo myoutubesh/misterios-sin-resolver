@@ -1,0 +1,85 @@
+name: Shorts diarios
+
+on:
+  schedule:
+    # Hora UTC. 14:00 UTC = 8:00 en CDMX · 23:00 UTC = 17:00 en CDMX.
+    # Para 3 shorts al día agrega otra línea, p. ej.:  - cron: "0 18 * * *"
+    - cron: "0 14 * * *"
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+    inputs:
+      tema:
+        description: "Tema opcional (título de Wikipedia en inglés)"
+        required: false
+      subir:
+        description: "¿Subir a YouTube?"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: datos-del-canal   # nunca corren dos trabajos a la vez (evita conflictos y duplicados)
+  cancel-in-progress: false
+
+jobs:
+  short:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Instalar ffmpeg y dependencias
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q -r requirements.txt
+
+      - name: Crear y publicar el short (con un reintento)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          POLLINATIONS_TOKEN: ${{ secrets.POLLINATIONS_TOKEN }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          CLAUDE_MODELO: ${{ vars.CLAUDE_MODELO || 'claude-opus-5-5' }}
+          YT_PRIVACIDAD: ${{ vars.YT_PRIVACIDAD || 'public' }}
+          YT_HORA_PUBLICACION: ${{ vars.YT_HORA_PUBLICACION_SHORTS }}
+          CANAL_NOMBRE: ${{ vars.CANAL_NOMBRE || 'Misterios Sin Resolver' }}
+          TEMA: ${{ github.event.inputs.tema }}
+          SUBIR: ${{ github.event.inputs.subir }}
+        run: |
+          ARGS=(short)
+          if [ -n "$TEMA" ]; then ARGS+=(--tema "$TEMA"); fi
+          if [ "$SUBIR" = "false" ]; then ARGS+=(--no-subir); fi
+          if ! python -u -m pipeline.main "${ARGS[@]}"; then
+            if [ -f out/SUBIDO ]; then echo "El video ya se subió; no reintento."; exit 1; fi
+            echo "Falló; reintento en 2 minutos…"; sleep 120
+            python -u -m pipeline.main "${ARGS[@]}"
+          fi
+
+      - name: Guardar video como artefacto (7 días)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: short-${{ github.run_number }}
+          path: |
+            out/*/short.mp4
+            out/*/meta.json
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Guardar registros y panel
+        if: always()
+        run: |
+          git config user.name "bot-misterios"
+          git config user.email "bot-misterios@users.noreply.github.com"
+          git add data docs PANEL.md
+          git commit -m "Short: registros $(date -u +%F_%H%M)" || exit 0
+          git pull --rebase -X theirs || true
+          git push

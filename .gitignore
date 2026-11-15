@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+out/
+video-prueba-*.mp4
+miniatura-prueba.jpg
+client_secret*.json
+token_youtube.txt
+.env
+assets/fonts/

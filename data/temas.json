@@ -1,0 +1,61 @@
+{
+  "desapariciones": [
+    "Roanoke Colony", "Flannan Isles Lighthouse", "Disappearance of Frederick Valentich",
+    "Malaysia Airlines Flight 370", "Amelia Earhart", "Sodder children disappearance",
+    "Disappearance of the Jamison family", "Yuba County Five", "Disappearance of Dorothy Arnold",
+    "Jim Thompson (designer)", "Disappearance of Louis Le Prince", "Bennington Triangle",
+    "Owen Parfitt", "Disappearance of Brandon Swanson", "Disappearance of Maura Murray",
+    "Ambrose Bierce", "Jimmy Hoffa", "Percy Fawcett", "Flight 19", "Bermuda Triangle",
+    "Disappearance of Richey Edwards", "Lost Battalion (Ireland)", "Glenn Miller"
+  ],
+  "casos_sin_resolver": [
+    "Dyatlov Pass incident", "Tamam Shud case", "Death of Elisa Lam", "Hinterkaifeck murders",
+    "D. B. Cooper", "Isdal Woman", "Lead Masks Case", "Villisca axe murders", "Lake Bodom murders",
+    "Zodiac Killer", "Kaspar Hauser", "Death of Tom Thomson", "Max Headroom signal hijacking",
+    "Toynbee tiles", "Peter Bergmann case", "Boy in the Box (Philadelphia)", "Lady of the Dunes",
+    "Axeman of New Orleans", "Cleveland Torso Murders"
+  ],
+  "paranormal": [
+    "Bélmez Faces", "Gef the talking mongoose", "Enfield poltergeist", "Bell Witch",
+    "Amityville Horror", "Spring-heeled Jack", "Mothman", "Rendlesham Forest incident",
+    "Varginha UFO incident", "Kecksburg UFO incident", "Phoenix Lights", "Solway Firth Spaceman",
+    "Westall UFO", "Tehran UFO incident", "Ariel School UFO incident"
+  ],
+  "lugares": [
+    "Mary Celeste", "SS Ourang Medan", "Carroll A. Deering", "SS Baychimo", "Overtoun Bridge",
+    "Hoia Baciu Forest", "Oak Island mystery", "Island of the Dolls",
+    "Poveglia", "Centralia, Pennsylvania", "Hashima Island", "Skinwalker Ranch", "Nazca Lines",
+    "Baltic Sea anomaly", "Richat Structure", "Zona del Silencio"
+  ],
+  "leyendas": [
+    "La Llorona", "Chupacabra", "El Silbón", "Bloody Mary (folklore)", "Black-eyed children",
+    "Slender Man", "Wendigo", "Flying Dutchman", "Green children of Woolpit", "The Devil's Footprints",
+    "Dancing plague of 1518", "Pied Piper of Hamelin", "Jersey Devil", "Nahuelito", "La Mano Peluda"
+  ],
+  "civilizaciones": [
+    "Voynich manuscript", "Antikythera mechanism", "Göbekli Tepe", "Rongorongo", "Indus script",
+    "Linear A", "Phaistos Disc", "Nan Madol", "Plain of Jars", "Sacsayhuamán", "Puma Punku",
+    "Olmec colossal heads", "Teotihuacan", "Derinkuyu underground city", "Longyou Caves",
+    "Lost Colony of Greenland", "Saksaywaman", "Baghdad Battery", "Stonehenge"
+  ],
+  "conspiraciones": [
+    "Philadelphia Experiment", "Project MKUltra", "Operation Northwoods", "Roswell incident",
+    "Area 51", "Paul is dead", "Bloop", "Wow! signal", "Montauk Project", "Denver International Airport",
+    "Majestic 12", "Operation Paperclip"
+  ],
+  "fenomenos": [
+    "Tunguska event", "Hessdalen lights", "Ball lightning", "The Hum", "Marfa lights",
+    "Naga fireball", "Catatumbo lightning", "Brown Mountain lights", "Sailing stones",
+    "Fairy circle (arid grass formation)", "Taos Hum", "Bell Island boom", "Skyquake"
+  ],
+  "curiosidades": [
+    "UVB-76", "Numbers station", "Toynbee tiles", "Somerton Man", "Kryptos", "Beale ciphers",
+    "Zodiac Killer", "Cicada 3301", "Unfinished Tower", "Copper Scroll", "Shugborough inscription",
+    "Lake Michigan Triangle"
+  ],
+  "historias": [
+    "Hachikō", "Tsutomu Yamaguchi", "Violet Jessop", "Juliane Koepcke", "Hiroo Onoda",
+    "Frane Selak", "Phineas Gage", "Tarrare", "Mike the Headless Chicken", "Kaspar Hauser",
+    "Lost Boys of Sudan", "Elizabeth Báthory"
+  ]
+}
