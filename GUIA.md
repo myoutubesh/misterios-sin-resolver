@@ -90,6 +90,8 @@ YouTube deja en **privado** los videos subidos por proyectos nuevos de Google Cl
    Cierra y vuelve a abrir la terminal en la carpeta `misterios-shorts`, y ejecuta una por una:
    ```
    git init
+   git config user.name "TU_USUARIO"
+   git config user.email "TU_USUARIO@users.noreply.github.com"
    git add .
    git commit -m "Sistema Misterios Sin Resolver"
    git branch -M main
