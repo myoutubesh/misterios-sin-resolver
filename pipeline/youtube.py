@@ -58,7 +58,8 @@ def proxima_fecha():
     zona = ZoneInfo(ZONA_HORARIA)
     ocupados = {v.get("publicar_en") for v in db.videos() if v.get("publicar_en")}
     ahora = dt.datetime.now(zona)
-    horas = sorted(h.strip() for h in HORA_PUBLICACION.split(",") if h.strip())
+    horas = sorted((h.strip() for h in HORA_PUBLICACION.split(",") if h.strip()),
+                   key=lambda h: tuple(map(int, h.split(":"))))
     for dia in range(0, 14):
         fecha = (ahora + dt.timedelta(days=dia)).date()
         for h in horas:
