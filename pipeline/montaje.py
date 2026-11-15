@@ -185,8 +185,11 @@ def efectos(momentos, dur, carpeta):
         ms = max(0, int((t - 0.3) * 1000))
         partes.append(f"[{k}]adelay={ms}|{ms}[e{k}]")
     mezcla = "".join(f"[e{k}]" for k in range(len(momentos) + 1))
-    fc = ";".join(partes) + f";{mezcla}amix=inputs={len(momentos) + 1}:normalize=0,apad,atrim=0:{dur:.2f}"
-    _ff([*entradas, "-filter_complex", fc, "-ar", "44100", "efectos.wav"], cwd=carpeta)
+    # apad con duración total fija (no infinita) + -t: así FFmpeg siempre sabe cuándo terminar
+    fc = (";".join(partes) + f";{mezcla}amix=inputs={len(momentos) + 1}:duration=longest:normalize=0,"
+          f"apad=whole_dur={dur:.2f}")
+    _ff([*entradas, "-filter_complex", fc, "-t", f"{dur:.2f}", "-ar", "44100", "efectos.wav"], cwd=carpeta,
+        limite=180)
 
 
 # ---------- todo junto ----------
@@ -225,7 +228,7 @@ def montar(escenas, total_voz, carpeta, salida, vertical, estilo, gancho="", cap
     vol_sfx = 0.55 if vertical else 0.35
     fc = (f"[0:v]{estilo['grade']},noise=alls=5:allf=t,vignette=angle=PI/4.5,"
           "subtitles=subs.ass:fontsdir=fonts,format=yuv420p[v];"
-          "[1:a]aformat=sample_rates=44100:channel_layouts=stereo,apad,asplit[n1][n2];"
+          f"[1:a]aformat=sample_rates=44100:channel_layouts=stereo,apad=whole_dur={total:.2f},asplit[n1][n2];"
           f"[2:a]volume={VOLUMEN_MUSICA}[m];[3:a]volume={vol_sfx}[fx];"
           "[m][n2]sidechaincompress=threshold=0.04:ratio=5:attack=15:release=450[md];"
           "[n1][md][fx]amix=inputs=3:duration=longest:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]")
