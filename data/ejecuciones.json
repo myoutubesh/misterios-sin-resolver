@@ -105,5 +105,12 @@
     "estado_video": "subido",
     "costo_usd": 0.0,
     "fin": "2026-11-16T08:25:11+00:00"
+  },
+  {
+    "id": "20261116-115307-estadisticas",
+    "tipo": "estadisticas",
+    "inicio": "2026-11-16T11:53:07+00:00",
+    "estado": "ok",
+    "fin": "2026-11-16T11:53:08+00:00"
   }
 ]
