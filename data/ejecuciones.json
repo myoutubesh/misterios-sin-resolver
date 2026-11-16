@@ -112,5 +112,16 @@
     "inicio": "2026-11-16T11:53:07+00:00",
     "estado": "ok",
     "fin": "2026-11-16T11:53:08+00:00"
+  },
+  {
+    "id": "20261116-133152-short",
+    "tipo": "short",
+    "inicio": "2026-11-16T13:31:52+00:00",
+    "estado": "ok",
+    "tema": "Centralia, Pennsylvania",
+    "video": "2026-11-16-short-centralia-pennsylvania",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-16T13:42:42+00:00"
   }
 ]

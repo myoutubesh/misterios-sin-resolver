@@ -265,5 +265,51 @@
     "privacidad": "private",
     "publicar_en": null,
     "url": "https://youtu.be/wOJS0q3a4mY"
+  },
+  {
+    "id": "2026-11-16-short-centralia-pennsylvania",
+    "fecha": "2026-11-16T13:42:40+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Centralia, Pennsylvania",
+    "tema_clave": "Centralia, Pennsylvania",
+    "categoria": "lugares",
+    "interes_wikipedia": 4.85,
+    "titulo_yt": "El pueblo que arde bajo tierra desde 1962 #shorts",
+    "estructura": "en_medias_res",
+    "estilo": "archivo_antiguo",
+    "duracion": 57.4,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Centralia,_Pennsylvania",
+      "https://es.wikipedia.org/wiki/Centralia"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "8-2qyQz5F2Y",
+    "privacidad": "private",
+    "publicar_en": "2026-11-16T21:00:00Z",
+    "url": "https://youtu.be/8-2qyQz5F2Y"
   }
 ]
