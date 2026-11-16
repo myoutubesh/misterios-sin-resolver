@@ -1,15 +1,16 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-16 13:42 UTC*
+*Actualizado: 2026-11-16 19:43 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 9 | 0 | 7 | 2 | 1 | 3 | $0.00 |
+| 9 | 0 | 8 | 2 | 2 | 3 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-16 | short | [El misterio de la explosión en Tunguska de 1908 #shorts](https://youtu.be/k7_hecB7cOc) | programado | — |
 | 2026-11-16 | short | [El pueblo que arde bajo tierra desde 1962 #shorts](https://youtu.be/8-2qyQz5F2Y) | programado | — |
 | 2026-11-16 | short | [El secreto militar tras el caso Roswell en 1947 #shorts](https://youtu.be/wOJS0q3a4mY) | subido | 0 |
 | 2026-11-16 | short | [Tres detalles inquietantes del mito del chupacabras #shorts](https://youtu.be/5N_S1zKYr_w) | subido | 0 |

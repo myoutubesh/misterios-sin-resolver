@@ -123,5 +123,16 @@
     "estado_video": "programado",
     "costo_usd": 0.0,
     "fin": "2026-11-16T13:42:42+00:00"
+  },
+  {
+    "id": "20261116-193312-short",
+    "tipo": "short",
+    "inicio": "2026-11-16T19:33:12+00:00",
+    "estado": "ok",
+    "tema": "Tunguska event",
+    "video": "2026-11-16-short-tunguska-event",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-16T19:43:17+00:00"
   }
 ]

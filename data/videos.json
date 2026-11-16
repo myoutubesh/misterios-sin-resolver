@@ -311,5 +311,51 @@
     "privacidad": "private",
     "publicar_en": "2026-11-16T21:00:00Z",
     "url": "https://youtu.be/8-2qyQz5F2Y"
+  },
+  {
+    "id": "2026-11-16-short-tunguska-event",
+    "fecha": "2026-11-16T19:43:14+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Tunguska event",
+    "tema_clave": "Tunguska event",
+    "categoria": "fenomenos",
+    "interes_wikipedia": 5.19,
+    "titulo_yt": "El misterio de la explosión en Tunguska de 1908 #shorts",
+    "estructura": "en_medias_res",
+    "estilo": "archivo_antiguo",
+    "duracion": 64.3,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Tunguska_event",
+      "https://es.wikipedia.org/wiki/B%C3%B3lido_de_Tunguska"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.5-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "k7_hecB7cOc",
+    "privacidad": "private",
+    "publicar_en": "2026-11-17T00:00:00Z",
+    "url": "https://youtu.be/k7_hecB7cOc"
   }
 ]
