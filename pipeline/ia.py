@@ -93,7 +93,8 @@ def _gemini(prompt, max_tokens, buscar_web=False):
     from google import genai
     from google.genai import types
 
-    cliente = genai.Client(api_key=GEMINI_API_KEY)
+    # Límite de 5 min por llamada (en ms): sin esto una respuesta colgada bloqueó un short 59 min
+    cliente = genai.Client(api_key=GEMINI_API_KEY, http_options=types.HttpOptions(timeout=300_000))
     ultimo = None
     for modelo in _modelos_gemini(cliente):
         try:
