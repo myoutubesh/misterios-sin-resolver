@@ -1,15 +1,16 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-16 19:43 UTC*
+*Actualizado: 2026-11-16 22:23 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 9 | 0 | 8 | 2 | 2 | 3 | $0.00 |
+| 9 | 0 | 9 | 2 | 3 | 3 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-16 | short | [El misterio de la Condesa Sangrienta, Elizabeth Báthory #shorts](https://youtu.be/qWKKVZCT5z8) | programado | — |
 | 2026-11-16 | short | [El misterio de la explosión en Tunguska de 1908 #shorts](https://youtu.be/k7_hecB7cOc) | programado | — |
 | 2026-11-16 | short | [El pueblo que arde bajo tierra desde 1962 #shorts](https://youtu.be/8-2qyQz5F2Y) | programado | — |
 | 2026-11-16 | short | [El secreto militar tras el caso Roswell en 1947 #shorts](https://youtu.be/wOJS0q3a4mY) | subido | 0 |

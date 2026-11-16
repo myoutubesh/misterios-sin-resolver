@@ -357,5 +357,51 @@
     "privacidad": "private",
     "publicar_en": "2026-11-17T00:00:00Z",
     "url": "https://youtu.be/k7_hecB7cOc"
+  },
+  {
+    "id": "2026-11-16-short-elizabeth-bathory",
+    "fecha": "2026-11-16T22:23:56+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Elizabeth Báthory",
+    "tema_clave": "Elizabeth Báthory",
+    "categoria": "historias",
+    "interes_wikipedia": 6.12,
+    "titulo_yt": "El misterio de la Condesa Sangrienta, Elizabeth Báthory #shorts",
+    "estructura": "segunda_persona",
+    "estilo": "luna_fria",
+    "duracion": 54.4,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Elizabeth_B%C3%A1thory",
+      "https://es.wikipedia.org/wiki/Erzs%C3%A9bet_B%C3%A1thory"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "qWKKVZCT5z8",
+    "privacidad": "private",
+    "publicar_en": "2026-11-17T13:00:00Z",
+    "url": "https://youtu.be/qWKKVZCT5z8"
   }
 ]

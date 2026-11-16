@@ -134,5 +134,16 @@
     "estado_video": "programado",
     "costo_usd": 0.0,
     "fin": "2026-11-16T19:43:17+00:00"
+  },
+  {
+    "id": "20261116-221110-short",
+    "tipo": "short",
+    "inicio": "2026-11-16T22:11:10+00:00",
+    "estado": "ok",
+    "tema": "Elizabeth Báthory",
+    "video": "2026-11-16-short-elizabeth-bathory",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-16T22:23:59+00:00"
   }
 ]
