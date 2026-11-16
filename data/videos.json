@@ -219,5 +219,51 @@
     "privacidad": "private",
     "publicar_en": null,
     "url": "https://youtu.be/5N_S1zKYr_w"
+  },
+  {
+    "id": "2026-11-16-short-roswell-incident",
+    "fecha": "2026-11-16T08:25:08+00:00",
+    "formato": "short",
+    "estado": "subido",
+    "tema": "Roswell incident",
+    "tema_clave": "Roswell incident",
+    "categoria": "conspiraciones",
+    "interes_wikipedia": 5.85,
+    "titulo_yt": "El secreto militar tras el caso Roswell en 1947 #shorts",
+    "estructura": "tres_detalles",
+    "estilo": "luna_fria",
+    "duracion": 64.6,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Roswell_incident",
+      "https://es.wikipedia.org/wiki/Caso_Roswell"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "wOJS0q3a4mY",
+    "privacidad": "private",
+    "publicar_en": null,
+    "url": "https://youtu.be/wOJS0q3a4mY"
   }
 ]

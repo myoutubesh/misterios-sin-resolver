@@ -94,5 +94,16 @@
     "estado_video": "subido",
     "costo_usd": 0.0,
     "fin": "2026-11-16T06:59:09+00:00"
+  },
+  {
+    "id": "20261116-080347-short",
+    "tipo": "short",
+    "inicio": "2026-11-16T08:03:47+00:00",
+    "estado": "ok",
+    "tema": "Roswell incident",
+    "video": "2026-11-16-short-roswell-incident",
+    "estado_video": "subido",
+    "costo_usd": 0.0,
+    "fin": "2026-11-16T08:25:11+00:00"
   }
 ]
