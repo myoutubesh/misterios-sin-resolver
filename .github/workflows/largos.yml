@@ -54,6 +54,7 @@ jobs:
           CLAUDE_MODELO: ${{ vars.CLAUDE_MODELO || 'claude-opus-5-5' }}
           YT_PRIVACIDAD: ${{ vars.YT_PRIVACIDAD || 'public' }}
           YT_HORA_PUBLICACION: ${{ vars.YT_HORA_PUBLICACION_LARGOS }}
+          ZONA_HORARIA: ${{ vars.ZONA_HORARIA || 'America/Costa_Rica' }}
           CANAL_NOMBRE: ${{ vars.CANAL_NOMBRE || 'Misterios Sin Resolver' }}
           TEMA: ${{ github.event.inputs.tema }}
           SUBIR: ${{ github.event.inputs.subir }}

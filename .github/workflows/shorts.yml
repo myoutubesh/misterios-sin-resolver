@@ -2,11 +2,13 @@ name: Shorts diarios
 
 on:
   schedule:
-    # Hora UTC (CDMX = UTC-6). Empieza a crearse 7:30 y 13:30 CDMX, así queda subido (en privado)
-    # antes de las 9:00 y 15:00, que es cuando lo publicas tú. GitHub a veces arranca hasta 30-60 min tarde.
-    # Para 3 shorts al día agrega otra línea, p. ej.:  - cron: "30 1 * * *"  (19:30 CDMX)
-    - cron: "30 13 * * *"
-    - cron: "30 19 * * *"
+    # Hora UTC. Costa Rica = UTC-6. Cada short se crea ~2.5 h antes y se sube programado para que
+    # YouTube lo publique solo a las 7:00, 9:00, 15:00 y 18:00 de Costa Rica (variable
+    # YT_HORA_PUBLICACION_SHORTS). GitHub a veces arranca 30-60 min tarde; por eso el margen.
+    - cron: "30 10 * * *"   # -> 7:00
+    - cron: "30 12 * * *"   # -> 9:00
+    - cron: "30 18 * * *"   # -> 15:00
+    - cron: "30 21 * * *"   # -> 18:00
   workflow_dispatch:
     inputs:
       tema:
@@ -52,6 +54,7 @@ jobs:
           CLAUDE_MODELO: ${{ vars.CLAUDE_MODELO || 'claude-opus-5-5' }}
           YT_PRIVACIDAD: ${{ vars.YT_PRIVACIDAD || 'public' }}
           YT_HORA_PUBLICACION: ${{ vars.YT_HORA_PUBLICACION_SHORTS }}
+          ZONA_HORARIA: ${{ vars.ZONA_HORARIA || 'America/Costa_Rica' }}
           CANAL_NOMBRE: ${{ vars.CANAL_NOMBRE || 'Misterios Sin Resolver' }}
           TEMA: ${{ github.event.inputs.tema }}
           SUBIR: ${{ github.event.inputs.subir }}

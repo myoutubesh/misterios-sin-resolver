@@ -65,7 +65,7 @@ def proxima_fecha():
         for h in horas:
             hh, mm = map(int, h.split(":"))
             momento = dt.datetime(fecha.year, fecha.month, fecha.day, hh, mm, tzinfo=zona)
-            if momento < ahora + dt.timedelta(minutes=45):
+            if momento < ahora + dt.timedelta(minutes=20):
                 continue
             iso = momento.astimezone(dt.timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
             if iso not in ocupados:
