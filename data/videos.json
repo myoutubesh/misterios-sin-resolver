@@ -173,5 +173,51 @@
     "privacidad": "private",
     "publicar_en": null,
     "url": "https://youtu.be/sXWW4xfEsgI"
+  },
+  {
+    "id": "2026-11-16-short-chupacabra",
+    "fecha": "2026-11-16T06:59:06+00:00",
+    "formato": "short",
+    "estado": "subido",
+    "tema": "Chupacabra",
+    "tema_clave": "Chupacabra",
+    "categoria": "leyendas",
+    "interes_wikipedia": 5.19,
+    "titulo_yt": "Tres detalles inquietantes del mito del chupacabras #shorts",
+    "estructura": "tres_detalles",
+    "estilo": "grabado",
+    "duracion": 52.5,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Chupacabra",
+      "https://es.wikipedia.org/wiki/Chupacabras"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "5N_S1zKYr_w",
+    "privacidad": "private",
+    "publicar_en": null,
+    "url": "https://youtu.be/5N_S1zKYr_w"
   }
 ]
