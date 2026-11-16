@@ -127,5 +127,51 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-16-short-ball-lightning",
+    "fecha": "2026-11-16T06:49:28+00:00",
+    "formato": "short",
+    "estado": "subido",
+    "tema": "Ball lightning",
+    "tema_clave": "Ball lightning",
+    "categoria": "fenomenos",
+    "interes_wikipedia": 4.16,
+    "titulo_yt": "El misterio del rayo globular que explota #shorts",
+    "estructura": "tres_detalles",
+    "estilo": "noche_turquesa",
+    "duracion": 46.5,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Ball_lightning",
+      "https://es.wikipedia.org/wiki/Rayo_globular"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "sXWW4xfEsgI",
+    "privacidad": "private",
+    "publicar_en": null,
+    "url": "https://youtu.be/sXWW4xfEsgI"
   }
 ]

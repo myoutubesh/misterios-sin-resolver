@@ -72,5 +72,16 @@
     "estado_video": "creado",
     "costo_usd": 0.0,
     "fin": "2026-11-15T22:56:49+00:00"
+  },
+  {
+    "id": "20261116-062640-short",
+    "tipo": "short",
+    "inicio": "2026-11-16T06:26:40+00:00",
+    "estado": "ok",
+    "tema": "Ball lightning",
+    "video": "2026-11-16-short-ball-lightning",
+    "estado_video": "subido",
+    "costo_usd": 0.0,
+    "fin": "2026-11-16T06:49:30+00:00"
   }
 ]

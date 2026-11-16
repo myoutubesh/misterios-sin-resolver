@@ -1,15 +1,16 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-15 22:56 UTC*
+*Actualizado: 2026-11-16 06:49 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| — | — | 3 | 0 | 1 | 3 | $0.00 |
+| — | — | 4 | 0 | 1 | 3 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-16 | short | [El misterio del rayo globular que explota #shorts](https://youtu.be/sXWW4xfEsgI) | subido | — |
 | 2026-11-15 | short | El misterio sin resolver de Jimmy Hoffa #shorts | creado | — |
 | 2026-11-15 | short | [El misterio del Diablo de Jersey #shorts](https://youtu.be/tgejcauNSRI) | programado | — |
 | 2026-11-15 | short | El misterioso encuentro en la escuela Ariel de 1994 #shorts | creado | — |
