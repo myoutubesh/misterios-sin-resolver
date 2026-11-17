@@ -1,15 +1,16 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-17 08:30 UTC*
+*Actualizado: 2026-11-17 11:49 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 9 | 0 | 15 | 5 | 3 | 3 | $0.00 |
+| 9 | 0 | 16 | 5 | 4 | 3 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-17 | short | [Slender Man: ¿ficción o peligro real? #shorts](https://youtu.be/wmT2xnlRAj4) | programado | — |
 | 2026-11-17 | short | El inventor del cine que desapareció en un tren #shorts | creado | — |
 | 2026-11-17 | short | El enigma real tras las Luces de Phoenix #shorts | creado | — |
 | 2026-11-17 | short | [Un limpiador grabó lo invisible en un campamento #shorts](https://youtu.be/qw0sF9M7xVk) | publicado | — |

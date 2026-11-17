@@ -211,5 +211,16 @@
     "estado_video": "creado",
     "costo_usd": 0.0,
     "fin": "2026-11-17T08:30:57+00:00"
+  },
+  {
+    "id": "20261117-110827-short",
+    "tipo": "short",
+    "inicio": "2026-11-17T11:08:27+00:00",
+    "estado": "ok",
+    "tema": "Slender Man",
+    "video": "2026-11-17-short-slender-man",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-17T11:49:04+00:00"
   }
 ]

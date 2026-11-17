@@ -675,5 +675,59 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-17-short-slender-man",
+    "fecha": "2026-11-17T11:49:02+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Slender Man",
+    "tema_clave": "Slender Man",
+    "categoria": "leyendas",
+    "interes_wikipedia": 5.81,
+    "titulo_yt": "Slender Man: ¿ficción o peligro real? #shorts",
+    "estructura": "tres_detalles",
+    "estilo": "luna_fria",
+    "duracion": 61.1,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Slender_Man",
+      "https://es.wikipedia.org/wiki/Slender_Man"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "wmT2xnlRAj4",
+    "privacidad": "private",
+    "publicar_en": "2026-11-17T15:00:00Z",
+    "url": "https://youtu.be/wmT2xnlRAj4"
   }
 ]
