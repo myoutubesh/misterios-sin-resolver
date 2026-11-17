@@ -60,6 +60,6 @@ ZONA_HORARIA = os.getenv("ZONA_HORARIA", "America/Mexico_City")
 # Reddit: probabilidad de sacar el tema de lo más comentado de la semana (0 = nunca)
 REDDIT_PROB = float(os.getenv("REDDIT_PROB", "0.4"))
 REDDIT_SUBS = [x.strip() for x in os.getenv(
-    "REDDIT_SUBS", "UnresolvedMysteries,HighStrangeness,Cryptozoology"
+    "REDDIT_SUBS", "UnresolvedMysteries,Cryptozoology"
 ).split(",") if x.strip()]
 USER_AGENT = "misterios-sin-resolver-bot/1.0 (+https://github.com)"

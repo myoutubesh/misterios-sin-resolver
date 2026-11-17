@@ -137,8 +137,15 @@ Busca y corrige:
 4. {extra}
 
 No cambies lo que ya está bien. Mantén la longitud de cada escena parecida.
+
+ANTES QUE NADA: ¿el guion cuenta el MISMO caso del que habla la FUENTE, y sus hechos principales están en
+la FUENTE? Si el guion habla de otra cosa, o su historia central no aparece en la FUENTE (por ejemplo, una
+anécdota que no está ahí), responde "fiel_a_fuente": false y explica por qué en "problema". Ese guion no se
+publicará.
+
 Responde SOLO con JSON:
-{{"correcciones": [{{"i": 0, "narracion": "texto corregido", "tipo": "hecho|hipotesis|leyenda"}}],
+{{"fiel_a_fuente": true, "problema": "",
+  "correcciones": [{{"i": 0, "narracion": "texto corregido", "tipo": "hecho|hipotesis|leyenda"}}],
   "titulo": "solo si lo mejoras", "gancho_pantalla": "solo si lo mejoras", "texto_miniatura": "solo si lo mejoras"}}
 
 GUION:
@@ -164,12 +171,26 @@ GUION:
 """
 
 
+class GuionNoFiel(RuntimeError):
+    pass
+
+
 def _revisar(g, art, formato, extra):
     fuente = (art["texto_en"] + "\n\n" + (art["texto_es"] or ""))[:40000]
     try:
         resp = ia.generar_json(EDITOR.format(canal=CANAL, formato=formato, titulo=art["titulo"], extra=extra,
                                              guion=_vista(g), fuente=fuente), intentos=1)
-        g = _aplicar(g, resp, "editor")
+    except Exception as e:  # noqa: BLE001
+        resp = None
+        print(f"[guion] editor no disponible ({e}); sigo con el borrador")
+    if resp is None and art.get("reddit"):
+        raise GuionNoFiel("tema de Reddit sin revisión del editor: no lo publico")
+    if resp is not None and resp.get("fiel_a_fuente") is False:
+        # Candado: nunca publicar un guion que no sale de la fuente
+        raise GuionNoFiel(f"el editor detectó que el guion no sale de la fuente: {resp.get('problema', '')[:200]}")
+    try:
+        if resp is not None:
+            g = _aplicar(g, resp, "editor")
     except Exception as e:  # noqa: BLE001
         print(f"[guion] editor no disponible ({e}); sigo con el borrador")
     g["verificacion"] = "solo contra Wikipedia (EN y ES)"
@@ -234,7 +255,8 @@ def guion_short(art):
     if art.get("reddit"):
         reddit = (f"\nPOR QUÉ ESTE TEMA: esta semana se comenta mucho en r/{art['reddit']['sub']} con el título "
                   f"\"{art['reddit']['titulo']}\". Úsalo solo como pista de qué le intriga a la gente; no copies "
-                  "textos de usuarios y usa solo datos de la FUENTE.\n")
+                  "textos de usuarios y usa solo datos de la FUENTE. Si la FUENTE no habla de lo mismo que el "
+                  "post, ignora el post por completo y cuenta solo lo que dice la FUENTE.\n")
     cta = (f"En este video sí invita a suscribirse a {CANAL}, en pocas palabras." if random.random() < 0.34
            else "En este video NO pidas suscripción.")
     prompt = PROMPT_SHORT.format(canal=CANAL, categoria=art.get("categoria", ""), estructura=estructura,

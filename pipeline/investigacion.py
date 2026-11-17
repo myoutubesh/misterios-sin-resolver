@@ -117,6 +117,10 @@ REDDIT_EVITAR = re.compile(
     r"murder|killed|killing|remains|kidnap|\bshot\b|stabb|charged|arrest|suspect|police|sheriff|jane doe|john doe|"
     r"victim|\bbody\b|bodies|rape|abuse|daughter|\bsons?\b|mother|father|\bwife\b|husband|\bgirls?\b|\bboys?\b|"
     r"toddler|infant|baby|teen|student|suicide|overdose|\b20[12]\d\b", re.I)
+TEMA_MISTERIO = re.compile(
+    r"unexplained|unsolved|mystery|mysterious|disappear|vanish|never (?:seen|found)|unknown|unidentified|"
+    r"legend|folklore|myth|sighting|cryptid|paranormal|ghost|haunt|ufo|anomal|enigma|undeciphered|"
+    r"conspiracy|hoax|theor(?:y|ies)|phenomen|strange|speculat|cold case", re.I)
 _VACIAS = {"the", "of", "and", "disappearance", "death", "case", "mystery", "incident", "murder", "affair",
            "legend", "phenomenon", "lights", "list"}
 
@@ -187,6 +191,11 @@ def tema_reddit(formato):
         if not art or art["titulo"].lower() in usados or PROHIBIDO.search(art["texto_en"][:600]):
             continue
         if len(art["texto_en"]) + len(art["texto_es"]) < (9000 if largo else 2500):
+            continue
+        # Candado: el artículo tiene que tratar de un misterio (evita, p. ej., emparejar un post con una banda
+        # de rock que se llama igual)
+        if len(TEMA_MISTERIO.findall(art["texto_en"][:3000])) < 2:
+            print(f"[investigacion] {art['titulo']}: el artículo no trata de un misterio, lo descarto")
             continue
         art.update(clave=titulo, categoria="tendencia_reddit", interes=None,
                    reddit={"sub": post["sub"], "titulo": post["titulo"], "url": post["url"]})
