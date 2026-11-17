@@ -272,5 +272,25 @@
     "estado_video": "programado",
     "costo_usd": 0.0,
     "fin": "2026-11-17T16:29:51+00:00"
+  },
+  {
+    "id": "20261117-170907-largo",
+    "tipo": "largo",
+    "inicio": "2026-11-17T17:09:07+00:00",
+    "estado": "error",
+    "tema": "Hashima Island",
+    "fin": "2026-11-17T17:16:02+00:00",
+    "error": "GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion presenta varias diferencias significativas con respecto a la FUENTE proporcionada. Menciona una apertura de la mina en 1810, la construcción de túneles que conectan con Nakano de manera explí",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 121, in crear_video\n    g = guion.guion_short(art) if vertical else guion.guion_largo(art, prueba=prueba)\n                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/guion.py\", line 333, in guion_largo\n    g = _revisar(g, art, \"video documental largo\",\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/guion.py\", line 190, in _revisar\n    raise GuionNoFiel(f\"el editor detectó que el guion no sale de la fuente: {resp.get('problema', '')[:200]}\")\npipeline.guion.GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion presenta varias diferencias significativas con respecto a la FUENTE proporcionada. Menciona una apertura de la mina en 1810, la construcción de túneles que conectan con Nakano de manera explí\n"
+  },
+  {
+    "id": "20261117-172103-largo",
+    "tipo": "largo",
+    "inicio": "2026-11-17T17:21:03+00:00",
+    "estado": "error",
+    "tema": "Tarrare",
+    "fin": "2026-11-17T17:23:43+00:00",
+    "error": "RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: 10 escenas (esperaba 35-90) | gemini: None | pollinations: 16 escenas (esperaba 35-90)",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 121, in crear_video\n    g = guion.guion_short(art) if vertical else guion.guion_largo(art, prueba=prueba)\n                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/guion.py\", line 325, in guion_largo\n    g = ia.generar_json(prompt, max_tokens=48000, validar=lambda d: _normalizar(d, *minimos))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/ia.py\", line 225, in generar_json\n    raise RuntimeError(\"Ninguna IA pudo responder: \" + \" | \".join(errores))\nRuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: 10 escenas (esperaba 35-90) | gemini: None | pollinations: 16 escenas (esperaba 35-90)\n"
   }
 ]
