@@ -1,10 +1,10 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-17 22:16 UTC*
+*Actualizado: 2026-11-17 23:44 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 26 | 3 092 | 22 | 10 | 3 | 12 | $0.00 |
+| 26 | 3 092 | 22 | 10 | 3 | 14 | $0.00 |
 
 ## Últimos videos
 
@@ -35,6 +35,8 @@
 
 ## Errores recientes
 
+- 2026-11-17T23:41 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion presenta hechos que no aparecen en la fuente (por ejemplo, la falta de huellas de salida, el hecho de que no se llamó a la policía, y la mención de huellas en la nieve que van solo en una dir`
+- 2026-11-17T23:34 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion menciona una radio portátil que captó una voz leyendo números en 1998, además de una red caida esa fecha y casos de espionaje que no aparecen en la fuente proporcionada. Estos hechos no están`
 - 2026-11-17T22:07 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-17T21:59 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion describe hechos que no aparecen o están incorrectos respecto a la fuente: menciona el avión 725 en lugar del 305, confunde el orden de los eventos (p.ej., la salida de pasajeros antes del sal`
 - 2026-11-17T20:32 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
@@ -43,5 +45,3 @@
 - 2026-11-17T19:04 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion indica que Hachikō llegó a Shibuya Station en 1925, mientras que la fuente confirma que la llegada fue el 14 de enero de 1924; además, la descripción de la muerte y la vida diaria no coincide`
 - 2026-11-17T17:21 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: 10 escenas (esperaba 35-90) | gemini: None | pollinations: 16 escenas (esperaba 35-90)`
 - 2026-11-17T17:09 · largo · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion presenta varias diferencias significativas con respecto a la FUENTE proporcionada. Menciona una apertura de la mina en 1810, la construcción de túneles que conectan con Nakano de manera explí`
-- 2026-11-17T16:00 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
-- 2026-11-15T22:21 · short · `TimeoutExpired: Command '['ffmpeg', '-nostdin', '-y', '-hide_banner', '-loglevel', 'error', '-i', 'boom.wav', '-i', 'whoosh.wav', '-i', 'whoosh.wav', '-i', 'whoosh.wav', '-i', 'whoosh.wav', '-i', 'whoosh.wav', '-i', 'whoosh.wav', '-i', 'whoosh.wav', '-filter_complex', '[0]adelay=0|0[e0];[1]adelay=6912|6912[e1];[2]adelay=14004|14004[e2];[3]adelay=21816|21816[e3];[4]adelay=29556|29556[e4];[5]adelay=37776|37776[e5];[6]adelay=45972|45972[e6];[7]adelay=51888|51888[e7];[e0][e1][e2][e3][e4][e5][e6][e7]`
