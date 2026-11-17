@@ -1,30 +1,30 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-17 11:49 UTC*
+*Actualizado: 2026-11-17 11:52 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 9 | 0 | 16 | 5 | 4 | 3 | $0.00 |
+| 26 | 3 092 | 16 | 10 | 1 | 3 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
-| 2026-11-17 | short | [Slender Man: ¿ficción o peligro real? #shorts](https://youtu.be/wmT2xnlRAj4) | programado | — |
+| 2026-11-17 | short | [Slender Man: ¿ficción o peligro real? #shorts](https://youtu.be/wmT2xnlRAj4) | programado | 0 |
 | 2026-11-17 | short | El inventor del cine que desapareció en un tren #shorts | creado | — |
 | 2026-11-17 | short | El enigma real tras las Luces de Phoenix #shorts | creado | — |
-| 2026-11-17 | short | [Un limpiador grabó lo invisible en un campamento #shorts](https://youtu.be/qw0sF9M7xVk) | publicado | — |
+| 2026-11-17 | short | [Un limpiador grabó lo invisible en un campamento #shorts](https://youtu.be/qw0sF9M7xVk) | publicado | 0 |
 | 2026-11-17 | short | Críptidos: ¿Pseudociencia o realidad oculta? #shorts | creado | — |
-| 2026-11-17 | short | [El misterio de Amelia Earhart #shorts](https://youtu.be/HTYdye0PdzQ) | publicado | — |
-| 2026-11-17 | short | [Tres datos inquietantes del Mothman #shorts](https://youtu.be/7ktCmZIUM2s) | publicado | — |
-| 2026-11-16 | short | [El misterio de la Condesa Sangrienta, Elizabeth Báthory #shorts](https://youtu.be/qWKKVZCT5z8) | programado | — |
-| 2026-11-16 | short | [El misterio de la explosión en Tunguska de 1908 #shorts](https://youtu.be/k7_hecB7cOc) | programado | — |
-| 2026-11-16 | short | [El pueblo que arde bajo tierra desde 1962 #shorts](https://youtu.be/8-2qyQz5F2Y) | programado | — |
-| 2026-11-16 | short | [El secreto militar tras el caso Roswell en 1947 #shorts](https://youtu.be/wOJS0q3a4mY) | subido | 0 |
-| 2026-11-16 | short | [Tres detalles inquietantes del mito del chupacabras #shorts](https://youtu.be/5N_S1zKYr_w) | subido | 0 |
-| 2026-11-16 | short | [El misterio del rayo globular que explota #shorts](https://youtu.be/sXWW4xfEsgI) | publicado | 83 |
+| 2026-11-17 | short | [El misterio de Amelia Earhart #shorts](https://youtu.be/HTYdye0PdzQ) | publicado | 245 |
+| 2026-11-17 | short | [Tres datos inquietantes del Mothman #shorts](https://youtu.be/7ktCmZIUM2s) | publicado | 8 |
+| 2026-11-16 | short | [El misterio de la Condesa Sangrienta, Elizabeth Báthory #shorts](https://youtu.be/qWKKVZCT5z8) | publicado | 124 |
+| 2026-11-16 | short | [El misterio de la explosión en Tunguska de 1908 #shorts](https://youtu.be/k7_hecB7cOc) | publicado | 3 |
+| 2026-11-16 | short | [El pueblo que arde bajo tierra desde 1962 #shorts](https://youtu.be/8-2qyQz5F2Y) | publicado | 4 |
+| 2026-11-16 | short | [El secreto militar tras el caso Roswell en 1947 #shorts](https://youtu.be/wOJS0q3a4mY) | publicado | 14 |
+| 2026-11-16 | short | [Tres detalles inquietantes del mito del chupacabras #shorts](https://youtu.be/5N_S1zKYr_w) | publicado | 1 218 |
+| 2026-11-16 | short | [El misterio del rayo globular que explota #shorts](https://youtu.be/sXWW4xfEsgI) | publicado | 802 |
 | 2026-11-15 | short | El misterio sin resolver de Jimmy Hoffa #shorts | creado | — |
-| 2026-11-15 | short | [El misterio del Diablo de Jersey #shorts](https://youtu.be/tgejcauNSRI) | publicado | 1 305 |
+| 2026-11-15 | short | [El misterio del Diablo de Jersey #shorts](https://youtu.be/tgejcauNSRI) | publicado | 1 330 |
 | 2026-11-15 | short | El misterioso encuentro en la escuela Ariel de 1994 #shorts | creado | — |
 
 ## Errores recientes
