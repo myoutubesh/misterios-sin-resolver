@@ -145,5 +145,16 @@
     "estado_video": "programado",
     "costo_usd": 0.0,
     "fin": "2026-11-16T22:23:59+00:00"
+  },
+  {
+    "id": "20261117-043843-short",
+    "tipo": "short",
+    "inicio": "2026-11-17T04:38:43+00:00",
+    "estado": "ok",
+    "tema": "Mothman",
+    "video": "2026-11-17-short-mothman",
+    "estado_video": "publicado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-17T04:50:12+00:00"
   }
 ]

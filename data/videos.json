@@ -403,5 +403,51 @@
     "privacidad": "private",
     "publicar_en": "2026-11-17T13:00:00Z",
     "url": "https://youtu.be/qWKKVZCT5z8"
+  },
+  {
+    "id": "2026-11-17-short-mothman",
+    "fecha": "2026-11-17T04:50:10+00:00",
+    "formato": "short",
+    "estado": "publicado",
+    "tema": "Mothman",
+    "tema_clave": "Mothman",
+    "categoria": "paranormal",
+    "interes_wikipedia": 5.12,
+    "titulo_yt": "Tres datos inquietantes del Mothman #shorts",
+    "estructura": "tres_detalles",
+    "estilo": "grabado",
+    "duracion": 60.9,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Mothman",
+      "https://es.wikipedia.org/wiki/Hombre_polilla"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "7ktCmZIUM2s",
+    "privacidad": "public",
+    "publicar_en": null,
+    "url": "https://youtu.be/7ktCmZIUM2s"
   }
 ]
