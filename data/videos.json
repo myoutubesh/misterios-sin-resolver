@@ -816,5 +816,93 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-17-short-catatumbo-lightning",
+    "fecha": "2026-11-17T16:15:00+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Catatumbo lightning",
+    "tema_clave": "Catatumbo lightning",
+    "categoria": "fenomenos",
+    "interes_wikipedia": 4.88,
+    "titulo_yt": "El Relámpago del Catatumbo: La tormenta que nunca se apaga #Catatumbo #LakeMaracaibo #Shorts",
+    "estructura": "pregunta",
+    "estilo": "archivo_antiguo",
+    "duracion": 51.6,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Catatumbo_lightning",
+      "https://es.wikipedia.org/wiki/Rel%C3%A1mpago_del_Catatumbo"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-17-short-uvb-76",
+    "fecha": "2026-11-17T16:29:48+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "UVB-76",
+    "tema_clave": "UVB-76",
+    "categoria": "curiosidades",
+    "interes_wikipedia": 5.41,
+    "titulo_yt": "El misterio de UVB‑76, la radio que nunca apaga #UVB76 #Buzzer #Shorts",
+    "estructura": "cronologica",
+    "estilo": "archivo_antiguo",
+    "duracion": 52.6,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/UVB-76",
+      "https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_Radio_UVB-76"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.5-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "zuoj8SX8Umo",
+    "privacidad": "private",
+    "publicar_en": "2026-11-17T21:00:00Z",
+    "url": "https://youtu.be/zuoj8SX8Umo"
   }
 ]

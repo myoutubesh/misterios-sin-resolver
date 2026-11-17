@@ -1,15 +1,17 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-17 14:57 UTC*
+*Actualizado: 2026-11-17 16:29 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 26 | 3 092 | 18 | 10 | 2 | 3 | $0.00 |
+| 26 | 3 092 | 20 | 10 | 3 | 4 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-17 | short | [El misterio de UVB‑76, la radio que nunca apaga #UVB76 #Buzzer #Shorts](https://youtu.be/zuoj8SX8Umo) | programado | — |
+| 2026-11-17 | short | El Relámpago del Catatumbo: La tormenta que nunca se apaga #Catatumbo #LakeMaracaibo #Shorts | retenido_calidad | — |
 | 2026-11-17 | short | MH370: la desaparición que sigue sin respuestas #MH370 #Malasia2014 #Shorts | creado | — |
 | 2026-11-17 | short | [El OVNI de Westall: el misterio de Melbourne de 1966 #shorts](https://youtu.be/DZFFV0fm1SU) | programado | — |
 | 2026-11-17 | short | [Slender Man: ¿ficción o peligro real? #shorts](https://youtu.be/wmT2xnlRAj4) | programado | 0 |
@@ -31,6 +33,7 @@
 
 ## Errores recientes
 
+- 2026-11-17T16:00 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-15T22:21 · short · `TimeoutExpired: Command '['ffmpeg', '-nostdin', '-y', '-hide_banner', '-loglevel', 'error', '-i', 'boom.wav', '-i', 'whoosh.wav', '-i', 'whoosh.wav', '-i', 'whoosh.wav', '-i', 'whoosh.wav', '-i', 'whoosh.wav', '-i', 'whoosh.wav', '-i', 'whoosh.wav', '-filter_complex', '[0]adelay=0|0[e0];[1]adelay=6912|6912[e1];[2]adelay=14004|14004[e2];[3]adelay=21816|21816[e3];[4]adelay=29556|29556[e4];[5]adelay=37776|37776[e5];[6]adelay=45972|45972[e6];[7]adelay=51888|51888[e7];[e0][e1][e2][e3][e4][e5][e6][e7]`
 - 2026-11-15T20:18 · short · `CalledProcessError: Command '['ffmpeg', '-y', '-hide_banner', '-loglevel', 'error', '-i', 'video_mudo.mp4', '-i', 'narracion.wav', '-i', 'musica.wav', '-i', 'efectos.wav', '-filter_complex', '[0:v]colorbalance=bs=.12:ms=.06:hs=-.04,eq=saturation=0.75:contrast=1.05,noise=alls=5:allf=t,vignette=angle=PI/4.5,subtitles=subs.ass:fontsdir=fonts,format=yuv420p[v];[1:a]aformat=sample_rates=44100:channel_layouts=stereo,apad,asplit[n1][n2];[2:a]volume=0.22[m];[3:a]volume=0.55[fx];[m][n2]sidechaincompress=`
 - 2026-11-15T20:06 · short · `CalledProcessError: Command '['ffmpeg', '-y', '-hide_banner', '-loglevel', 'error', '-i', 'video_mudo.mp4', '-i', 'narracion.wav', '-i', 'musica.wav', '-i', 'efectos.wav', '-filter_complex', '[0:v]colorbalance=bs=.12:ms=.06:hs=-.04,eq=saturation=0.75:contrast=1.05,noise=alls=5:allf=t,vignette=angle=PI/4.5,subtitles=subs.ass:fontsdir=fonts,format=yuv420p[v];[1:a]aformat=sample_rates=44100:channel_layouts=stereo,apad,asplit[n1][n2];[2:a]volume=0.22[m];[3:a]volume=0.55[fx];[m][n2]sidechaincompress=`
