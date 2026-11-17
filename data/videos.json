@@ -774,5 +774,47 @@
     "privacidad": "private",
     "publicar_en": "2026-11-17T18:00:00Z",
     "url": "https://youtu.be/DZFFV0fm1SU"
+  },
+  {
+    "id": "2026-11-17-short-malaysia-airlines-flight-370",
+    "fecha": "2026-11-17T14:57:22+00:00",
+    "formato": "short",
+    "estado": "creado",
+    "tema": "Malaysia Airlines Flight 370",
+    "tema_clave": "Malaysia Airlines Flight 370",
+    "categoria": "desapariciones",
+    "interes_wikipedia": 6.3,
+    "titulo_yt": "MH370: la desaparición que sigue sin respuestas #MH370 #Malasia2014 #Shorts",
+    "estructura": "segunda_persona",
+    "estilo": "archivo_antiguo",
+    "duracion": 63.3,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_370",
+      "https://es.wikipedia.org/wiki/Vuelo_370_de_Malaysia_Airlines"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]

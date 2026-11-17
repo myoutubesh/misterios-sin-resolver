@@ -240,5 +240,16 @@
     "estado_video": "programado",
     "costo_usd": 0.0,
     "fin": "2026-11-17T13:23:45+00:00"
+  },
+  {
+    "id": "20261117-144029-short",
+    "tipo": "short",
+    "inicio": "2026-11-17T14:40:29+00:00",
+    "estado": "ok",
+    "tema": "Malaysia Airlines Flight 370",
+    "video": "2026-11-17-short-malaysia-airlines-flight-370",
+    "estado_video": "creado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-17T14:57:22+00:00"
   }
 ]
