@@ -449,5 +449,51 @@
     "privacidad": "public",
     "publicar_en": null,
     "url": "https://youtu.be/7ktCmZIUM2s"
+  },
+  {
+    "id": "2026-11-17-short-amelia-earhart",
+    "fecha": "2026-11-17T05:06:39+00:00",
+    "formato": "short",
+    "estado": "publicado",
+    "tema": "Amelia Earhart",
+    "tema_clave": "Amelia Earhart",
+    "categoria": "desapariciones",
+    "interes_wikipedia": 5.66,
+    "titulo_yt": "El misterio de Amelia Earhart #shorts",
+    "estructura": "segunda_persona",
+    "estilo": "noche_turquesa",
+    "duracion": 43.5,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Amelia_Earhart",
+      "https://es.wikipedia.org/wiki/Amelia_Earhart"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.7-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "HTYdye0PdzQ",
+    "privacidad": "public",
+    "publicar_en": null,
+    "url": "https://youtu.be/HTYdye0PdzQ"
   }
 ]
