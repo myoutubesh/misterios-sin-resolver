@@ -904,5 +904,47 @@
     "privacidad": "private",
     "publicar_en": "2026-11-17T21:00:00Z",
     "url": "https://youtu.be/zuoj8SX8Umo"
+  },
+  {
+    "id": "2026-11-17-short-dancing-plague-of-1518",
+    "fecha": "2026-11-17T20:45:19+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Dancing plague of 1518",
+    "tema_clave": "Dancing plague of 1518",
+    "categoria": "leyendas",
+    "interes_wikipedia": 5.76,
+    "titulo_yt": "La plaga del baile 1518: una historia de descontrol #PesteDeBaile #Estrasburgo1518 #Shorts",
+    "estructura": "tres_detalles",
+    "estilo": "noche_turquesa",
+    "duracion": 64.9,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+      "https://es.wikipedia.org/wiki/Epidemia_de_baile_de_1518"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]

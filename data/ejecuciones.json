@@ -312,5 +312,25 @@
     "fin": "2026-11-17T19:19:32+00:00",
     "error": "RuntimeError: Ninguna IA pudo responder: gemini: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.g | pollinations: escena incompleta | gemini: None | pollinations: 70 palabras (esperaba 90-185)",
     "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 121, in crear_video\n    g = guion.guion_short(art) if vertical else guion.guion_largo(art, prueba=prueba)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/guion.py\", line 265, in guion_short\n    g = ia.generar_json(prompt, validar=lambda d: _normalizar(d, 5, 11, 90, 185))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/ia.py\", line 225, in generar_json\n    raise RuntimeError(\"Ninguna IA pudo responder: \" + \" | \".join(errores))\nRuntimeError: Ninguna IA pudo responder: gemini: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.g | pollinations: escena incompleta | gemini: None | pollinations: 70 palabras (esperaba 90-185)\n"
+  },
+  {
+    "id": "20261117-202833-short",
+    "tipo": "short",
+    "inicio": "2026-11-17T20:28:33+00:00",
+    "estado": "error",
+    "tema": "Enfield poltergeist",
+    "fin": "2026-11-17T20:30:18+00:00",
+    "error": "GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion relata hechos y detalles que no aparecen en la fuente proporcionada (por ejemplo, la silla que se desliza sola, el agente policial paralizado, la escena con cucharas y escoba, y la presencia ",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 121, in crear_video\n    g = guion.guion_short(art) if vertical else guion.guion_largo(art, prueba=prueba)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/guion.py\", line 266, in guion_short\n    g = _revisar(g, art, \"YouTube Short de 45 segundos\",\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/guion.py\", line 190, in _revisar\n    raise GuionNoFiel(f\"el editor detectó que el guion no sale de la fuente: {resp.get('problema', '')[:200]}\")\npipeline.guion.GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion relata hechos y detalles que no aparecen en la fuente proporcionada (por ejemplo, la silla que se desliza sola, el agente policial paralizado, la escena con cucharas y escoba, y la presencia \n"
+  },
+  {
+    "id": "20261117-203219-short",
+    "tipo": "short",
+    "inicio": "2026-11-17T20:32:19+00:00",
+    "estado": "error",
+    "tema": "Dancing plague of 1518",
+    "fin": "2026-11-17T20:45:19+00:00",
+    "error": "RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 185, in crear_video\n    raise RuntimeError(\"Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. \"\nRuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).\n"
   }
 ]
