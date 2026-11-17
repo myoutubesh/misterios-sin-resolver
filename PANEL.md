@@ -1,10 +1,10 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-17 17:23 UTC*
+*Actualizado: 2026-11-17 19:19 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 26 | 3 092 | 20 | 10 | 3 | 6 | $0.00 |
+| 26 | 3 092 | 20 | 10 | 3 | 8 | $0.00 |
 
 ## Últimos videos
 
@@ -33,6 +33,8 @@
 
 ## Errores recientes
 
+- 2026-11-17T19:10 · short · `RuntimeError: Ninguna IA pudo responder: gemini: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.g | pollinations: escena incompleta | gemini: None | pollinations: 70 palabras (esperaba 90-185)`
+- 2026-11-17T19:04 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion indica que Hachikō llegó a Shibuya Station en 1925, mientras que la fuente confirma que la llegada fue el 14 de enero de 1924; además, la descripción de la muerte y la vida diaria no coincide`
 - 2026-11-17T17:21 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: 10 escenas (esperaba 35-90) | gemini: None | pollinations: 16 escenas (esperaba 35-90)`
 - 2026-11-17T17:09 · largo · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion presenta varias diferencias significativas con respecto a la FUENTE proporcionada. Menciona una apertura de la mina en 1810, la construcción de túneles que conectan con Nakano de manera explí`
 - 2026-11-17T16:00 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
