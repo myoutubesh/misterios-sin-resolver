@@ -229,5 +229,16 @@
     "inicio": "2026-11-17T11:52:11+00:00",
     "estado": "ok",
     "fin": "2026-11-17T11:52:12+00:00"
+  },
+  {
+    "id": "20261117-131353-short",
+    "tipo": "short",
+    "inicio": "2026-11-17T13:13:53+00:00",
+    "estado": "ok",
+    "tema": "Westall UFO",
+    "video": "2026-11-17-short-westall-ufo",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-17T13:23:45+00:00"
   }
 ]

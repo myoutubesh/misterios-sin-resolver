@@ -729,5 +729,50 @@
     "privacidad": "private",
     "publicar_en": "2026-11-17T15:00:00Z",
     "url": "https://youtu.be/wmT2xnlRAj4"
+  },
+  {
+    "id": "2026-11-17-short-westall-ufo",
+    "fecha": "2026-11-17T13:23:41+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Westall UFO",
+    "tema_clave": "Westall UFO",
+    "categoria": "paranormal",
+    "interes_wikipedia": 1.2,
+    "titulo_yt": "El OVNI de Westall: el misterio de Melbourne de 1966 #shorts",
+    "estructura": "cronologica",
+    "estilo": "archivo_antiguo",
+    "duracion": 48.2,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Westall_UFO"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "DZFFV0fm1SU",
+    "privacidad": "private",
+    "publicar_en": "2026-11-17T18:00:00Z",
+    "url": "https://youtu.be/DZFFV0fm1SU"
   }
 ]
