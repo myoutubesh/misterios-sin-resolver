@@ -167,5 +167,16 @@
     "estado_video": "publicado",
     "costo_usd": 0.0,
     "fin": "2026-11-17T05:06:41+00:00"
+  },
+  {
+    "id": "20261117-071616-short",
+    "tipo": "short",
+    "inicio": "2026-11-17T07:16:16+00:00",
+    "estado": "ok",
+    "tema": "Cryptozoology",
+    "video": "2026-11-17-short-cryptozoology",
+    "estado_video": "creado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-17T07:26:56+00:00"
   }
 ]

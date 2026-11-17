@@ -495,5 +495,47 @@
     "privacidad": "public",
     "publicar_en": null,
     "url": "https://youtu.be/HTYdye0PdzQ"
+  },
+  {
+    "id": "2026-11-17-short-cryptozoology",
+    "fecha": "2026-11-17T07:26:56+00:00",
+    "formato": "short",
+    "estado": "creado",
+    "tema": "Cryptozoology",
+    "tema_clave": "Cryptozoology",
+    "categoria": "tendencia_reddit",
+    "interes_wikipedia": null,
+    "titulo_yt": "Críptidos: ¿Pseudociencia o realidad oculta? #shorts",
+    "estructura": "segunda_persona",
+    "estilo": "carmesi",
+    "duracion": 68.9,
+    "escenas": 10,
+    "clips_reales": 3,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Cryptozoology",
+      "https://es.wikipedia.org/wiki/Criptozoolog%C3%ADa"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
