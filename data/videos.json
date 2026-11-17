@@ -946,5 +946,55 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-17-short-glenn-miller",
+    "fecha": "2026-11-17T22:16:31+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Glenn Miller",
+    "tema_clave": "Glenn Miller",
+    "categoria": "desapariciones",
+    "interes_wikipedia": 5.54,
+    "titulo_yt": "Glenn Miller desapareció en el Canal de la Mancha #Miller1944 #CanaldeMancha #Shorts",
+    "estructura": "segunda_persona",
+    "estilo": "grabado",
+    "duracion": 46.8,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Glenn_Miller",
+      "https://es.wikipedia.org/wiki/Glenn_Miller"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
