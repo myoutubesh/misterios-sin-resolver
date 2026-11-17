@@ -189,5 +189,16 @@
     "estado_video": "publicado",
     "costo_usd": 0.0,
     "fin": "2026-11-17T08:13:23+00:00"
+  },
+  {
+    "id": "20261117-081424-short",
+    "tipo": "short",
+    "inicio": "2026-11-17T08:14:24+00:00",
+    "estado": "ok",
+    "tema": "Phoenix Lights",
+    "video": "2026-11-17-short-phoenix-lights",
+    "estado_video": "creado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-17T08:21:31+00:00"
   }
 ]

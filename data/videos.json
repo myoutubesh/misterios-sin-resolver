@@ -591,5 +591,47 @@
     "privacidad": "public",
     "publicar_en": null,
     "url": "https://youtu.be/qw0sF9M7xVk"
+  },
+  {
+    "id": "2026-11-17-short-phoenix-lights",
+    "fecha": "2026-11-17T08:21:31+00:00",
+    "formato": "short",
+    "estado": "creado",
+    "tema": "Phoenix Lights",
+    "tema_clave": "Phoenix Lights",
+    "categoria": "paranormal",
+    "interes_wikipedia": 4.68,
+    "titulo_yt": "El enigma real tras las Luces de Phoenix #shorts",
+    "estructura": "pregunta",
+    "estilo": "grabado",
+    "duracion": 50.2,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Phoenix_Lights",
+      "https://es.wikipedia.org/wiki/Luces_de_Phoenix"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.7-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
