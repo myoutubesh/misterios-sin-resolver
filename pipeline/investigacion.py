@@ -7,6 +7,10 @@ Cómo decide:
   3. Mide el interés de cada candidato con las visitas en Wikipedia de los últimos 60 días
      (API pública de Wikimedia) y elige uno con buen interés, sin repetir temas ya usados.
   4. Descarga el artículo en inglés y en español (dos fuentes que se contrastan entre sí).
+
+Reddit: a veces (REDDIT_PROB) el tema sale de lo que más se está comentando esta semana en subreddits de
+misterio (feed RSS público, sin claves). De Reddit solo se toma QUÉ caso interesa; el guion se escribe con
+fuentes verificables (Wikipedia) y en palabras propias. Nunca se copia el texto de un usuario.
 """
 import datetime as dt
 import json
@@ -15,11 +19,12 @@ import random
 import re
 import time
 import urllib.parse
+import xml.etree.ElementTree as ET
 
 import requests
 
 from . import db
-from .config import DATA, USER_AGENT
+from .config import DATA, REDDIT_PROB, REDDIT_SUBS, USER_AGENT
 
 H = {"User-Agent": USER_AGENT}
 SEMILLAS = DATA / "temas.json"
@@ -106,6 +111,86 @@ def _miembros(categoria):
         return []
 
 
+# ---------- Reddit (solo para descubrir qué casos interesan) ----------
+# Casos recientes de personas comunes (víctimas, sospechosos, familias): no los tocamos
+REDDIT_EVITAR = re.compile(
+    r"murder|killed|killing|remains|kidnap|\bshot\b|stabb|charged|arrest|suspect|police|sheriff|jane doe|john doe|"
+    r"victim|\bbody\b|bodies|rape|abuse|daughter|\bsons?\b|mother|father|\bwife\b|husband|\bgirls?\b|\bboys?\b|"
+    r"toddler|infant|baby|teen|student|suicide|overdose|\b20[12]\d\b", re.I)
+_VACIAS = {"the", "of", "and", "disappearance", "death", "case", "mystery", "incident", "murder", "affair",
+           "legend", "phenomenon", "lights", "list"}
+
+
+def _reddit_posts():
+    posts = []
+    for sub in REDDIT_SUBS:
+        try:
+            url = f"https://www.reddit.com/r/{sub}/top/.rss?t=week"
+            r = requests.get(url, headers=H, timeout=20)
+            if r.status_code == 429:
+                time.sleep(20)
+                r = requests.get(url, headers=H, timeout=20)
+            if not r.ok:
+                print(f"[investigacion] Reddit r/{sub}: {r.status_code}")
+                continue
+            ns = {"a": "http://www.w3.org/2005/Atom"}
+            for e in ET.fromstring(r.content).findall("a:entry", ns):
+                titulo = (e.findtext("a:title", "", ns) or "").strip()
+                enlace = (e.find("a:link", ns).get("href") if e.find("a:link", ns) is not None else "")
+                if titulo and not REDDIT_EVITAR.search(titulo) and not PROHIBIDO.search(titulo):
+                    posts.append({"sub": sub, "titulo": titulo, "url": enlace})
+        except Exception as e:  # noqa: BLE001
+            print(f"[investigacion] Reddit r/{sub} falló: {e}")
+        time.sleep(7)  # Reddit limita las lecturas sin cuenta: una cada pocos segundos
+    random.shuffle(posts)
+    return posts
+
+
+def _articulo_de_post(post):
+    """Busca en Wikipedia el artículo del caso del que habla el post (o None si no es claro)."""
+    comunes = {"In", "On", "The", "A", "An", "What", "Where", "Who", "Why", "How", "When", "Two", "Three", "One",
+               "This", "That", "Is", "Was", "Did", "Does", "His", "Her", "They", "He", "She", "It", "After", "Before"}
+    nombres = [w for w in re.findall(r"\b[A-Z][\w'’-]+", post["titulo"]) if w not in comunes]
+    anios = re.findall(r"\b1[5-9]\d\d\b", post["titulo"])
+    consulta = " ".join(nombres[:6] + anios[:1])
+    if len(nombres) < 1:
+        return None
+    try:
+        d = _api("en", action="query", list="search", srsearch=consulta, srlimit=3)
+    except Exception:  # noqa: BLE001
+        return None
+    texto = post["titulo"].lower()
+    for res in d.get("query", {}).get("search", []):
+        claves = [w for w in re.findall(r"[a-z0-9']{4,}", res["title"].lower()) if w not in _VACIAS]
+        if claves and sum(w in texto for w in claves) >= max(1, len(claves) // 2 + len(claves) % 2):
+            return res["title"]
+    return None
+
+
+def tema_reddit(formato):
+    largo = formato == "largo"
+    usados = db.temas_usados()
+    for post in _reddit_posts()[:12]:
+        titulo = _articulo_de_post(post)
+        if not titulo or titulo.lower() in usados or PROHIBIDO.search(titulo) or REDDIT_EVITAR.search(titulo):
+            continue
+        try:
+            art = traer_articulo(titulo, largo)
+        except Exception as e:  # noqa: BLE001
+            print(f"[investigacion] error con {titulo}: {e}")
+            continue
+        if not art or art["titulo"].lower() in usados or PROHIBIDO.search(art["texto_en"][:600]):
+            continue
+        if len(art["texto_en"]) + len(art["texto_es"]) < (9000 if largo else 2500):
+            continue
+        art.update(clave=titulo, categoria="tendencia_reddit", interes=None,
+                   reddit={"sub": post["sub"], "titulo": post["titulo"], "url": post["url"]})
+        print(f"[investigacion] tema de Reddit (r/{post['sub']}) → {art['titulo']}")
+        return art
+    print("[investigacion] Reddit no dio un caso utilizable; uso la lista normal")
+    return None
+
+
 def _elegir_categoria(semillas, formato):
     aprend = db.leer(db.APRENDIZAJES, {})
     pesos = aprend.get("peso_categoria", {})
@@ -127,6 +212,11 @@ def elegir_tema(formato="short", forzar=None):
             raise SystemExit(f"No encontré '{forzar}' en Wikipedia (usa el título en inglés).")
         art.update(clave=art["titulo"], categoria="pedido")
         return art
+
+    if REDDIT_SUBS and random.random() < REDDIT_PROB:
+        art = tema_reddit(formato)
+        if art:
+            return art
 
     semillas = json.loads(SEMILLAS.read_text(encoding="utf-8"))
     for _ in range(4):  # si una categoría se agotó, prueba otra

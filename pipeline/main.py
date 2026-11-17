@@ -41,6 +41,8 @@ def metadatos(g, art, formato, capitulos, creditos):
     partes.append(f"🔔 Suscríbete a {CANAL} para un misterio nuevo cada día.\n")
     fuentes = art.get("fuentes", []) + g.get("fuentes_extra", [])
     partes.append("📚 Fuentes:\n" + "\n".join(f"• {u}" for u in dict.fromkeys(fuentes)))
+    if art.get("reddit"):
+        partes.append(f"💬 Tema sugerido por la conversación de la comunidad r/{art['reddit']['sub']}.")
     if creditos:
         for fuente in dict.fromkeys(c.get("fuente", "Pexels") for c in creditos):
             autores = ", ".join(dict.fromkeys(c["autor"] for c in creditos

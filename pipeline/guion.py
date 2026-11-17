@@ -8,7 +8,7 @@ import random
 import re
 
 from . import db, ia
-from .config import ANTHROPIC_API_KEY, CANAL, CLAUDE_VERIFICAR
+from .config import ANTHROPIC_API_KEY, CANAL, CLAUDE_VERIFICAR, DATA
 
 ESTRUCTURAS_SHORT = {
     "cronologica": "Cuenta el caso en orden, pero abre con el detalle más extraño y vuelve atrás.",
@@ -43,6 +43,14 @@ def _aprendizajes(formato):
     if a.get("consejos"):
         partes.append("Observaciones del análisis de estadísticas: " + " ".join(a["consejos"][:4]))
     return ("\nLO QUE FUNCIONA EN ESTE CANAL (úsalo como guía, sin copiar):\n" + "\n".join(partes) + "\n") if partes else ""
+
+
+def guia_contenido():
+    """Guía de estilo editable en data/guia_contenido.md (se actualiza con lo que se aprende del mercado)."""
+    try:
+        return (DATA / "guia_contenido.md").read_text(encoding="utf-8").strip()
+    except OSError:
+        return ""
 
 
 _RAROS = dict.fromkeys(map(ord, "­​‌‍⁠﻿"), None)
@@ -181,16 +189,17 @@ def _revisar(g, art, formato, extra):
 PROMPT_SHORT = """Eres el guionista de "{canal}", canal de YouTube en español sobre misterios reales, casos sin
 resolver, fenómenos paranormales, lugares misteriosos, leyendas, civilizaciones antiguas y teorías.
 
-Escribe UN YouTube Short de 40 a 55 segundos sobre el caso de abajo (categoría: {categoria}).
+Escribe UN YouTube Short de 35 a 50 segundos sobre el caso de abajo (categoría: {categoria}).
 
 ESTRUCTURA DE ESTE VIDEO: {estructura}
+{reddit}
+{guia}
 
-RETENCIÓN
-- Primera frase = gancho de máximo 12 palabras con el dato más raro o inquietante. Sin saludos ni "hoy te cuento".
-- Crea preguntas abiertas y respóndelas más adelante. Ritmo de suspenso.
-- Total: 115 a 145 palabras. 7 a 9 escenas de 1 o 2 frases (máximo 24 palabras por escena).
-- Penúltima escena: la pregunta sin resolver del caso. Última escena (corta): invita a comentar su teoría
-  y a suscribirse a {canal}, de forma natural y variada (no siempre la misma frase).
+RETENCIÓN (resumen obligatorio)
+- Primera frase = gancho de máximo 10 palabras, concreto y anómalo. Sin saludos ni "hoy te cuento".
+- Total: 100 a 135 palabras. 6 a 9 escenas de 1 o 2 frases (máximo 22 palabras por escena).
+- Penúltima escena: la pregunta sin resolver del caso. Última escena (muy corta): cierra el círculo con la
+  primera frase e invita a comentar con una pregunta concreta. {cta}
 
 {reglas}
 METADATOS
@@ -215,12 +224,20 @@ FUENTE (Wikipedia en español):
 
 def guion_short(art):
     nombre, estructura = random.choice(list(ESTRUCTURAS_SHORT.items()))
+    reddit = ""
+    if art.get("reddit"):
+        reddit = (f"\nPOR QUÉ ESTE TEMA: esta semana se comenta mucho en r/{art['reddit']['sub']} con el título "
+                  f"\"{art['reddit']['titulo']}\". Úsalo solo como pista de qué le intriga a la gente; no copies "
+                  "textos de usuarios y usa solo datos de la FUENTE.\n")
+    cta = (f"En este video sí invita a suscribirse a {CANAL}, en pocas palabras." if random.random() < 0.34
+           else "En este video NO pidas suscripción.")
     prompt = PROMPT_SHORT.format(canal=CANAL, categoria=art.get("categoria", ""), estructura=estructura,
-                                 reglas=REGLAS_COMUNES, aprendizajes=_aprendizajes("short"), titulo=art["titulo"],
+                                 reddit=reddit, guia=guia_contenido(), cta=cta, reglas=REGLAS_COMUNES, aprendizajes=_aprendizajes("short"), titulo=art["titulo"],
                                  texto_en=art["texto_en"], texto_es=art["texto_es"] or "(no hay)")
     g = ia.generar_json(prompt, validar=lambda d: _normalizar(d, 5, 11, 90, 185))
     g = _revisar(g, art, "YouTube Short de 45 segundos",
-                 "Que la primera frase sea un gancho fuerte de máximo 12 palabras y que 'gancho_pantalla' se entienda solo.")
+                 "Que la primera frase sea un gancho concreto de máximo 10 palabras, que 'gancho_pantalla' añada "
+                 "la duda sin repetir la voz, que no haya frases de relleno y que la última frase conecte con la primera.")
     g["estructura"] = nombre
     return g
 

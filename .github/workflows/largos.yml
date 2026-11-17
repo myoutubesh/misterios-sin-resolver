@@ -55,6 +55,7 @@ jobs:
           YT_PRIVACIDAD: ${{ vars.YT_PRIVACIDAD || 'public' }}
           YT_HORA_PUBLICACION: ${{ vars.YT_HORA_PUBLICACION_LARGOS }}
           ZONA_HORARIA: ${{ vars.ZONA_HORARIA || 'America/Costa_Rica' }}
+          REDDIT_PROB: ${{ vars.REDDIT_PROB || '0.4' }}
           CANAL_NOMBRE: ${{ vars.CANAL_NOMBRE || 'Misterios Sin Resolver' }}
           TEMA: ${{ github.event.inputs.tema }}
           SUBIR: ${{ github.event.inputs.subir }}
