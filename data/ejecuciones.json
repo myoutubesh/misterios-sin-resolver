@@ -200,5 +200,16 @@
     "estado_video": "creado",
     "costo_usd": 0.0,
     "fin": "2026-11-17T08:21:31+00:00"
+  },
+  {
+    "id": "20261117-082407-short",
+    "tipo": "short",
+    "inicio": "2026-11-17T08:24:07+00:00",
+    "estado": "ok",
+    "tema": "Louis Le Prince",
+    "video": "2026-11-17-short-louis-le-prince",
+    "estado_video": "creado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-17T08:30:57+00:00"
   }
 ]

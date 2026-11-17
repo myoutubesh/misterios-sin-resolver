@@ -633,5 +633,47 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-17-short-louis-le-prince",
+    "fecha": "2026-11-17T08:30:57+00:00",
+    "formato": "short",
+    "estado": "creado",
+    "tema": "Louis Le Prince",
+    "tema_clave": "Louis Le Prince",
+    "categoria": "tendencia_reddit",
+    "interes_wikipedia": null,
+    "titulo_yt": "El inventor del cine que desapareció en un tren #shorts",
+    "estructura": "cronologica",
+    "estilo": "archivo_antiguo",
+    "duracion": 43.7,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Louis_Le_Prince",
+      "https://es.wikipedia.org/wiki/Louis_Le_Prince"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.7-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
