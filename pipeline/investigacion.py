@@ -160,7 +160,12 @@ def _articulo_de_post(post):
     except Exception:  # noqa: BLE001
         return None
     texto = post["titulo"].lower()
+    genericos = {"cryptozoology", "cryptid", "cryptids", "unidentified flying object", "paranormal", "ghost",
+                 "conspiracy theory", "bigfoot", "extraterrestrial life", "ancient history", "folklore",
+                 "high strangeness", "unsolved mysteries", "urban legend", "missing person"}
     for res in d.get("query", {}).get("search", []):
+        if res["title"].lower() in genericos or res["title"].lower().replace(" ", "") == post.get("sub", "").lower():
+            continue
         claves = [w for w in re.findall(r"[a-z0-9']{4,}", res["title"].lower()) if w not in _VACIAS]
         if claves and sum(w in texto for w in claves) >= max(1, len(claves) // 2 + len(claves) % 2):
             return res["title"]
