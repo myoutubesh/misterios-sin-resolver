@@ -537,5 +537,59 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-17-short-janitor-joe",
+    "fecha": "2026-11-17T08:13:22+00:00",
+    "formato": "short",
+    "estado": "publicado",
+    "tema": "Janitor Joe",
+    "tema_clave": "Janitor Joe",
+    "categoria": "tendencia_reddit",
+    "interes_wikipedia": null,
+    "titulo_yt": "Un limpiador grabó lo invisible en un campamento #shorts",
+    "estructura": "segunda_persona",
+    "estilo": "carmesi",
+    "duracion": 39.3,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Janitor_Joe",
+      "https://es.wikipedia.org/wiki/Janitor_Joe"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "qw0sF9M7xVk",
+    "privacidad": "public",
+    "publicar_en": null,
+    "url": "https://youtu.be/qw0sF9M7xVk"
   }
 ]

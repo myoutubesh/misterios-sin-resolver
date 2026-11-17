@@ -1,15 +1,16 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-17 07:26 UTC*
+*Actualizado: 2026-11-17 08:13 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 9 | 0 | 12 | 4 | 3 | 3 | $0.00 |
+| 9 | 0 | 13 | 5 | 3 | 3 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-17 | short | [Un limpiador grabó lo invisible en un campamento #shorts](https://youtu.be/qw0sF9M7xVk) | publicado | — |
 | 2026-11-17 | short | Críptidos: ¿Pseudociencia o realidad oculta? #shorts | creado | — |
 | 2026-11-17 | short | [El misterio de Amelia Earhart #shorts](https://youtu.be/HTYdye0PdzQ) | publicado | — |
 | 2026-11-17 | short | [Tres datos inquietantes del Mothman #shorts](https://youtu.be/7ktCmZIUM2s) | publicado | — |
