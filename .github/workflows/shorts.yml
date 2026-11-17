@@ -18,6 +18,14 @@ on:
         description: "¿Subir a YouTube?"
         type: boolean
         default: true
+      publicar_ya:
+        description: "Publicar apenas se suba (sin esperar los horarios)"
+        type: boolean
+        default: false
+      esperar_cuota:
+        description: "Esperar a que YouTube reinicie la cuota diaria (08:05 UTC = 2:05 Costa Rica)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -29,8 +37,16 @@ concurrency:
 jobs:
   short:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 330
     steps:
+      - name: Esperar reinicio de cuota de YouTube
+        if: github.event.inputs.esperar_cuota == 'true'
+        timeout-minutes: 290
+        run: |
+          objetivo=$(date -u -d "08:05" +%s); ahora=$(date -u +%s)
+          if [ $objetivo -le $ahora ] && [ $((ahora - objetivo)) -gt 3600 ]; then objetivo=$(date -u -d "tomorrow 08:05" +%s); fi
+          if [ $objetivo -gt $ahora ]; then echo "Espero $(( (objetivo - ahora) / 60 )) min"; sleep $((objetivo - ahora)); fi
+
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
@@ -42,6 +58,7 @@ jobs:
           pip install -q -r requirements.txt
 
       - name: Crear y publicar el short (con un reintento)
+        timeout-minutes: 60
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -52,8 +69,8 @@ jobs:
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
           CLAUDE_MODELO: ${{ vars.CLAUDE_MODELO || 'claude-opus-5-5' }}
-          YT_PRIVACIDAD: ${{ vars.YT_PRIVACIDAD || 'public' }}
-          YT_HORA_PUBLICACION: ${{ vars.YT_HORA_PUBLICACION_SHORTS }}
+          YT_PRIVACIDAD: ${{ github.event.inputs.publicar_ya == 'true' && 'public' || vars.YT_PRIVACIDAD || 'public' }}
+          YT_HORA_PUBLICACION: ${{ github.event.inputs.publicar_ya != 'true' && vars.YT_HORA_PUBLICACION_SHORTS || '' }}
           ZONA_HORARIA: ${{ vars.ZONA_HORARIA || 'America/Costa_Rica' }}
           CANAL_NOMBRE: ${{ vars.CANAL_NOMBRE || 'Misterios Sin Resolver' }}
           TEMA: ${{ github.event.inputs.tema }}
