@@ -32,8 +32,14 @@ def _mmss(s):
 
 def metadatos(g, art, formato, capitulos, creditos):
     titulo = g["titulo"]
-    if formato == "short" and len(titulo) + 8 <= 100:
-        titulo += " #shorts"
+    if formato == "short":
+        # En el reproductor de Shorts casi nadie abre la descripción: los hashtags que se VEN son los del
+        # título. Ponemos los 2 más específicos del caso + #Shorts (si caben en los 100 caracteres).
+        en_titulo = []
+        for h in [*[x.lstrip("#").strip() for x in g.get("hashtags", [])][:2], "Shorts"]:
+            if h and len(titulo) + len(" #" + h) <= 100 and h.lower() not in [x.lower() for x in en_titulo]:
+                titulo += " #" + h
+                en_titulo.append(h)
     partes = [g["descripcion"].strip(), ""]
     if formato == "largo" and len(capitulos) >= 3:
         partes += ["⏱️ Capítulos"] + [f"{_mmss(t)} {n}" for t, n in capitulos] + [""]
@@ -51,18 +57,21 @@ def metadatos(g, art, formato, capitulos, creditos):
     partes.append("🎨 Imágenes ilustrativas generadas con IA y narración con voz sintética. Las teorías y leyendas "
                   "se presentan como tales; los hechos provienen de las fuentes citadas.")
     # YouTube ignora TODOS los hashtags si hay más de 15 (contando los del título): usamos 15 en total
-    maximo = 15 - titulo.count("#")
+    del_titulo = [h.lower() for h in re.findall(r"#(\w+)", titulo)]
+    maximo = 15 - len(del_titulo)
     extra = ["Misterio", "Shorts" if formato == "short" else "Documental"]
     lista = []
-    for h in [*g.get("hashtags", [])[:maximo - len(extra)], *extra, *g.get("hashtags", [])]:
+    for h in [*g.get("hashtags", []), *extra]:
         h = h.lstrip("#").strip()
-        if h and h.lower() not in [x.lower() for x in lista] and len(lista) < maximo:
+        if h and h.lower() not in [x.lower() for x in lista] + del_titulo and len(lista) < maximo:
             lista.append(h)
+    if "misterio" not in [x.lower() for x in lista] + del_titulo and lista:
+        lista[-1] = "Misterio"  # la etiqueta del canal siempre va
     partes.append("\n" + " ".join("#" + h for h in lista))
     desc = "\n".join(partes)
     # Etiquetas: YouTube acepta hasta 500 caracteres en total
     tags, largo = [], 0
-    for t in [*g.get("tags", []), *[h for h in lista if h.lower() != "shorts"]]:
+    for t in [*g.get("tags", []), *[h for h in re.findall(r"#(\w+)", titulo) + lista if h.lower() != "shorts"]]:
         t = t.strip()
         if t and t.lower() not in [x.lower() for x in tags] and largo + len(t) + 3 <= 480:
             tags.append(t)

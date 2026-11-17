@@ -214,7 +214,11 @@ def montar(escenas, total_voz, carpeta, salida, vertical, estilo, gancho="", cap
     _ff(["-f", "concat", "-safe", "0", "-i", "clips.txt", "-c", "copy", "video_mudo.mp4"], cwd=carpeta)
 
     (carpeta / "voces.txt").write_text("\n".join(f"file '{e['wav'].name}'" for e in escenas), encoding="utf-8")
-    _ff(["-f", "concat", "-safe", "0", "-i", "voces.txt", "-c", "copy", "narracion.wav"], cwd=carpeta)
+    _ff(["-f", "concat", "-safe", "0", "-i", "voces.txt", "-c:a", "pcm_s16le", "-ar", "44100", "-ac", "1",
+         "narracion.wav"], cwd=carpeta)
+    dur_voz = _duracion_audio(carpeta / "narracion.wav")
+    if abs(dur_voz - total_voz) > 0.5:
+        raise RuntimeError(f"la narración unida dura {dur_voz:.1f}s y debía durar {total_voz:.1f}s")
 
     print("[montaje] música y efectos")
     origen_musica = musica(total, carpeta / "musica.wav")
@@ -225,18 +229,48 @@ def montar(escenas, total_voz, carpeta, salida, vertical, estilo, gancho="", cap
     efectos(momentos, total, carpeta)
     fuente = escribir_ass(escenas, carpeta / "subs.ass", total, vertical, estilo, gancho, capitulos)
 
+    # 1) Mezcla de audio en su propio paso, a un WAV de 48 kHz con la duración exacta.
+    #    Antes se hacía junto con el video en un solo comando y, en el FFmpeg de GitHub (8.x), el audio
+    #    perdía pedazos: el short duraba 48 s pero solo tenía ~34 s de sonido (cortes a mitad de frase).
     vol_sfx = 0.55 if vertical else 0.35
-    fc = (f"[0:v]{estilo['grade']},noise=alls=5:allf=t,vignette=angle=PI/4.5,"
-          "subtitles=subs.ass:fontsdir=fonts,format=yuv420p[v];"
-          f"[1:a]aformat=sample_rates=44100:channel_layouts=stereo,apad=whole_dur={total:.2f},asplit[n1][n2];"
-          f"[2:a]volume={VOLUMEN_MUSICA}[m];[3:a]volume={vol_sfx}[fx];"
+    fa = (f"[0:a]aformat=sample_rates=44100:channel_layouts=stereo,apad=whole_dur={total:.2f},asplit[n1][n2];"
+          f"[1:a]aformat=sample_rates=44100:channel_layouts=stereo,volume={VOLUMEN_MUSICA}[m];"
+          f"[2:a]aformat=sample_rates=44100:channel_layouts=stereo,volume={vol_sfx}[fx];"
           "[m][n2]sidechaincompress=threshold=0.04:ratio=5:attack=15:release=450[md];"
-          "[n1][md][fx]amix=inputs=3:duration=longest:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]")
-    print("[montaje] mezcla final")
-    _ff(["-i", "video_mudo.mp4", "-i", "narracion.wav", "-i", "musica.wav", "-i", "efectos.wav",
-         "-filter_complex", fc, "-map", "[v]", "-map", "[a]", "-t", f"{total:.2f}",
+          "[n1][md][fx]amix=inputs=3:duration=longest:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11,"
+          f"aresample=48000,aformat=sample_rates=48000:channel_layouts=stereo,"
+          f"apad=whole_dur={total:.2f},atrim=end={total:.3f},asetpts=N/SR/TB[a]")
+    print("[montaje] mezcla de audio")
+    _ff(["-i", "narracion.wav", "-i", "musica.wav", "-i", "efectos.wav", "-filter_complex", fa, "-map", "[a]",
+         "-c:a", "pcm_s16le", "audio_final.wav"], cwd=carpeta, limite=600)
+    dur_audio = _duracion_audio(carpeta / "audio_final.wav")
+    if abs(dur_audio - total) > 0.5:
+        raise RuntimeError(f"la mezcla de audio dura {dur_audio:.1f}s y debía durar {total:.1f}s")
+
+    # 2) Video final: imagen con color, subtítulos y el audio ya mezclado
+    fc = (f"[0:v]{estilo['grade']},noise=alls=5:allf=t,vignette=angle=PI/4.5,"
+          "subtitles=subs.ass:fontsdir=fonts,format=yuv420p[v]")
+    print("[montaje] video final")
+    _ff(["-i", "video_mudo.mp4", "-i", "audio_final.wav",
+         "-filter_complex", fc, "-map", "[v]", "-map", "1:a", "-t", f"{total:.2f}",
          "-c:v", "libx264", "-preset", "medium" if vertical else "faster", "-crf", "21",
          "-maxrate", "9M" if vertical else "12M", "-bufsize", "18M" if vertical else "24M", "-profile:v", "high",
-         "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart", str(salida.resolve())],
+         "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", str(salida.resolve())],
         cwd=carpeta, limite=1200 if vertical else 7200)
+    verificar_audio(salida, total)
     return {"duracion": round(total, 1), "musica": origen_musica, "fuente_subs": fuente}
+
+
+def _duracion_audio(ruta):
+    """Duración REAL del audio: decodifica todo y cuenta las muestras (no se fía de lo que dice el archivo)."""
+    out = subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-i", str(ruta), "-map", "0:a:0", "-ac", "1",
+                          "-ar", "8000", "-f", "s16le", "-"], capture_output=True, check=True, timeout=300).stdout
+    return len(out) / 2 / 8000
+
+
+def verificar_audio(video, total):
+    """Candado: no dejar pasar un video cuyo sonido esté incompleto (cortes de audio)."""
+    real = _duracion_audio(video)
+    print(f"[montaje] audio verificado: {real:.1f}s de {total:.1f}s")
+    if real < total - 0.5:
+        raise RuntimeError(f"el audio del video está incompleto ({real:.1f}s de {total:.1f}s): no lo publico")
