@@ -96,7 +96,28 @@ def _gemini(prompt, max_tokens, buscar_web=False):
     # Límite de 5 min por llamada (en ms): sin esto una respuesta colgada bloqueó un short 59 min
     cliente = genai.Client(api_key=GEMINI_API_KEY, http_options=types.HttpOptions(timeout=300_000))
     ultimo = None
-    for modelo in _modelos_gemini(cliente):
+    # Gemini gratis se satura seguido (503) o agota la cuota de un modelo (429): se dan hasta 3 vueltas por
+    # todos los modelos, esperando entre vueltas, antes de rendirse.
+    for vuelta in range(3):
+        if vuelta:
+            espera = 45 * vuelta
+            print(f"[ia] Gemini saturado; espero {espera}s y vuelvo a intentar (vuelta {vuelta + 1}/3)")
+            time.sleep(espera)
+        modelos = [m for m in _modelos_gemini(cliente) if m not in _GEMINI_AGOTADOS]
+        if not modelos:
+            break
+        texto, ultimo = _vuelta_gemini(cliente, types, modelos, prompt, max_tokens)
+        if texto is not None:
+            return texto
+    raise RuntimeError(ultimo)
+
+
+_GEMINI_AGOTADOS = set()  # modelos que respondieron 429 (cuota del día agotada) en esta ejecución
+
+
+def _vuelta_gemini(cliente, types, modelos, prompt, max_tokens):
+    ultimo = None
+    for modelo in modelos:
         try:
             extra = {}
             if modelo.startswith("gemini-3"):  # piensa menos: mucho más rápido y suficiente para guiones
@@ -106,15 +127,19 @@ def _gemini(prompt, max_tokens, buscar_web=False):
                 model=modelo, contents=prompt,
                 config=types.GenerateContentConfig(response_mime_type="application/json", temperature=0.9,
                                                    max_output_tokens=max_tokens, **extra))
+            if not r.text:
+                raise RuntimeError("respuesta vacía")
             print(f"[ia] Gemini {modelo} respondió en {time.time() - t0:.0f}s")
             _anotar("gemini", modelo)
-            return r.text
+            return r.text, None
         except Exception as e:  # noqa: BLE001
-            print(f"[ia] Gemini {modelo} falló: {str(e)[:200]}")
+            print(f"[ia] Gemini {modelo} falló: {str(e)[:160]}")
             ultimo = e
             if "404" in str(e):
                 _GEMINI_NO_EXISTE.add(modelo)
-    raise RuntimeError(ultimo)
+            elif "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e):
+                _GEMINI_AGOTADOS.add(modelo)
+    return None, ultimo
 
 
 _GEMINI_NO_EXISTE = set()

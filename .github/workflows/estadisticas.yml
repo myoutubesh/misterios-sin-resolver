@@ -2,7 +2,7 @@ name: Estadísticas y panel
 
 on:
   schedule:
-    - cron: "0 11 * * *"   # todos los días, 5:00 en CDMX
+    - cron: "7 11 * * *"   # todos los días, 5:07 en Costa Rica
   workflow_dispatch:
 
 permissions:

@@ -94,8 +94,8 @@ def _normalizar(g, min_esc, max_esc, min_pal, max_pal):
         g[k] = limpiar(g[k]) if k == "titulo" else g[k].strip()
     g["gancho_pantalla"] = corto(g.get("gancho_pantalla"), 5)
     g["texto_miniatura"] = corto(g.get("texto_miniatura"), 4)
-    g["hashtags"] = [re.sub(r"\W", "", h) for h in (g.get("hashtags") or []) if isinstance(h, str)][:6]
-    g["tags"] = [limpiar(t) for t in (g.get("tags") or []) if isinstance(t, str)][:15]
+    g["hashtags"] = [re.sub(r"\W", "", h) for h in (g.get("hashtags") or []) if isinstance(h, str)][:14]
+    g["tags"] = [limpiar(t) for t in (g.get("tags") or []) if isinstance(t, str)][:30]
     return g
 
 
@@ -206,7 +206,13 @@ METADATOS
 - "titulo": máximo 60 caracteres, curiosidad honesta, sin hashtags, sin mayúsculas sostenidas, sin mentir.
 - "gancho_pantalla": 2 a 5 palabras en MAYÚSCULAS para mostrar arriba los primeros segundos.
 - "descripcion": 2 o 3 frases que presenten el caso sin revelar el final.
-- "hashtags": 5 en español, sin #. "tags": 10 etiquetas de búsqueda en español.
+- "hashtags": 12 hashtags sin #, TODOS relacionados con este video, en una sola palabra cada uno (sin
+  espacios). Mezcla: 4 específicos del caso (nombre del caso, lugar, año o persona, ej. DyatlovPass,
+  Rusia1959), 4 del tipo de misterio (ej. DesaparicionesMisteriosas, CasosSinResolver, Criptozoologia) y
+  4 amplios de la temática con mucha búsqueda en español (ej. Misterio, Paranormal, HistoriasReales,
+  DatosCuriosos). Nada que no tenga que ver con el video.
+- "tags": 20 etiquetas de búsqueda en español (frases que la gente escribiría para encontrar este caso,
+  incluyendo el nombre del caso en español y en inglés).
 {aprendizajes}
 Responde SOLO con JSON:
 {{"titulo": "", "gancho_pantalla": "", "descripcion": "", "hashtags": [], "tags": [],
@@ -268,7 +274,8 @@ METADATOS
 - "texto_miniatura": 2 a 4 palabras impactantes y honestas para la miniatura (en mayúsculas).
 - "capitulos": lista de títulos de capítulo (el primero es "Introducción").
 - "descripcion": 4 a 6 frases para YouTube (sin revelar el final).
-- "hashtags": 5 sin #. "tags": 15 etiquetas de búsqueda en español.
+- "hashtags": 12 sin #, todos relacionados con el caso (específicos del caso, del tipo de misterio y
+  amplios de la temática). "tags": 20 etiquetas de búsqueda en español.
 {aprendizajes}
 Responde SOLO con JSON:
 {{"titulo": "", "texto_miniatura": "", "descripcion": "", "hashtags": [], "tags": [], "capitulos": [],

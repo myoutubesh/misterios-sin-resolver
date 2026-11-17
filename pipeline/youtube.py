@@ -51,6 +51,30 @@ def subidas_recientes(yt, n=50):
 
 
 # ---------- programación ----------
+def proximos_horarios(n=2):
+    """Los n próximos horarios de publicación y si ya tienen video: [(iso_utc, ocupado), ...]."""
+    if not HORA_PUBLICACION:
+        return []
+    zona = ZoneInfo(ZONA_HORARIA)
+    ocupados = {v.get("publicar_en") for v in db.videos() if v.get("publicar_en")}
+    ahora = dt.datetime.now(zona)
+    horas = sorted((h.strip() for h in HORA_PUBLICACION.split(",") if h.strip()),
+                   key=lambda h: tuple(map(int, h.split(":"))))
+    salida = []
+    for dia in range(0, 3):
+        fecha = (ahora + dt.timedelta(days=dia)).date()
+        for h in horas:
+            hh, mm = map(int, h.split(":"))
+            momento = dt.datetime(fecha.year, fecha.month, fecha.day, hh, mm, tzinfo=zona)
+            if momento < ahora + dt.timedelta(minutes=20):
+                continue
+            iso = momento.astimezone(dt.timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
+            salida.append((iso, iso in ocupados))
+            if len(salida) == n:
+                return salida
+    return salida
+
+
 def proxima_fecha():
     """Si YT_HORA_PUBLICACION = '12:00,18:30', devuelve el próximo horario libre (UTC ISO)."""
     if not HORA_PUBLICACION:

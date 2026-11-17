@@ -52,6 +52,8 @@ VOLUMEN_MUSICA = float(os.getenv("VOLUMEN_MUSICA", "0.22"))
 PRIVACIDAD = os.getenv("YT_PRIVACIDAD", "public")       # public | unlisted | private
 CATEGORIA_YT = os.getenv("YT_CATEGORIA", "24")          # 24 = Entretenimiento
 # Si se define (p. ej. "18:30"), los videos se suben privados y YouTube los publica a esa hora (Ciudad de México)
+# Máximo de shorts automáticos por día de cuota de YouTube (martes y viernes se resta 1 por el video largo)
+LIMITE_SHORTS_DIA = int(os.getenv("LIMITE_SHORTS_DIA", "6"))
 HORA_PUBLICACION = os.getenv("YT_HORA_PUBLICACION", "")
 ZONA_HORARIA = os.getenv("ZONA_HORARIA", "America/Mexico_City")
 

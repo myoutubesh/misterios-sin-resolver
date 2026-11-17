@@ -17,7 +17,7 @@ import sys
 import unicodedata
 
 from . import db, guion, ia, investigacion, miniatura, montaje, panel, visuales, voz, youtube
-from .config import CANAL, OUT, PUBLICAR_CON_RESPALDO, VOZ_RATE, VOZ_RATE_LARGO
+from .config import CANAL, LIMITE_SHORTS_DIA, OUT, PUBLICAR_CON_RESPALDO, VOZ_RATE, VOZ_RATE_LARGO
 
 
 def slug(t):
@@ -50,15 +50,56 @@ def metadatos(g, art, formato, capitulos, creditos):
             partes.append(f"🎞️ Clips de archivo: {fuente} ({autores}).")
     partes.append("🎨 Imágenes ilustrativas generadas con IA y narración con voz sintética. Las teorías y leyendas "
                   "se presentan como tales; los hechos provienen de las fuentes citadas.")
-    extra = ["misterio", "shorts" if formato == "short" else "documental"]
+    # YouTube ignora TODOS los hashtags si hay más de 15 (contando los del título): usamos 15 en total
+    maximo = 15 - titulo.count("#")
+    extra = ["Misterio", "Shorts" if formato == "short" else "Documental"]
     lista = []
-    for h in [*g.get("hashtags", []), *extra]:
+    for h in [*g.get("hashtags", [])[:maximo - len(extra)], *extra, *g.get("hashtags", [])]:
         h = h.lstrip("#").strip()
-        if h and h.lower() not in [x.lower() for x in lista]:
+        if h and h.lower() not in [x.lower() for x in lista] and len(lista) < maximo:
             lista.append(h)
     partes.append("\n" + " ".join("#" + h for h in lista))
     desc = "\n".join(partes)
-    return {"titulo": titulo[:100], "descripcion": desc[:4900], "tags": g.get("tags", [])[:15]}
+    # Etiquetas: YouTube acepta hasta 500 caracteres en total
+    tags, largo = [], 0
+    for t in [*g.get("tags", []), *[h for h in lista if h.lower() != "shorts"]]:
+        t = t.strip()
+        if t and t.lower() not in [x.lower() for x in tags] and largo + len(t) + 3 <= 480:
+            tags.append(t)
+            largo += len(t) + 3
+    return {"titulo": titulo[:100], "descripcion": desc[:4900], "tags": tags}
+
+
+def hace_falta_short():
+    """Para las ejecuciones automáticas: ¿toca crear un short ahora?
+
+    - No pasa del límite diario de subidas de YouTube (el día de la cuota va de medianoche a medianoche
+      hora del Pacífico): 6 shorts, o 5 martes y viernes para dejar lugar al video largo.
+    - Si los 2 próximos horarios ya tienen video programado, no hace nada. Así las ejecuciones de respaldo
+      solo crean video cuando GitHub se saltó una ejecución principal.
+    """
+    from zoneinfo import ZoneInfo
+    pacifico = ZoneInfo("America/Los_Angeles")
+    hoy = dt.datetime.now(pacifico).date()
+    subidos = 0
+    for v in db.videos():
+        if v.get("formato") != "short" or not v.get("youtube_id") or not v.get("fecha"):
+            continue
+        try:
+            f = dt.datetime.fromisoformat(v["fecha"].replace("Z", "+00:00"))
+        except ValueError:
+            continue
+        if f.tzinfo and f.astimezone(pacifico).date() == hoy:
+            subidos += 1
+    limite = LIMITE_SHORTS_DIA - (1 if hoy.weekday() in (1, 4) else 0)
+    if subidos >= limite:
+        print(f"[main] ya se subieron {subidos} shorts en el día de cuota de YouTube (límite {limite}); no creo otro")
+        return False
+    proximos = youtube.proximos_horarios(2)
+    if proximos and all(ocupado for _, ocupado in proximos):
+        print(f"[main] los próximos horarios ya tienen video ({', '.join(h for h, _ in proximos)}); no hace falta otro")
+        return False
+    return True
 
 
 def crear_video(formato, tema=None, subir=True, prueba=False):
@@ -165,8 +206,12 @@ def main():
     ap.add_argument("--tema", help="Título del artículo de Wikipedia en inglés")
     ap.add_argument("--no-subir", action="store_true")
     ap.add_argument("--prueba", action="store_true", help="Video corto de prueba (no se registra ni se sube)")
+    ap.add_argument("--programado", action="store_true",
+                    help="Ejecución automática: solo crea el short si hace falta (ver hace_falta_short)")
     args = ap.parse_args()
 
+    if args.programado and args.accion == "short" and not hace_falta_short():
+        return 0
     try:
         if args.accion in ("short", "largo"):
             crear_video(args.accion, args.tema, subir=not args.no_subir, prueba=args.prueba)
