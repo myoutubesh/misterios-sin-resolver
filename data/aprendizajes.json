@@ -1,10 +1,19 @@
 {
-  "actualizado": "2026-11-17T11:52:12+00:00",
-  "videos_analizados": 0,
+  "actualizado": "2026-11-18T11:59:51+00:00",
+  "videos_analizados": 3,
   "peso_categoria": {},
   "titulos_top": {
-    "short": [],
+    "short": [
+      "Tres detalles inquietantes del mito del chupacabras #shorts",
+      "El misterio del rayo globular que explota #shorts",
+      "El secreto militar tras el caso Roswell en 1947 #shorts"
+    ],
     "largo": []
   },
-  "consejos": []
+  "consejos": [
+    "Los shorts de 50-60s rinden mejor.",
+    "Las publicaciones cerca de las 0:00 (America/Mexico_City) tienen más vistas."
+  ],
+  "duracion_ideal_short": "50-60s",
+  "mejor_hora": 0
 }

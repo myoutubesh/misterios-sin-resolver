@@ -1,81 +1,109 @@
 {
   "videos": {
     "tgejcauNSRI": {
-      "vistas": 1330,
-      "likes": 34,
+      "vistas": 1346,
+      "likes": 37,
       "comentarios": 0,
       "privacidad": "public",
-      "actualizado": "2026-11-17"
+      "actualizado": "2026-11-18"
     },
     "sXWW4xfEsgI": {
-      "vistas": 802,
+      "vistas": 811,
       "likes": 24,
       "comentarios": 0,
       "privacidad": "public",
-      "actualizado": "2026-11-17"
+      "actualizado": "2026-11-18"
     },
     "5N_S1zKYr_w": {
-      "vistas": 1218,
-      "likes": 36,
+      "vistas": 1239,
+      "likes": 37,
       "comentarios": 0,
       "privacidad": "public",
-      "actualizado": "2026-11-17"
+      "actualizado": "2026-11-18"
     },
     "wOJS0q3a4mY": {
-      "vistas": 14,
-      "likes": 0,
-      "comentarios": 0,
-      "privacidad": "public",
-      "actualizado": "2026-11-17"
-    },
-    "8-2qyQz5F2Y": {
-      "vistas": 4,
-      "likes": 0,
-      "comentarios": 0,
-      "privacidad": "public",
-      "actualizado": "2026-11-17"
-    },
-    "k7_hecB7cOc": {
-      "vistas": 3,
-      "likes": 0,
-      "comentarios": 0,
-      "privacidad": "public",
-      "actualizado": "2026-11-17"
-    },
-    "qWKKVZCT5z8": {
-      "vistas": 124,
+      "vistas": 18,
       "likes": 1,
       "comentarios": 0,
       "privacidad": "public",
-      "actualizado": "2026-11-17"
+      "actualizado": "2026-11-18"
+    },
+    "8-2qyQz5F2Y": {
+      "vistas": 5,
+      "likes": 1,
+      "comentarios": 0,
+      "privacidad": "public",
+      "actualizado": "2026-11-18"
+    },
+    "k7_hecB7cOc": {
+      "vistas": 4,
+      "likes": 2,
+      "comentarios": 0,
+      "privacidad": "public",
+      "actualizado": "2026-11-18"
+    },
+    "qWKKVZCT5z8": {
+      "vistas": 128,
+      "likes": 2,
+      "comentarios": 0,
+      "privacidad": "public",
+      "actualizado": "2026-11-18"
     },
     "7ktCmZIUM2s": {
-      "vistas": 8,
-      "likes": 0,
+      "vistas": 11,
+      "likes": 2,
       "comentarios": 0,
       "privacidad": "public",
-      "actualizado": "2026-11-17"
+      "actualizado": "2026-11-18"
     },
     "HTYdye0PdzQ": {
-      "vistas": 245,
-      "likes": 8,
+      "vistas": 368,
+      "likes": 9,
       "comentarios": 0,
       "privacidad": "public",
-      "actualizado": "2026-11-17"
+      "actualizado": "2026-11-18"
     },
     "qw0sF9M7xVk": {
-      "vistas": 0,
-      "likes": 0,
+      "vistas": 2,
+      "likes": 1,
       "comentarios": 0,
       "privacidad": "public",
-      "actualizado": "2026-11-17"
+      "actualizado": "2026-11-18"
     },
     "wmT2xnlRAj4": {
+      "vistas": 14,
+      "likes": 1,
+      "comentarios": 0,
+      "privacidad": "public",
+      "actualizado": "2026-11-18"
+    },
+    "DZFFV0fm1SU": {
+      "vistas": 4,
+      "likes": 1,
+      "comentarios": 0,
+      "privacidad": "public",
+      "actualizado": "2026-11-18"
+    },
+    "zuoj8SX8Umo": {
+      "vistas": 2,
+      "likes": 1,
+      "comentarios": 0,
+      "privacidad": "public",
+      "actualizado": "2026-11-18"
+    },
+    "70oqpq4dkA4": {
+      "vistas": 392,
+      "likes": 5,
+      "comentarios": 0,
+      "privacidad": "public",
+      "actualizado": "2026-11-18"
+    },
+    "_tS205NAA9c": {
       "vistas": 0,
       "likes": 0,
       "comentarios": 0,
       "privacidad": "private",
-      "actualizado": "2026-11-17"
+      "actualizado": "2026-11-18"
     }
   },
   "historial_canal": [
@@ -90,13 +118,19 @@
       "vistas": 3092,
       "videos": 10,
       "fecha": "2026-11-17"
+    },
+    {
+      "suscriptores": 26,
+      "vistas": 3898,
+      "videos": 14,
+      "fecha": "2026-11-18"
     }
   ],
   "canal": {
     "suscriptores": 26,
-    "vistas": 3092,
-    "videos": 10,
-    "fecha": "2026-11-17"
+    "vistas": 3898,
+    "videos": 14,
+    "fecha": "2026-11-18"
   },
-  "actualizado": "2026-11-17T11:52:12+00:00"
+  "actualizado": "2026-11-18T11:59:51+00:00"
 }

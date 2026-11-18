@@ -1,39 +1,44 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-18 11:23 UTC*
+*Actualizado: 2026-11-18 11:59 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 26 | 3 092 | 24 | 10 | 5 | 14 | $0.00 |
+| 26 | 3 898 | 24 | 14 | 1 | 14 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
-| 2026-11-18 | short | [El misterio de Skinwalker Ranch en Utah #SkinwalkerRanch #UintahCounty #Shorts](https://youtu.be/_tS205NAA9c) | programado | — |
-| 2026-11-18 | short | [El misterio de los 72 segundos de la señal Wow! #SenalWow #BigEar1977 #Shorts](https://youtu.be/70oqpq4dkA4) | programado | — |
+| 2026-11-18 | short | [El misterio de Skinwalker Ranch en Utah #SkinwalkerRanch #UintahCounty #Shorts](https://youtu.be/_tS205NAA9c) | programado | 0 |
+| 2026-11-18 | short | [El misterio de los 72 segundos de la señal Wow! #SenalWow #BigEar1977 #Shorts](https://youtu.be/70oqpq4dkA4) | publicado | 392 |
 | 2026-11-17 | short | Glenn Miller desapareció en el Canal de la Mancha #Miller1944 #CanaldeMancha #Shorts | retenido_calidad | — |
 | 2026-11-17 | short | La plaga del baile 1518: una historia de descontrol #PesteDeBaile #Estrasburgo1518 #Shorts | retenido_calidad | — |
-| 2026-11-17 | short | [El misterio de UVB‑76, la radio que nunca apaga #UVB76 #Buzzer #Shorts](https://youtu.be/zuoj8SX8Umo) | programado | — |
+| 2026-11-17 | short | [El misterio de UVB‑76, la radio que nunca apaga #UVB76 #Buzzer #Shorts](https://youtu.be/zuoj8SX8Umo) | publicado | 2 |
 | 2026-11-17 | short | El Relámpago del Catatumbo: La tormenta que nunca se apaga #Catatumbo #LakeMaracaibo #Shorts | retenido_calidad | — |
 | 2026-11-17 | short | MH370: la desaparición que sigue sin respuestas #MH370 #Malasia2014 #Shorts | creado | — |
-| 2026-11-17 | short | [El OVNI de Westall: el misterio de Melbourne de 1966 #shorts](https://youtu.be/DZFFV0fm1SU) | programado | — |
-| 2026-11-17 | short | [Slender Man: ¿ficción o peligro real? #shorts](https://youtu.be/wmT2xnlRAj4) | programado | 0 |
+| 2026-11-17 | short | [El OVNI de Westall: el misterio de Melbourne de 1966 #shorts](https://youtu.be/DZFFV0fm1SU) | publicado | 4 |
+| 2026-11-17 | short | [Slender Man: ¿ficción o peligro real? #shorts](https://youtu.be/wmT2xnlRAj4) | publicado | 14 |
 | 2026-11-17 | short | El inventor del cine que desapareció en un tren #shorts | creado | — |
 | 2026-11-17 | short | El enigma real tras las Luces de Phoenix #shorts | creado | — |
-| 2026-11-17 | short | [Un limpiador grabó lo invisible en un campamento #shorts](https://youtu.be/qw0sF9M7xVk) | publicado | 0 |
+| 2026-11-17 | short | [Un limpiador grabó lo invisible en un campamento #shorts](https://youtu.be/qw0sF9M7xVk) | publicado | 2 |
 | 2026-11-17 | short | Críptidos: ¿Pseudociencia o realidad oculta? #shorts | creado | — |
-| 2026-11-17 | short | [El misterio de Amelia Earhart #shorts](https://youtu.be/HTYdye0PdzQ) | publicado | 245 |
-| 2026-11-17 | short | [Tres datos inquietantes del Mothman #shorts](https://youtu.be/7ktCmZIUM2s) | publicado | 8 |
-| 2026-11-16 | short | [El misterio de la Condesa Sangrienta, Elizabeth Báthory #shorts](https://youtu.be/qWKKVZCT5z8) | publicado | 124 |
-| 2026-11-16 | short | [El misterio de la explosión en Tunguska de 1908 #shorts](https://youtu.be/k7_hecB7cOc) | publicado | 3 |
-| 2026-11-16 | short | [El pueblo que arde bajo tierra desde 1962 #shorts](https://youtu.be/8-2qyQz5F2Y) | publicado | 4 |
-| 2026-11-16 | short | [El secreto militar tras el caso Roswell en 1947 #shorts](https://youtu.be/wOJS0q3a4mY) | publicado | 14 |
-| 2026-11-16 | short | [Tres detalles inquietantes del mito del chupacabras #shorts](https://youtu.be/5N_S1zKYr_w) | publicado | 1 218 |
-| 2026-11-16 | short | [El misterio del rayo globular que explota #shorts](https://youtu.be/sXWW4xfEsgI) | publicado | 802 |
+| 2026-11-17 | short | [El misterio de Amelia Earhart #shorts](https://youtu.be/HTYdye0PdzQ) | publicado | 368 |
+| 2026-11-17 | short | [Tres datos inquietantes del Mothman #shorts](https://youtu.be/7ktCmZIUM2s) | publicado | 11 |
+| 2026-11-16 | short | [El misterio de la Condesa Sangrienta, Elizabeth Báthory #shorts](https://youtu.be/qWKKVZCT5z8) | publicado | 128 |
+| 2026-11-16 | short | [El misterio de la explosión en Tunguska de 1908 #shorts](https://youtu.be/k7_hecB7cOc) | publicado | 4 |
+| 2026-11-16 | short | [El pueblo que arde bajo tierra desde 1962 #shorts](https://youtu.be/8-2qyQz5F2Y) | publicado | 5 |
+| 2026-11-16 | short | [El secreto militar tras el caso Roswell en 1947 #shorts](https://youtu.be/wOJS0q3a4mY) | publicado | 18 |
+| 2026-11-16 | short | [Tres detalles inquietantes del mito del chupacabras #shorts](https://youtu.be/5N_S1zKYr_w) | publicado | 1 239 |
+| 2026-11-16 | short | [El misterio del rayo globular que explota #shorts](https://youtu.be/sXWW4xfEsgI) | publicado | 811 |
 | 2026-11-15 | short | El misterio sin resolver de Jimmy Hoffa #shorts | creado | — |
-| 2026-11-15 | short | [El misterio del Diablo de Jersey #shorts](https://youtu.be/tgejcauNSRI) | publicado | 1 330 |
+| 2026-11-15 | short | [El misterio del Diablo de Jersey #shorts](https://youtu.be/tgejcauNSRI) | publicado | 1 346 |
 | 2026-11-15 | short | El misterioso encuentro en la escuela Ariel de 1994 #shorts | creado | — |
+
+## Aprendizajes
+
+- Los shorts de 50-60s rinden mejor.
+- Las publicaciones cerca de las 0:00 (America/Mexico_City) tienen más vistas.
 
 ## Errores recientes
 
