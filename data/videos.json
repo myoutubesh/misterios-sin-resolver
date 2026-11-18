@@ -1226,5 +1226,47 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-18-short-death-of-elisa-lam",
+    "fecha": "2026-11-18T14:44:56+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Death of Elisa Lam",
+    "tema_clave": "Death of Elisa Lam",
+    "categoria": "casos_sin_resolver",
+    "interes_wikipedia": 5.27,
+    "titulo_yt": "El faro del misterio: la muerte de Elisa Lam #CaseMysterioso #LosAngeles2013 #Shorts",
+    "estructura": "segunda_persona",
+    "estilo": "grabado",
+    "duracion": 47.4,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Death_of_Elisa_Lam",
+      "https://es.wikipedia.org/wiki/Muerte_de_Elisa_Lam"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
