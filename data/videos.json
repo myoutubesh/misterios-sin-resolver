@@ -1314,5 +1314,81 @@
     "privacidad": "private",
     "publicar_en": "2026-11-18T18:00:00Z",
     "url": "https://youtu.be/dMMJYVkLmQg"
+  },
+  {
+    "id": "2026-11-18-short-enfield-poltergeist",
+    "fecha": "2026-11-18T17:54:28+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Enfield poltergeist",
+    "tema_clave": "Enfield poltergeist",
+    "categoria": "paranormal",
+    "interes_wikipedia": 4.67,
+    "titulo_yt": "Enfield: ¿poltergeist o atrapar a los niños? #EnfieldPoltergeist #Enfield #Shorts",
+    "estructura": "cronologica",
+    "estilo": "archivo_antiguo",
+    "duracion": 61.1,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Enfield_poltergeist",
+      "https://es.wikipedia.org/wiki/Poltergeist_de_Enfield"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-18-short-catatumbo-lightning",
+    "fecha": "2026-11-18T18:05:26+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Catatumbo lightning",
+    "tema_clave": "Catatumbo lightning",
+    "categoria": "fenomenos",
+    "interes_wikipedia": 5.04,
+    "titulo_yt": "Tres datos que te dejarán sin aliento del relámpago del Catatumbo #Catatumbo #Venezuela1951 #Shorts",
+    "estructura": "tres_detalles",
+    "estilo": "grabado",
+    "duracion": 41.7,
+    "escenas": 5,
+    "clips_reales": 1,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Catatumbo_lightning",
+      "https://es.wikipedia.org/wiki/Rel%C3%A1mpago_del_Catatumbo"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]

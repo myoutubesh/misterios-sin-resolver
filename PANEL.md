@@ -1,15 +1,17 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-18 16:17 UTC*
+*Actualizado: 2026-11-18 18:05 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 26 | 3 898 | 29 | 14 | 3 | 18 | $0.00 |
+| 26 | 3 898 | 31 | 14 | 3 | 20 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-18 | short | Tres datos que te dejarán sin aliento del relámpago del Catatumbo #Catatumbo #Venezuela1951 #Shorts | retenido_calidad | — |
+| 2026-11-18 | short | Enfield: ¿poltergeist o atrapar a los niños? #EnfieldPoltergeist #Enfield #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | [¿Origen prehispánico de La Llorona? #LaLlorona #Xochimilco #Shorts](https://youtu.be/dMMJYVkLmQg) | programado | — |
 | 2026-11-18 | short | El faro del misterio: la muerte de Elisa Lam #CaseMysterioso #LosAngeles2013 #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | El asesino del Zodiaco: misterio sin resolver #Zodiaco #SanFrancisco #Shorts | retenido_calidad | — |
@@ -38,7 +40,6 @@
 | 2026-11-16 | short | [El misterio del rayo globular que explota #shorts](https://youtu.be/sXWW4xfEsgI) | publicado | 811 |
 | 2026-11-15 | short | El misterio sin resolver de Jimmy Hoffa #shorts | creado | — |
 | 2026-11-15 | short | [El misterio del Diablo de Jersey #shorts](https://youtu.be/tgejcauNSRI) | publicado | 1 346 |
-| 2026-11-15 | short | El misterioso encuentro en la escuela Ariel de 1994 #shorts | creado | — |
 
 ## Aprendizajes
 
@@ -47,6 +48,8 @@
 
 ## Errores recientes
 
+- 2026-11-18T17:56 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
+- 2026-11-18T17:34 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-18T14:46 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion incluye numerosos hechos y descripciones que no aparecen en la fuente original, como un león que salta sobre un muro de 3 metros, la frase ‘llego a la gente con garras frías’, la idea de que `
 - 2026-11-18T14:33 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-18T13:46 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
@@ -55,5 +58,3 @@
 - 2026-11-17T23:34 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion menciona una radio portátil que captó una voz leyendo números en 1998, además de una red caida esa fecha y casos de espionaje que no aparecen en la fuente proporcionada. Estos hechos no están`
 - 2026-11-17T22:07 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-17T21:59 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion describe hechos que no aparecen o están incorrectos respecto a la fuente: menciona el avión 725 en lugar del 305, confunde el orden de los eventos (p.ej., la salida de pasajeros antes del sal`
-- 2026-11-17T20:32 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
-- 2026-11-17T20:28 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion relata hechos y detalles que no aparecen en la fuente proporcionada (por ejemplo, la silla que se desliza sola, el agente policial paralizado, la escena con cucharas y escoba, y la presencia `
