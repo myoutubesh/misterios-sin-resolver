@@ -1,15 +1,16 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-17 23:44 UTC*
+*Actualizado: 2026-11-18 01:56 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 26 | 3 092 | 22 | 10 | 3 | 14 | $0.00 |
+| 26 | 3 092 | 23 | 10 | 4 | 14 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-18 | short | [El misterio de los 72 segundos de la señal Wow! #SenalWow #BigEar1977 #Shorts](https://youtu.be/70oqpq4dkA4) | programado | — |
 | 2026-11-17 | short | Glenn Miller desapareció en el Canal de la Mancha #Miller1944 #CanaldeMancha #Shorts | retenido_calidad | — |
 | 2026-11-17 | short | La plaga del baile 1518: una historia de descontrol #PesteDeBaile #Estrasburgo1518 #Shorts | retenido_calidad | — |
 | 2026-11-17 | short | [El misterio de UVB‑76, la radio que nunca apaga #UVB76 #Buzzer #Shorts](https://youtu.be/zuoj8SX8Umo) | programado | — |

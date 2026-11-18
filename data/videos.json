@@ -996,5 +996,51 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-18-short-wow-signal",
+    "fecha": "2026-11-18T01:56:40+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Wow! signal",
+    "tema_clave": "Wow! signal",
+    "categoria": "conspiraciones",
+    "interes_wikipedia": 5.87,
+    "titulo_yt": "El misterio de los 72 segundos de la señal Wow! #SenalWow #BigEar1977 #Shorts",
+    "estructura": "tres_detalles",
+    "estilo": "carmesi",
+    "duracion": 56.0,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Wow!_signal",
+      "https://es.wikipedia.org/wiki/Se%C3%B1al_Wow!"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "70oqpq4dkA4",
+    "privacidad": "private",
+    "publicar_en": "2026-11-18T03:00:00Z",
+    "url": "https://youtu.be/70oqpq4dkA4"
   }
 ]

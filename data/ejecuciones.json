@@ -372,5 +372,16 @@
     "fin": "2026-11-17T23:44:56+00:00",
     "error": "GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion presenta hechos que no aparecen en la fuente (por ejemplo, la falta de huellas de salida, el hecho de que no se llamó a la policía, y la mención de huellas en la nieve que van solo en una dir",
     "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 121, in crear_video\n    g = guion.guion_short(art) if vertical else guion.guion_largo(art, prueba=prueba)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/guion.py\", line 266, in guion_short\n    g = _revisar(g, art, \"YouTube Short de 45 segundos\",\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/guion.py\", line 190, in _revisar\n    raise GuionNoFiel(f\"el editor detectó que el guion no sale de la fuente: {resp.get('problema', '')[:200]}\")\npipeline.guion.GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion presenta hechos que no aparecen en la fuente (por ejemplo, la falta de huellas de salida, el hecho de que no se llamó a la policía, y la mención de huellas en la nieve que van solo en una dir\n"
+  },
+  {
+    "id": "20261118-012641-short",
+    "tipo": "short",
+    "inicio": "2026-11-18T01:26:41+00:00",
+    "estado": "ok",
+    "tema": "Wow! signal",
+    "video": "2026-11-18-short-wow-signal",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-18T01:56:44+00:00"
   }
 ]
