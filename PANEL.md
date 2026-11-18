@@ -1,15 +1,16 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-18 14:52 UTC*
+*Actualizado: 2026-11-18 16:17 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 26 | 3 898 | 28 | 14 | 2 | 18 | $0.00 |
+| 26 | 3 898 | 29 | 14 | 3 | 18 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-18 | short | [¿Origen prehispánico de La Llorona? #LaLlorona #Xochimilco #Shorts](https://youtu.be/dMMJYVkLmQg) | programado | — |
 | 2026-11-18 | short | El faro del misterio: la muerte de Elisa Lam #CaseMysterioso #LosAngeles2013 #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | El asesino del Zodiaco: misterio sin resolver #Zodiaco #SanFrancisco #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | Jack saltarín: la criatura que saltó sobre muros y escaló corceles #SpringHeeledJack #Londres1837 | retenido_calidad | — |

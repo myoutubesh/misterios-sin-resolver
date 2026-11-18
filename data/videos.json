@@ -1268,5 +1268,51 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-18-short-la-llorona",
+    "fecha": "2026-11-18T16:17:11+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "La Llorona",
+    "tema_clave": "La Llorona",
+    "categoria": "leyendas",
+    "interes_wikipedia": 5.72,
+    "titulo_yt": "¿Origen prehispánico de La Llorona? #LaLlorona #Xochimilco #Shorts",
+    "estructura": "en_medias_res",
+    "estilo": "grabado",
+    "duracion": 47.0,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/La_Llorona",
+      "https://es.wikipedia.org/wiki/Llorona"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "dMMJYVkLmQg",
+    "privacidad": "private",
+    "publicar_en": "2026-11-18T18:00:00Z",
+    "url": "https://youtu.be/dMMJYVkLmQg"
   }
 ]
