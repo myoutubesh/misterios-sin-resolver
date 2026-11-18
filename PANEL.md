@@ -1,10 +1,10 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-18 22:18 UTC*
+*Actualizado: 2026-11-18 23:46 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 26 | 3 898 | 35 | 14 | 4 | 25 | $0.00 |
+| 26 | 3 898 | 35 | 14 | 4 | 27 | $0.00 |
 
 ## Últimos videos
 
@@ -48,6 +48,8 @@
 
 ## Errores recientes
 
+- 2026-11-18T23:45 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion menciona un estruendo sobre el lago Michigan en 1959, un evento que no aparece en la fuente proporcionada. Además, incluye detalles sobre artes locales y fechas que no están respaldados por l`
+- 2026-11-18T23:34 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guión describe hechos que no aparecen en la fuente o los presenta de manera incorrecta: 1) menciona a ‘tres hombres’ pero la fuente indica a tres compañeros con nombres específicos; 2) habla de una`
 - 2026-11-18T22:10 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-18T21:57 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-18T21:01 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
@@ -56,5 +58,3 @@
 - 2026-11-18T17:56 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-18T17:34 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-18T14:46 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion incluye numerosos hechos y descripciones que no aparecen en la fuente original, como un león que salta sobre un muro de 3 metros, la frase ‘llego a la gente con garras frías’, la idea de que `
-- 2026-11-18T14:33 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
-- 2026-11-18T13:46 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
