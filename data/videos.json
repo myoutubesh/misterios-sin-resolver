@@ -1134,5 +1134,97 @@
     "privacidad": "private",
     "publicar_en": "2026-11-18T15:00:00Z",
     "url": "https://youtu.be/wgIwv_8KmWs"
+  },
+  {
+    "id": "2026-11-18-short-spring-heeled-jack",
+    "fecha": "2026-11-18T13:44:02+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Spring-heeled Jack",
+    "tema_clave": "Spring-heeled Jack",
+    "categoria": "paranormal",
+    "interes_wikipedia": 4.99,
+    "titulo_yt": "Jack saltarín: la criatura que saltó sobre muros y escaló corceles #SpringHeeledJack #Londres1837",
+    "estructura": "cronologica",
+    "estilo": "archivo_antiguo",
+    "duracion": 49.5,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Spring-heeled_Jack",
+      "https://es.wikipedia.org/wiki/Spring_Heeled_Jack"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-18-short-zodiac-killer",
+    "fecha": "2026-11-18T14:04:17+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Zodiac Killer",
+    "tema_clave": "Zodiac Killer",
+    "categoria": "curiosidades",
+    "interes_wikipedia": 6.55,
+    "titulo_yt": "El asesino del Zodiaco: misterio sin resolver #Zodiaco #SanFrancisco #Shorts",
+    "estructura": "cronologica",
+    "estilo": "archivo_antiguo",
+    "duracion": 47.8,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Zodiac_Killer",
+      "https://es.wikipedia.org/wiki/Asesino_del_Zodiaco"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
