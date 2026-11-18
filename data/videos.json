@@ -1359,19 +1359,19 @@
   },
   {
     "id": "2026-11-18-short-catatumbo-lightning",
-    "fecha": "2026-11-18T18:05:26+00:00",
+    "fecha": "2026-11-18T22:18:53+00:00",
     "formato": "short",
     "estado": "retenido_calidad",
     "tema": "Catatumbo lightning",
     "tema_clave": "Catatumbo lightning",
     "categoria": "fenomenos",
-    "interes_wikipedia": 5.04,
-    "titulo_yt": "Tres datos que te dejarán sin aliento del relámpago del Catatumbo #Catatumbo #Venezuela1951 #Shorts",
-    "estructura": "tres_detalles",
+    "interes_wikipedia": 4.76,
+    "titulo_yt": "Relámpagos eternos sobre el lago de Maracaibo #Catatumbo #Maracaibo #Shorts",
+    "estructura": "en_medias_res",
     "estilo": "grabado",
-    "duracion": 41.7,
-    "escenas": 5,
-    "clips_reales": 1,
+    "duracion": 49.1,
+    "escenas": 8,
+    "clips_reales": 2,
     "musica": "drone sintetizado",
     "verificacion": "solo contra Wikipedia (EN y ES)",
     "fuentes": [
@@ -1380,6 +1380,14 @@
     ],
     "costo_usd": 0.0,
     "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
       {
         "proveedor": "pollinations",
         "modelo": "openai",
@@ -1502,6 +1510,56 @@
     ],
     "costo_usd": 0.0,
     "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-18-short-gobekli-tepe",
+    "fecha": "2026-11-18T22:08:57+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Göbekli Tepe",
+    "tema_clave": "Göbekli Tepe",
+    "categoria": "civilizaciones",
+    "interes_wikipedia": 5.42,
+    "titulo_yt": "Los pilares que rompen la idea de la agricultura #GöbekliTepe #Turquia9600 #Shorts",
+    "estructura": "tres_detalles",
+    "estilo": "carmesi",
+    "duracion": 47.3,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe",
+      "https://es.wikipedia.org/wiki/G%C3%B6bekli_Tepe"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
       {
         "proveedor": "pollinations",
         "modelo": "openai",
