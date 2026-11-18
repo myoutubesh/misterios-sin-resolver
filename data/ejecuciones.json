@@ -383,5 +383,16 @@
     "estado_video": "programado",
     "costo_usd": 0.0,
     "fin": "2026-11-18T01:56:44+00:00"
+  },
+  {
+    "id": "20261118-111015-short",
+    "tipo": "short",
+    "inicio": "2026-11-18T11:10:15+00:00",
+    "estado": "ok",
+    "tema": "Skinwalker Ranch",
+    "video": "2026-11-18-short-skinwalker-ranch",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-18T11:23:51+00:00"
   }
 ]

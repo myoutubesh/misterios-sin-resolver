@@ -1042,5 +1042,51 @@
     "privacidad": "private",
     "publicar_en": "2026-11-18T03:00:00Z",
     "url": "https://youtu.be/70oqpq4dkA4"
+  },
+  {
+    "id": "2026-11-18-short-skinwalker-ranch",
+    "fecha": "2026-11-18T11:23:48+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Skinwalker Ranch",
+    "tema_clave": "Skinwalker Ranch",
+    "categoria": "lugares",
+    "interes_wikipedia": 5.64,
+    "titulo_yt": "El misterio de Skinwalker Ranch en Utah #SkinwalkerRanch #UintahCounty #Shorts",
+    "estructura": "en_medias_res",
+    "estilo": "archivo_antiguo",
+    "duracion": 49.9,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Skinwalker_Ranch",
+      "https://es.wikipedia.org/wiki/Rancho_Skinwalker"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "_tS205NAA9c",
+    "privacidad": "private",
+    "publicar_en": "2026-11-18T13:00:00Z",
+    "url": "https://youtu.be/_tS205NAA9c"
   }
 ]

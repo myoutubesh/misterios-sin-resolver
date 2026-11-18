@@ -1,15 +1,16 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-18 01:56 UTC*
+*Actualizado: 2026-11-18 11:23 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 26 | 3 092 | 23 | 10 | 4 | 14 | $0.00 |
+| 26 | 3 092 | 24 | 10 | 5 | 14 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-18 | short | [El misterio de Skinwalker Ranch en Utah #SkinwalkerRanch #UintahCounty #Shorts](https://youtu.be/_tS205NAA9c) | programado | — |
 | 2026-11-18 | short | [El misterio de los 72 segundos de la señal Wow! #SenalWow #BigEar1977 #Shorts](https://youtu.be/70oqpq4dkA4) | programado | — |
 | 2026-11-17 | short | Glenn Miller desapareció en el Canal de la Mancha #Miller1944 #CanaldeMancha #Shorts | retenido_calidad | — |
 | 2026-11-17 | short | La plaga del baile 1518: una historia de descontrol #PesteDeBaile #Estrasburgo1518 #Shorts | retenido_calidad | — |
