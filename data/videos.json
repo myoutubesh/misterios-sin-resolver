@@ -1390,5 +1390,51 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-18-short-operation-paperclip",
+    "fecha": "2026-11-18T19:37:52+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Operation Paperclip",
+    "tema_clave": "Operation Paperclip",
+    "categoria": "conspiraciones",
+    "interes_wikipedia": 5.34,
+    "titulo_yt": "El secreto que impulsó la llegada a la Luna #OperacionPaperclip #WernherVonBraun #Shorts",
+    "estructura": "cronologica",
+    "estilo": "luna_fria",
+    "duracion": 55.0,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Operation_Paperclip",
+      "https://es.wikipedia.org/wiki/Operaci%C3%B3n_Paperclip"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "JYEUPufmapM",
+    "privacidad": "private",
+    "publicar_en": "2026-11-18T21:00:00Z",
+    "url": "https://youtu.be/JYEUPufmapM"
   }
 ]
