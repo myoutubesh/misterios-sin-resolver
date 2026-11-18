@@ -1436,5 +1436,89 @@
     "privacidad": "private",
     "publicar_en": "2026-11-18T21:00:00Z",
     "url": "https://youtu.be/JYEUPufmapM"
+  },
+  {
+    "id": "2026-11-18-short-dyatlov-pass-incident",
+    "fecha": "2026-11-18T20:59:36+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Dyatlov Pass incident",
+    "tema_clave": "Dyatlov Pass incident",
+    "categoria": "casos_sin_resolver",
+    "interes_wikipedia": 5.56,
+    "titulo_yt": "Escapó del sueño en Kholat Syakhl #DyatlovPass #KholatSyakhl #Shorts",
+    "estructura": "cronologica",
+    "estilo": "luna_fria",
+    "duracion": 53.8,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Dyatlov_Pass_incident",
+      "https://es.wikipedia.org/wiki/Incidente_del_paso_Di%C3%A1tlov"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-18-short-cicada-3301",
+    "fecha": "2026-11-18T21:10:54+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Cicada 3301",
+    "tema_clave": "Cicada 3301",
+    "categoria": "curiosidades",
+    "interes_wikipedia": 4.81,
+    "titulo_yt": "Cicada 3301: el reto que desafía a la mente #Cicada3301 #InternetMisterio #Shorts",
+    "estructura": "en_medias_res",
+    "estilo": "noche_turquesa",
+    "duracion": 78.5,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Cicada_3301",
+      "https://es.wikipedia.org/wiki/Cicada_3301"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
