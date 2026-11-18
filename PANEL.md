@@ -1,15 +1,16 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-18 11:59 UTC*
+*Actualizado: 2026-11-18 12:48 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 26 | 3 898 | 24 | 14 | 1 | 14 | $0.00 |
+| 26 | 3 898 | 25 | 14 | 2 | 14 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-18 | short | [El enigma de Kaspar Hauser y su trágico final #KasparHauser #Nuremberg1828 #Shorts](https://youtu.be/wgIwv_8KmWs) | programado | — |
 | 2026-11-18 | short | [El misterio de Skinwalker Ranch en Utah #SkinwalkerRanch #UintahCounty #Shorts](https://youtu.be/_tS205NAA9c) | programado | 0 |
 | 2026-11-18 | short | [El misterio de los 72 segundos de la señal Wow! #SenalWow #BigEar1977 #Shorts](https://youtu.be/70oqpq4dkA4) | publicado | 392 |
 | 2026-11-17 | short | Glenn Miller desapareció en el Canal de la Mancha #Miller1944 #CanaldeMancha #Shorts | retenido_calidad | — |

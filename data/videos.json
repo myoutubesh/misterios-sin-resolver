@@ -1088,5 +1088,51 @@
     "privacidad": "private",
     "publicar_en": "2026-11-18T13:00:00Z",
     "url": "https://youtu.be/_tS205NAA9c"
+  },
+  {
+    "id": "2026-11-18-short-kaspar-hauser",
+    "fecha": "2026-11-18T12:48:01+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Kaspar Hauser",
+    "tema_clave": "Kaspar Hauser",
+    "categoria": "casos_sin_resolver",
+    "interes_wikipedia": 4.85,
+    "titulo_yt": "El enigma de Kaspar Hauser y su trágico final #KasparHauser #Nuremberg1828 #Shorts",
+    "estructura": "en_medias_res",
+    "estilo": "grabado",
+    "duracion": 50.5,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Kaspar_Hauser",
+      "https://es.wikipedia.org/wiki/Kaspar_Hauser"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "wgIwv_8KmWs",
+    "privacidad": "private",
+    "publicar_en": "2026-11-18T15:00:00Z",
+    "url": "https://youtu.be/wgIwv_8KmWs"
   }
 ]

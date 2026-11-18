@@ -401,5 +401,16 @@
     "inicio": "2026-11-18T11:59:50+00:00",
     "estado": "ok",
     "fin": "2026-11-18T11:59:51+00:00"
+  },
+  {
+    "id": "20261118-123508-short",
+    "tipo": "short",
+    "inicio": "2026-11-18T12:35:08+00:00",
+    "estado": "ok",
+    "tema": "Kaspar Hauser",
+    "video": "2026-11-18-short-kaspar-hauser",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-18T12:48:04+00:00"
   }
 ]
