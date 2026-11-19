@@ -52,8 +52,14 @@ VOLUMEN_MUSICA = float(os.getenv("VOLUMEN_MUSICA", "0.22"))
 PRIVACIDAD = os.getenv("YT_PRIVACIDAD", "public")       # public | unlisted | private
 CATEGORIA_YT = os.getenv("YT_CATEGORIA", "24")          # 24 = Entretenimiento
 # Si se define (p. ej. "18:30"), los videos se suben privados y YouTube los publica a esa hora (Ciudad de México)
-# Máximo de shorts automáticos por día de cuota de YouTube (martes y viernes se resta 1 por el video largo)
-LIMITE_SHORTS_DIA = int(os.getenv("LIMITE_SHORTS_DIA", "6"))
+# Cuota de YouTube: 10,000 unidades al día y cada subida cuesta 1,600 → máximo 6 subidas por día de cuota
+# (el día de la cuota va de medianoche a medianoche, hora del Pacífico). Los shorts dejan 1 lugar libre los días
+# que hay video largo, así que quedan 5 shorts + 1 largo.
+LIMITE_SUBIDAS_DIA = int(os.getenv("LIMITE_SUBIDAS_DIA", os.getenv("LIMITE_SHORTS_DIA", "6")))
+# Días con video largo (0 = lunes … 6 = domingo, según el día de cuota del Pacífico). Por defecto: todos.
+LARGO_DIAS = {int(x) for x in os.getenv("LARGO_DIAS", "0,1,2,3,4,5,6").split(",") if x.strip().isdigit()}
+# Probabilidad de que el video largo del día sea una LISTA ("7 leyendas de México") en vez de un caso a fondo
+PROB_LISTA = float(os.getenv("PROB_LISTA", "0.45"))
 HORA_PUBLICACION = os.getenv("YT_HORA_PUBLICACION", "")
 ZONA_HORARIA = os.getenv("ZONA_HORARIA", "America/Mexico_City")
 

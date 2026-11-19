@@ -10,7 +10,7 @@
  3/día      │                + aprendizajes de tus estadísticas → elige el tema       │
  shorts     │ 2 GUIONIZAR    IA: Claude API ▸ Gemini ▸ Pollinations (respaldo)         │
             │                borrador → editor → verificación con búsqueda web         │
- 2/semana   │ 3 NARRAR       voz neuronal es-MX (edge-tts) + tiempos por palabra       │
+ 1/día      │ 3 NARRAR       voz neuronal es-MX (edge-tts) + tiempos por palabra       │
  largos     │ 4 VISUALES     imágenes IA (Pollinations) + clips reales (Pexels)        │
             │ 5 EDITAR       FFmpeg: cámara, transiciones, subtítulos, música y efectos │
             │                generados, normalización de volumen, plantilla variable  │
@@ -44,7 +44,9 @@ Todo vive en un repositorio de GitHub. No hace falta servidor, base de datos ext
 
 ## 3. Presupuesto mensual estimado
 
-Supuestos: 2 shorts al día (60/mes) y 2 videos largos por semana (8/mes). Precios oficiales de Claude por millón de tokens: Opus 5.5 $4 / $20, Sonnet 5.5 $2 / $10, Haiku 5.5 $0.10 / $0.50 (entrada / salida).
+Supuestos originales: 2 shorts al día (60/mes) y 2 videos largos por semana (8/mes). **Desde el 18-nov-2026 son
+5 shorts + 1 largo al día (150 shorts y 30 largos al mes): multiplica la tabla por ≈3.5.** El estudio de la
+competencia y los formatos nuevos están en COMPETENCIA.md. Precios oficiales de Claude por millón de tokens: Opus 5.5 $4 / $20, Sonnet 5.5 $2 / $10, Haiku 5.5 $0.10 / $0.50 (entrada / salida).
 
 | Partida | Opción "todo gratis" | Con Claude Haiku 5.5 | Con Claude Sonnet 5.5 | Con Claude Opus 5.5 (máxima calidad) |
 |---|---|---|---|---|

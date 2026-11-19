@@ -6,11 +6,11 @@ Esta guía es para hacer **una sola vez** (de 60 a 90 minutos). Después el sist
 
 ## Qué hace cada día
 
-| Cuándo (hora CDMX) | Qué pasa |
+| Cuándo (hora Costa Rica) | Qué pasa |
 |---|---|
 | 5:00 | Actualiza estadísticas, aprende qué funciona y refresca el panel |
-| 8:00 y 17:00 | Crea y publica (o programa) un short |
-| Martes y viernes 10:00 | Crea y publica (o programa) un video largo de unos 10 minutos con miniatura |
+| 7:00, 9:00, 12:00, 15:00 y 18:00 | Se publica un short (cada uno se crea ~2.5 h antes) |
+| Todos los días 20:37 | Crea un video largo de 14 a 20 minutos con miniatura: un caso a fondo o una lista de 5-7 casos ("7 leyendas de México"). Si defines la variable `YT_HORA_PUBLICACION_LARGOS` se publica solo a esa hora; si no, queda privado para que lo publiques tú |
 | Si algo falla | Reintenta una vez. Si vuelve a fallar, GitHub te manda un correo y el error aparece en el panel |
 
 ---

@@ -1,0 +1,20 @@
+{
+  "_nota": "Temas de los videos largos tipo LISTA (formato copiado de MundoCreepy/Dross, ver COMPETENCIA.md). 'tema' va en el título; 'lang' es la Wikipedia de donde salen los casos; 'categorias' son categorías de esa Wikipedia. Puedes agregar más con el mismo formato.",
+  "listas": [
+    {"id": "leyendas_mexico", "tema": "leyendas de México", "lang": "es", "categorias": ["Categoría:Leyendas de México"]},
+    {"id": "leyendas_argentina", "tema": "leyendas de Argentina", "lang": "es", "categorias": ["Categoría:Leyendas de Argentina"]},
+    {"id": "leyendas_colombia", "tema": "leyendas de Colombia", "lang": "es", "categorias": ["Categoría:Leyendas de Colombia"]},
+    {"id": "leyendas_chile", "tema": "leyendas de Chile", "lang": "es", "categorias": ["Categoría:Leyendas de Chile"]},
+    {"id": "leyendas_peru", "tema": "leyendas del Perú", "lang": "es", "categorias": ["Categoría:Leyendas de Perú"]},
+    {"id": "leyendas_espana", "tema": "leyendas de España", "lang": "es", "categorias": ["Categoría:Leyendas de España"]},
+    {"id": "leyendas_costa_rica", "tema": "leyendas de Costa Rica", "lang": "es", "categorias": ["Categoría:Leyendas de Costa Rica"]},
+    {"id": "aviones", "tema": "aviones que desaparecieron sin dejar rastro", "lang": "en", "categorias": ["Category:Missing aircraft"]},
+    {"id": "barcos", "tema": "barcos fantasma encontrados a la deriva", "lang": "en", "categorias": ["Category:Ghost ships"]},
+    {"id": "desapariciones", "tema": "desapariciones que nadie ha podido explicar", "lang": "en", "categorias": ["Category:Unexplained disappearances"]},
+    {"id": "criptidos", "tema": "criaturas que la ciencia no ha podido demostrar", "lang": "en", "categorias": ["Category:Cryptids"]},
+    {"id": "sonidos", "tema": "sonidos misteriosos que la ciencia no explica", "lang": "en", "categorias": ["Category:Unidentified sounds"]},
+    {"id": "escrituras", "tema": "escrituras antiguas que nadie ha podido descifrar", "lang": "en", "categorias": ["Category:Undeciphered writing systems"]},
+    {"id": "fenomenos", "tema": "fenómenos inexplicables", "lang": "en", "categorias": ["Category:Unexplained phenomena"]},
+    {"id": "enganos", "tema": "engaños que el mundo entero se creyó", "lang": "en", "categorias": ["Category:Hoaxes"]}
+  ]
+}

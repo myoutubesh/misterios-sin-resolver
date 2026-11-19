@@ -86,11 +86,11 @@ def traer_articulo(titulo, largo=False):
     return info
 
 
-def visitas(titulo, dias=60):
+def visitas(titulo, dias=60, lang="en"):
     fin = dt.date.today() - dt.timedelta(days=1)
     ini = fin - dt.timedelta(days=dias)
     t = urllib.parse.quote(titulo.replace(" ", "_"), safe="")
-    url = (f"https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/"
+    url = (f"https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/{lang}.wikipedia/all-access/user/"
            f"{t}/daily/{ini:%Y%m%d}/{fin:%Y%m%d}")
     try:
         r = requests.get(url, headers=H, timeout=20)
@@ -101,11 +101,11 @@ def visitas(titulo, dias=60):
     return 0
 
 
-def _miembros(categoria):
+def _miembros(categoria, lang="en"):
     try:
-        d = _api("en", action="query", list="categorymembers", cmtitle=categoria, cmlimit=500, cmnamespace=0)
+        d = _api(lang, action="query", list="categorymembers", cmtitle=categoria, cmlimit=500, cmnamespace=0)
         return [m["title"] for m in d["query"]["categorymembers"]
-                if not m["title"].lower().startswith(("list of", "lists of"))]
+                if not m["title"].lower().startswith(("list of", "lists of", "anexo:", "lista de"))]
     except Exception as e:  # noqa: BLE001
         print(f"[investigacion] no pude leer {categoria}: {e}")
         return []
@@ -190,7 +190,7 @@ def tema_reddit(formato):
             continue
         if not art or art["titulo"].lower() in usados or PROHIBIDO.search(art["texto_en"][:600]):
             continue
-        if len(art["texto_en"]) + len(art["texto_es"]) < (9000 if largo else 2500):
+        if len(art["texto_en"]) + len(art["texto_es"]) < (15000 if largo else 2500):
             continue
         # Candado: el artículo tiene que tratar de un misterio (evita, p. ej., emparejar un post con una banda
         # de rock que se llama igual)
@@ -253,7 +253,7 @@ def elegir_tema(formato="short", forzar=None):
                 continue
             if not art or art["titulo"].lower() in usados or PROHIBIDO.search(art["texto_en"][:600]):
                 continue
-            minimo = 9000 if largo else 2500
+            minimo = 15000 if largo else 2500
             if len(art["texto_en"]) + len(art["texto_es"]) < minimo:
                 print(f"[investigacion] {titulo}: poco material, salto")
                 continue
@@ -261,3 +261,85 @@ def elegir_tema(formato="short", forzar=None):
             print(f"[investigacion] categoría {categoria} → {art['titulo']} (interés {puntos:.2f})")
             return art
     raise RuntimeError("No encontré un tema nuevo. Agrega más en data/temas.json")
+
+
+# ---------- VIDEOS LARGOS TIPO LISTA ("7 leyendas de México", "7 barcos fantasma"…) ----------
+LISTAS = DATA / "listas.json"
+
+
+def traer_articulo_es(titulo):
+    """Artículo de Wikipedia en español (para listas de leyendas de países hispanos)."""
+    d = _api("es", action="query", prop="extracts|info", explaintext=1, redirects=1, titles=titulo, inprop="url")
+    page = d["query"]["pages"][0]
+    if page.get("missing"):
+        return None
+    texto = _limpiar(page.get("extract", ""))
+    return {"titulo": page["title"], "url": page.get("fullurl"), "texto_en": "", "texto_es": texto[:7000],
+            "fuentes": [page.get("fullurl")] if page.get("fullurl") else []}
+
+
+def casos_usados_en_listas():
+    usados = set()
+    for v in db.videos():
+        for c in v.get("casos") or []:
+            usados.add(c.lower())
+    return usados
+
+
+def elegir_lista(forzar_id=None, minimo=5, maximo=7):
+    """Elige un tema de lista que no se haya usado hace poco y junta de 5 a 7 casos con su fuente.
+
+    Devuelve un 'art' compatible con el resto del sistema: texto_en = todas las fuentes juntas, una por caso.
+    """
+    listas = json.loads(LISTAS.read_text(encoding="utf-8"))["listas"]
+    recientes = [v.get("lista_id") for v in db.videos() if v.get("lista_id")][-8:]
+    if forzar_id:
+        opciones = [x for x in listas if x["id"] == forzar_id]
+    else:
+        opciones = [x for x in listas if x["id"] not in recientes] or listas
+    random.shuffle(opciones)
+    usados = casos_usados_en_listas() | db.temas_usados()
+    for lista in opciones:
+        lang = lista.get("lang", "en")
+        genericos = {lista["tema"].lower()}
+        candidatos = []
+        for cat in lista["categorias"]:
+            nombre_cat = cat.split(":", 1)[-1].lower()
+            genericos.add(nombre_cat)
+            candidatos += [t for t in _miembros(cat, lang) if t.lower() not in usados]
+        candidatos = [t for t in dict.fromkeys(candidatos)
+                      if not PROHIBIDO.search(t) and t.lower() not in genericos
+                      and t.lower() not in ("leyenda", "leyenda urbana", "hoax", "ghost ship", "cryptid",
+                                            "undeciphered writing systems", "missing aircraft")]
+        if len(candidatos) < minimo:
+            print(f"[investigacion] lista {lista['id']}: solo {len(candidatos)} casos nuevos, salto")
+            continue
+        muestra = random.sample(candidatos, min(16, len(candidatos)))
+        puntuados = sorted(((math.log10(visitas(t, lang=lang) + 10) * random.uniform(0.85, 1.15), t) for t in muestra),
+                           reverse=True)
+        casos = []
+        for _, titulo in puntuados:
+            try:
+                art = traer_articulo_es(titulo) if lang == "es" else traer_articulo(titulo)
+            except Exception as e:  # noqa: BLE001
+                print(f"[investigacion] error con {titulo}: {e}")
+                continue
+            if not art:
+                continue
+            texto = (art["texto_en"] + "\n\n" + art["texto_es"]).strip()
+            if len(texto) < 1500 or PROHIBIDO.search(texto[:800]):
+                continue
+            casos.append({"titulo": art["titulo"], "texto": texto[:5000], "fuentes": art["fuentes"]})
+            if len(casos) == maximo:
+                break
+        if len(casos) < minimo:
+            print(f"[investigacion] lista {lista['id']}: solo {len(casos)} casos con suficiente material, salto")
+            continue
+        fuente = "\n\n".join(f"=== CASO {i + 1}: {c['titulo']} ===\n{c['texto']}" for i, c in enumerate(casos))
+        print(f"[investigacion] lista '{lista['tema']}' con {len(casos)} casos: " + ", ".join(c["titulo"] for c in casos))
+        return {"titulo": f"{len(casos)} {lista['tema']}", "tema_lista": lista["tema"], "lista_id": lista["id"],
+                "clave": f"lista:{lista['id']}:" + "|".join(sorted(c["titulo"] for c in casos))[:200],
+                "categoria": f"lista_{lista['id']}", "interes": None, "casos": casos,
+                "texto_en": fuente, "texto_es": "",
+                "fuentes": [u for c in casos for u in c["fuentes"]]}
+    raise RuntimeError("No pude armar ninguna lista con casos nuevos. Agrega temas en data/listas.json")

@@ -274,12 +274,12 @@ def guion_short(art):
 PROMPT_LARGO = """Eres el guionista principal de "{canal}", canal documental de YouTube en español sobre misterios
 reales, casos sin resolver, fenómenos paranormales, lugares misteriosos, leyendas y civilizaciones antiguas.
 
-Escribe el guion de un VIDEO DOCUMENTAL de 9 a 12 minutos sobre el caso de abajo (categoría: {categoria}).
+Escribe el guion de un VIDEO DOCUMENTAL de 14 a 18 minutos sobre el caso de abajo (categoría: {categoria}).
 
 ESTRUCTURA
 1. Introducción (60-90 s): abre con la escena más intrigante, plantea la gran pregunta y promete qué se va a
    descubrir. No saludes ni pidas suscripción al inicio.
-2. De 4 a 6 capítulos con títulos cortos (contexto, los hechos, la investigación, las teorías, lo que sigue sin
+2. De 5 a 7 capítulos con títulos cortos (contexto, los hechos, la investigación, las teorías, lo que sigue sin
    explicación…). Cada capítulo cierra con una pregunta o giro que empuje al siguiente.
 3. Cierre (45-60 s): resume qué es hecho, qué es teoría y qué sigue abierto; invita a comentar su teoría,
    a suscribirse a {canal} y a ver el siguiente video.
@@ -287,12 +287,16 @@ ESTRUCTURA
 ESTILO: narración documental, intrigante y natural, como un buen podcast de misterio. Variedad de ritmo:
 frases cortas en momentos de tensión, más largas al explicar contexto.
 
-LONGITUD: 1,350 a 1,800 palabras en total, divididas en 45 a 70 escenas de 1 a 3 frases (15 a 40 palabras).
+LONGITUD: 2,000 a 2,600 palabras en total, divididas en 65 a 95 escenas de 1 a 3 frases (15 a 40 palabras).
+Aprovecha TODO el material de la fuente (contexto histórico, personas involucradas, cronología, investigaciones,
+cada teoría con sus pruebas a favor y en contra). Nada de relleno ni repeticiones para alargar.
 Cada escena indica a qué capítulo pertenece ("capitulo": índice desde 0; la introducción es el capítulo 0).
 
 {reglas}
 METADATOS
-- "titulo": máximo 70 caracteres, con la palabra clave principal al inicio, curiosidad honesta.
+- "titulo": máximo 80 caracteres con este patrón: gancho honesto + " | " + nombre del caso con el que la gente
+  lo buscaría. Ej.: "El avión que desapareció y volvió 37 años después | Pan Am 914". Como mucho UNA palabra
+  en MAYÚSCULAS para dar fuerza.
 - "texto_miniatura": 2 a 4 palabras impactantes y honestas para la miniatura (en mayúsculas).
 - "capitulos": lista de títulos de capítulo (el primero es "Introducción").
 - "descripcion": 4 a 6 frases para YouTube (sin revelar el final).
@@ -314,14 +318,14 @@ FUENTE (Wikipedia en español):
 
 
 def guion_largo(art, prueba=False):
-    minimos = (6, 20, 120, 600) if prueba else (35, 90, 1100, 2300)
+    minimos = (6, 20, 120, 600) if prueba else (50, 120, 1700, 3100)
     prompt = PROMPT_LARGO.format(canal=CANAL, categoria=art.get("categoria", ""), reglas=REGLAS_COMUNES,
                                  aprendizajes=_aprendizajes("largo"), titulo=art["titulo"],
                                  texto_en=art["texto_en"], texto_es=art["texto_es"] or "(no hay)")
     if prueba:
-        prompt = prompt.replace("1,350 a 1,800 palabras en total, divididas en 45 a 70 escenas",
+        prompt = prompt.replace("2,000 a 2,600 palabras en total, divididas en 65 a 95 escenas",
                                 "PRUEBA CORTA: 200 a 350 palabras en total, divididas en 8 a 12 escenas") \
-                       .replace("De 4 a 6 capítulos", "2 capítulos")
+                       .replace("De 5 a 7 capítulos", "2 capítulos")
     g = ia.generar_json(prompt, max_tokens=48000, validar=lambda d: _normalizar(d, *minimos))
     caps = [limpiar(c) for c in (g.get("capitulos") or []) if isinstance(c, str)] or ["Introducción"]
     for e in g["escenas"]:
@@ -332,4 +336,72 @@ def guion_largo(art, prueba=False):
     g["capitulos"] = caps
     g = _revisar(g, art, "video documental largo",
                  "Que la introducción enganche en los primeros 15 segundos y que 'texto_miniatura' sea honesto (nada de clickbait falso).")
+    return g
+
+
+# ---------- VIDEO LARGO TIPO LISTA ----------
+PROMPT_LISTA = """Eres el guionista principal de "{canal}", canal documental de YouTube en español sobre misterios
+reales, leyendas, fenómenos sin explicar y casos sin resolver.
+
+Escribe el guion de un VIDEO LISTA de 16 a 20 minutos: "{titulo}". Tienes {n} casos (abajo, cada uno con su fuente).
+
+ESTRUCTURA
+1. Introducción (40-60 s, capítulo 0): abre con un detalle concreto del caso más fuerte, sin decir cuál es,
+   y promete que el último es el más inquietante. No saludes ni pidas suscripción al inicio.
+2. Un capítulo por caso (capítulos 1 a {n}), ordenados del MENOS al MÁS inquietante. Cada caso: dónde y cuándo,
+   qué pasó o qué cuenta la leyenda, qué detalles lo hacen raro, qué explicaciones hay y qué sigue sin
+   explicación. Cierra cada caso con una frase que empuje al siguiente ("pero lo que pasó en … es peor").
+3. Cierre (30-45 s, capítulo {cierre}): cuál te parece más difícil de explicar, pregunta concreta para
+   comentarios, invitación a suscribirse a {canal}.
+
+ESTILO: narración documental, intrigante y natural. Frases cortas en los momentos de tensión.
+
+LONGITUD: 2,100 a 2,900 palabras en total (unas 300 a 380 por caso), divididas en 70 a 110 escenas de 1 a 3
+frases (15 a 40 palabras). Cada escena indica su capítulo ("capitulo": índice desde 0).
+
+{reglas}
+- Cada caso usa SOLO los datos de SU fuente. No mezcles datos entre casos.
+- Si un caso es leyenda o folclore, narra "según la leyenda…", "cuentan que…": nunca como hecho.
+
+METADATOS
+- "titulo": máximo 80 caracteres: el número + el tema + algo que dé curiosidad honesta. Como mucho UNA palabra
+  en MAYÚSCULAS. Ej.: "7 leyendas de México que todavía dan miedo", "7 barcos encontrados sin nadie a bordo".
+- "texto_miniatura": 2 a 4 palabras para la franja de la miniatura (en mayúsculas), sin el número.
+  Ej.: "LEYENDAS DE MÉXICO".
+- "capitulos": lista de {total_caps} títulos: "Introducción", luego "1. Nombre corto del caso", "2. …" en el orden
+  en que los cuentas, y al final "Conclusión".
+- "descripcion": 4 a 6 frases para YouTube (sin revelar cuál es el último caso).
+- "hashtags": 12 sin #, relacionados con los casos y el tema. "tags": 20 etiquetas de búsqueda en español.
+{aprendizajes}
+Responde SOLO con JSON:
+{{"titulo": "", "texto_miniatura": "", "descripcion": "", "hashtags": [], "tags": [], "capitulos": [],
+  "escenas": [{{"capitulo": 0, "narracion": "", "tipo": "hecho", "imagen": "", "stock": ""}}]}}
+
+FUENTES (una por caso):
+{fuente}
+"""
+
+
+def guion_lista(art, prueba=False):
+    n = len(art["casos"])
+    prompt = PROMPT_LISTA.format(canal=CANAL, titulo=art["titulo"], n=n, cierre=n + 1, total_caps=n + 2,
+                                 reglas=REGLAS_COMUNES, aprendizajes=_aprendizajes("largo"), fuente=art["texto_en"])
+    minimos = (n + 4, 40, 300, 1400) if prueba else (55, 130, 1800, 3400)
+    if prueba:
+        prompt = prompt.replace("2,100 a 2,900 palabras en total (unas 300 a 380 por caso), divididas en 70 a 110 escenas",
+                                "PRUEBA CORTA: 350 a 700 palabras en total (unas 60 por caso), divididas en "
+                                f"{n + 4} a 30 escenas")
+    g = ia.generar_json(prompt, max_tokens=56000, validar=lambda d: _normalizar(d, *minimos))
+    caps = [limpiar(c) for c in (g.get("capitulos") or []) if isinstance(c, str)] or ["Introducción"]
+    for e in g["escenas"]:
+        try:
+            e["capitulo"] = max(0, min(int(e.get("capitulo", 0)), len(caps) - 1))
+        except (TypeError, ValueError):
+            e["capitulo"] = 0
+    g["capitulos"] = caps
+    g = _revisar(g, art, "video largo tipo lista (varios casos, cada uno con su fuente)",
+                 "Que cada caso use solo datos de SU fuente, que el título tenga el número correcto de casos y que "
+                 "'texto_miniatura' sea honesto.")
+    if not re.match(rf"\s*{n}\b", g["titulo"]):
+        g["titulo"] = f"{n} " + re.sub(r"^\s*\d+\s*", "", g["titulo"])
     return g

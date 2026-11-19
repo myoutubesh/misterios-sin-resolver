@@ -35,3 +35,13 @@ de misterio y de las reglas de monetización de YouTube). Las IAs del sistema la
 - Una idea visual por escena, con un sujeto claro en el centro (en vertical el centro es lo que se ve).
 - Variar los planos: general (lugar), medio (objeto o silueta), detalle (mano, documento, huella).
 - Nada de rostros de personas reales, texto en la imagen, sangre ni violencia explícita.
+
+7. VIDEOS LARGOS (actualizado 2026-11-18 con el estudio de la competencia, ver COMPETENCIA.md)
+- Los canales grandes del nicho hacen videos de 15 a 30 minutos: un caso a fondo o una lista de 5 a 7 casos.
+- Título de un caso: primero el gancho y después el nombre del caso, separados por " | ".
+  Ej.: "El avión que desapareció y volvió 37 años después | Pan Am 914". El gancho tiene que ser verdad.
+- Título de una lista: número + tema + país o lugar. Ej.: "7 leyendas de México que todavía dan miedo".
+  Nombrar un país hispano funciona muy bien con el público latino.
+- Como mucho UNA palabra en MAYÚSCULAS en el título para dar fuerza ("Por qué NADIE volvió").
+- Cada capítulo cierra con una pregunta o un adelanto del siguiente ("pero el caso número 3 es todavía más raro").
+- Miniatura: 2 a 4 palabras, mucho contraste, sin letra chica, sin exagerar lo que no pasó.

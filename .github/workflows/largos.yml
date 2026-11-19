@@ -2,14 +2,22 @@ name: Videos largos
 
 on:
   schedule:
-    # Martes y viernes a las 16:00 UTC (10:00 en CDMX). Tarda 1-3 horas; queda subido en privado
-    # antes de las 18:00 para que lo publiques tú.
-    - cron: "7 16 * * 2,5"
+    # TODOS LOS DÍAS a las 02:37 UTC (20:37 en Costa Rica), cuando ya no corren shorts. Tarda 1-3 horas.
+    # Se sube antes de que YouTube reinicie la cuota (medianoche del Pacífico = 08:00 UTC), así entra en el mismo
+    # día de cuota que los 5 shorts de ese día (5 + 1 = 6 subidas, el máximo).
+    # Si defines la variable YT_HORA_PUBLICACION_LARGOS (p. ej. "17:00"), YouTube lo publica solo a esa hora;
+    # si no, queda privado para que lo publiques tú.
+    - cron: "37 2 * * *"
   workflow_dispatch:
     inputs:
       tema:
         description: "Tema opcional (título de Wikipedia en inglés)"
         required: false
+      tipo:
+        description: "Tipo de video largo"
+        type: choice
+        options: [auto, caso, lista]
+        default: auto
       subir:
         description: "¿Subir a YouTube?"
         type: boolean
@@ -56,12 +64,15 @@ jobs:
           YT_HORA_PUBLICACION: ${{ vars.YT_HORA_PUBLICACION_LARGOS }}
           ZONA_HORARIA: ${{ vars.ZONA_HORARIA || 'America/Costa_Rica' }}
           REDDIT_PROB: ${{ vars.REDDIT_PROB || '0.4' }}
+          PROB_LISTA: ${{ vars.PROB_LISTA || '0.45' }}
+          LARGO_DIAS: ${{ vars.LARGO_DIAS || '0,1,2,3,4,5,6' }}
           CANAL_NOMBRE: ${{ vars.CANAL_NOMBRE || 'Misterios Sin Resolver' }}
           TEMA: ${{ github.event.inputs.tema }}
           SUBIR: ${{ github.event.inputs.subir }}
           PRUEBA: ${{ github.event.inputs.prueba }}
+          TIPO: ${{ github.event.inputs.tipo || 'auto' }}
         run: |
-          ARGS=(largo)
+          ARGS=(largo --tipo "$TIPO")
           if [ -n "$TEMA" ]; then ARGS+=(--tema "$TEMA"); fi
           if [ "$SUBIR" = "false" ]; then ARGS+=(--no-subir); fi
           if [ "$PRUEBA" = "true" ]; then ARGS+=(--prueba); fi

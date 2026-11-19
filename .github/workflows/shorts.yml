@@ -3,24 +3,23 @@ name: Shorts diarios
 on:
   schedule:
     # Hora UTC. Costa Rica = UTC-6. Cada short se crea ~2.5 h antes y se sube programado para que YouTube
-    # lo publique solo a las 7:00, 9:00, 12:00, 15:00, 18:00 y 21:00 de Costa Rica (YT_HORA_PUBLICACION_SHORTS).
+    # lo publique solo a las 7:00, 9:00, 12:00, 15:00 y 18:00 de Costa Rica (YT_HORA_PUBLICACION_SHORTS).
+    # Son 5 al día: el 6.º lugar de la cuota de YouTube es para el video largo diario (largos.yml).
     # GitHub a veces se salta o retrasa ejecuciones (sobre todo a las :00 y :30), por eso:
     #  - se usan minutos "raros" (:13 y :43), que GitHub respeta mejor;
     #  - cada horario tiene una ejecución de RESPALDO ~1 h después, que solo crea video si la principal no
     #    llegó (si los 2 próximos horarios ya tienen video, termina en segundos sin hacer nada);
-    #  - nunca se pasa de 6 shorts por día de cuota de YouTube (5 martes y viernes, por el video largo).
+    #  - nunca se pasa de 6 subidas por día de cuota de YouTube (5 shorts + 1 largo).
     - cron: "13 10 * * *"   # -> 7:00
     - cron: "13 12 * * *"   # -> 9:00
     - cron: "13 15 * * *"   # -> 12:00
     - cron: "13 18 * * *"   # -> 15:00
     - cron: "13 21 * * *"   # -> 18:00
-    - cron: "13 0 * * *"    # -> 21:00
     - cron: "43 11 * * *"   # respaldos
     - cron: "43 13 * * *"
     - cron: "43 16 * * *"
     - cron: "43 19 * * *"
     - cron: "43 22 * * *"
-    - cron: "43 1 * * *"
   workflow_dispatch:
     inputs:
       tema:
@@ -85,6 +84,7 @@ jobs:
           YT_HORA_PUBLICACION: ${{ github.event.inputs.publicar_ya != 'true' && vars.YT_HORA_PUBLICACION_SHORTS || '' }}
           ZONA_HORARIA: ${{ vars.ZONA_HORARIA || 'America/Costa_Rica' }}
           REDDIT_PROB: ${{ vars.REDDIT_PROB || '0.4' }}
+          LARGO_DIAS: ${{ vars.LARGO_DIAS || '0,1,2,3,4,5,6' }}
           CANAL_NOMBRE: ${{ vars.CANAL_NOMBRE || 'Misterios Sin Resolver' }}
           TEMA: ${{ github.event.inputs.tema }}
           SUBIR: ${{ github.event.inputs.subir }}
