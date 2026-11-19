@@ -1,15 +1,16 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-18 23:46 UTC*
+*Actualizado: 2026-11-19 01:43 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 26 | 3 898 | 35 | 14 | 4 | 27 | $0.00 |
+| 26 | 3 898 | 36 | 14 | 5 | 27 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-19 | short | [Tres detalles inquietantes de Glenn Miller shorts #GlennMiller #CanalDeLaMancha #Shorts](https://youtu.be/4m79WyFi9bk) | programado | — |
 | 2026-11-18 | short | Relámpagos eternos sobre el lago de Maracaibo #Catatumbo #Maracaibo #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | Los pilares que rompen la idea de la agricultura #GöbekliTepe #Turquia9600 #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | Cicada 3301: el reto que desafía a la mente #Cicada3301 #InternetMisterio #Shorts | retenido_calidad | — |
@@ -39,7 +40,6 @@
 | 2026-11-16 | short | [El misterio de la Condesa Sangrienta, Elizabeth Báthory #shorts](https://youtu.be/qWKKVZCT5z8) | publicado | 128 |
 | 2026-11-16 | short | [El misterio de la explosión en Tunguska de 1908 #shorts](https://youtu.be/k7_hecB7cOc) | publicado | 4 |
 | 2026-11-16 | short | [El pueblo que arde bajo tierra desde 1962 #shorts](https://youtu.be/8-2qyQz5F2Y) | publicado | 5 |
-| 2026-11-16 | short | [El secreto militar tras el caso Roswell en 1947 #shorts](https://youtu.be/wOJS0q3a4mY) | publicado | 18 |
 
 ## Aprendizajes
 

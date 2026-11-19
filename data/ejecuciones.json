@@ -564,5 +564,16 @@
     "fin": "2026-11-18T23:46:57+00:00",
     "error": "GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion menciona un estruendo sobre el lago Michigan en 1959, un evento que no aparece en la fuente proporcionada. Además, incluye detalles sobre artes locales y fechas que no están respaldados por l",
     "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 121, in crear_video\n    g = guion.guion_short(art) if vertical else guion.guion_largo(art, prueba=prueba)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/guion.py\", line 266, in guion_short\n    g = _revisar(g, art, \"YouTube Short de 45 segundos\",\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/guion.py\", line 190, in _revisar\n    raise GuionNoFiel(f\"el editor detectó que el guion no sale de la fuente: {resp.get('problema', '')[:200]}\")\npipeline.guion.GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion menciona un estruendo sobre el lago Michigan en 1959, un evento que no aparece en la fuente proporcionada. Además, incluye detalles sobre artes locales y fechas que no están respaldados por l\n"
+  },
+  {
+    "id": "20261119-012314-short",
+    "tipo": "short",
+    "inicio": "2026-11-19T01:23:14+00:00",
+    "estado": "ok",
+    "tema": "Glenn Miller",
+    "video": "2026-11-19-short-glenn-miller",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-19T01:43:52+00:00"
   }
 ]

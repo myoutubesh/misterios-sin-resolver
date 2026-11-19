@@ -1578,5 +1578,51 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-19-short-glenn-miller",
+    "fecha": "2026-11-19T01:43:50+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Glenn Miller",
+    "tema_clave": "Glenn Miller",
+    "categoria": "desapariciones",
+    "interes_wikipedia": 5.74,
+    "titulo_yt": "Tres detalles inquietantes de Glenn Miller shorts #GlennMiller #CanalDeLaMancha #Shorts",
+    "estructura": "tres_detalles",
+    "estilo": "noche_turquesa",
+    "duracion": 49.9,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Glenn_Miller",
+      "https://es.wikipedia.org/wiki/Glenn_Miller"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.5-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "4m79WyFi9bk",
+    "privacidad": "private",
+    "publicar_en": "2026-11-19T03:00:00Z",
+    "url": "https://youtu.be/4m79WyFi9bk"
   }
 ]
