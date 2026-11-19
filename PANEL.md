@@ -1,50 +1,55 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-19 11:24 UTC*
+*Actualizado: 2026-11-19 12:00 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 26 | 3 898 | 38 | 14 | 7 | 27 | $0.00 |
+| 47 | 6 666 | 38 | 20 | 1 | 27 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
-| 2026-11-19 | short | [El secreto bajo las piedras de Stonehenge #Stonehenge #Wiltshire #Shorts](https://youtu.be/xNp7bIjgJ_Y) | programado | — |
-| 2026-11-19 | short | [Operación Northwoods: el plan secreto de 1962 #OperacionNorthwoods #EstadosUnidos1962 #Shorts](https://youtu.be/IAESR_H7YPQ) | programado | — |
-| 2026-11-19 | short | [Tres detalles inquietantes de Glenn Miller shorts #GlennMiller #CanalDeLaMancha #Shorts](https://youtu.be/4m79WyFi9bk) | programado | — |
+| 2026-11-19 | short | [El secreto bajo las piedras de Stonehenge #Stonehenge #Wiltshire #Shorts](https://youtu.be/xNp7bIjgJ_Y) | programado | 0 |
+| 2026-11-19 | short | [Operación Northwoods: el plan secreto de 1962 #OperacionNorthwoods #EstadosUnidos1962 #Shorts](https://youtu.be/IAESR_H7YPQ) | publicado | 82 |
+| 2026-11-19 | short | [Tres detalles inquietantes de Glenn Miller shorts #GlennMiller #CanalDeLaMancha #Shorts](https://youtu.be/4m79WyFi9bk) | publicado | 397 |
 | 2026-11-18 | short | Relámpagos eternos sobre el lago de Maracaibo #Catatumbo #Maracaibo #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | Los pilares que rompen la idea de la agricultura #GöbekliTepe #Turquia9600 #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | Cicada 3301: el reto que desafía a la mente #Cicada3301 #InternetMisterio #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | Escapó del sueño en Kholat Syakhl #DyatlovPass #KholatSyakhl #Shorts | retenido_calidad | — |
-| 2026-11-18 | short | [El secreto que impulsó la llegada a la Luna #OperacionPaperclip #WernherVonBraun #Shorts](https://youtu.be/JYEUPufmapM) | programado | — |
+| 2026-11-18 | short | [El secreto que impulsó la llegada a la Luna #OperacionPaperclip #WernherVonBraun #Shorts](https://youtu.be/JYEUPufmapM) | publicado | 19 |
 | 2026-11-18 | short | Enfield: ¿poltergeist o atrapar a los niños? #EnfieldPoltergeist #Enfield #Shorts | retenido_calidad | — |
-| 2026-11-18 | short | [¿Origen prehispánico de La Llorona? #LaLlorona #Xochimilco #Shorts](https://youtu.be/dMMJYVkLmQg) | programado | — |
+| 2026-11-18 | short | [¿Origen prehispánico de La Llorona? #LaLlorona #Xochimilco #Shorts](https://youtu.be/dMMJYVkLmQg) | publicado | 971 |
 | 2026-11-18 | short | El faro del misterio: la muerte de Elisa Lam #CaseMysterioso #LosAngeles2013 #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | El asesino del Zodiaco: misterio sin resolver #Zodiaco #SanFrancisco #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | Jack saltarín: la criatura que saltó sobre muros y escaló corceles #SpringHeeledJack #Londres1837 | retenido_calidad | — |
-| 2026-11-18 | short | [El enigma de Kaspar Hauser y su trágico final #KasparHauser #Nuremberg1828 #Shorts](https://youtu.be/wgIwv_8KmWs) | programado | — |
-| 2026-11-18 | short | [El misterio de Skinwalker Ranch en Utah #SkinwalkerRanch #UintahCounty #Shorts](https://youtu.be/_tS205NAA9c) | programado | 0 |
-| 2026-11-18 | short | [El misterio de los 72 segundos de la señal Wow! #SenalWow #BigEar1977 #Shorts](https://youtu.be/70oqpq4dkA4) | publicado | 392 |
+| 2026-11-18 | short | [El enigma de Kaspar Hauser y su trágico final #KasparHauser #Nuremberg1828 #Shorts](https://youtu.be/wgIwv_8KmWs) | publicado | 921 |
+| 2026-11-18 | short | [El misterio de Skinwalker Ranch en Utah #SkinwalkerRanch #UintahCounty #Shorts](https://youtu.be/_tS205NAA9c) | publicado | 1 140 |
+| 2026-11-18 | short | [El misterio de los 72 segundos de la señal Wow! #SenalWow #BigEar1977 #Shorts](https://youtu.be/70oqpq4dkA4) | publicado | 1 298 |
 | 2026-11-17 | short | Glenn Miller desapareció en el Canal de la Mancha #Miller1944 #CanaldeMancha #Shorts | retenido_calidad | — |
 | 2026-11-17 | short | La plaga del baile 1518: una historia de descontrol #PesteDeBaile #Estrasburgo1518 #Shorts | retenido_calidad | — |
-| 2026-11-17 | short | [El misterio de UVB‑76, la radio que nunca apaga #UVB76 #Buzzer #Shorts](https://youtu.be/zuoj8SX8Umo) | publicado | 2 |
+| 2026-11-17 | short | [El misterio de UVB‑76, la radio que nunca apaga #UVB76 #Buzzer #Shorts](https://youtu.be/zuoj8SX8Umo) | publicado | 1 153 |
 | 2026-11-17 | short | El Relámpago del Catatumbo: La tormenta que nunca se apaga #Catatumbo #LakeMaracaibo #Shorts | retenido_calidad | — |
 | 2026-11-17 | short | MH370: la desaparición que sigue sin respuestas #MH370 #Malasia2014 #Shorts | creado | — |
-| 2026-11-17 | short | [El OVNI de Westall: el misterio de Melbourne de 1966 #shorts](https://youtu.be/DZFFV0fm1SU) | publicado | 4 |
-| 2026-11-17 | short | [Slender Man: ¿ficción o peligro real? #shorts](https://youtu.be/wmT2xnlRAj4) | publicado | 14 |
+| 2026-11-17 | short | [El OVNI de Westall: el misterio de Melbourne de 1966 #shorts](https://youtu.be/DZFFV0fm1SU) | publicado | 1 067 |
+| 2026-11-17 | short | [Slender Man: ¿ficción o peligro real? #shorts](https://youtu.be/wmT2xnlRAj4) | publicado | 715 |
 | 2026-11-17 | short | El inventor del cine que desapareció en un tren #shorts | creado | — |
 | 2026-11-17 | short | El enigma real tras las Luces de Phoenix #shorts | creado | — |
-| 2026-11-17 | short | [Un limpiador grabó lo invisible en un campamento #shorts](https://youtu.be/qw0sF9M7xVk) | publicado | 2 |
+| 2026-11-17 | short | [Un limpiador grabó lo invisible en un campamento #shorts](https://youtu.be/qw0sF9M7xVk) | publicado | 201 |
 | 2026-11-17 | short | Críptidos: ¿Pseudociencia o realidad oculta? #shorts | creado | — |
-| 2026-11-17 | short | [El misterio de Amelia Earhart #shorts](https://youtu.be/HTYdye0PdzQ) | publicado | 368 |
-| 2026-11-17 | short | [Tres datos inquietantes del Mothman #shorts](https://youtu.be/7ktCmZIUM2s) | publicado | 11 |
-| 2026-11-16 | short | [El misterio de la Condesa Sangrienta, Elizabeth Báthory #shorts](https://youtu.be/qWKKVZCT5z8) | publicado | 128 |
+| 2026-11-17 | short | [El misterio de Amelia Earhart #shorts](https://youtu.be/HTYdye0PdzQ) | publicado | 1 133 |
+| 2026-11-17 | short | [Tres datos inquietantes del Mothman #shorts](https://youtu.be/7ktCmZIUM2s) | publicado | 32 |
+| 2026-11-16 | short | [El misterio de la Condesa Sangrienta, Elizabeth Báthory #shorts](https://youtu.be/qWKKVZCT5z8) | publicado | 270 |
 
 ## Aprendizajes
 
-- Los shorts de 50-60s rinden mejor.
+- La categoría con mejor rendimiento es 'leyendas' (2.44x el promedio).
+- Los shorts de 40-50s rinden mejor.
 - Las publicaciones cerca de las 0:00 (America/Mexico_City) tienen más vistas.
+- Prioriza los temas de leyendas urbanas y criptozoología (como el Diablo de Jersey o el Chupacabras), ya que superan ampliamente las 1,000 visitas en comparación con las conspiraciones históricas o fenómenos naturales.
+- Utiliza la estructura de gancho basada en listas ('Tres detalles inquietantes de...') directamente al inicio del guion y en el título, ya que genera intriga inmediata y ha demostrado ser el formato con mejor rendimiento del canal.
+- Mantén los títulos en un rango de 40 a 65 caracteres (sin contar '#shorts'), combinando la palabra clave principal con un adjetivo de suspenso (ej. 'inquietante', 'secreto', 'misterio') al principio del texto.
+- Formula los primeros 3 segundos del guion con una pregunta directa sobre una historia o avistamiento local para captar la atención de la audiencia interesada en leyendas antes de que deslicen al siguiente video.
 
 ## Errores recientes
 

@@ -1,19 +1,29 @@
 {
-  "actualizado": "2026-11-18T11:59:51+00:00",
-  "videos_analizados": 3,
-  "peso_categoria": {},
+  "actualizado": "2026-11-19T11:59:23+00:00",
+  "videos_analizados": 9,
+  "peso_categoria": {
+    "leyendas": 2.44,
+    "fenomenos": 0.76
+  },
   "titulos_top": {
     "short": [
+      "El misterio del Diablo de Jersey #shorts",
       "Tres detalles inquietantes del mito del chupacabras #shorts",
+      "El misterio de Amelia Earhart #shorts",
       "El misterio del rayo globular que explota #shorts",
-      "El secreto militar tras el caso Roswell en 1947 #shorts"
+      "Un limpiador grabó lo invisible en un campamento #shorts"
     ],
     "largo": []
   },
   "consejos": [
-    "Los shorts de 50-60s rinden mejor.",
-    "Las publicaciones cerca de las 0:00 (America/Mexico_City) tienen más vistas."
+    "La categoría con mejor rendimiento es 'leyendas' (2.44x el promedio).",
+    "Los shorts de 40-50s rinden mejor.",
+    "Las publicaciones cerca de las 0:00 (America/Mexico_City) tienen más vistas.",
+    "Prioriza los temas de leyendas urbanas y criptozoología (como el Diablo de Jersey o el Chupacabras), ya que superan ampliamente las 1,000 visitas en comparación con las conspiraciones históricas o fenómenos naturales.",
+    "Utiliza la estructura de gancho basada en listas ('Tres detalles inquietantes de...') directamente al inicio del guion y en el título, ya que genera intriga inmediata y ha demostrado ser el formato con mejor rendimiento del canal.",
+    "Mantén los títulos en un rango de 40 a 65 caracteres (sin contar '#shorts'), combinando la palabra clave principal con un adjetivo de suspenso (ej. 'inquietante', 'secreto', 'misterio') al principio del texto.",
+    "Formula los primeros 3 segundos del guion con una pregunta directa sobre una historia o avistamiento local para captar la atención de la audiencia interesada en leyendas antes de que deslicen al siguiente video."
   ],
-  "duracion_ideal_short": "50-60s",
+  "duracion_ideal_short": "40-50s",
   "mejor_hora": 0
 }
