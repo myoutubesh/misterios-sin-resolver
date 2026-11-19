@@ -1762,5 +1762,51 @@
     "privacidad": "private",
     "publicar_en": "2026-11-19T18:00:00Z",
     "url": "https://youtu.be/oBYTZHyCUQc"
+  },
+  {
+    "id": "2026-11-19-short-catatumbo-lightning",
+    "fecha": "2026-11-19T16:22:48+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Catatumbo lightning",
+    "tema_clave": "Catatumbo lightning",
+    "categoria": "fenomenos",
+    "interes_wikipedia": 4.72,
+    "titulo_yt": "El misterio de los relámpagos del Catatumbo #RelampagoDelCatatumbo #Venezuela #Shorts",
+    "estructura": "en_medias_res",
+    "estilo": "archivo_antiguo",
+    "duracion": 52.5,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Catatumbo_lightning",
+      "https://es.wikipedia.org/wiki/Rel%C3%A1mpago_del_Catatumbo"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "nOtMNr37n9Y",
+    "privacidad": "private",
+    "publicar_en": "2026-11-19T21:00:00Z",
+    "url": "https://youtu.be/nOtMNr37n9Y"
   }
 ]
