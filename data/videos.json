@@ -1670,5 +1670,51 @@
     "privacidad": "private",
     "publicar_en": "2026-11-19T13:00:00Z",
     "url": "https://youtu.be/IAESR_H7YPQ"
+  },
+  {
+    "id": "2026-11-19-short-stonehenge",
+    "fecha": "2026-11-19T11:24:14+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Stonehenge",
+    "tema_clave": "Stonehenge",
+    "categoria": "civilizaciones",
+    "interes_wikipedia": 5.74,
+    "titulo_yt": "El secreto bajo las piedras de Stonehenge #Stonehenge #Wiltshire #Shorts",
+    "estructura": "pregunta",
+    "estilo": "carmesi",
+    "duracion": 45.4,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Stonehenge",
+      "https://es.wikipedia.org/wiki/Stonehenge"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "xNp7bIjgJ_Y",
+    "privacidad": "private",
+    "publicar_en": "2026-11-19T15:00:00Z",
+    "url": "https://youtu.be/xNp7bIjgJ_Y"
   }
 ]

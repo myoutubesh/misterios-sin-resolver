@@ -1,15 +1,16 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-19 06:25 UTC*
+*Actualizado: 2026-11-19 11:24 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 26 | 3 898 | 37 | 14 | 6 | 27 | $0.00 |
+| 26 | 3 898 | 38 | 14 | 7 | 27 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-19 | short | [El secreto bajo las piedras de Stonehenge #Stonehenge #Wiltshire #Shorts](https://youtu.be/xNp7bIjgJ_Y) | programado | — |
 | 2026-11-19 | short | [Operación Northwoods: el plan secreto de 1962 #OperacionNorthwoods #EstadosUnidos1962 #Shorts](https://youtu.be/IAESR_H7YPQ) | programado | — |
 | 2026-11-19 | short | [Tres detalles inquietantes de Glenn Miller shorts #GlennMiller #CanalDeLaMancha #Shorts](https://youtu.be/4m79WyFi9bk) | programado | — |
 | 2026-11-18 | short | Relámpagos eternos sobre el lago de Maracaibo #Catatumbo #Maracaibo #Shorts | retenido_calidad | — |
@@ -39,7 +40,6 @@
 | 2026-11-17 | short | [El misterio de Amelia Earhart #shorts](https://youtu.be/HTYdye0PdzQ) | publicado | 368 |
 | 2026-11-17 | short | [Tres datos inquietantes del Mothman #shorts](https://youtu.be/7ktCmZIUM2s) | publicado | 11 |
 | 2026-11-16 | short | [El misterio de la Condesa Sangrienta, Elizabeth Báthory #shorts](https://youtu.be/qWKKVZCT5z8) | publicado | 128 |
-| 2026-11-16 | short | [El misterio de la explosión en Tunguska de 1908 #shorts](https://youtu.be/k7_hecB7cOc) | publicado | 4 |
 
 ## Aprendizajes
 

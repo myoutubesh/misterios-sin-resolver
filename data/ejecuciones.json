@@ -597,5 +597,16 @@
     "estado_video": "creado",
     "costo_usd": 0.0,
     "fin": "2026-11-19T06:25:25+00:00"
+  },
+  {
+    "id": "20261119-110730-short",
+    "tipo": "short",
+    "inicio": "2026-11-19T11:07:30+00:00",
+    "estado": "ok",
+    "tema": "Stonehenge",
+    "video": "2026-11-19-short-stonehenge",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-19T11:24:18+00:00"
   }
 ]
