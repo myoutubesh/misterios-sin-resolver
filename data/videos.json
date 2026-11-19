@@ -1716,5 +1716,51 @@
     "privacidad": "private",
     "publicar_en": "2026-11-19T15:00:00Z",
     "url": "https://youtu.be/xNp7bIjgJ_Y"
+  },
+  {
+    "id": "2026-11-19-short-green-children-of-woolpit",
+    "fecha": "2026-11-19T13:45:45+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Green children of Woolpit",
+    "tema_clave": "Green children of Woolpit",
+    "categoria": "leyendas",
+    "interes_wikipedia": 5.17,
+    "titulo_yt": "El misterio de los niños verdes de Woolpit #NinosVerdes #Woolpit #Shorts",
+    "estructura": "segunda_persona",
+    "estilo": "luna_fria",
+    "duracion": 46.7,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Green_children_of_Woolpit",
+      "https://es.wikipedia.org/wiki/Ni%C3%B1os_Verdes_de_Woolpit"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.5-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "oBYTZHyCUQc",
+    "privacidad": "private",
+    "publicar_en": "2026-11-19T18:00:00Z",
+    "url": "https://youtu.be/oBYTZHyCUQc"
   }
 ]

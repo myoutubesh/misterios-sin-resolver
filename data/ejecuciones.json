@@ -615,5 +615,16 @@
     "inicio": "2026-11-19T11:59:22+00:00",
     "estado": "ok",
     "fin": "2026-11-19T12:00:02+00:00"
+  },
+  {
+    "id": "20261119-132357-short",
+    "tipo": "short",
+    "inicio": "2026-11-19T13:23:57+00:00",
+    "estado": "ok",
+    "tema": "Green children of Woolpit",
+    "video": "2026-11-19-short-green-children-of-woolpit",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-19T13:45:48+00:00"
   }
 ]

@@ -1,15 +1,16 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-19 12:00 UTC*
+*Actualizado: 2026-11-19 13:45 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 47 | 6 666 | 38 | 20 | 1 | 27 | $0.00 |
+| 47 | 6 666 | 39 | 20 | 2 | 27 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-19 | short | [El misterio de los niños verdes de Woolpit #NinosVerdes #Woolpit #Shorts](https://youtu.be/oBYTZHyCUQc) | programado | — |
 | 2026-11-19 | short | [El secreto bajo las piedras de Stonehenge #Stonehenge #Wiltshire #Shorts](https://youtu.be/xNp7bIjgJ_Y) | programado | 0 |
 | 2026-11-19 | short | [Operación Northwoods: el plan secreto de 1962 #OperacionNorthwoods #EstadosUnidos1962 #Shorts](https://youtu.be/IAESR_H7YPQ) | publicado | 82 |
 | 2026-11-19 | short | [Tres detalles inquietantes de Glenn Miller shorts #GlennMiller #CanalDeLaMancha #Shorts](https://youtu.be/4m79WyFi9bk) | publicado | 397 |
@@ -39,7 +40,6 @@
 | 2026-11-17 | short | Críptidos: ¿Pseudociencia o realidad oculta? #shorts | creado | — |
 | 2026-11-17 | short | [El misterio de Amelia Earhart #shorts](https://youtu.be/HTYdye0PdzQ) | publicado | 1 133 |
 | 2026-11-17 | short | [Tres datos inquietantes del Mothman #shorts](https://youtu.be/7ktCmZIUM2s) | publicado | 32 |
-| 2026-11-16 | short | [El misterio de la Condesa Sangrienta, Elizabeth Báthory #shorts](https://youtu.be/qWKKVZCT5z8) | publicado | 270 |
 
 ## Aprendizajes
 
