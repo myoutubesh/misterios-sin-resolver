@@ -1624,5 +1624,51 @@
     "privacidad": "private",
     "publicar_en": "2026-11-19T03:00:00Z",
     "url": "https://youtu.be/4m79WyFi9bk"
+  },
+  {
+    "id": "2026-11-19-short-operation-northwoods",
+    "fecha": "2026-11-19T03:05:28+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Operation Northwoods",
+    "tema_clave": "Operation Northwoods",
+    "categoria": "conspiraciones",
+    "interes_wikipedia": 5.56,
+    "titulo_yt": "Operación Northwoods: el plan secreto de 1962 #OperacionNorthwoods #EstadosUnidos1962 #Shorts",
+    "estructura": "pregunta",
+    "estilo": "grabado",
+    "duracion": 59.4,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Operation_Northwoods",
+      "https://es.wikipedia.org/wiki/Operaci%C3%B3n_Northwoods"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "IAESR_H7YPQ",
+    "privacidad": "private",
+    "publicar_en": "2026-11-19T13:00:00Z",
+    "url": "https://youtu.be/IAESR_H7YPQ"
   }
 ]
