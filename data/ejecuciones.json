@@ -648,5 +648,16 @@
     "estado_video": "programado",
     "costo_usd": 0.0,
     "fin": "2026-11-19T19:23:58+00:00"
+  },
+  {
+    "id": "20261119-215654-short",
+    "tipo": "short",
+    "inicio": "2026-11-19T21:56:54+00:00",
+    "estado": "ok",
+    "tema": "Baltic Sea anomaly",
+    "video": "2026-11-19-short-baltic-sea-anomaly",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-19T22:07:20+00:00"
   }
 ]

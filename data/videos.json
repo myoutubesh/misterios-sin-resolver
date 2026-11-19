@@ -1854,5 +1854,51 @@
     "privacidad": "private",
     "publicar_en": "2026-11-20T00:00:00Z",
     "url": "https://youtu.be/Nhetyk63W9Q"
+  },
+  {
+    "id": "2026-11-19-short-baltic-sea-anomaly",
+    "fecha": "2026-11-19T22:07:17+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Baltic Sea anomaly",
+    "tema_clave": "Baltic Sea anomaly",
+    "categoria": "lugares",
+    "interes_wikipedia": 5.34,
+    "titulo_yt": "El misterio del lecho del Mar Báltico #AnomaliaDelBaltico #MarBaltico #Shorts",
+    "estructura": "tres_detalles",
+    "estilo": "carmesi",
+    "duracion": 46.3,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Baltic_Sea_anomaly",
+      "https://es.wikipedia.org/wiki/Anomal%C3%ADa_del_Mar_B%C3%A1ltico"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.7-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "DYCcwnvEnYM",
+    "privacidad": "private",
+    "publicar_en": "2026-11-20T13:00:00Z",
+    "url": "https://youtu.be/DYCcwnvEnYM"
   }
 ]
