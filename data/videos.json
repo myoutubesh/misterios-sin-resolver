@@ -1808,5 +1808,51 @@
     "privacidad": "private",
     "publicar_en": "2026-11-19T21:00:00Z",
     "url": "https://youtu.be/nOtMNr37n9Y"
+  },
+  {
+    "id": "2026-11-19-short-philadelphia-experiment",
+    "fecha": "2026-11-19T19:23:55+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Philadelphia Experiment",
+    "tema_clave": "Philadelphia Experiment",
+    "categoria": "conspiraciones",
+    "interes_wikipedia": 4.98,
+    "titulo_yt": "El barco militar que se volvió invisible | Experimento Filadelfia #ExperimentoFiladelfia #Shorts",
+    "estructura": "pregunta",
+    "estilo": "luna_fria",
+    "duracion": 54.6,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Philadelphia_Experiment",
+      "https://es.wikipedia.org/wiki/Experimento_Filadelfia"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.7-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "Nhetyk63W9Q",
+    "privacidad": "private",
+    "publicar_en": "2026-11-20T00:00:00Z",
+    "url": "https://youtu.be/Nhetyk63W9Q"
   }
 ]

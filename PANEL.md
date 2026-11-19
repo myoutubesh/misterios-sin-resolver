@@ -1,15 +1,16 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-19 16:22 UTC*
+*Actualizado: 2026-11-19 19:23 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 47 | 6 666 | 40 | 20 | 3 | 27 | $0.00 |
+| 47 | 6 666 | 41 | 20 | 4 | 27 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-19 | short | [El barco militar que se volvió invisible / Experimento Filadelfia #ExperimentoFiladelfia #Shorts](https://youtu.be/Nhetyk63W9Q) | programado | — |
 | 2026-11-19 | short | [El misterio de los relámpagos del Catatumbo #RelampagoDelCatatumbo #Venezuela #Shorts](https://youtu.be/nOtMNr37n9Y) | programado | — |
 | 2026-11-19 | short | [El misterio de los niños verdes de Woolpit #NinosVerdes #Woolpit #Shorts](https://youtu.be/oBYTZHyCUQc) | programado | — |
 | 2026-11-19 | short | [El secreto bajo las piedras de Stonehenge #Stonehenge #Wiltshire #Shorts](https://youtu.be/xNp7bIjgJ_Y) | programado | 0 |
@@ -39,7 +40,6 @@
 | 2026-11-17 | short | El enigma real tras las Luces de Phoenix #shorts | creado | — |
 | 2026-11-17 | short | [Un limpiador grabó lo invisible en un campamento #shorts](https://youtu.be/qw0sF9M7xVk) | publicado | 201 |
 | 2026-11-17 | short | Críptidos: ¿Pseudociencia o realidad oculta? #shorts | creado | — |
-| 2026-11-17 | short | [El misterio de Amelia Earhart #shorts](https://youtu.be/HTYdye0PdzQ) | publicado | 1 133 |
 
 ## Aprendizajes
 

@@ -637,5 +637,16 @@
     "estado_video": "programado",
     "costo_usd": 0.0,
     "fin": "2026-11-19T16:22:51+00:00"
+  },
+  {
+    "id": "20261119-190307-short",
+    "tipo": "short",
+    "inicio": "2026-11-19T19:03:07+00:00",
+    "estado": "ok",
+    "tema": "Philadelphia Experiment",
+    "video": "2026-11-19-short-philadelphia-experiment",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-19T19:23:58+00:00"
   }
 ]
