@@ -710,5 +710,16 @@
     "estado_video": "programado",
     "costo_usd": 0.0,
     "fin": "2026-11-20T16:13:23+00:00"
+  },
+  {
+    "id": "20261120-192018-short",
+    "tipo": "short",
+    "inicio": "2026-11-20T19:20:18+00:00",
+    "estado": "ok",
+    "tema": "Wendigo",
+    "video": "2026-11-20-short-wendigo",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-20T19:32:59+00:00"
   }
 ]

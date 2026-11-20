@@ -1,15 +1,16 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-20 16:13 UTC*
+*Actualizado: 2026-11-20 19:32 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 52 | 13 891 | 46 | 26 | 3 | 27 | $0.00 |
+| 52 | 13 891 | 47 | 26 | 4 | 27 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-20 | short | [El mito del Wendigo: ¿Posesión o psicosis? / 1878 #Wendigo #Canada1878 #Shorts](https://youtu.be/wJ1e8ZaE6DU) | programado | — |
 | 2026-11-20 | short | [El misterio de las luces de Marfa en Texas / Marfa Lights #LucesDeMarfa #MarfaTexas #Shorts](https://youtu.be/ZkQ7mZIkFUg) | programado | — |
 | 2026-11-20 | short | [El oscuro misterio del hacha en Iowa (1912) #Villisca1912 #Iowa1912 #Shorts](https://youtu.be/w_8YLGuHIS8) | programado | — |
 | 2026-11-20 | short | [El misterio del coronel Fawcett y la Ciudad Z #PercyFawcett #Amazonas1925 #Shorts](https://youtu.be/wAoJolHiyAo) | programado | 0 |
@@ -39,7 +40,6 @@
 | 2026-11-17 | short | [El misterio de UVB‑76, la radio que nunca apaga #UVB76 #Buzzer #Shorts](https://youtu.be/zuoj8SX8Umo) | publicado | 1 167 |
 | 2026-11-17 | short | El Relámpago del Catatumbo: La tormenta que nunca se apaga #Catatumbo #LakeMaracaibo #Shorts | retenido_calidad | — |
 | 2026-11-17 | short | MH370: la desaparición que sigue sin respuestas #MH370 #Malasia2014 #Shorts | creado | — |
-| 2026-11-17 | short | [El OVNI de Westall: el misterio de Melbourne de 1966 #shorts](https://youtu.be/DZFFV0fm1SU) | publicado | 1 078 |
 
 ## Aprendizajes
 
