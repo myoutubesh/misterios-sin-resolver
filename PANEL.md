@@ -1,55 +1,55 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-20 11:19 UTC*
+*Actualizado: 2026-11-20 12:01 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 47 | 6 666 | 44 | 20 | 6 | 27 | $0.00 |
+| 52 | 13 891 | 44 | 26 | 1 | 27 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
-| 2026-11-20 | short | [El misterio del coronel Fawcett y la Ciudad Z #PercyFawcett #Amazonas1925 #Shorts](https://youtu.be/wAoJolHiyAo) | programado | — |
-| 2026-11-20 | largo | [La Bruja de Bell: ¿Aterrador poltergeist real o fraude histórico?](https://youtu.be/TjlOXxpveOk) | subido | — |
-| 2026-11-19 | short | [El misterio del lecho del Mar Báltico #AnomaliaDelBaltico #MarBaltico #Shorts](https://youtu.be/DYCcwnvEnYM) | programado | — |
-| 2026-11-19 | short | [El barco militar que se volvió invisible / Experimento Filadelfia #ExperimentoFiladelfia #Shorts](https://youtu.be/Nhetyk63W9Q) | programado | — |
-| 2026-11-19 | short | [El misterio de los relámpagos del Catatumbo #RelampagoDelCatatumbo #Venezuela #Shorts](https://youtu.be/nOtMNr37n9Y) | programado | — |
-| 2026-11-19 | short | [El misterio de los niños verdes de Woolpit #NinosVerdes #Woolpit #Shorts](https://youtu.be/oBYTZHyCUQc) | programado | — |
-| 2026-11-19 | short | [El secreto bajo las piedras de Stonehenge #Stonehenge #Wiltshire #Shorts](https://youtu.be/xNp7bIjgJ_Y) | programado | 0 |
-| 2026-11-19 | short | [Operación Northwoods: el plan secreto de 1962 #OperacionNorthwoods #EstadosUnidos1962 #Shorts](https://youtu.be/IAESR_H7YPQ) | publicado | 82 |
-| 2026-11-19 | short | [Tres detalles inquietantes de Glenn Miller shorts #GlennMiller #CanalDeLaMancha #Shorts](https://youtu.be/4m79WyFi9bk) | publicado | 397 |
+| 2026-11-20 | short | [El misterio del coronel Fawcett y la Ciudad Z #PercyFawcett #Amazonas1925 #Shorts](https://youtu.be/wAoJolHiyAo) | programado | 0 |
+| 2026-11-20 | largo | [La Bruja de Bell: ¿Aterrador poltergeist real o fraude histórico?](https://youtu.be/TjlOXxpveOk) | publicado | 4 |
+| 2026-11-19 | short | [El misterio del lecho del Mar Báltico #AnomaliaDelBaltico #MarBaltico #Shorts](https://youtu.be/DYCcwnvEnYM) | publicado | 684 |
+| 2026-11-19 | short | [El barco militar que se volvió invisible / Experimento Filadelfia #ExperimentoFiladelfia #Shorts](https://youtu.be/Nhetyk63W9Q) | publicado | 73 |
+| 2026-11-19 | short | [El misterio de los relámpagos del Catatumbo #RelampagoDelCatatumbo #Venezuela #Shorts](https://youtu.be/nOtMNr37n9Y) | publicado | 137 |
+| 2026-11-19 | short | [El misterio de los niños verdes de Woolpit #NinosVerdes #Woolpit #Shorts](https://youtu.be/oBYTZHyCUQc) | publicado | 375 |
+| 2026-11-19 | short | [El secreto bajo las piedras de Stonehenge #Stonehenge #Wiltshire #Shorts](https://youtu.be/xNp7bIjgJ_Y) | publicado | 389 |
+| 2026-11-19 | short | [Operación Northwoods: el plan secreto de 1962 #OperacionNorthwoods #EstadosUnidos1962 #Shorts](https://youtu.be/IAESR_H7YPQ) | publicado | 204 |
+| 2026-11-19 | short | [Tres detalles inquietantes de Glenn Miller shorts #GlennMiller #CanalDeLaMancha #Shorts](https://youtu.be/4m79WyFi9bk) | publicado | 995 |
 | 2026-11-18 | short | Relámpagos eternos sobre el lago de Maracaibo #Catatumbo #Maracaibo #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | Los pilares que rompen la idea de la agricultura #GöbekliTepe #Turquia9600 #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | Cicada 3301: el reto que desafía a la mente #Cicada3301 #InternetMisterio #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | Escapó del sueño en Kholat Syakhl #DyatlovPass #KholatSyakhl #Shorts | retenido_calidad | — |
-| 2026-11-18 | short | [El secreto que impulsó la llegada a la Luna #OperacionPaperclip #WernherVonBraun #Shorts](https://youtu.be/JYEUPufmapM) | publicado | 19 |
+| 2026-11-18 | short | [El secreto que impulsó la llegada a la Luna #OperacionPaperclip #WernherVonBraun #Shorts](https://youtu.be/JYEUPufmapM) | publicado | 21 |
 | 2026-11-18 | short | Enfield: ¿poltergeist o atrapar a los niños? #EnfieldPoltergeist #Enfield #Shorts | retenido_calidad | — |
-| 2026-11-18 | short | [¿Origen prehispánico de La Llorona? #LaLlorona #Xochimilco #Shorts](https://youtu.be/dMMJYVkLmQg) | publicado | 971 |
+| 2026-11-18 | short | [¿Origen prehispánico de La Llorona? #LaLlorona #Xochimilco #Shorts](https://youtu.be/dMMJYVkLmQg) | publicado | 1 002 |
 | 2026-11-18 | short | El faro del misterio: la muerte de Elisa Lam #CaseMysterioso #LosAngeles2013 #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | El asesino del Zodiaco: misterio sin resolver #Zodiaco #SanFrancisco #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | Jack saltarín: la criatura que saltó sobre muros y escaló corceles #SpringHeeledJack #Londres1837 | retenido_calidad | — |
-| 2026-11-18 | short | [El enigma de Kaspar Hauser y su trágico final #KasparHauser #Nuremberg1828 #Shorts](https://youtu.be/wgIwv_8KmWs) | publicado | 921 |
-| 2026-11-18 | short | [El misterio de Skinwalker Ranch en Utah #SkinwalkerRanch #UintahCounty #Shorts](https://youtu.be/_tS205NAA9c) | publicado | 1 140 |
+| 2026-11-18 | short | [El enigma de Kaspar Hauser y su trágico final #KasparHauser #Nuremberg1828 #Shorts](https://youtu.be/wgIwv_8KmWs) | publicado | 974 |
+| 2026-11-18 | short | [El misterio de Skinwalker Ranch en Utah #SkinwalkerRanch #UintahCounty #Shorts](https://youtu.be/_tS205NAA9c) | publicado | 1 176 |
 | 2026-11-18 | short | [El misterio de los 72 segundos de la señal Wow! #SenalWow #BigEar1977 #Shorts](https://youtu.be/70oqpq4dkA4) | publicado | 1 298 |
 | 2026-11-17 | short | Glenn Miller desapareció en el Canal de la Mancha #Miller1944 #CanaldeMancha #Shorts | retenido_calidad | — |
 | 2026-11-17 | short | La plaga del baile 1518: una historia de descontrol #PesteDeBaile #Estrasburgo1518 #Shorts | retenido_calidad | — |
-| 2026-11-17 | short | [El misterio de UVB‑76, la radio que nunca apaga #UVB76 #Buzzer #Shorts](https://youtu.be/zuoj8SX8Umo) | publicado | 1 153 |
+| 2026-11-17 | short | [El misterio de UVB‑76, la radio que nunca apaga #UVB76 #Buzzer #Shorts](https://youtu.be/zuoj8SX8Umo) | publicado | 1 167 |
 | 2026-11-17 | short | El Relámpago del Catatumbo: La tormenta que nunca se apaga #Catatumbo #LakeMaracaibo #Shorts | retenido_calidad | — |
 | 2026-11-17 | short | MH370: la desaparición que sigue sin respuestas #MH370 #Malasia2014 #Shorts | creado | — |
-| 2026-11-17 | short | [El OVNI de Westall: el misterio de Melbourne de 1966 #shorts](https://youtu.be/DZFFV0fm1SU) | publicado | 1 067 |
-| 2026-11-17 | short | [Slender Man: ¿ficción o peligro real? #shorts](https://youtu.be/wmT2xnlRAj4) | publicado | 715 |
+| 2026-11-17 | short | [El OVNI de Westall: el misterio de Melbourne de 1966 #shorts](https://youtu.be/DZFFV0fm1SU) | publicado | 1 078 |
+| 2026-11-17 | short | [Slender Man: ¿ficción o peligro real? #shorts](https://youtu.be/wmT2xnlRAj4) | publicado | 722 |
 | 2026-11-17 | short | El inventor del cine que desapareció en un tren #shorts | creado | — |
 
 ## Aprendizajes
 
-- La categoría con mejor rendimiento es 'leyendas' (2.44x el promedio).
+- La categoría con mejor rendimiento es 'leyendas' (1.67x el promedio).
 - Los shorts de 40-50s rinden mejor.
 - Las publicaciones cerca de las 0:00 (America/Mexico_City) tienen más vistas.
-- Prioriza los temas de leyendas urbanas y criptozoología (como el Diablo de Jersey o el Chupacabras), ya que superan ampliamente las 1,000 visitas en comparación con las conspiraciones históricas o fenómenos naturales.
-- Utiliza la estructura de gancho basada en listas ('Tres detalles inquietantes de...') directamente al inicio del guion y en el título, ya que genera intriga inmediata y ha demostrado ser el formato con mejor rendimiento del canal.
-- Mantén los títulos en un rango de 40 a 65 caracteres (sin contar '#shorts'), combinando la palabra clave principal con un adjetivo de suspenso (ej. 'inquietante', 'secreto', 'misterio') al principio del texto.
-- Formula los primeros 3 segundos del guion con una pregunta directa sobre una historia o avistamiento local para captar la atención de la audiencia interesada en leyendas antes de que deslicen al siguiente video.
+- Prioriza los temas de leyendas cryptidas (El Diablo de Jersey, Chupacabras) y misterios espaciales/frecuencias (Señal Wow, UVB-76), ya que superan consistentemente las 1,100 reproducciones.
+- Utiliza ganchos basados en listas de datos inquietantes en el guion (ej. 'Tres detalles inquietantes...'), manteniendo la fórmula de generar curiosidad visual en los primeros 3 segundos.
+- Mantén los títulos concisos (entre 45 y 60 caracteres) iniciando directamente con la premisa o el nombre del caso sin saturar de hashtags al inicio.
+- Evita historias de crímenes históricos lejanos o casos paranormales sobreexplotados (como la Condesa Báthory o datos sobre el Mothman) que generan bajo interés en el formato actual.
 
 ## Errores recientes
 

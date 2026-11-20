@@ -1,28 +1,30 @@
 {
-  "actualizado": "2026-11-19T11:59:23+00:00",
-  "videos_analizados": 9,
+  "actualizado": "2026-11-20T11:58:47+00:00",
+  "videos_analizados": 14,
   "peso_categoria": {
-    "leyendas": 2.44,
-    "fenomenos": 0.76
+    "leyendas": 1.67,
+    "fenomenos": 0.61,
+    "conspiraciones": 0.99,
+    "paranormal": 0.83
   },
   "titulos_top": {
     "short": [
       "El misterio del Diablo de Jersey #shorts",
+      "El misterio de los 72 segundos de la señal Wow! #SenalWow #BigEar1977 #Shorts",
       "Tres detalles inquietantes del mito del chupacabras #shorts",
-      "El misterio de Amelia Earhart #shorts",
-      "El misterio del rayo globular que explota #shorts",
-      "Un limpiador grabó lo invisible en un campamento #shorts"
+      "El misterio de UVB‑76, la radio que nunca apaga #UVB76 #Buzzer #Shorts",
+      "El misterio de Amelia Earhart #shorts"
     ],
     "largo": []
   },
   "consejos": [
-    "La categoría con mejor rendimiento es 'leyendas' (2.44x el promedio).",
+    "La categoría con mejor rendimiento es 'leyendas' (1.67x el promedio).",
     "Los shorts de 40-50s rinden mejor.",
     "Las publicaciones cerca de las 0:00 (America/Mexico_City) tienen más vistas.",
-    "Prioriza los temas de leyendas urbanas y criptozoología (como el Diablo de Jersey o el Chupacabras), ya que superan ampliamente las 1,000 visitas en comparación con las conspiraciones históricas o fenómenos naturales.",
-    "Utiliza la estructura de gancho basada en listas ('Tres detalles inquietantes de...') directamente al inicio del guion y en el título, ya que genera intriga inmediata y ha demostrado ser el formato con mejor rendimiento del canal.",
-    "Mantén los títulos en un rango de 40 a 65 caracteres (sin contar '#shorts'), combinando la palabra clave principal con un adjetivo de suspenso (ej. 'inquietante', 'secreto', 'misterio') al principio del texto.",
-    "Formula los primeros 3 segundos del guion con una pregunta directa sobre una historia o avistamiento local para captar la atención de la audiencia interesada en leyendas antes de que deslicen al siguiente video."
+    "Prioriza los temas de leyendas cryptidas (El Diablo de Jersey, Chupacabras) y misterios espaciales/frecuencias (Señal Wow, UVB-76), ya que superan consistentemente las 1,100 reproducciones.",
+    "Utiliza ganchos basados en listas de datos inquietantes en el guion (ej. 'Tres detalles inquietantes...'), manteniendo la fórmula de generar curiosidad visual en los primeros 3 segundos.",
+    "Mantén los títulos concisos (entre 45 y 60 caracteres) iniciando directamente con la premisa o el nombre del caso sin saturar de hashtags al inicio.",
+    "Evita historias de crímenes históricos lejanos o casos paranormales sobreexplotados (como la Condesa Báthory o datos sobre el Mothman) que generan bajo interés en el formato actual."
   ],
   "duracion_ideal_short": "40-50s",
   "mejor_hora": 0
