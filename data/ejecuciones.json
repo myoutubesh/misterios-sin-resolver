@@ -688,5 +688,16 @@
     "inicio": "2026-11-20T11:58:46+00:00",
     "estado": "ok",
     "fin": "2026-11-20T12:01:57+00:00"
+  },
+  {
+    "id": "20261120-131901-short",
+    "tipo": "short",
+    "inicio": "2026-11-20T13:19:01+00:00",
+    "estado": "ok",
+    "tema": "Villisca axe murders",
+    "video": "2026-11-20-short-villisca-axe-murders",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-20T13:31:04+00:00"
   }
 ]

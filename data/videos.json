@@ -1993,5 +1993,51 @@
     "privacidad": "private",
     "publicar_en": "2026-11-20T15:00:00Z",
     "url": "https://youtu.be/wAoJolHiyAo"
+  },
+  {
+    "id": "2026-11-20-short-villisca-axe-murders",
+    "fecha": "2026-11-20T13:31:01+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Villisca axe murders",
+    "tema_clave": "Villisca axe murders",
+    "categoria": "casos_sin_resolver",
+    "interes_wikipedia": 4.87,
+    "titulo_yt": "El oscuro misterio del hacha en Iowa (1912) #Villisca1912 #Iowa1912 #Shorts",
+    "estructura": "tres_detalles",
+    "estilo": "luna_fria",
+    "duracion": 37.6,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Villisca_axe_murders",
+      "https://es.wikipedia.org/wiki/Asesinatos_de_Villisca"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "w_8YLGuHIS8",
+    "privacidad": "private",
+    "publicar_en": "2026-11-20T18:00:00Z",
+    "url": "https://youtu.be/w_8YLGuHIS8"
   }
 ]
