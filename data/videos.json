@@ -1947,5 +1947,51 @@
     "privacidad": "private",
     "publicar_en": null,
     "url": "https://youtu.be/TjlOXxpveOk"
+  },
+  {
+    "id": "2026-11-20-short-percy-fawcett",
+    "fecha": "2026-11-20T11:19:20+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Percy Fawcett",
+    "tema_clave": "Percy Fawcett",
+    "categoria": "desapariciones",
+    "interes_wikipedia": 5.14,
+    "titulo_yt": "El misterio del coronel Fawcett y la Ciudad Z #PercyFawcett #Amazonas1925 #Shorts",
+    "estructura": "en_medias_res",
+    "estilo": "noche_turquesa",
+    "duracion": 56.9,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Percy_Fawcett",
+      "https://es.wikipedia.org/wiki/Percy_Fawcett"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "wAoJolHiyAo",
+    "privacidad": "private",
+    "publicar_en": "2026-11-20T15:00:00Z",
+    "url": "https://youtu.be/wAoJolHiyAo"
   }
 ]

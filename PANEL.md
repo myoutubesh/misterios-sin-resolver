@@ -1,15 +1,16 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-20 04:16 UTC*
+*Actualizado: 2026-11-20 11:19 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 47 | 6 666 | 43 | 20 | 5 | 27 | $0.00 |
+| 47 | 6 666 | 44 | 20 | 6 | 27 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-20 | short | [El misterio del coronel Fawcett y la Ciudad Z #PercyFawcett #Amazonas1925 #Shorts](https://youtu.be/wAoJolHiyAo) | programado | — |
 | 2026-11-20 | largo | [La Bruja de Bell: ¿Aterrador poltergeist real o fraude histórico?](https://youtu.be/TjlOXxpveOk) | subido | — |
 | 2026-11-19 | short | [El misterio del lecho del Mar Báltico #AnomaliaDelBaltico #MarBaltico #Shorts](https://youtu.be/DYCcwnvEnYM) | programado | — |
 | 2026-11-19 | short | [El barco militar que se volvió invisible / Experimento Filadelfia #ExperimentoFiladelfia #Shorts](https://youtu.be/Nhetyk63W9Q) | programado | — |
@@ -39,7 +40,6 @@
 | 2026-11-17 | short | [El OVNI de Westall: el misterio de Melbourne de 1966 #shorts](https://youtu.be/DZFFV0fm1SU) | publicado | 1 067 |
 | 2026-11-17 | short | [Slender Man: ¿ficción o peligro real? #shorts](https://youtu.be/wmT2xnlRAj4) | publicado | 715 |
 | 2026-11-17 | short | El inventor del cine que desapareció en un tren #shorts | creado | — |
-| 2026-11-17 | short | El enigma real tras las Luces de Phoenix #shorts | creado | — |
 
 ## Aprendizajes
 
