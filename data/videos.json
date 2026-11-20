@@ -2131,5 +2131,51 @@
     "privacidad": "private",
     "publicar_en": "2026-11-21T00:00:00Z",
     "url": "https://youtu.be/wJ1e8ZaE6DU"
+  },
+  {
+    "id": "2026-11-20-short-voynich-manuscript",
+    "fecha": "2026-11-20T22:15:50+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Voynich manuscript",
+    "tema_clave": "Voynich manuscript",
+    "categoria": "civilizaciones",
+    "interes_wikipedia": 5.75,
+    "titulo_yt": "El manuscrito medieval que ni la inteligencia militar pudo descifrar #ManuscritoVoynich #Voynich1912",
+    "estructura": "en_medias_res",
+    "estilo": "luna_fria",
+    "duracion": 50.5,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Voynich_manuscript",
+      "https://es.wikipedia.org/wiki/Manuscrito_Voynich"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "q1UasLxvUaQ",
+    "privacidad": "private",
+    "publicar_en": "2026-11-21T13:00:00Z",
+    "url": "https://youtu.be/q1UasLxvUaQ"
   }
 ]

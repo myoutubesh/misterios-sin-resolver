@@ -721,5 +721,16 @@
     "estado_video": "programado",
     "costo_usd": 0.0,
     "fin": "2026-11-20T19:32:59+00:00"
+  },
+  {
+    "id": "20261120-220616-short",
+    "tipo": "short",
+    "inicio": "2026-11-20T22:06:16+00:00",
+    "estado": "ok",
+    "tema": "Voynich manuscript",
+    "video": "2026-11-20-short-voynich-manuscript",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-20T22:15:53+00:00"
   }
 ]
