@@ -659,5 +659,16 @@
     "estado_video": "programado",
     "costo_usd": 0.0,
     "fin": "2026-11-19T22:07:20+00:00"
+  },
+  {
+    "id": "20261120-032657-largo",
+    "tipo": "largo",
+    "inicio": "2026-11-20T03:26:57+00:00",
+    "estado": "ok",
+    "tema": "Bell Witch",
+    "video": "2026-11-20-largo-bell-witch",
+    "estado_video": "subido",
+    "costo_usd": 0.0,
+    "fin": "2026-11-20T04:16:57+00:00"
   }
 ]

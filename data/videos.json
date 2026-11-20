@@ -1900,5 +1900,52 @@
     "privacidad": "private",
     "publicar_en": "2026-11-20T13:00:00Z",
     "url": "https://youtu.be/DYCcwnvEnYM"
+  },
+  {
+    "id": "2026-11-20-largo-bell-witch",
+    "fecha": "2026-11-20T04:16:43+00:00",
+    "formato": "largo",
+    "estado": "subido",
+    "tema": "Bell Witch",
+    "tema_clave": "Bell Witch",
+    "categoria": "paranormal",
+    "interes_wikipedia": 5.34,
+    "titulo_yt": "La Bruja de Bell: ¿Aterrador poltergeist real o fraude histórico?",
+    "estructura": null,
+    "estilo": "archivo_antiguo",
+    "duracion": 704.8,
+    "escenas": 67,
+    "clips_reales": 40,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Bell_Witch"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.7-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "tipo_largo": "caso",
+    "miniatura_estilo": "vhs",
+    "youtube_id": "TjlOXxpveOk",
+    "privacidad": "private",
+    "publicar_en": null,
+    "url": "https://youtu.be/TjlOXxpveOk"
   }
 ]
