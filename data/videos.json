@@ -2315,5 +2315,50 @@
     "privacidad": "private",
     "publicar_en": "2026-11-21T21:00:00Z",
     "url": "https://youtu.be/uy8bTStBzms"
+  },
+  {
+    "id": "2026-11-21-short-skyquake",
+    "fecha": "2026-11-21T19:05:32+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Skyquake",
+    "tema_clave": "Skyquake",
+    "categoria": "fenomenos",
+    "interes_wikipedia": 3.92,
+    "titulo_yt": "El misterio de los cielomotos que sacuden casas #Cielomoto #Skyquake #Shorts",
+    "estructura": "segunda_persona",
+    "estilo": "noche_turquesa",
+    "duracion": 46.1,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Skyquake"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "-5lzH7x7jd4",
+    "privacidad": "private",
+    "publicar_en": "2026-11-22T00:00:00Z",
+    "url": "https://youtu.be/-5lzH7x7jd4"
   }
 ]

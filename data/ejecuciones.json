@@ -785,5 +785,16 @@
     "estado_video": "programado",
     "costo_usd": 0.0,
     "fin": "2026-11-21T16:04:12+00:00"
+  },
+  {
+    "id": "20261121-185147-short",
+    "tipo": "short",
+    "inicio": "2026-11-21T18:51:47+00:00",
+    "estado": "ok",
+    "tema": "Skyquake",
+    "video": "2026-11-21-short-skyquake",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-21T19:05:35+00:00"
   }
 ]
