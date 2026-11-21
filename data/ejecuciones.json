@@ -774,5 +774,16 @@
     "estado_video": "programado",
     "costo_usd": 0.0,
     "fin": "2026-11-21T13:17:30+00:00"
+  },
+  {
+    "id": "20261121-155145-short",
+    "tipo": "short",
+    "inicio": "2026-11-21T15:51:45+00:00",
+    "estado": "ok",
+    "tema": "Linear A",
+    "video": "2026-11-21-short-linear-a",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-21T16:04:12+00:00"
   }
 ]

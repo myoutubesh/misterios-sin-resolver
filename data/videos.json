@@ -2269,5 +2269,51 @@
     "privacidad": "private",
     "publicar_en": "2026-11-21T18:00:00Z",
     "url": "https://youtu.be/U09dZhfyB8w"
+  },
+  {
+    "id": "2026-11-21-short-linear-a",
+    "fecha": "2026-11-21T16:03:54+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Linear A",
+    "tema_clave": "Linear A",
+    "categoria": "civilizaciones",
+    "interes_wikipedia": 5.21,
+    "titulo_yt": "El enigma del Lineal A minoico #LinealA #Creta #Shorts",
+    "estructura": "en_medias_res",
+    "estilo": "grabado",
+    "duracion": 54.7,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Linear_A",
+      "https://es.wikipedia.org/wiki/Lineal_A"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "uy8bTStBzms",
+    "privacidad": "private",
+    "publicar_en": "2026-11-21T21:00:00Z",
+    "url": "https://youtu.be/uy8bTStBzms"
   }
 ]
