@@ -763,5 +763,16 @@
     "estado_video": "programado",
     "costo_usd": 0.0,
     "fin": "2026-11-21T11:08:07+00:00"
+  },
+  {
+    "id": "20261121-130054-short",
+    "tipo": "short",
+    "inicio": "2026-11-21T13:00:54+00:00",
+    "estado": "ok",
+    "tema": "Death of Elisa Lam",
+    "video": "2026-11-21-short-death-of-elisa-lam",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-21T13:17:30+00:00"
   }
 ]

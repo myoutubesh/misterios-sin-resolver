@@ -1,45 +1,45 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-21 11:08 UTC*
+*Actualizado: 2026-11-21 13:17 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 52 | 13 891 | 49 | 26 | 6 | 29 | $0.00 |
+| 53 | 15 414 | 50 | 31 | 2 | 29 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
-| 2026-11-21 | short | [El mito real tras la isla de Poveglia #Poveglia #Venecia #Shorts](https://youtu.be/tWItWRJqsQ8) | programado | — |
-| 2026-11-20 | short | [El manuscrito medieval que ni la inteligencia militar pudo descifrar #ManuscritoVoynich #Voynich1912](https://youtu.be/q1UasLxvUaQ) | programado | — |
-| 2026-11-20 | short | [El mito del Wendigo: ¿Posesión o psicosis? / 1878 #Wendigo #Canada1878 #Shorts](https://youtu.be/wJ1e8ZaE6DU) | programado | — |
-| 2026-11-20 | short | [El misterio de las luces de Marfa en Texas / Marfa Lights #LucesDeMarfa #MarfaTexas #Shorts](https://youtu.be/ZkQ7mZIkFUg) | programado | — |
-| 2026-11-20 | short | [El oscuro misterio del hacha en Iowa (1912) #Villisca1912 #Iowa1912 #Shorts](https://youtu.be/w_8YLGuHIS8) | programado | — |
-| 2026-11-20 | short | [El misterio del coronel Fawcett y la Ciudad Z #PercyFawcett #Amazonas1925 #Shorts](https://youtu.be/wAoJolHiyAo) | programado | 0 |
-| 2026-11-20 | largo | [La Bruja de Bell: ¿Aterrador poltergeist real o fraude histórico?](https://youtu.be/TjlOXxpveOk) | publicado | 4 |
-| 2026-11-19 | short | [El misterio del lecho del Mar Báltico #AnomaliaDelBaltico #MarBaltico #Shorts](https://youtu.be/DYCcwnvEnYM) | publicado | 684 |
-| 2026-11-19 | short | [El barco militar que se volvió invisible / Experimento Filadelfia #ExperimentoFiladelfia #Shorts](https://youtu.be/Nhetyk63W9Q) | publicado | 73 |
-| 2026-11-19 | short | [El misterio de los relámpagos del Catatumbo #RelampagoDelCatatumbo #Venezuela #Shorts](https://youtu.be/nOtMNr37n9Y) | publicado | 137 |
-| 2026-11-19 | short | [El misterio de los niños verdes de Woolpit #NinosVerdes #Woolpit #Shorts](https://youtu.be/oBYTZHyCUQc) | publicado | 375 |
-| 2026-11-19 | short | [El secreto bajo las piedras de Stonehenge #Stonehenge #Wiltshire #Shorts](https://youtu.be/xNp7bIjgJ_Y) | publicado | 389 |
-| 2026-11-19 | short | [Operación Northwoods: el plan secreto de 1962 #OperacionNorthwoods #EstadosUnidos1962 #Shorts](https://youtu.be/IAESR_H7YPQ) | publicado | 204 |
-| 2026-11-19 | short | [Tres detalles inquietantes de Glenn Miller shorts #GlennMiller #CanalDeLaMancha #Shorts](https://youtu.be/4m79WyFi9bk) | publicado | 995 |
+| 2026-11-21 | short | [El misterioso caso de Elisa Lam en el ascensor #ElisaLam #HotelCecil #Shorts](https://youtu.be/U09dZhfyB8w) | programado | — |
+| 2026-11-21 | short | [El mito real tras la isla de Poveglia #Poveglia #Venecia #Shorts](https://youtu.be/tWItWRJqsQ8) | programado | 0 |
+| 2026-11-20 | short | [El manuscrito medieval que ni la inteligencia militar pudo descifrar #ManuscritoVoynich #Voynich1912](https://youtu.be/q1UasLxvUaQ) | publicado | 17 |
+| 2026-11-20 | short | [El mito del Wendigo: ¿Posesión o psicosis? / 1878 #Wendigo #Canada1878 #Shorts](https://youtu.be/wJ1e8ZaE6DU) | publicado | 83 |
+| 2026-11-20 | short | [El misterio de las luces de Marfa en Texas / Marfa Lights #LucesDeMarfa #MarfaTexas #Shorts](https://youtu.be/ZkQ7mZIkFUg) | publicado | 329 |
+| 2026-11-20 | short | [El oscuro misterio del hacha en Iowa (1912) #Villisca1912 #Iowa1912 #Shorts](https://youtu.be/w_8YLGuHIS8) | publicado | 81 |
+| 2026-11-20 | short | [El misterio del coronel Fawcett y la Ciudad Z #PercyFawcett #Amazonas1925 #Shorts](https://youtu.be/wAoJolHiyAo) | publicado | 151 |
+| 2026-11-20 | largo | [La Bruja de Bell: ¿Aterrador poltergeist real o fraude histórico?](https://youtu.be/TjlOXxpveOk) | publicado | 51 |
+| 2026-11-19 | short | [El misterio del lecho del Mar Báltico #AnomaliaDelBaltico #MarBaltico #Shorts](https://youtu.be/DYCcwnvEnYM) | publicado | 1 030 |
+| 2026-11-19 | short | [El barco militar que se volvió invisible / Experimento Filadelfia #ExperimentoFiladelfia #Shorts](https://youtu.be/Nhetyk63W9Q) | publicado | 354 |
+| 2026-11-19 | short | [El misterio de los relámpagos del Catatumbo #RelampagoDelCatatumbo #Venezuela #Shorts](https://youtu.be/nOtMNr37n9Y) | publicado | 220 |
+| 2026-11-19 | short | [El misterio de los niños verdes de Woolpit #NinosVerdes #Woolpit #Shorts](https://youtu.be/oBYTZHyCUQc) | publicado | 983 |
+| 2026-11-19 | short | [El secreto bajo las piedras de Stonehenge #Stonehenge #Wiltshire #Shorts](https://youtu.be/xNp7bIjgJ_Y) | publicado | 671 |
+| 2026-11-19 | short | [Operación Northwoods: el plan secreto de 1962 #OperacionNorthwoods #EstadosUnidos1962 #Shorts](https://youtu.be/IAESR_H7YPQ) | publicado | 227 |
+| 2026-11-19 | short | [Tres detalles inquietantes de Glenn Miller shorts #GlennMiller #CanalDeLaMancha #Shorts](https://youtu.be/4m79WyFi9bk) | publicado | 996 |
 | 2026-11-18 | short | Relámpagos eternos sobre el lago de Maracaibo #Catatumbo #Maracaibo #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | Los pilares que rompen la idea de la agricultura #GöbekliTepe #Turquia9600 #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | Cicada 3301: el reto que desafía a la mente #Cicada3301 #InternetMisterio #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | Escapó del sueño en Kholat Syakhl #DyatlovPass #KholatSyakhl #Shorts | retenido_calidad | — |
-| 2026-11-18 | short | [El secreto que impulsó la llegada a la Luna #OperacionPaperclip #WernherVonBraun #Shorts](https://youtu.be/JYEUPufmapM) | publicado | 21 |
+| 2026-11-18 | short | [El secreto que impulsó la llegada a la Luna #OperacionPaperclip #WernherVonBraun #Shorts](https://youtu.be/JYEUPufmapM) | publicado | 22 |
 | 2026-11-18 | short | Enfield: ¿poltergeist o atrapar a los niños? #EnfieldPoltergeist #Enfield #Shorts | retenido_calidad | — |
-| 2026-11-18 | short | [¿Origen prehispánico de La Llorona? #LaLlorona #Xochimilco #Shorts](https://youtu.be/dMMJYVkLmQg) | publicado | 1 002 |
+| 2026-11-18 | short | [¿Origen prehispánico de La Llorona? #LaLlorona #Xochimilco #Shorts](https://youtu.be/dMMJYVkLmQg) | publicado | 999 |
 | 2026-11-18 | short | El faro del misterio: la muerte de Elisa Lam #CaseMysterioso #LosAngeles2013 #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | El asesino del Zodiaco: misterio sin resolver #Zodiaco #SanFrancisco #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | Jack saltarín: la criatura que saltó sobre muros y escaló corceles #SpringHeeledJack #Londres1837 | retenido_calidad | — |
-| 2026-11-18 | short | [El enigma de Kaspar Hauser y su trágico final #KasparHauser #Nuremberg1828 #Shorts](https://youtu.be/wgIwv_8KmWs) | publicado | 974 |
-| 2026-11-18 | short | [El misterio de Skinwalker Ranch en Utah #SkinwalkerRanch #UintahCounty #Shorts](https://youtu.be/_tS205NAA9c) | publicado | 1 176 |
-| 2026-11-18 | short | [El misterio de los 72 segundos de la señal Wow! #SenalWow #BigEar1977 #Shorts](https://youtu.be/70oqpq4dkA4) | publicado | 1 298 |
+| 2026-11-18 | short | [El enigma de Kaspar Hauser y su trágico final #KasparHauser #Nuremberg1828 #Shorts](https://youtu.be/wgIwv_8KmWs) | publicado | 975 |
+| 2026-11-18 | short | [El misterio de Skinwalker Ranch en Utah #SkinwalkerRanch #UintahCounty #Shorts](https://youtu.be/_tS205NAA9c) | publicado | 1 186 |
+| 2026-11-18 | short | [El misterio de los 72 segundos de la señal Wow! #SenalWow #BigEar1977 #Shorts](https://youtu.be/70oqpq4dkA4) | publicado | 1 296 |
 | 2026-11-17 | short | Glenn Miller desapareció en el Canal de la Mancha #Miller1944 #CanaldeMancha #Shorts | retenido_calidad | — |
 | 2026-11-17 | short | La plaga del baile 1518: una historia de descontrol #PesteDeBaile #Estrasburgo1518 #Shorts | retenido_calidad | — |
-| 2026-11-17 | short | [El misterio de UVB‑76, la radio que nunca apaga #UVB76 #Buzzer #Shorts](https://youtu.be/zuoj8SX8Umo) | publicado | 1 167 |
 
 ## Aprendizajes
 

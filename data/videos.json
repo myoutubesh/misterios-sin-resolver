@@ -2223,5 +2223,51 @@
     "privacidad": "private",
     "publicar_en": "2026-11-21T15:00:00Z",
     "url": "https://youtu.be/tWItWRJqsQ8"
+  },
+  {
+    "id": "2026-11-21-short-death-of-elisa-lam",
+    "fecha": "2026-11-21T13:17:27+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Death of Elisa Lam",
+    "tema_clave": "Death of Elisa Lam",
+    "categoria": "casos_sin_resolver",
+    "interes_wikipedia": 1.13,
+    "titulo_yt": "El misterioso caso de Elisa Lam en el ascensor #ElisaLam #HotelCecil #Shorts",
+    "estructura": "segunda_persona",
+    "estilo": "archivo_antiguo",
+    "duracion": 55.4,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Death_of_Elisa_Lam",
+      "https://es.wikipedia.org/wiki/Muerte_de_Elisa_Lam"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "U09dZhfyB8w",
+    "privacidad": "private",
+    "publicar_en": "2026-11-21T18:00:00Z",
+    "url": "https://youtu.be/U09dZhfyB8w"
   }
 ]
