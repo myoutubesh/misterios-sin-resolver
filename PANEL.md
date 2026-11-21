@@ -1,15 +1,16 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-21 03:55 UTC*
+*Actualizado: 2026-11-21 11:08 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 52 | 13 891 | 48 | 26 | 5 | 29 | $0.00 |
+| 52 | 13 891 | 49 | 26 | 6 | 29 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-21 | short | [El mito real tras la isla de Poveglia #Poveglia #Venecia #Shorts](https://youtu.be/tWItWRJqsQ8) | programado | — |
 | 2026-11-20 | short | [El manuscrito medieval que ni la inteligencia militar pudo descifrar #ManuscritoVoynich #Voynich1912](https://youtu.be/q1UasLxvUaQ) | programado | — |
 | 2026-11-20 | short | [El mito del Wendigo: ¿Posesión o psicosis? / 1878 #Wendigo #Canada1878 #Shorts](https://youtu.be/wJ1e8ZaE6DU) | programado | — |
 | 2026-11-20 | short | [El misterio de las luces de Marfa en Texas / Marfa Lights #LucesDeMarfa #MarfaTexas #Shorts](https://youtu.be/ZkQ7mZIkFUg) | programado | — |
@@ -39,7 +40,6 @@
 | 2026-11-17 | short | Glenn Miller desapareció en el Canal de la Mancha #Miller1944 #CanaldeMancha #Shorts | retenido_calidad | — |
 | 2026-11-17 | short | La plaga del baile 1518: una historia de descontrol #PesteDeBaile #Estrasburgo1518 #Shorts | retenido_calidad | — |
 | 2026-11-17 | short | [El misterio de UVB‑76, la radio que nunca apaga #UVB76 #Buzzer #Shorts](https://youtu.be/zuoj8SX8Umo) | publicado | 1 167 |
-| 2026-11-17 | short | El Relámpago del Catatumbo: La tormenta que nunca se apaga #Catatumbo #LakeMaracaibo #Shorts | retenido_calidad | — |
 
 ## Aprendizajes
 

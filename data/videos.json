@@ -2177,5 +2177,51 @@
     "privacidad": "private",
     "publicar_en": "2026-11-21T13:00:00Z",
     "url": "https://youtu.be/q1UasLxvUaQ"
+  },
+  {
+    "id": "2026-11-21-short-poveglia",
+    "fecha": "2026-11-21T11:08:04+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Poveglia",
+    "tema_clave": "Poveglia",
+    "categoria": "lugares",
+    "interes_wikipedia": 1.14,
+    "titulo_yt": "El mito real tras la isla de Poveglia #Poveglia #Venecia #Shorts",
+    "estructura": "segunda_persona",
+    "estilo": "noche_turquesa",
+    "duracion": 41.5,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Poveglia",
+      "https://es.wikipedia.org/wiki/Poveglia"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.5-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "tWItWRJqsQ8",
+    "privacidad": "private",
+    "publicar_en": "2026-11-21T15:00:00Z",
+    "url": "https://youtu.be/tWItWRJqsQ8"
   }
 ]
