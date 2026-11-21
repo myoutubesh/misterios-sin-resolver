@@ -1,15 +1,16 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-21 19:05 UTC*
+*Actualizado: 2026-11-21 21:57 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 15 414 | 52 | 31 | 4 | 29 | $0.00 |
+| 53 | 15 414 | 53 | 31 | 5 | 29 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-21 | short | [El misterio de Peter Bergmann: El hombre borrado #PeterBergmann #Irlanda2009 #Shorts](https://youtu.be/qZTuV2vT3sE) | programado | — |
 | 2026-11-21 | short | [El misterio de los cielomotos que sacuden casas #Cielomoto #Skyquake #Shorts](https://youtu.be/-5lzH7x7jd4) | programado | — |
 | 2026-11-21 | short | [El enigma del Lineal A minoico #LinealA #Creta #Shorts](https://youtu.be/uy8bTStBzms) | programado | — |
 | 2026-11-21 | short | [El misterioso caso de Elisa Lam en el ascensor #ElisaLam #HotelCecil #Shorts](https://youtu.be/U09dZhfyB8w) | programado | — |
@@ -39,7 +40,6 @@
 | 2026-11-18 | short | Jack saltarín: la criatura que saltó sobre muros y escaló corceles #SpringHeeledJack #Londres1837 | retenido_calidad | — |
 | 2026-11-18 | short | [El enigma de Kaspar Hauser y su trágico final #KasparHauser #Nuremberg1828 #Shorts](https://youtu.be/wgIwv_8KmWs) | publicado | 975 |
 | 2026-11-18 | short | [El misterio de Skinwalker Ranch en Utah #SkinwalkerRanch #UintahCounty #Shorts](https://youtu.be/_tS205NAA9c) | publicado | 1 186 |
-| 2026-11-18 | short | [El misterio de los 72 segundos de la señal Wow! #SenalWow #BigEar1977 #Shorts](https://youtu.be/70oqpq4dkA4) | publicado | 1 296 |
 
 ## Aprendizajes
 
