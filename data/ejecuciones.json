@@ -732,5 +732,25 @@
     "estado_video": "programado",
     "costo_usd": 0.0,
     "fin": "2026-11-20T22:15:53+00:00"
+  },
+  {
+    "id": "20261121-032737-largo",
+    "tipo": "largo",
+    "inicio": "2026-11-21T03:27:37+00:00",
+    "estado": "error",
+    "tema": "7 leyendas de Colombia",
+    "fin": "2026-11-21T03:34:23+00:00",
+    "error": "RuntimeError: Ninguna IA pudo responder: gemini: 53 escenas (esperaba 55-130) | pollinations: la respuesta no trae JSON | gemini: 49 escenas (esperaba 55-130) | pollinations: 17 escenas (esperaba 55-130)",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 174, in crear_video\n    g = guion.guion_lista(art, prueba=prueba)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/guion.py\", line 394, in guion_lista\n    g = ia.generar_json(prompt, max_tokens=56000, validar=lambda d: _normalizar(d, *minimos))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/ia.py\", line 225, in generar_json\n    raise RuntimeError(\"Ninguna IA pudo responder: \" + \" | \".join(errores))\nRuntimeError: Ninguna IA pudo responder: gemini: 53 escenas (esperaba 55-130) | pollinations: la respuesta no trae JSON | gemini: 49 escenas (esperaba 55-130) | pollinations: 17 escenas (esperaba 55-130)\n"
+  },
+  {
+    "id": "20261121-033923-largo",
+    "tipo": "largo",
+    "inicio": "2026-11-21T03:39:23+00:00",
+    "estado": "error",
+    "tema": "7 leyendas de Argentina",
+    "fin": "2026-11-21T03:55:36+00:00",
+    "error": "RuntimeError: Ninguna IA pudo responder: gemini: 25 escenas (esperaba 55-130) | pollinations: 1 escenas (esperaba 55-130) | gemini: 41 escenas (esperaba 55-130) | pollinations: 1 escenas (esperaba 55-130)",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 174, in crear_video\n    g = guion.guion_lista(art, prueba=prueba)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/guion.py\", line 394, in guion_lista\n    g = ia.generar_json(prompt, max_tokens=56000, validar=lambda d: _normalizar(d, *minimos))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/ia.py\", line 225, in generar_json\n    raise RuntimeError(\"Ninguna IA pudo responder: \" + \" | \".join(errores))\nRuntimeError: Ninguna IA pudo responder: gemini: 25 escenas (esperaba 55-130) | pollinations: 1 escenas (esperaba 55-130) | gemini: 41 escenas (esperaba 55-130) | pollinations: 1 escenas (esperaba 55-130)\n"
   }
 ]
