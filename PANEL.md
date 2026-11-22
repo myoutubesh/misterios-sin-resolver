@@ -1,15 +1,16 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-22 03:38 UTC*
+*Actualizado: 2026-11-22 11:03 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 15 414 | 53 | 31 | 5 | 31 | $0.00 |
+| 53 | 15 414 | 54 | 31 | 6 | 31 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-22 | short | [El poltergeist de Enfield: ¿fenómeno real o fraude? #PoltergeistEnfield #Londres1977 #Shorts](https://youtu.be/SAys6cJBM2Y) | programado | — |
 | 2026-11-21 | short | [El misterio de Peter Bergmann: El hombre borrado #PeterBergmann #Irlanda2009 #Shorts](https://youtu.be/qZTuV2vT3sE) | programado | — |
 | 2026-11-21 | short | [El misterio de los cielomotos que sacuden casas #Cielomoto #Skyquake #Shorts](https://youtu.be/-5lzH7x7jd4) | programado | — |
 | 2026-11-21 | short | [El enigma del Lineal A minoico #LinealA #Creta #Shorts](https://youtu.be/uy8bTStBzms) | programado | — |
@@ -39,7 +40,6 @@
 | 2026-11-18 | short | El asesino del Zodiaco: misterio sin resolver #Zodiaco #SanFrancisco #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | Jack saltarín: la criatura que saltó sobre muros y escaló corceles #SpringHeeledJack #Londres1837 | retenido_calidad | — |
 | 2026-11-18 | short | [El enigma de Kaspar Hauser y su trágico final #KasparHauser #Nuremberg1828 #Shorts](https://youtu.be/wgIwv_8KmWs) | publicado | 975 |
-| 2026-11-18 | short | [El misterio de Skinwalker Ranch en Utah #SkinwalkerRanch #UintahCounty #Shorts](https://youtu.be/_tS205NAA9c) | publicado | 1 186 |
 
 ## Aprendizajes
 

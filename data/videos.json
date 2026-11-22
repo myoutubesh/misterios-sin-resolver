@@ -2405,5 +2405,51 @@
     "privacidad": "private",
     "publicar_en": "2026-11-22T13:00:00Z",
     "url": "https://youtu.be/qZTuV2vT3sE"
+  },
+  {
+    "id": "2026-11-22-short-enfield-poltergeist",
+    "fecha": "2026-11-22T11:03:23+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Enfield poltergeist",
+    "tema_clave": "Enfield poltergeist",
+    "categoria": "paranormal",
+    "interes_wikipedia": 5.58,
+    "titulo_yt": "El poltergeist de Enfield: ¿fenómeno real o fraude? #PoltergeistEnfield #Londres1977 #Shorts",
+    "estructura": "en_medias_res",
+    "estilo": "noche_turquesa",
+    "duracion": 54.6,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Enfield_poltergeist",
+      "https://es.wikipedia.org/wiki/Poltergeist_de_Enfield"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "SAys6cJBM2Y",
+    "privacidad": "private",
+    "publicar_en": "2026-11-22T15:00:00Z",
+    "url": "https://youtu.be/SAys6cJBM2Y"
   }
 ]
