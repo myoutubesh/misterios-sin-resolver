@@ -845,5 +845,16 @@
     "inicio": "2026-11-22T11:44:56+00:00",
     "estado": "ok",
     "fin": "2026-11-22T11:45:02+00:00"
+  },
+  {
+    "id": "20261122-130011-short",
+    "tipo": "short",
+    "inicio": "2026-11-22T13:00:11+00:00",
+    "estado": "ok",
+    "tema": "Phaistos Disc",
+    "video": "2026-11-22-short-phaistos-disc",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-22T13:33:30+00:00"
   }
 ]
