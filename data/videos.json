@@ -2543,5 +2543,89 @@
     "privacidad": "private",
     "publicar_en": "2026-11-22T21:00:00Z",
     "url": "https://youtu.be/6k0XRBi1mao"
+  },
+  {
+    "id": "2026-11-22-short-richat-structure",
+    "fecha": "2026-11-22T19:06:05+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Richat Structure",
+    "tema_clave": "Richat Structure",
+    "categoria": "lugares",
+    "interes_wikipedia": 4.42,
+    "titulo_yt": "El enigma del Ojo del Sáhara en Mauritania #EstructuraDeRichat #Mauritania #Shorts",
+    "estructura": "pregunta",
+    "estilo": "grabado",
+    "duracion": 53.6,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Richat_Structure",
+      "https://es.wikipedia.org/wiki/Estructura_de_Richat"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-22-short-flying-dutchman",
+    "fecha": "2026-11-22T19:15:42+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Flying Dutchman",
+    "tema_clave": "Flying Dutchman",
+    "categoria": "leyendas",
+    "interes_wikipedia": 5.3,
+    "titulo_yt": "El misterio de la nave fantasma que vio un rey #HolandesErrante #FlyingDutchman #Shorts",
+    "estructura": "segunda_persona",
+    "estilo": "carmesi",
+    "duracion": 41.5,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Flying_Dutchman",
+      "https://es.wikipedia.org/wiki/El_holand%C3%A9s_errante_(leyenda)"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
