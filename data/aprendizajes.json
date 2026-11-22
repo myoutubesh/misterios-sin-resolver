@@ -1,31 +1,35 @@
 {
-  "actualizado": "2026-11-20T11:58:47+00:00",
-  "videos_analizados": 14,
+  "actualizado": "2026-11-22T11:44:57+00:00",
+  "videos_analizados": 25,
   "peso_categoria": {
-    "leyendas": 1.67,
-    "fenomenos": 0.61,
-    "conspiraciones": 0.99,
-    "paranormal": 0.83
+    "leyendas": 1.66,
+    "fenomenos": 0.54,
+    "conspiraciones": 0.6,
+    "lugares": 0.93,
+    "paranormal": 0.6,
+    "desapariciones": 1.65
   },
   "titulos_top": {
     "short": [
       "El misterio del Diablo de Jersey #shorts",
       "El misterio de los 72 segundos de la señal Wow! #SenalWow #BigEar1977 #Shorts",
       "Tres detalles inquietantes del mito del chupacabras #shorts",
-      "El misterio de UVB‑76, la radio que nunca apaga #UVB76 #Buzzer #Shorts",
-      "El misterio de Amelia Earhart #shorts"
+      "El misterio de Skinwalker Ranch en Utah #SkinwalkerRanch #UintahCounty #Shorts",
+      "El misterio de UVB‑76, la radio que nunca apaga #UVB76 #Buzzer #Shorts"
     ],
-    "largo": []
+    "largo": [
+      "La Bruja de Bell: ¿Aterrador poltergeist real o fraude histórico?"
+    ]
   },
   "consejos": [
-    "La categoría con mejor rendimiento es 'leyendas' (1.67x el promedio).",
+    "La categoría con mejor rendimiento es 'leyendas' (1.66x el promedio).",
     "Los shorts de 40-50s rinden mejor.",
-    "Las publicaciones cerca de las 0:00 (America/Mexico_City) tienen más vistas.",
-    "Prioriza los temas de leyendas cryptidas (El Diablo de Jersey, Chupacabras) y misterios espaciales/frecuencias (Señal Wow, UVB-76), ya que superan consistentemente las 1,100 reproducciones.",
-    "Utiliza ganchos basados en listas de datos inquietantes en el guion (ej. 'Tres detalles inquietantes...'), manteniendo la fórmula de generar curiosidad visual en los primeros 3 segundos.",
-    "Mantén los títulos concisos (entre 45 y 60 caracteres) iniciando directamente con la premisa o el nombre del caso sin saturar de hashtags al inicio.",
-    "Evita historias de crímenes históricos lejanos o casos paranormales sobreexplotados (como la Condesa Báthory o datos sobre el Mothman) que generan bajo interés en el formato actual."
+    "Las publicaciones cerca de las 21:00 (America/Mexico_City) tienen más vistas.",
+    "Prioriza la temática de 'leyendas' y 'criptozoología' (como el Diablo de Jersey o el Chupacabras), ya que acumulan consistentemente el mayor número de visualizaciones en comparación con eventos históricos o conspiraciones espaciales.",
+    "Utiliza la fórmula de gancho '3 detalles/datos inquietantes sobre X', ya que demostró buen rendimiento en títulos sobre el Chupacabras y Glenn Miller, generando curiosidad inmediata.",
+    "Simplifica la longitud y estructura de los títulos: mantén la frase principal por debajo de los 60 caracteres y reduce el exceso de hashtags específicos (como #WernherVonBraun o #Nuremberg1828), limitándote a #Shorts.",
+    "Sustituye ganchos descriptivos o pasivos por preguntas directas o afirmaciones impactantes en la primera línea del guion para evitar desplomes de tráfico como los vistos en temas de conspiración militar."
   ],
   "duracion_ideal_short": "40-50s",
-  "mejor_hora": 0
+  "mejor_hora": 21
 }

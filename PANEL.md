@@ -1,41 +1,41 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-22 11:03 UTC*
+*Actualizado: 2026-11-22 11:45 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 15 414 | 54 | 31 | 6 | 31 | $0.00 |
+| 53 | 17 080 | 54 | 36 | 1 | 31 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
-| 2026-11-22 | short | [El poltergeist de Enfield: ¿fenómeno real o fraude? #PoltergeistEnfield #Londres1977 #Shorts](https://youtu.be/SAys6cJBM2Y) | programado | — |
-| 2026-11-21 | short | [El misterio de Peter Bergmann: El hombre borrado #PeterBergmann #Irlanda2009 #Shorts](https://youtu.be/qZTuV2vT3sE) | programado | — |
-| 2026-11-21 | short | [El misterio de los cielomotos que sacuden casas #Cielomoto #Skyquake #Shorts](https://youtu.be/-5lzH7x7jd4) | programado | — |
-| 2026-11-21 | short | [El enigma del Lineal A minoico #LinealA #Creta #Shorts](https://youtu.be/uy8bTStBzms) | programado | — |
-| 2026-11-21 | short | [El misterioso caso de Elisa Lam en el ascensor #ElisaLam #HotelCecil #Shorts](https://youtu.be/U09dZhfyB8w) | programado | — |
-| 2026-11-21 | short | [El mito real tras la isla de Poveglia #Poveglia #Venecia #Shorts](https://youtu.be/tWItWRJqsQ8) | programado | 0 |
-| 2026-11-20 | short | [El manuscrito medieval que ni la inteligencia militar pudo descifrar #ManuscritoVoynich #Voynich1912](https://youtu.be/q1UasLxvUaQ) | publicado | 17 |
-| 2026-11-20 | short | [El mito del Wendigo: ¿Posesión o psicosis? / 1878 #Wendigo #Canada1878 #Shorts](https://youtu.be/wJ1e8ZaE6DU) | publicado | 83 |
-| 2026-11-20 | short | [El misterio de las luces de Marfa en Texas / Marfa Lights #LucesDeMarfa #MarfaTexas #Shorts](https://youtu.be/ZkQ7mZIkFUg) | publicado | 329 |
-| 2026-11-20 | short | [El oscuro misterio del hacha en Iowa (1912) #Villisca1912 #Iowa1912 #Shorts](https://youtu.be/w_8YLGuHIS8) | publicado | 81 |
-| 2026-11-20 | short | [El misterio del coronel Fawcett y la Ciudad Z #PercyFawcett #Amazonas1925 #Shorts](https://youtu.be/wAoJolHiyAo) | publicado | 151 |
-| 2026-11-20 | largo | [La Bruja de Bell: ¿Aterrador poltergeist real o fraude histórico?](https://youtu.be/TjlOXxpveOk) | publicado | 51 |
-| 2026-11-19 | short | [El misterio del lecho del Mar Báltico #AnomaliaDelBaltico #MarBaltico #Shorts](https://youtu.be/DYCcwnvEnYM) | publicado | 1 030 |
-| 2026-11-19 | short | [El barco militar que se volvió invisible / Experimento Filadelfia #ExperimentoFiladelfia #Shorts](https://youtu.be/Nhetyk63W9Q) | publicado | 354 |
-| 2026-11-19 | short | [El misterio de los relámpagos del Catatumbo #RelampagoDelCatatumbo #Venezuela #Shorts](https://youtu.be/nOtMNr37n9Y) | publicado | 220 |
-| 2026-11-19 | short | [El misterio de los niños verdes de Woolpit #NinosVerdes #Woolpit #Shorts](https://youtu.be/oBYTZHyCUQc) | publicado | 983 |
-| 2026-11-19 | short | [El secreto bajo las piedras de Stonehenge #Stonehenge #Wiltshire #Shorts](https://youtu.be/xNp7bIjgJ_Y) | publicado | 671 |
+| 2026-11-22 | short | [El poltergeist de Enfield: ¿fenómeno real o fraude? #PoltergeistEnfield #Londres1977 #Shorts](https://youtu.be/SAys6cJBM2Y) | programado | 0 |
+| 2026-11-21 | short | [El misterio de Peter Bergmann: El hombre borrado #PeterBergmann #Irlanda2009 #Shorts](https://youtu.be/qZTuV2vT3sE) | publicado | 10 |
+| 2026-11-21 | short | [El misterio de los cielomotos que sacuden casas #Cielomoto #Skyquake #Shorts](https://youtu.be/-5lzH7x7jd4) | publicado | 107 |
+| 2026-11-21 | short | [El enigma del Lineal A minoico #LinealA #Creta #Shorts](https://youtu.be/uy8bTStBzms) | publicado | 15 |
+| 2026-11-21 | short | [El misterioso caso de Elisa Lam en el ascensor #ElisaLam #HotelCecil #Shorts](https://youtu.be/U09dZhfyB8w) | publicado | 63 |
+| 2026-11-21 | short | [El mito real tras la isla de Poveglia #Poveglia #Venecia #Shorts](https://youtu.be/tWItWRJqsQ8) | publicado | 97 |
+| 2026-11-20 | short | [El manuscrito medieval que ni la inteligencia militar pudo descifrar #ManuscritoVoynich #Voynich1912](https://youtu.be/q1UasLxvUaQ) | publicado | 105 |
+| 2026-11-20 | short | [El mito del Wendigo: ¿Posesión o psicosis? / 1878 #Wendigo #Canada1878 #Shorts](https://youtu.be/wJ1e8ZaE6DU) | publicado | 251 |
+| 2026-11-20 | short | [El misterio de las luces de Marfa en Texas / Marfa Lights #LucesDeMarfa #MarfaTexas #Shorts](https://youtu.be/ZkQ7mZIkFUg) | publicado | 516 |
+| 2026-11-20 | short | [El oscuro misterio del hacha en Iowa (1912) #Villisca1912 #Iowa1912 #Shorts](https://youtu.be/w_8YLGuHIS8) | publicado | 274 |
+| 2026-11-20 | short | [El misterio del coronel Fawcett y la Ciudad Z #PercyFawcett #Amazonas1925 #Shorts](https://youtu.be/wAoJolHiyAo) | publicado | 220 |
+| 2026-11-20 | largo | [La Bruja de Bell: ¿Aterrador poltergeist real o fraude histórico?](https://youtu.be/TjlOXxpveOk) | publicado | 52 |
+| 2026-11-19 | short | [El misterio del lecho del Mar Báltico #AnomaliaDelBaltico #MarBaltico #Shorts](https://youtu.be/DYCcwnvEnYM) | publicado | 1 032 |
+| 2026-11-19 | short | [El barco militar que se volvió invisible / Experimento Filadelfia #ExperimentoFiladelfia #Shorts](https://youtu.be/Nhetyk63W9Q) | publicado | 360 |
+| 2026-11-19 | short | [El misterio de los relámpagos del Catatumbo #RelampagoDelCatatumbo #Venezuela #Shorts](https://youtu.be/nOtMNr37n9Y) | publicado | 233 |
+| 2026-11-19 | short | [El misterio de los niños verdes de Woolpit #NinosVerdes #Woolpit #Shorts](https://youtu.be/oBYTZHyCUQc) | publicado | 992 |
+| 2026-11-19 | short | [El secreto bajo las piedras de Stonehenge #Stonehenge #Wiltshire #Shorts](https://youtu.be/xNp7bIjgJ_Y) | publicado | 673 |
 | 2026-11-19 | short | [Operación Northwoods: el plan secreto de 1962 #OperacionNorthwoods #EstadosUnidos1962 #Shorts](https://youtu.be/IAESR_H7YPQ) | publicado | 227 |
-| 2026-11-19 | short | [Tres detalles inquietantes de Glenn Miller shorts #GlennMiller #CanalDeLaMancha #Shorts](https://youtu.be/4m79WyFi9bk) | publicado | 996 |
+| 2026-11-19 | short | [Tres detalles inquietantes de Glenn Miller shorts #GlennMiller #CanalDeLaMancha #Shorts](https://youtu.be/4m79WyFi9bk) | publicado | 995 |
 | 2026-11-18 | short | Relámpagos eternos sobre el lago de Maracaibo #Catatumbo #Maracaibo #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | Los pilares que rompen la idea de la agricultura #GöbekliTepe #Turquia9600 #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | Cicada 3301: el reto que desafía a la mente #Cicada3301 #InternetMisterio #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | Escapó del sueño en Kholat Syakhl #DyatlovPass #KholatSyakhl #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | [El secreto que impulsó la llegada a la Luna #OperacionPaperclip #WernherVonBraun #Shorts](https://youtu.be/JYEUPufmapM) | publicado | 22 |
 | 2026-11-18 | short | Enfield: ¿poltergeist o atrapar a los niños? #EnfieldPoltergeist #Enfield #Shorts | retenido_calidad | — |
-| 2026-11-18 | short | [¿Origen prehispánico de La Llorona? #LaLlorona #Xochimilco #Shorts](https://youtu.be/dMMJYVkLmQg) | publicado | 999 |
+| 2026-11-18 | short | [¿Origen prehispánico de La Llorona? #LaLlorona #Xochimilco #Shorts](https://youtu.be/dMMJYVkLmQg) | publicado | 1 002 |
 | 2026-11-18 | short | El faro del misterio: la muerte de Elisa Lam #CaseMysterioso #LosAngeles2013 #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | El asesino del Zodiaco: misterio sin resolver #Zodiaco #SanFrancisco #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | Jack saltarín: la criatura que saltó sobre muros y escaló corceles #SpringHeeledJack #Londres1837 | retenido_calidad | — |
@@ -43,13 +43,13 @@
 
 ## Aprendizajes
 
-- La categoría con mejor rendimiento es 'leyendas' (1.67x el promedio).
+- La categoría con mejor rendimiento es 'leyendas' (1.66x el promedio).
 - Los shorts de 40-50s rinden mejor.
-- Las publicaciones cerca de las 0:00 (America/Mexico_City) tienen más vistas.
-- Prioriza los temas de leyendas cryptidas (El Diablo de Jersey, Chupacabras) y misterios espaciales/frecuencias (Señal Wow, UVB-76), ya que superan consistentemente las 1,100 reproducciones.
-- Utiliza ganchos basados en listas de datos inquietantes en el guion (ej. 'Tres detalles inquietantes...'), manteniendo la fórmula de generar curiosidad visual en los primeros 3 segundos.
-- Mantén los títulos concisos (entre 45 y 60 caracteres) iniciando directamente con la premisa o el nombre del caso sin saturar de hashtags al inicio.
-- Evita historias de crímenes históricos lejanos o casos paranormales sobreexplotados (como la Condesa Báthory o datos sobre el Mothman) que generan bajo interés en el formato actual.
+- Las publicaciones cerca de las 21:00 (America/Mexico_City) tienen más vistas.
+- Prioriza la temática de 'leyendas' y 'criptozoología' (como el Diablo de Jersey o el Chupacabras), ya que acumulan consistentemente el mayor número de visualizaciones en comparación con eventos históricos o conspiraciones espaciales.
+- Utiliza la fórmula de gancho '3 detalles/datos inquietantes sobre X', ya que demostró buen rendimiento en títulos sobre el Chupacabras y Glenn Miller, generando curiosidad inmediata.
+- Simplifica la longitud y estructura de los títulos: mantén la frase principal por debajo de los 60 caracteres y reduce el exceso de hashtags específicos (como #WernherVonBraun o #Nuremberg1828), limitándote a #Shorts.
+- Sustituye ganchos descriptivos o pasivos por preguntas directas o afirmaciones impactantes en la primera línea del guion para evitar desplomes de tráfico como los vistos en temas de conspiración militar.
 
 ## Errores recientes
 
