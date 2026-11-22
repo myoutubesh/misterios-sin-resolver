@@ -1,15 +1,17 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-22 19:15 UTC*
+*Actualizado: 2026-11-22 20:46 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 17 080 | 58 | 36 | 3 | 33 | $0.00 |
+| 53 | 17 080 | 60 | 36 | 3 | 33 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-22 | short | El misterio de D. B. Cooper / ExpedienteUmbral #DBCooper #Washington1971 #Shorts | error_subida | — |
+| 2026-11-22 | short | Tres datos inquietantes de Teotihuacán #Teotihuacan #Mexico #Shorts | error_subida | — |
 | 2026-11-22 | short | El misterio de la nave fantasma que vio un rey #HolandesErrante #FlyingDutchman #Shorts | error_subida | — |
 | 2026-11-22 | short | El enigma del Ojo del Sáhara en Mauritania #EstructuraDeRichat #Mauritania #Shorts | error_subida | — |
 | 2026-11-22 | short | [Nueve esquiadores huyeron en la nieve sin ropa / Paso Diátlov #PasoDiatlov #Urales1959 #Shorts](https://youtu.be/6k0XRBi1mao) | programado | — |
@@ -38,8 +40,6 @@
 | 2026-11-18 | short | Cicada 3301: el reto que desafía a la mente #Cicada3301 #InternetMisterio #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | Escapó del sueño en Kholat Syakhl #DyatlovPass #KholatSyakhl #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | [El secreto que impulsó la llegada a la Luna #OperacionPaperclip #WernherVonBraun #Shorts](https://youtu.be/JYEUPufmapM) | publicado | 22 |
-| 2026-11-18 | short | Enfield: ¿poltergeist o atrapar a los niños? #EnfieldPoltergeist #Enfield #Shorts | retenido_calidad | — |
-| 2026-11-18 | short | [¿Origen prehispánico de La Llorona? #LaLlorona #Xochimilco #Shorts](https://youtu.be/dMMJYVkLmQg) | publicado | 1 002 |
 
 ## Aprendizajes
 
@@ -53,6 +53,8 @@
 
 ## Errores recientes
 
+- 2026-11-22T20:38 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
+- 2026-11-22T20:25 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-22T19:08 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-22T18:52 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-22T03:35 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 1553 palabras (esperaba 1700-3100) | pollinations: 6 escenas (esperaba 50-120) | gemini: 1662 palabras (esperaba 1700-3100) | pollinations: 16 escenas (esperaba 50-120)`
@@ -61,5 +63,3 @@
 - 2026-11-21T03:27 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 53 escenas (esperaba 55-130) | pollinations: la respuesta no trae JSON | gemini: 49 escenas (esperaba 55-130) | pollinations: 17 escenas (esperaba 55-130)`
 - 2026-11-18T23:45 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion menciona un estruendo sobre el lago Michigan en 1959, un evento que no aparece en la fuente proporcionada. Además, incluye detalles sobre artes locales y fechas que no están respaldados por l`
 - 2026-11-18T23:34 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guión describe hechos que no aparecen en la fuente o los presenta de manera incorrecta: 1) menciona a ‘tres hombres’ pero la fuente indica a tres compañeros con nombres específicos; 2) habla de una`
-- 2026-11-18T22:10 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
-- 2026-11-18T21:57 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`

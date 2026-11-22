@@ -2627,5 +2627,89 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-22-short-teotihuacan",
+    "fecha": "2026-11-22T20:36:26+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Teotihuacan",
+    "tema_clave": "Teotihuacan",
+    "categoria": "civilizaciones",
+    "interes_wikipedia": 5.68,
+    "titulo_yt": "Tres datos inquietantes de Teotihuacán #Teotihuacan #Mexico #Shorts",
+    "estructura": "tres_detalles",
+    "estilo": "luna_fria",
+    "duracion": 46.8,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Teotihuacan",
+      "https://es.wikipedia.org/wiki/Teotihuac%C3%A1n"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.5-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-22-short-d-b-cooper",
+    "fecha": "2026-11-22T20:46:37+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "D. B. Cooper",
+    "tema_clave": "D. B. Cooper",
+    "categoria": "casos_sin_resolver",
+    "interes_wikipedia": 4.49,
+    "titulo_yt": "El misterio de D. B. Cooper | ExpedienteUmbral #DBCooper #Washington1971 #Shorts",
+    "estructura": "pregunta",
+    "estilo": "carmesi",
+    "duracion": 58.7,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/D._B._Cooper",
+      "https://es.wikipedia.org/wiki/D._B._Cooper"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
