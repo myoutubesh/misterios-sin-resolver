@@ -2753,5 +2753,97 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-22-short-kecksburg-ufo-incident",
+    "fecha": "2026-11-22T23:41:11+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Kecksburg UFO incident",
+    "tema_clave": "Kecksburg UFO incident",
+    "categoria": "paranormal",
+    "interes_wikipedia": 4.38,
+    "titulo_yt": "El misterio de Kecksburg en 1965 | Roswell de Pensilvania #Kecksburg1965 #Pensilvania1965 #Shorts",
+    "estructura": "en_medias_res",
+    "estilo": "archivo_antiguo",
+    "duracion": 53.4,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Kecksburg_UFO_incident",
+      "https://es.wikipedia.org/wiki/Incidente_ovni_de_Kecksburg"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-22-short-baghdad-battery",
+    "fecha": "2026-11-22T23:51:59+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Baghdad Battery",
+    "tema_clave": "Baghdad Battery",
+    "categoria": "civilizaciones",
+    "interes_wikipedia": 4.83,
+    "titulo_yt": "La Batería de Bagdad: un misterio electrificado #BagdadBattery #Ctesifonte #Shorts",
+    "estructura": "pregunta",
+    "estilo": "carmesi",
+    "duracion": 46.2,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Baghdad_Battery",
+      "https://es.wikipedia.org/wiki/Bater%C3%ADa_de_Bagdad"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
