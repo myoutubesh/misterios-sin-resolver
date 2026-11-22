@@ -1,15 +1,16 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-22 13:33 UTC*
+*Actualizado: 2026-11-22 16:03 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 17 080 | 55 | 36 | 2 | 31 | $0.00 |
+| 53 | 17 080 | 56 | 36 | 3 | 31 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-22 | short | [Nueve esquiadores huyeron en la nieve sin ropa / Paso Diátlov #PasoDiatlov #Urales1959 #Shorts](https://youtu.be/6k0XRBi1mao) | programado | — |
 | 2026-11-22 | short | [El disco que nadie logró leer / Phaistos Disc #PhaistosDisc #Creta1850 #Shorts](https://youtu.be/s43FaG0UJ48) | programado | — |
 | 2026-11-22 | short | [El poltergeist de Enfield: ¿fenómeno real o fraude? #PoltergeistEnfield #Londres1977 #Shorts](https://youtu.be/SAys6cJBM2Y) | programado | 0 |
 | 2026-11-21 | short | [El misterio de Peter Bergmann: El hombre borrado #PeterBergmann #Irlanda2009 #Shorts](https://youtu.be/qZTuV2vT3sE) | publicado | 10 |
@@ -39,7 +40,6 @@
 | 2026-11-18 | short | [¿Origen prehispánico de La Llorona? #LaLlorona #Xochimilco #Shorts](https://youtu.be/dMMJYVkLmQg) | publicado | 1 002 |
 | 2026-11-18 | short | El faro del misterio: la muerte de Elisa Lam #CaseMysterioso #LosAngeles2013 #Shorts | retenido_calidad | — |
 | 2026-11-18 | short | El asesino del Zodiaco: misterio sin resolver #Zodiaco #SanFrancisco #Shorts | retenido_calidad | — |
-| 2026-11-18 | short | Jack saltarín: la criatura que saltó sobre muros y escaló corceles #SpringHeeledJack #Londres1837 | retenido_calidad | — |
 
 ## Aprendizajes
 

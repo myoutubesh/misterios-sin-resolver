@@ -2497,5 +2497,51 @@
     "privacidad": "private",
     "publicar_en": "2026-11-22T18:00:00Z",
     "url": "https://youtu.be/s43FaG0UJ48"
+  },
+  {
+    "id": "2026-11-22-short-dyatlov-pass-incident",
+    "fecha": "2026-11-22T16:03:29+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Dyatlov Pass incident",
+    "tema_clave": "Dyatlov Pass incident",
+    "categoria": "casos_sin_resolver",
+    "interes_wikipedia": 6.26,
+    "titulo_yt": "Nueve esquiadores huyeron en la nieve sin ropa | Paso Diátlov #PasoDiatlov #Urales1959 #Shorts",
+    "estructura": "cronologica",
+    "estilo": "luna_fria",
+    "duracion": 59.4,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Dyatlov_Pass_incident",
+      "https://es.wikipedia.org/wiki/Incidente_del_paso_Di%C3%A1tlov"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "6k0XRBi1mao",
+    "privacidad": "private",
+    "publicar_en": "2026-11-22T21:00:00Z",
+    "url": "https://youtu.be/6k0XRBi1mao"
   }
 ]
