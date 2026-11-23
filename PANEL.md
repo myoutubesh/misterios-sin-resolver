@@ -1,15 +1,17 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-23 16:46 UTC*
+*Actualizado: 2026-11-23 18:05 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 17 080 | 71 | 36 | 3 | 49 | $0.00 |
+| 53 | 17 080 | 73 | 36 | 3 | 51 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-23 | short | El misterio del Vuelo 19 / Caso Real #Vuelo19 #Bermudas1945 #Shorts | error_subida | — |
+| 2026-11-23 | short | La leyenda del Holandés Errante: ¿El barco fantasma real? #HolandesErrante #CaboDeBuenaEsperanza | error_subida | — |
 | 2026-11-23 | short | Los asesinatos del lago Bodom / Misterio sin resolver #Shorts | retenido_calidad | — |
 | 2026-11-23 | short | Pistas secretas alrededor del mundo: Cicada 3301 #Cicada3301 #MysteriosInternet #Shorts | retenido_calidad | — |
 | 2026-11-23 | short | El atacante victoriano que saltaba muros / Spring-heeled Jack #SpringHeeledJack #Londres1838 #Shorts | error_subida | — |
@@ -38,8 +40,6 @@
 | 2026-11-20 | short | [El misterio de las luces de Marfa en Texas / Marfa Lights #LucesDeMarfa #MarfaTexas #Shorts](https://youtu.be/ZkQ7mZIkFUg) | publicado | 516 |
 | 2026-11-20 | short | [El oscuro misterio del hacha en Iowa (1912) #Villisca1912 #Iowa1912 #Shorts](https://youtu.be/w_8YLGuHIS8) | publicado | 274 |
 | 2026-11-20 | short | [El misterio del coronel Fawcett y la Ciudad Z #PercyFawcett #Amazonas1925 #Shorts](https://youtu.be/wAoJolHiyAo) | publicado | 220 |
-| 2026-11-20 | largo | [La Bruja de Bell: ¿Aterrador poltergeist real o fraude histórico?](https://youtu.be/TjlOXxpveOk) | publicado | 52 |
-| 2026-11-19 | short | [El misterio del lecho del Mar Báltico #AnomaliaDelBaltico #MarBaltico #Shorts](https://youtu.be/DYCcwnvEnYM) | publicado | 1 032 |
 
 ## Aprendizajes
 
@@ -53,6 +53,8 @@
 
 ## Errores recientes
 
+- 2026-11-23T17:44 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
+- 2026-11-23T17:35 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-23T16:36 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-23T16:14 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-23T14:56 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
@@ -62,5 +64,3 @@
 - 2026-11-23T13:10 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guión describe errores de cronología y hechos que no aparecen en la fuente proporcionada: 
 - Se menciona una tormenta en 1931 con la tripulación huyendo a pie y creyendo que la nave se había hundid`
 - 2026-11-23T12:39 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-23T11:56 · estadisticas · `RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-23T11:23 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`

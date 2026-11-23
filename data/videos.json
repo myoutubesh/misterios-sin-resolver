@@ -3210,5 +3210,89 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-23-short-flying-dutchman",
+    "fecha": "2026-11-23T17:42:41+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Flying Dutchman",
+    "tema_clave": "Flying Dutchman",
+    "categoria": "leyendas",
+    "interes_wikipedia": 5.54,
+    "titulo_yt": "La leyenda del Holandés Errante: ¿El barco fantasma real? #HolandesErrante #CaboDeBuenaEsperanza",
+    "estructura": "cronologica",
+    "estilo": "noche_turquesa",
+    "duracion": 52.1,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Flying_Dutchman",
+      "https://es.wikipedia.org/wiki/El_holand%C3%A9s_errante_(leyenda)"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-23-short-flight-19",
+    "fecha": "2026-11-23T18:05:02+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Flight 19",
+    "tema_clave": "Flight 19",
+    "categoria": "desapariciones",
+    "interes_wikipedia": 5.13,
+    "titulo_yt": "El misterio del Vuelo 19 | Caso Real #Vuelo19 #Bermudas1945 #Shorts",
+    "estructura": "tres_detalles",
+    "estilo": "luna_fria",
+    "duracion": 56.9,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Flight_19",
+      "https://es.wikipedia.org/wiki/Vuelo_19"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
