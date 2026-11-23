@@ -1,10 +1,10 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-23 11:42 UTC*
+*Actualizado: 2026-11-23 11:56 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 17 080 | 66 | 36 | 3 | 40 | $0.00 |
+| 53 | 17 080 | 66 | 36 | 3 | 41 | $0.00 |
 
 ## Últimos videos
 
@@ -53,6 +53,7 @@
 
 ## Errores recientes
 
+- 2026-11-23T11:56 · estadisticas · `RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-23T11:23 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-23T11:12 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-23T03:47 · largo · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
@@ -62,4 +63,3 @@
 - 2026-11-22T22:01 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion mezcla hechos del caso del Asesino del Zodiaco con detalles que no aparecen en la fuente (ej.: "Un disparo en el patio del Phoenix", "malo 37 personas", la referencia a "disparo en el patio d`
 - 2026-11-22T21:50 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-22T20:38 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-22T20:25 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
