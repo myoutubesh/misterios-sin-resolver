@@ -1,17 +1,18 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-23 13:14 UTC*
+*Actualizado: 2026-11-23 14:15 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 17 080 | 67 | 36 | 3 | 43 | $0.00 |
+| 53 | 17 080 | 68 | 36 | 3 | 45 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-23 | short | El flautista que guiaba a las ratas y los niños #PiedPiper #Hamelín1284 #Shorts | retenido_calidad | — |
+| 2026-11-23 | short | El enigma más oscuro del Internet: Cicada 3301 #Cicada3301 #InternetMystery #Shorts | retenido_calidad | — |
 | 2026-11-23 | short | ¿Es el Triángulo de las Bermudas un mito? #TrianguloDeLasBermudas #Atlantico1950 #Shorts | error_subida | — |
-| 2026-11-23 | short | El oscuro secreto tras el Flautista de Hamelín #FlautistaDeHamelin #Alemania1284 #Shorts | error_subida | — |
 | 2026-11-23 | short | El único secuestro aéreo jamás resuelto / D. B. Cooper #DBCooper #Portland1971 #Shorts | error_subida | — |
 | 2026-11-23 | largo | 7 aviones que desaparecieron sin dejar rastro y desconcertaron al mundo | error_subida | — |
 | 2026-11-22 | short | La Batería de Bagdad: un misterio electrificado #BagdadBattery #Ctesifonte #Shorts | retenido_calidad | — |
@@ -39,7 +40,6 @@
 | 2026-11-19 | short | [El barco militar que se volvió invisible / Experimento Filadelfia #ExperimentoFiladelfia #Shorts](https://youtu.be/Nhetyk63W9Q) | publicado | 360 |
 | 2026-11-19 | short | [El misterio de los relámpagos del Catatumbo #RelampagoDelCatatumbo #Venezuela #Shorts](https://youtu.be/nOtMNr37n9Y) | publicado | 233 |
 | 2026-11-19 | short | [El misterio de los niños verdes de Woolpit #NinosVerdes #Woolpit #Shorts](https://youtu.be/oBYTZHyCUQc) | publicado | 992 |
-| 2026-11-19 | short | [El secreto bajo las piedras de Stonehenge #Stonehenge #Wiltshire #Shorts](https://youtu.be/xNp7bIjgJ_Y) | publicado | 673 |
 
 ## Aprendizajes
 
@@ -53,6 +53,8 @@
 
 ## Errores recientes
 
+- 2026-11-23T13:59 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
+- 2026-11-23T13:26 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-23T13:10 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guión describe errores de cronología y hechos que no aparecen en la fuente proporcionada: 
 - Se menciona una tormenta en 1931 con la tripulación huyendo a pie y creyendo que la nave se había hundid`
 - 2026-11-23T12:39 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
@@ -62,5 +64,3 @@
 - 2026-11-23T03:47 · largo · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-23T03:35 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 1145 palabras (esperaba 1700-3100) | pollinations: 19 escenas (esperaba 50-120) | gemini: 1397 palabras (esperaba 1700-3100) | pollinations: 14 escenas (esperaba 50-120)`
 - 2026-11-22T23:43 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
-- 2026-11-22T23:27 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-22T22:01 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion mezcla hechos del caso del Asesino del Zodiaco con detalles que no aparecen en la fuente (ej.: "Un disparo en el patio del Phoenix", "malo 37 personas", la referencia a "disparo en el patio d`

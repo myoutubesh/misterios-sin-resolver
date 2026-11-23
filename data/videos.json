@@ -2953,17 +2953,17 @@
   },
   {
     "id": "2026-11-23-short-pied-piper-of-hamelin",
-    "fecha": "2026-11-23T11:42:05+00:00",
+    "fecha": "2026-11-23T14:15:31+00:00",
     "formato": "short",
-    "estado": "error_subida",
+    "estado": "retenido_calidad",
     "tema": "Pied Piper of Hamelin",
     "tema_clave": "Pied Piper of Hamelin",
     "categoria": "leyendas",
-    "interes_wikipedia": 5.12,
-    "titulo_yt": "El oscuro secreto tras el Flautista de Hamelín #FlautistaDeHamelin #Alemania1284 #Shorts",
-    "estructura": "segunda_persona",
-    "estilo": "carmesi",
-    "duracion": 55.2,
+    "interes_wikipedia": 5.01,
+    "titulo_yt": "El flautista que guiaba a las ratas y los niños #PiedPiper #Hamelín1284 #Shorts",
+    "estructura": "tres_detalles",
+    "estilo": "grabado",
+    "duracion": 60.3,
     "escenas": 9,
     "clips_reales": 2,
     "musica": "drone sintetizado",
@@ -2975,16 +2975,16 @@
     "costo_usd": 0.0,
     "ia": [
       {
-        "proveedor": "gemini",
-        "modelo": "gemini-3.6-flash",
+        "proveedor": "pollinations",
+        "modelo": "openai",
         "entrada": 0,
         "salida": 0,
         "busquedas": 0,
         "usd": 0.0
       },
       {
-        "proveedor": "gemini",
-        "modelo": "gemini-3.5-flash",
+        "proveedor": "pollinations",
+        "modelo": "openai",
         "entrada": 0,
         "salida": 0,
         "busquedas": 0,
@@ -3035,6 +3035,56 @@
       {
         "proveedor": "gemini",
         "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-23-short-cicada-3301",
+    "fecha": "2026-11-23T13:57:22+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Cicada 3301",
+    "tema_clave": "Cicada 3301",
+    "categoria": "curiosidades",
+    "interes_wikipedia": 5.49,
+    "titulo_yt": "El enigma más oscuro del Internet: Cicada 3301 #Cicada3301 #InternetMystery #Shorts",
+    "estructura": "tres_detalles",
+    "estilo": "grabado",
+    "duracion": 78.4,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Cicada_3301",
+      "https://es.wikipedia.org/wiki/Cicada_3301"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
         "entrada": 0,
         "salida": 0,
         "busquedas": 0,
