@@ -1116,5 +1116,25 @@
     "fin": "2026-11-23T19:41:37+00:00",
     "error": "RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).",
     "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 252, in crear_video\n    raise RuntimeError(\"Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. \"\nRuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).\n"
+  },
+  {
+    "id": "20261123-202829-short",
+    "tipo": "short",
+    "inicio": "2026-11-23T20:28:29+00:00",
+    "estado": "error",
+    "tema": "Olmec colossal heads",
+    "fin": "2026-11-23T20:38:37+00:00",
+    "error": "RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 276, in crear_video\n    raise RuntimeError(f\"No se pudo subir a YouTube: {ultimo}\")\nRuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})\n"
+  },
+  {
+    "id": "20261123-204037-short",
+    "tipo": "short",
+    "inicio": "2026-11-23T20:40:37+00:00",
+    "estado": "error",
+    "tema": "Bermuda Triangle",
+    "fin": "2026-11-23T20:43:44+00:00",
+    "error": "GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guión menciona un caso de un carguero explosivo frente a Texas y su desaparición, una historia que no aparece en la fuente proporcionada. La fuente informa sobre incidentes entre Florida, Bermudas ",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 172, in crear_video\n    g = guion.guion_short(art)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/guion.py\", line 266, in guion_short\n    g = _revisar(g, art, \"YouTube Short de 45 segundos\",\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/guion.py\", line 190, in _revisar\n    raise GuionNoFiel(f\"el editor detectó que el guion no sale de la fuente: {resp.get('problema', '')[:200]}\")\npipeline.guion.GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guión menciona un caso de un carguero explosivo frente a Texas y su desaparición, una historia que no aparece en la fuente proporcionada. La fuente informa sobre incidentes entre Florida, Bermudas \n"
   }
 ]

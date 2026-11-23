@@ -3386,5 +3386,47 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-23-short-olmec-colossal-heads",
+    "fecha": "2026-11-23T20:38:36+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Olmec colossal heads",
+    "tema_clave": "Olmec colossal heads",
+    "categoria": "civilizaciones",
+    "interes_wikipedia": 4.79,
+    "titulo_yt": "El misterio de las cabezas olmecas #Olmecas #Veracruz #Shorts",
+    "estructura": "en_medias_res",
+    "estilo": "archivo_antiguo",
+    "duracion": 48.0,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Olmec_colossal_heads",
+      "https://es.wikipedia.org/wiki/Cabeza_colosal"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
