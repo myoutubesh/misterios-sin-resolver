@@ -3294,5 +3294,97 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-23-short-mary-celeste",
+    "fecha": "2026-11-23T19:30:20+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Mary Celeste",
+    "tema_clave": "Mary Celeste",
+    "categoria": "lugares",
+    "interes_wikipedia": 5.21,
+    "titulo_yt": "La nave que desapareció sin pruebas | Mary Celeste #MaryCeleste #Azores1872 #Shorts",
+    "estructura": "segunda_persona",
+    "estilo": "archivo_antiguo",
+    "duracion": 49.0,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Mary_Celeste",
+      "https://es.wikipedia.org/wiki/Mary_Celeste"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-23-short-dancing-plague-of-1518",
+    "fecha": "2026-11-23T19:41:37+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Dancing plague of 1518",
+    "tema_clave": "Dancing plague of 1518",
+    "categoria": "leyendas",
+    "interes_wikipedia": 5.79,
+    "titulo_yt": "El baile que dejó al mundo sin aliento #dancesmanie #Estrasburgo1518 #Shorts",
+    "estructura": "pregunta",
+    "estilo": "luna_fria",
+    "duracion": 57.3,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+      "https://es.wikipedia.org/wiki/Epidemia_de_baile_de_1518"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
