@@ -3045,18 +3045,18 @@
   },
   {
     "id": "2026-11-23-short-cicada-3301",
-    "fecha": "2026-11-23T13:57:22+00:00",
+    "fecha": "2026-11-23T16:34:19+00:00",
     "formato": "short",
     "estado": "retenido_calidad",
     "tema": "Cicada 3301",
     "tema_clave": "Cicada 3301",
     "categoria": "curiosidades",
-    "interes_wikipedia": 5.49,
-    "titulo_yt": "El enigma más oscuro del Internet: Cicada 3301 #Cicada3301 #InternetMystery #Shorts",
-    "estructura": "tres_detalles",
-    "estilo": "grabado",
-    "duracion": 78.4,
-    "escenas": 8,
+    "interes_wikipedia": 5.84,
+    "titulo_yt": "Pistas secretas alrededor del mundo: Cicada 3301 #Cicada3301 #MysteriosInternet #Shorts",
+    "estructura": "pregunta",
+    "estilo": "archivo_antiguo",
+    "duracion": 68.0,
+    "escenas": 9,
     "clips_reales": 2,
     "musica": "drone sintetizado",
     "verificacion": "solo contra Wikipedia (EN y ES)",
@@ -3066,14 +3066,6 @@
     ],
     "costo_usd": 0.0,
     "ia": [
-      {
-        "proveedor": "pollinations",
-        "modelo": "openai",
-        "entrada": 0,
-        "salida": 0,
-        "busquedas": 0,
-        "usd": 0.0
-      },
       {
         "proveedor": "pollinations",
         "modelo": "openai",
@@ -3161,6 +3153,48 @@
       {
         "proveedor": "gemini",
         "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-23-short-lake-bodom-murders",
+    "fecha": "2026-11-23T16:46:32+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Lake Bodom murders",
+    "tema_clave": "Lake Bodom murders",
+    "categoria": "casos_sin_resolver",
+    "interes_wikipedia": 5.18,
+    "titulo_yt": "Los asesinatos del lago Bodom | Misterio sin resolver #Shorts",
+    "estructura": "tres_detalles",
+    "estilo": "noche_turquesa",
+    "duracion": 48.9,
+    "escenas": 5,
+    "clips_reales": 1,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Lake_Bodom_murders",
+      "https://es.wikipedia.org/wiki/Asesinatos_del_lago_Bodom"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
         "entrada": 0,
         "salida": 0,
         "busquedas": 0,

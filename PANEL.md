@@ -1,19 +1,20 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-23 15:13 UTC*
+*Actualizado: 2026-11-23 16:46 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 17 080 | 70 | 36 | 3 | 47 | $0.00 |
+| 53 | 17 080 | 71 | 36 | 3 | 49 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-23 | short | Los asesinatos del lago Bodom / Misterio sin resolver #Shorts | retenido_calidad | — |
+| 2026-11-23 | short | Pistas secretas alrededor del mundo: Cicada 3301 #Cicada3301 #MysteriosInternet #Shorts | retenido_calidad | — |
 | 2026-11-23 | short | El atacante victoriano que saltaba muros / Spring-heeled Jack #SpringHeeledJack #Londres1838 #Shorts | error_subida | — |
 | 2026-11-23 | short | Sobrevivió caer de 3000 metros a la selva / Juliane Koepcke #JulianeKoepcke #Peru1971 #Shorts | error_subida | — |
 | 2026-11-23 | short | El flautista que guiaba a las ratas y los niños #PiedPiper #Hamelín1284 #Shorts | retenido_calidad | — |
-| 2026-11-23 | short | El enigma más oscuro del Internet: Cicada 3301 #Cicada3301 #InternetMystery #Shorts | retenido_calidad | — |
 | 2026-11-23 | short | ¿Es el Triángulo de las Bermudas un mito? #TrianguloDeLasBermudas #Atlantico1950 #Shorts | error_subida | — |
 | 2026-11-23 | short | El único secuestro aéreo jamás resuelto / D. B. Cooper #DBCooper #Portland1971 #Shorts | error_subida | — |
 | 2026-11-23 | largo | 7 aviones que desaparecieron sin dejar rastro y desconcertaron al mundo | error_subida | — |
@@ -39,7 +40,6 @@
 | 2026-11-20 | short | [El misterio del coronel Fawcett y la Ciudad Z #PercyFawcett #Amazonas1925 #Shorts](https://youtu.be/wAoJolHiyAo) | publicado | 220 |
 | 2026-11-20 | largo | [La Bruja de Bell: ¿Aterrador poltergeist real o fraude histórico?](https://youtu.be/TjlOXxpveOk) | publicado | 52 |
 | 2026-11-19 | short | [El misterio del lecho del Mar Báltico #AnomaliaDelBaltico #MarBaltico #Shorts](https://youtu.be/DYCcwnvEnYM) | publicado | 1 032 |
-| 2026-11-19 | short | [El barco militar que se volvió invisible / Experimento Filadelfia #ExperimentoFiladelfia #Shorts](https://youtu.be/Nhetyk63W9Q) | publicado | 360 |
 
 ## Aprendizajes
 
@@ -53,6 +53,8 @@
 
 ## Errores recientes
 
+- 2026-11-23T16:36 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
+- 2026-11-23T16:14 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-23T14:56 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-23T14:44 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-23T13:59 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
@@ -62,5 +64,3 @@
 - 2026-11-23T12:39 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-23T11:56 · estadisticas · `RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-23T11:23 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-23T11:12 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-23T03:47 · largo · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
