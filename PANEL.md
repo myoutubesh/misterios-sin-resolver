@@ -1,15 +1,17 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-23 22:25 UTC*
+*Actualizado: 2026-11-23 23:55 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 17 080 | 78 | 36 | 3 | 57 | $0.00 |
+| 53 | 17 080 | 80 | 36 | 3 | 59 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-23 | short | El misterioso zumbido que solo pocos escuchan #TheHum #ZumbidoDeTaos #Shorts | error_subida | — |
+| 2026-11-23 | short | El misterio de Göbekli Tepe: El santuario más antiguo #GobekliTepe #Turquia #Shorts | error_subida | — |
 | 2026-11-23 | short | El secreto real detrás del Área 51 #Area51 #Nevada1955 #Shorts | error_subida | — |
 | 2026-11-23 | short | ¿Qué ocurrió con Ambrose Bierce? / El misterio de 1913 #AmbroseBierce #Mexico1913 #Shorts | error_subida | — |
 | 2026-11-23 | short | El misterio de las cabezas olmecas #Olmecas #Veracruz #Shorts | error_subida | — |
@@ -38,8 +40,6 @@
 | 2026-11-21 | short | [El misterio de Peter Bergmann: El hombre borrado #PeterBergmann #Irlanda2009 #Shorts](https://youtu.be/qZTuV2vT3sE) | publicado | 10 |
 | 2026-11-21 | short | [El misterio de los cielomotos que sacuden casas #Cielomoto #Skyquake #Shorts](https://youtu.be/-5lzH7x7jd4) | publicado | 107 |
 | 2026-11-21 | short | [El enigma del Lineal A minoico #LinealA #Creta #Shorts](https://youtu.be/uy8bTStBzms) | publicado | 15 |
-| 2026-11-21 | short | [El misterioso caso de Elisa Lam en el ascensor #ElisaLam #HotelCecil #Shorts](https://youtu.be/U09dZhfyB8w) | publicado | 63 |
-| 2026-11-21 | short | [El mito real tras la isla de Poveglia #Poveglia #Venecia #Shorts](https://youtu.be/tWItWRJqsQ8) | publicado | 97 |
 
 ## Aprendizajes
 
@@ -53,6 +53,8 @@
 
 ## Errores recientes
 
+- 2026-11-23T23:49 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
+- 2026-11-23T23:34 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-23T22:13 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-23T21:59 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-23T20:40 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guión menciona un caso de un carguero explosivo frente a Texas y su desaparición, una historia que no aparece en la fuente proporcionada. La fuente informa sobre incidentes entre Florida, Bermudas `
@@ -61,5 +63,3 @@
 - 2026-11-23T19:09 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-23T17:44 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-23T17:35 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-23T16:36 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
-- 2026-11-23T16:14 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`

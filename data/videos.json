@@ -3512,5 +3512,89 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-23-short-gobekli-tepe",
+    "fecha": "2026-11-23T23:47:22+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Göbekli Tepe",
+    "tema_clave": "Göbekli Tepe",
+    "categoria": "civilizaciones",
+    "interes_wikipedia": 5.05,
+    "titulo_yt": "El misterio de Göbekli Tepe: El santuario más antiguo #GobekliTepe #Turquia #Shorts",
+    "estructura": "segunda_persona",
+    "estilo": "grabado",
+    "duracion": 52.3,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe",
+      "https://es.wikipedia.org/wiki/G%C3%B6bekli_Tepe"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-23-short-the-hum",
+    "fecha": "2026-11-23T23:55:48+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "The Hum",
+    "tema_clave": "The Hum",
+    "categoria": "fenomenos",
+    "interes_wikipedia": 4.68,
+    "titulo_yt": "El misterioso zumbido que solo pocos escuchan #TheHum #ZumbidoDeTaos #Shorts",
+    "estructura": "cronologica",
+    "estilo": "luna_fria",
+    "duracion": 49.2,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/The_Hum",
+      "https://es.wikipedia.org/wiki/El_Zumbido"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
