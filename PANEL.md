@@ -1,15 +1,17 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-23 04:50 UTC*
+*Actualizado: 2026-11-23 11:42 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 17 080 | 64 | 36 | 3 | 38 | $0.00 |
+| 53 | 17 080 | 66 | 36 | 3 | 40 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-23 | short | El oscuro secreto tras el Flautista de Hamelín #FlautistaDeHamelin #Alemania1284 #Shorts | error_subida | — |
+| 2026-11-23 | short | El único secuestro aéreo jamás resuelto / D. B. Cooper #DBCooper #Portland1971 #Shorts | error_subida | — |
 | 2026-11-23 | largo | 7 aviones que desaparecieron sin dejar rastro y desconcertaron al mundo | error_subida | — |
 | 2026-11-22 | short | La Batería de Bagdad: un misterio electrificado #BagdadBattery #Ctesifonte #Shorts | retenido_calidad | — |
 | 2026-11-22 | short | El misterio de Kecksburg en 1965 / Roswell de Pensilvania #Kecksburg1965 #Pensilvania1965 #Shorts | error_subida | — |
@@ -38,8 +40,6 @@
 | 2026-11-19 | short | [El misterio de los niños verdes de Woolpit #NinosVerdes #Woolpit #Shorts](https://youtu.be/oBYTZHyCUQc) | publicado | 992 |
 | 2026-11-19 | short | [El secreto bajo las piedras de Stonehenge #Stonehenge #Wiltshire #Shorts](https://youtu.be/xNp7bIjgJ_Y) | publicado | 673 |
 | 2026-11-19 | short | [Operación Northwoods: el plan secreto de 1962 #OperacionNorthwoods #EstadosUnidos1962 #Shorts](https://youtu.be/IAESR_H7YPQ) | publicado | 227 |
-| 2026-11-19 | short | [Tres detalles inquietantes de Glenn Miller shorts #GlennMiller #CanalDeLaMancha #Shorts](https://youtu.be/4m79WyFi9bk) | publicado | 995 |
-| 2026-11-18 | short | Relámpagos eternos sobre el lago de Maracaibo #Catatumbo #Maracaibo #Shorts | retenido_calidad | — |
 
 ## Aprendizajes
 
@@ -53,6 +53,8 @@
 
 ## Errores recientes
 
+- 2026-11-23T11:23 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
+- 2026-11-23T11:12 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-23T03:47 · largo · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-23T03:35 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 1145 palabras (esperaba 1700-3100) | pollinations: 19 escenas (esperaba 50-120) | gemini: 1397 palabras (esperaba 1700-3100) | pollinations: 14 escenas (esperaba 50-120)`
 - 2026-11-22T23:43 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
@@ -61,5 +63,3 @@
 - 2026-11-22T21:50 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-22T20:38 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-22T20:25 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-22T19:08 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-22T18:52 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
