@@ -1,15 +1,16 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-23 11:56 UTC*
+*Actualizado: 2026-11-23 13:14 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 17 080 | 66 | 36 | 3 | 41 | $0.00 |
+| 53 | 17 080 | 67 | 36 | 3 | 43 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-23 | short | ¿Es el Triángulo de las Bermudas un mito? #TrianguloDeLasBermudas #Atlantico1950 #Shorts | error_subida | — |
 | 2026-11-23 | short | El oscuro secreto tras el Flautista de Hamelín #FlautistaDeHamelin #Alemania1284 #Shorts | error_subida | — |
 | 2026-11-23 | short | El único secuestro aéreo jamás resuelto / D. B. Cooper #DBCooper #Portland1971 #Shorts | error_subida | — |
 | 2026-11-23 | largo | 7 aviones que desaparecieron sin dejar rastro y desconcertaron al mundo | error_subida | — |
@@ -39,7 +40,6 @@
 | 2026-11-19 | short | [El misterio de los relámpagos del Catatumbo #RelampagoDelCatatumbo #Venezuela #Shorts](https://youtu.be/nOtMNr37n9Y) | publicado | 233 |
 | 2026-11-19 | short | [El misterio de los niños verdes de Woolpit #NinosVerdes #Woolpit #Shorts](https://youtu.be/oBYTZHyCUQc) | publicado | 992 |
 | 2026-11-19 | short | [El secreto bajo las piedras de Stonehenge #Stonehenge #Wiltshire #Shorts](https://youtu.be/xNp7bIjgJ_Y) | publicado | 673 |
-| 2026-11-19 | short | [Operación Northwoods: el plan secreto de 1962 #OperacionNorthwoods #EstadosUnidos1962 #Shorts](https://youtu.be/IAESR_H7YPQ) | publicado | 227 |
 
 ## Aprendizajes
 
@@ -53,6 +53,9 @@
 
 ## Errores recientes
 
+- 2026-11-23T13:10 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guión describe errores de cronología y hechos que no aparecen en la fuente proporcionada: 
+- Se menciona una tormenta en 1931 con la tripulación huyendo a pie y creyendo que la nave se había hundid`
+- 2026-11-23T12:39 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-23T11:56 · estadisticas · `RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-23T11:23 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-23T11:12 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
@@ -61,5 +64,3 @@
 - 2026-11-22T23:43 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-22T23:27 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-22T22:01 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion mezcla hechos del caso del Asesino del Zodiaco con detalles que no aparecen en la fuente (ej.: "Un disparo en el patio del Phoenix", "malo 37 personas", la referencia a "disparo en el patio d`
-- 2026-11-22T21:50 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
-- 2026-11-22T20:38 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`

@@ -996,5 +996,25 @@
     "fin": "2026-11-23T11:56:56+00:00",
     "error": "RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})",
     "traza": "tional_wrapper\n    return wrapped(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/googleapiclient/http.py\", line 1003, in execute\n    resp, content = _retry_request(\n                    ^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/googleapiclient/http.py\", line 191, in _retry_request\n    resp, content = http.request(uri, method, *args, **kwargs)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/google_auth_httplib2.py\", line 205, in request\n    self.credentials.before_request(self._request, method, uri, request_headers)\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/google/auth/credentials.py\", line 242, in before_request\n    self._blocking_refresh(request)\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/google/auth/credentials.py\", line 205, in _blocking_refresh\n    self.refresh(request)\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/google/auth/credentials.py\", line 527, in refresh\n    self._perform_refresh_token(request)\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/google/oauth2/credentials.py\", line 437, in _perform_refresh_token\n    ) = reauth.refresh_grant(\n        ^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/google/oauth2/reauth.py\", line 367, in refresh_grant\n    _client._handle_error_response(response_data, retryable_error)\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/google/oauth2/_client.py\", line 75, in _handle_error_response\n    raise exceptions.RefreshError(\ngoogle.auth.exceptions.RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})\n"
+  },
+  {
+    "id": "20261123-123926-short",
+    "tipo": "short",
+    "inicio": "2026-11-23T12:39:26+00:00",
+    "estado": "error",
+    "tema": "Bermuda Triangle",
+    "fin": "2026-11-23T13:08:35+00:00",
+    "error": "RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 276, in crear_video\n    raise RuntimeError(f\"No se pudo subir a YouTube: {ultimo}\")\nRuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})\n"
+  },
+  {
+    "id": "20261123-131036-short",
+    "tipo": "short",
+    "inicio": "2026-11-23T13:10:36+00:00",
+    "estado": "error",
+    "tema": "SS Baychimo",
+    "fin": "2026-11-23T13:14:44+00:00",
+    "error": "GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guión describe errores de cronología y hechos que no aparecen en la fuente proporcionada: \n- Se menciona una tormenta en 1931 con la tripulación huyendo a pie y creyendo que la nave se había hundid",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 172, in crear_video\n    g = guion.guion_short(art)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/guion.py\", line 266, in guion_short\n    g = _revisar(g, art, \"YouTube Short de 45 segundos\",\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/guion.py\", line 190, in _revisar\n    raise GuionNoFiel(f\"el editor detectó que el guion no sale de la fuente: {resp.get('problema', '')[:200]}\")\npipeline.guion.GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guión describe errores de cronología y hechos que no aparecen en la fuente proporcionada: \n- Se menciona una tormenta en 1931 con la tripulación huyendo a pie y creyendo que la nave se había hundid\n"
   }
 ]
