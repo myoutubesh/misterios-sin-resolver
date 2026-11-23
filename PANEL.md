@@ -1,15 +1,16 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-22 23:51 UTC*
+*Actualizado: 2026-11-23 04:50 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 17 080 | 63 | 36 | 3 | 36 | $0.00 |
+| 53 | 17 080 | 64 | 36 | 3 | 38 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-23 | largo | 7 aviones que desaparecieron sin dejar rastro y desconcertaron al mundo | error_subida | — |
 | 2026-11-22 | short | La Batería de Bagdad: un misterio electrificado #BagdadBattery #Ctesifonte #Shorts | retenido_calidad | — |
 | 2026-11-22 | short | El misterio de Kecksburg en 1965 / Roswell de Pensilvania #Kecksburg1965 #Pensilvania1965 #Shorts | error_subida | — |
 | 2026-11-22 | short | El flautista de Hamelín #Hamelin #1284 #Shorts | retenido_calidad | — |
@@ -39,7 +40,6 @@
 | 2026-11-19 | short | [Operación Northwoods: el plan secreto de 1962 #OperacionNorthwoods #EstadosUnidos1962 #Shorts](https://youtu.be/IAESR_H7YPQ) | publicado | 227 |
 | 2026-11-19 | short | [Tres detalles inquietantes de Glenn Miller shorts #GlennMiller #CanalDeLaMancha #Shorts](https://youtu.be/4m79WyFi9bk) | publicado | 995 |
 | 2026-11-18 | short | Relámpagos eternos sobre el lago de Maracaibo #Catatumbo #Maracaibo #Shorts | retenido_calidad | — |
-| 2026-11-18 | short | Los pilares que rompen la idea de la agricultura #GöbekliTepe #Turquia9600 #Shorts | retenido_calidad | — |
 
 ## Aprendizajes
 
@@ -53,6 +53,8 @@
 
 ## Errores recientes
 
+- 2026-11-23T03:47 · largo · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
+- 2026-11-23T03:35 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 1145 palabras (esperaba 1700-3100) | pollinations: 19 escenas (esperaba 50-120) | gemini: 1397 palabras (esperaba 1700-3100) | pollinations: 14 escenas (esperaba 50-120)`
 - 2026-11-22T23:43 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-22T23:27 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-22T22:01 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion mezcla hechos del caso del Asesino del Zodiaco con detalles que no aparecen en la fuente (ej.: "Un disparo en el patio del Phoenix", "malo 37 personas", la referencia a "disparo en el patio d`
@@ -61,5 +63,3 @@
 - 2026-11-22T20:25 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-22T19:08 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-22T18:52 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-22T03:35 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 1553 palabras (esperaba 1700-3100) | pollinations: 6 escenas (esperaba 50-120) | gemini: 1662 palabras (esperaba 1700-3100) | pollinations: 16 escenas (esperaba 50-120)`
-- 2026-11-22T03:28 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 41 escenas (esperaba 50-120) | pollinations: la respuesta no trae JSON | gemini: 1413 palabras (esperaba 1700-3100) | pollinations: 19 escenas (esperaba 50-120)`

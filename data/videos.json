@@ -2845,5 +2845,68 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-23-largo-7-aviones-que-desaparecieron-sin-dejar-rastro",
+    "fecha": "2026-11-23T04:50:54+00:00",
+    "formato": "largo",
+    "estado": "error_subida",
+    "tema": "7 aviones que desaparecieron sin dejar rastro",
+    "tema_clave": "lista:aviones:1981 Barrington Tops Cessna 210 disappearance|2003 Angola Boeing 727 disappearance|America (airship)|BSAA Star Ariel disappearance|Flying Tiger Line Flight 739|Italia (airship)|Varig Flight 967",
+    "categoria": "lista_aviones",
+    "interes_wikipedia": null,
+    "titulo_yt": "7 aviones que desaparecieron sin dejar rastro y desconcertaron al mundo",
+    "estructura": null,
+    "estilo": "carmesi",
+    "duracion": 839.0,
+    "escenas": 83,
+    "clips_reales": 49,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/2003_Angola_Boeing_727_disappearance",
+      "https://es.wikipedia.org/wiki/Desaparici%C3%B3n_del_Boeing_727_en_Angola_en_2003",
+      "https://en.wikipedia.org/wiki/Varig_Flight_967",
+      "https://es.wikipedia.org/wiki/Vuelo_967_de_Varig",
+      "https://en.wikipedia.org/wiki/Flying_Tiger_Line_Flight_739",
+      "https://es.wikipedia.org/wiki/Vuelo_739_de_Flying_Tiger_Line",
+      "https://en.wikipedia.org/wiki/1981_Barrington_Tops_Cessna_210_disappearance",
+      "https://en.wikipedia.org/wiki/BSAA_Star_Ariel_disappearance",
+      "https://en.wikipedia.org/wiki/Italia_(airship)",
+      "https://es.wikipedia.org/wiki/Italia_(dirigible)",
+      "https://en.wikipedia.org/wiki/America_(airship)"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "tipo_largo": "lista",
+    "miniatura_estilo": "lista",
+    "lista_id": "aviones",
+    "casos": [
+      "2003 Angola Boeing 727 disappearance",
+      "Varig Flight 967",
+      "Flying Tiger Line Flight 739",
+      "1981 Barrington Tops Cessna 210 disappearance",
+      "BSAA Star Ariel disappearance",
+      "Italia (airship)",
+      "America (airship)"
+    ]
   }
 ]
