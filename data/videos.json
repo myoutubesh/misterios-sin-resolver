@@ -3428,5 +3428,89 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-23-short-ambrose-bierce",
+    "fecha": "2026-11-23T22:11:49+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Ambrose Bierce",
+    "tema_clave": "Ambrose Bierce",
+    "categoria": "desapariciones",
+    "interes_wikipedia": 4.79,
+    "titulo_yt": "¿Qué ocurrió con Ambrose Bierce? | El misterio de 1913 #AmbroseBierce #Mexico1913 #Shorts",
+    "estructura": "pregunta",
+    "estilo": "luna_fria",
+    "duracion": 38.7,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Ambrose_Bierce",
+      "https://es.wikipedia.org/wiki/Ambrose_Bierce"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-23-short-area-51",
+    "fecha": "2026-11-23T22:25:04+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Area 51",
+    "tema_clave": "Area 51",
+    "categoria": "conspiraciones",
+    "interes_wikipedia": 5.8,
+    "titulo_yt": "El secreto real detrás del Área 51 #Area51 #Nevada1955 #Shorts",
+    "estructura": "segunda_persona",
+    "estilo": "luna_fria",
+    "duracion": 58.2,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Area_51",
+      "https://es.wikipedia.org/wiki/%C3%81rea_51"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
