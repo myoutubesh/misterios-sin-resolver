@@ -1,6 +1,6 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-24 19:32 UTC*
+*Actualizado: 2026-11-24 20:51 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
@@ -10,16 +10,16 @@
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-24 | short | ¡Réquiem de Hamelín! / ¿Qué verdad tiene el flautista? #Hamelín1284 #RatasMisterio #Shorts | retenido_calidad | — |
+| 2026-11-24 | short | El misterio subterráneo de Derinkuyu / Capadocia #Derinkuyu #Capadocia #Shorts | error_subida | — |
 | 2026-11-24 | short | La aterradora peste del baile de 1518 #PlagaDeBaile #Estrasburgo1518 #Shorts | error_subida | — |
 | 2026-11-24 | short | El enigma del bergantín Mary Celeste #MaryCeleste #Azores1872 #Shorts | error_subida | — |
 | 2026-11-24 | short | El coche abandonado a 70 km de casa / Yuba County Five #YubaCountyFive #PlumasNationalForest #Shorts | retenido_calidad | — |
 | 2026-11-24 | short | ¿Qué hizo el Zodíaco en 1968 y 1969? #ZodiacKiller #SanFrancisco #Shorts | retenido_calidad | — |
-| 2026-11-24 | short | El rastro del flautista: ¿la última calle sin música? #PiedPiper #Hamelín1284 #Shorts | retenido_calidad | — |
 | 2026-11-24 | short | Luces flotantes en el valle de Hessdalen #HessdalenLights #Noruega1950s #Shorts | retenido_calidad | — |
 | 2026-11-24 | short | El ojo del Sáhara: ¿meteorito o magia del magma? #RichatStructure #Mauritania #Shorts | retenido_calidad | — |
 | 2026-11-24 | short | La misteriosa desaparicion de la colonia de Roanoke #RoanokeColony #LostColony #Shorts | error_subida | — |
 | 2026-11-24 | short | El misterio de Jack el saltarín / El terror victoriano #SpringHeeledJack #Londres1837 #Shorts | error_subida | — |
-| 2026-11-24 | short | La ciudad subterránea hallada tras una pared / Derinkuyu #Derinkuyu #Turquia #Shorts | error_subida | — |
 | 2026-11-24 | short | El Holandés Errante: ¿mito o fenómeno real? #FlyingDutchman #HolandésErrante #Shorts | error_subida | — |
 | 2026-11-24 | largo | 7 LEYENDAS de España que Todavía Desconciertan | error_subida | — |
 | 2026-11-23 | short | El misterioso zumbido que solo pocos escuchan #TheHum #ZumbidoDeTaos #Shorts | error_subida | — |
@@ -53,6 +53,8 @@
 
 ## Errores recientes
 
+- 2026-11-24T20:39 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
+- 2026-11-24T20:30 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-24T19:15 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-24T19:04 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-24T17:40 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
@@ -61,5 +63,3 @@
 - 2026-11-24T16:17 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-24T14:55 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-24T14:39 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
-- 2026-11-24T13:35 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion describe un caso y hechos que no aparecen en la fuente, como el supuesto hecho de "comerse un bebé" en 1794 y la acusación sobre un soldado de Tarrare. La fuente indica que Tarrare nació en 1`
-- 2026-11-24T13:23 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
