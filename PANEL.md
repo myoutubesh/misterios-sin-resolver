@@ -1,6 +1,6 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-24 22:29 UTC*
+*Actualizado: 2026-11-24 23:46 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
@@ -10,6 +10,7 @@
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-24 | short | El asesinato que nadie pudo detonar / Caso del Zodiaco #Zodiac #California1968 #Shorts | retenido_calidad | — |
 | 2026-11-24 | short | El secreto real detrás de las emisoras de números #AtencionCuba #ENIGMA2000 #Shorts | error_subida | — |
 | 2026-11-24 | short | Sobrevivió con una barra de hierro en el cráneo #PhineasGage #Vermont1848 #Shorts | error_subida | — |
 | 2026-11-24 | short | ¡Réquiem de Hamelín! / ¿Qué verdad tiene el flautista? #Hamelín1284 #RatasMisterio #Shorts | retenido_calidad | — |
@@ -17,7 +18,6 @@
 | 2026-11-24 | short | La aterradora peste del baile de 1518 #PlagaDeBaile #Estrasburgo1518 #Shorts | error_subida | — |
 | 2026-11-24 | short | El enigma del bergantín Mary Celeste #MaryCeleste #Azores1872 #Shorts | error_subida | — |
 | 2026-11-24 | short | El coche abandonado a 70 km de casa / Yuba County Five #YubaCountyFive #PlumasNationalForest #Shorts | retenido_calidad | — |
-| 2026-11-24 | short | ¿Qué hizo el Zodíaco en 1968 y 1969? #ZodiacKiller #SanFrancisco #Shorts | retenido_calidad | — |
 | 2026-11-24 | short | Luces flotantes en el valle de Hessdalen #HessdalenLights #Noruega1950s #Shorts | retenido_calidad | — |
 | 2026-11-24 | short | El ojo del Sáhara: ¿meteorito o magia del magma? #RichatStructure #Mauritania #Shorts | retenido_calidad | — |
 | 2026-11-24 | short | La misteriosa desaparicion de la colonia de Roanoke #RoanokeColony #LostColony #Shorts | error_subida | — |
@@ -53,6 +53,8 @@
 
 ## Errores recientes
 
+- 2026-11-24T23:37 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
+- 2026-11-24T23:33 · short · `RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: 77 palabras (esperaba 90-185) | gemini: None | pollinations: 86 palabras (esperaba 90-185)`
 - 2026-11-24T22:22 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-24T22:04 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-24T20:39 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
@@ -61,5 +63,3 @@
 - 2026-11-24T19:04 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-24T17:40 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-24T17:29 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion relata una ‘apertura’ de una cabeza colosal en 1938, lo que no aparece en la fuente. En la fuente se menciona la excavación de la cabeza en 1938 por Matthew Stirling después de un hallazgo pr`
-- 2026-11-24T16:35 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
-- 2026-11-24T16:17 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
