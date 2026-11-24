@@ -1,15 +1,17 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-24 11:59 UTC*
+*Actualizado: 2026-11-24 13:04 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 17 080 | 83 | 36 | 3 | 64 | $0.00 |
+| 53 | 17 080 | 85 | 36 | 3 | 66 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-24 | short | La misteriosa desaparicion de la colonia de Roanoke #RoanokeColony #LostColony #Shorts | error_subida | — |
+| 2026-11-24 | short | El misterio de Jack el saltarín / El terror victoriano #SpringHeeledJack #Londres1837 #Shorts | error_subida | — |
 | 2026-11-24 | short | La ciudad subterránea hallada tras una pared / Derinkuyu #Derinkuyu #Turquia #Shorts | error_subida | — |
 | 2026-11-24 | short | El Holandés Errante: ¿mito o fenómeno real? #FlyingDutchman #HolandésErrante #Shorts | error_subida | — |
 | 2026-11-24 | largo | 7 LEYENDAS de España que Todavía Desconciertan | error_subida | — |
@@ -38,8 +40,6 @@
 | 2026-11-22 | short | El misterio de la nave fantasma que vio un rey #HolandesErrante #FlyingDutchman #Shorts | error_subida | — |
 | 2026-11-22 | short | El enigma del Ojo del Sáhara en Mauritania #EstructuraDeRichat #Mauritania #Shorts | error_subida | — |
 | 2026-11-22 | short | [Nueve esquiadores huyeron en la nieve sin ropa / Paso Diátlov #PasoDiatlov #Urales1959 #Shorts](https://youtu.be/6k0XRBi1mao) | programado | — |
-| 2026-11-22 | short | [El disco que nadie logró leer / Phaistos Disc #PhaistosDisc #Creta1850 #Shorts](https://youtu.be/s43FaG0UJ48) | programado | — |
-| 2026-11-22 | short | [El poltergeist de Enfield: ¿fenómeno real o fraude? #PoltergeistEnfield #Londres1977 #Shorts](https://youtu.be/SAys6cJBM2Y) | programado | 0 |
 
 ## Aprendizajes
 
@@ -53,6 +53,8 @@
 
 ## Errores recientes
 
+- 2026-11-24T12:51 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
+- 2026-11-24T12:40 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-24T11:59 · estadisticas · `RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-24T11:12 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-24T11:00 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
@@ -61,5 +63,3 @@
 - 2026-11-23T23:49 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-23T23:34 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-23T22:13 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-23T21:59 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-23T20:40 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guión menciona un caso de un carguero explosivo frente a Texas y su desaparición, una historia que no aparece en la fuente proporcionada. La fuente informa sobre incidentes entre Florida, Bermudas `

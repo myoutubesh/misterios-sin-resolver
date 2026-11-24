@@ -3763,5 +3763,89 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-24-short-spring-heeled-jack",
+    "fecha": "2026-11-24T12:49:59+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Spring-heeled Jack",
+    "tema_clave": "Spring-heeled Jack",
+    "categoria": "paranormal",
+    "interes_wikipedia": 4.98,
+    "titulo_yt": "El misterio de Jack el saltarín | El terror victoriano #SpringHeeledJack #Londres1837 #Shorts",
+    "estructura": "segunda_persona",
+    "estilo": "luna_fria",
+    "duracion": 50.4,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Spring-heeled_Jack",
+      "https://es.wikipedia.org/wiki/Spring_Heeled_Jack"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-24-short-roanoke-colony",
+    "fecha": "2026-11-24T13:04:49+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Roanoke Colony",
+    "tema_clave": "Roanoke Colony",
+    "categoria": "desapariciones",
+    "interes_wikipedia": 6.05,
+    "titulo_yt": "La misteriosa desaparicion de la colonia de Roanoke #RoanokeColony #LostColony #Shorts",
+    "estructura": "cronologica",
+    "estilo": "grabado",
+    "duracion": 55.6,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Roanoke_Colony",
+      "https://es.wikipedia.org/wiki/Colonia_de_Roanoke"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
