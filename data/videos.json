@@ -3671,5 +3671,97 @@
       "La flor del lilo-va",
       "Nuestra Señora de la Salud (Algemesí)"
     ]
+  },
+  {
+    "id": "2026-11-24-short-flying-dutchman",
+    "fecha": "2026-11-24T11:10:26+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Flying Dutchman",
+    "tema_clave": "Flying Dutchman",
+    "categoria": "leyendas",
+    "interes_wikipedia": 5.19,
+    "titulo_yt": "El Holandés Errante: ¿mito o fenómeno real? #FlyingDutchman #HolandésErrante #Shorts",
+    "estructura": "en_medias_res",
+    "estilo": "noche_turquesa",
+    "duracion": 40.8,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Flying_Dutchman",
+      "https://es.wikipedia.org/wiki/El_holand%C3%A9s_errante_(leyenda)"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-24-short-derinkuyu-underground-city",
+    "fecha": "2026-11-24T11:34:45+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Derinkuyu underground city",
+    "tema_clave": "Derinkuyu underground city",
+    "categoria": "civilizaciones",
+    "interes_wikipedia": 5.81,
+    "titulo_yt": "La ciudad subterránea hallada tras una pared | Derinkuyu #Derinkuyu #Turquia #Shorts",
+    "estructura": "pregunta",
+    "estilo": "noche_turquesa",
+    "duracion": 60.9,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Derinkuyu_underground_city",
+      "https://es.wikipedia.org/wiki/Ciudad_subterr%C3%A1nea_de_Derinkuyu"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]

@@ -1,15 +1,17 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-24 04:37 UTC*
+*Actualizado: 2026-11-24 11:34 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 17 080 | 81 | 36 | 3 | 61 | $0.00 |
+| 53 | 17 080 | 83 | 36 | 3 | 63 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-24 | short | La ciudad subterránea hallada tras una pared / Derinkuyu #Derinkuyu #Turquia #Shorts | error_subida | — |
+| 2026-11-24 | short | El Holandés Errante: ¿mito o fenómeno real? #FlyingDutchman #HolandésErrante #Shorts | error_subida | — |
 | 2026-11-24 | largo | 7 LEYENDAS de España que Todavía Desconciertan | error_subida | — |
 | 2026-11-23 | short | El misterioso zumbido que solo pocos escuchan #TheHum #ZumbidoDeTaos #Shorts | error_subida | — |
 | 2026-11-23 | short | El misterio de Göbekli Tepe: El santuario más antiguo #GobekliTepe #Turquia #Shorts | error_subida | — |
@@ -38,8 +40,6 @@
 | 2026-11-22 | short | [Nueve esquiadores huyeron en la nieve sin ropa / Paso Diátlov #PasoDiatlov #Urales1959 #Shorts](https://youtu.be/6k0XRBi1mao) | programado | — |
 | 2026-11-22 | short | [El disco que nadie logró leer / Phaistos Disc #PhaistosDisc #Creta1850 #Shorts](https://youtu.be/s43FaG0UJ48) | programado | — |
 | 2026-11-22 | short | [El poltergeist de Enfield: ¿fenómeno real o fraude? #PoltergeistEnfield #Londres1977 #Shorts](https://youtu.be/SAys6cJBM2Y) | programado | 0 |
-| 2026-11-21 | short | [El misterio de Peter Bergmann: El hombre borrado #PeterBergmann #Irlanda2009 #Shorts](https://youtu.be/qZTuV2vT3sE) | publicado | 10 |
-| 2026-11-21 | short | [El misterio de los cielomotos que sacuden casas #Cielomoto #Skyquake #Shorts](https://youtu.be/-5lzH7x7jd4) | publicado | 107 |
 
 ## Aprendizajes
 
@@ -53,6 +53,8 @@
 
 ## Errores recientes
 
+- 2026-11-24T11:12 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
+- 2026-11-24T11:00 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-24T03:44 · largo · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-24T03:32 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 1254 palabras (esperaba 1700-3100) | pollinations: 14 escenas (esperaba 50-120) | gemini: 1357 palabras (esperaba 1700-3100) | pollinations: la respuesta no trae JSON`
 - 2026-11-23T23:49 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
@@ -61,5 +63,3 @@
 - 2026-11-23T21:59 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-23T20:40 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guión menciona un caso de un carguero explosivo frente a Texas y su desaparición, una historia que no aparece en la fuente proporcionada. La fuente informa sobre incidentes entre Florida, Bermudas `
 - 2026-11-23T20:28 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-23T19:32 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
-- 2026-11-23T19:09 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
