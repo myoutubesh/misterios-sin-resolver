@@ -3850,17 +3850,17 @@
   },
   {
     "id": "2026-11-24-short-dancing-plague-of-1518",
-    "fecha": "2026-11-24T13:33:24+00:00",
+    "fecha": "2026-11-24T19:32:52+00:00",
     "formato": "short",
     "estado": "error_subida",
     "tema": "Dancing plague of 1518",
     "tema_clave": "Dancing plague of 1518",
     "categoria": "leyendas",
-    "interes_wikipedia": 4.71,
-    "titulo_yt": "El enigma de la peste del baile de 1518 #PesteDelBaile #Estrasburgo1518 #Shorts",
-    "estructura": "tres_detalles",
-    "estilo": "luna_fria",
-    "duracion": 58.5,
+    "interes_wikipedia": 5.8,
+    "titulo_yt": "La aterradora peste del baile de 1518 #PlagaDeBaile #Estrasburgo1518 #Shorts",
+    "estructura": "en_medias_res",
+    "estilo": "grabado",
+    "duracion": 47.5,
     "escenas": 8,
     "clips_reales": 2,
     "musica": "drone sintetizado",
@@ -4116,6 +4116,48 @@
       {
         "proveedor": "pollinations",
         "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-24-short-mary-celeste",
+    "fecha": "2026-11-24T19:13:13+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Mary Celeste",
+    "tema_clave": "Mary Celeste",
+    "categoria": "lugares",
+    "interes_wikipedia": 5.61,
+    "titulo_yt": "El enigma del bergantín Mary Celeste #MaryCeleste #Azores1872 #Shorts",
+    "estructura": "cronologica",
+    "estilo": "carmesi",
+    "duracion": 46.8,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Mary_Celeste",
+      "https://es.wikipedia.org/wiki/Mary_Celeste"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
         "entrada": 0,
         "salida": 0,
         "busquedas": 0,
