@@ -1285,5 +1285,25 @@
     "fin": "2026-11-24T15:04:02+00:00",
     "error": "RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).",
     "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 252, in crear_video\n    raise RuntimeError(\"Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. \"\nRuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).\n"
+  },
+  {
+    "id": "20261124-161756-short",
+    "tipo": "short",
+    "inicio": "2026-11-24T16:17:56+00:00",
+    "estado": "error",
+    "tema": "Pied Piper of Hamelin",
+    "fin": "2026-11-24T16:33:40+00:00",
+    "error": "RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 252, in crear_video\n    raise RuntimeError(\"Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. \"\nRuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).\n"
+  },
+  {
+    "id": "20261124-163540-short",
+    "tipo": "short",
+    "inicio": "2026-11-24T16:35:40+00:00",
+    "estado": "error",
+    "tema": "Zodiac Killer",
+    "fin": "2026-11-24T16:47:28+00:00",
+    "error": "RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 252, in crear_video\n    raise RuntimeError(\"Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. \"\nRuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).\n"
   }
 ]

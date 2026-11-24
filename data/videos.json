@@ -3989,5 +3989,89 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-24-short-pied-piper-of-hamelin",
+    "fecha": "2026-11-24T16:33:40+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Pied Piper of Hamelin",
+    "tema_clave": "Pied Piper of Hamelin",
+    "categoria": "leyendas",
+    "interes_wikipedia": 5.6,
+    "titulo_yt": "El rastro del flautista: ¿la última calle sin música? #PiedPiper #Hamelín1284 #Shorts",
+    "estructura": "en_medias_res",
+    "estilo": "archivo_antiguo",
+    "duracion": 75.2,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Pied_Piper_of_Hamelin",
+      "https://es.wikipedia.org/wiki/El_flautista_de_Hamel%C3%ADn"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-24-short-zodiac-killer",
+    "fecha": "2026-11-24T16:47:28+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Zodiac Killer",
+    "tema_clave": "Zodiac Killer",
+    "categoria": "casos_sin_resolver",
+    "interes_wikipedia": 6.23,
+    "titulo_yt": "¿Qué hizo el Zodíaco en 1968 y 1969? #ZodiacKiller #SanFrancisco #Shorts",
+    "estructura": "tres_detalles",
+    "estilo": "noche_turquesa",
+    "duracion": 69.6,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Zodiac_Killer",
+      "https://es.wikipedia.org/wiki/Asesino_del_Zodiaco"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
