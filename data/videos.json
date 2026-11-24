@@ -4073,5 +4073,55 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-24-short-yuba-county-five",
+    "fecha": "2026-11-24T17:50:52+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Yuba County Five",
+    "tema_clave": "Yuba County Five",
+    "categoria": "desapariciones",
+    "interes_wikipedia": 5.58,
+    "titulo_yt": "El coche abandonado a 70 km de casa | Yuba County Five #YubaCountyFive #PlumasNationalForest #Shorts",
+    "estructura": "pregunta",
+    "estilo": "grabado",
+    "duracion": 60.4,
+    "escenas": 10,
+    "clips_reales": 3,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Yuba_County_Five",
+      "https://es.wikipedia.org/wiki/Cinco_de_Yuba"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]

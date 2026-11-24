@@ -1305,5 +1305,25 @@
     "fin": "2026-11-24T16:47:28+00:00",
     "error": "RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).",
     "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 252, in crear_video\n    raise RuntimeError(\"Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. \"\nRuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).\n"
+  },
+  {
+    "id": "20261124-172934-short",
+    "tipo": "short",
+    "inicio": "2026-11-24T17:29:34+00:00",
+    "estado": "error",
+    "tema": "Olmec colossal heads",
+    "fin": "2026-11-24T17:38:28+00:00",
+    "error": "GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion relata una ‘apertura’ de una cabeza colosal en 1938, lo que no aparece en la fuente. En la fuente se menciona la excavación de la cabeza en 1938 por Matthew Stirling después de un hallazgo pr",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 172, in crear_video\n    g = guion.guion_short(art)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/guion.py\", line 266, in guion_short\n    g = _revisar(g, art, \"YouTube Short de 45 segundos\",\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/guion.py\", line 190, in _revisar\n    raise GuionNoFiel(f\"el editor detectó que el guion no sale de la fuente: {resp.get('problema', '')[:200]}\")\npipeline.guion.GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion relata una ‘apertura’ de una cabeza colosal en 1938, lo que no aparece en la fuente. En la fuente se menciona la excavación de la cabeza en 1938 por Matthew Stirling después de un hallazgo pr\n"
+  },
+  {
+    "id": "20261124-174029-short",
+    "tipo": "short",
+    "inicio": "2026-11-24T17:40:29+00:00",
+    "estado": "error",
+    "tema": "Yuba County Five",
+    "fin": "2026-11-24T17:50:52+00:00",
+    "error": "RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 252, in crear_video\n    raise RuntimeError(\"Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. \"\nRuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).\n"
   }
 ]
