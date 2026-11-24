@@ -1,15 +1,17 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-24 13:38 UTC*
+*Actualizado: 2026-11-24 15:04 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 17 080 | 86 | 36 | 3 | 68 | $0.00 |
+| 53 | 17 080 | 88 | 36 | 3 | 70 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-24 | short | Luces flotantes en el valle de Hessdalen #HessdalenLights #Noruega1950s #Shorts | retenido_calidad | — |
+| 2026-11-24 | short | El ojo del Sáhara: ¿meteorito o magia del magma? #RichatStructure #Mauritania #Shorts | retenido_calidad | — |
 | 2026-11-24 | short | El enigma de la peste del baile de 1518 #PesteDelBaile #Estrasburgo1518 #Shorts | error_subida | — |
 | 2026-11-24 | short | La misteriosa desaparicion de la colonia de Roanoke #RoanokeColony #LostColony #Shorts | error_subida | — |
 | 2026-11-24 | short | El misterio de Jack el saltarín / El terror victoriano #SpringHeeledJack #Londres1837 #Shorts | error_subida | — |
@@ -38,8 +40,6 @@
 | 2026-11-22 | short | El flautista de Hamelín #Hamelin #1284 #Shorts | retenido_calidad | — |
 | 2026-11-22 | short | El misterio de D. B. Cooper / ExpedienteUmbral #DBCooper #Washington1971 #Shorts | error_subida | — |
 | 2026-11-22 | short | Tres datos inquietantes de Teotihuacán #Teotihuacan #Mexico #Shorts | error_subida | — |
-| 2026-11-22 | short | El misterio de la nave fantasma que vio un rey #HolandesErrante #FlyingDutchman #Shorts | error_subida | — |
-| 2026-11-22 | short | El enigma del Ojo del Sáhara en Mauritania #EstructuraDeRichat #Mauritania #Shorts | error_subida | — |
 
 ## Aprendizajes
 
@@ -53,6 +53,8 @@
 
 ## Errores recientes
 
+- 2026-11-24T14:55 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
+- 2026-11-24T14:39 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-24T13:35 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion describe un caso y hechos que no aparecen en la fuente, como el supuesto hecho de "comerse un bebé" en 1794 y la acusación sobre un soldado de Tarrare. La fuente indica que Tarrare nació en 1`
 - 2026-11-24T13:23 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-24T12:51 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
@@ -61,5 +63,3 @@
 - 2026-11-24T11:12 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-24T11:00 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-24T03:44 · largo · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-24T03:32 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 1254 palabras (esperaba 1700-3100) | pollinations: 14 escenas (esperaba 50-120) | gemini: 1357 palabras (esperaba 1700-3100) | pollinations: la respuesta no trae JSON`
-- 2026-11-23T23:49 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`

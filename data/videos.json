@@ -3889,5 +3889,105 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-24-short-richat-structure",
+    "fecha": "2026-11-24T14:53:11+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Richat Structure",
+    "tema_clave": "Richat Structure",
+    "categoria": "lugares",
+    "interes_wikipedia": 5.45,
+    "titulo_yt": "El ojo del Sáhara: ¿meteorito o magia del magma? #RichatStructure #Mauritania #Shorts",
+    "estructura": "en_medias_res",
+    "estilo": "carmesi",
+    "duracion": 61.5,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Richat_Structure",
+      "https://es.wikipedia.org/wiki/Estructura_de_Richat"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-24-short-hessdalen-lights",
+    "fecha": "2026-11-24T15:04:02+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Hessdalen lights",
+    "tema_clave": "Hessdalen lights",
+    "categoria": "fenomenos",
+    "interes_wikipedia": 4.5,
+    "titulo_yt": "Luces flotantes en el valle de Hessdalen #HessdalenLights #Noruega1950s #Shorts",
+    "estructura": "pregunta",
+    "estilo": "carmesi",
+    "duracion": 61.6,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Hessdalen_lights",
+      "https://es.wikipedia.org/wiki/Luces_de_Hessdalen"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
