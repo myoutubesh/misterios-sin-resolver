@@ -4165,5 +4165,89 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-24-short-phineas-gage",
+    "fecha": "2026-11-24T22:20:22+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Phineas Gage",
+    "tema_clave": "Phineas Gage",
+    "categoria": "historias",
+    "interes_wikipedia": 5.31,
+    "titulo_yt": "Sobrevivió con una barra de hierro en el cráneo #PhineasGage #Vermont1848 #Shorts",
+    "estructura": "cronologica",
+    "estilo": "archivo_antiguo",
+    "duracion": 42.9,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Phineas_Gage",
+      "https://es.wikipedia.org/wiki/Phineas_Gage"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-24-short-numbers-station",
+    "fecha": "2026-11-24T22:29:22+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Numbers station",
+    "tema_clave": "Numbers station",
+    "categoria": "curiosidades",
+    "interes_wikipedia": 5.19,
+    "titulo_yt": "El secreto real detrás de las emisoras de números #AtencionCuba #ENIGMA2000 #Shorts",
+    "estructura": "segunda_persona",
+    "estilo": "carmesi",
+    "duracion": 47.7,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Numbers_station",
+      "https://es.wikipedia.org/wiki/Emisora_de_n%C3%BAmeros"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.5-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.5-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]

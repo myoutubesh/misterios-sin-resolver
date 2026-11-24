@@ -1365,5 +1365,25 @@
     "fin": "2026-11-24T20:51:27+00:00",
     "error": "RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).",
     "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 252, in crear_video\n    raise RuntimeError(\"Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. \"\nRuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).\n"
+  },
+  {
+    "id": "20261124-220438-short",
+    "tipo": "short",
+    "inicio": "2026-11-24T22:04:38+00:00",
+    "estado": "error",
+    "tema": "Phineas Gage",
+    "fin": "2026-11-24T22:20:22+00:00",
+    "error": "RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 276, in crear_video\n    raise RuntimeError(f\"No se pudo subir a YouTube: {ultimo}\")\nRuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})\n"
+  },
+  {
+    "id": "20261124-222223-short",
+    "tipo": "short",
+    "inicio": "2026-11-24T22:22:23+00:00",
+    "estado": "error",
+    "tema": "Numbers station",
+    "fin": "2026-11-24T22:29:22+00:00",
+    "error": "RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 276, in crear_video\n    raise RuntimeError(f\"No se pudo subir a YouTube: {ultimo}\")\nRuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})\n"
   }
 ]

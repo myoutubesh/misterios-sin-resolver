@@ -1,15 +1,17 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-24 20:51 UTC*
+*Actualizado: 2026-11-24 22:29 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 17 080 | 92 | 36 | 3 | 71 | $0.00 |
+| 53 | 17 080 | 94 | 36 | 3 | 71 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-24 | short | El secreto real detrás de las emisoras de números #AtencionCuba #ENIGMA2000 #Shorts | error_subida | — |
+| 2026-11-24 | short | Sobrevivió con una barra de hierro en el cráneo #PhineasGage #Vermont1848 #Shorts | error_subida | — |
 | 2026-11-24 | short | ¡Réquiem de Hamelín! / ¿Qué verdad tiene el flautista? #Hamelín1284 #RatasMisterio #Shorts | retenido_calidad | — |
 | 2026-11-24 | short | El misterio subterráneo de Derinkuyu / Capadocia #Derinkuyu #Capadocia #Shorts | error_subida | — |
 | 2026-11-24 | short | La aterradora peste del baile de 1518 #PlagaDeBaile #Estrasburgo1518 #Shorts | error_subida | — |
@@ -38,8 +40,6 @@
 | 2026-11-23 | short | El flautista que guiaba a las ratas y los niños #PiedPiper #Hamelín1284 #Shorts | retenido_calidad | — |
 | 2026-11-23 | short | ¿Es el Triángulo de las Bermudas un mito? #TrianguloDeLasBermudas #Atlantico1950 #Shorts | error_subida | — |
 | 2026-11-23 | short | El único secuestro aéreo jamás resuelto / D. B. Cooper #DBCooper #Portland1971 #Shorts | error_subida | — |
-| 2026-11-23 | largo | 7 aviones que desaparecieron sin dejar rastro y desconcertaron al mundo | error_subida | — |
-| 2026-11-22 | short | La Batería de Bagdad: un misterio electrificado #BagdadBattery #Ctesifonte #Shorts | retenido_calidad | — |
 
 ## Aprendizajes
 
@@ -53,6 +53,8 @@
 
 ## Errores recientes
 
+- 2026-11-24T22:22 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
+- 2026-11-24T22:04 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-24T20:39 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-24T20:30 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-24T19:15 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
@@ -61,5 +63,3 @@
 - 2026-11-24T17:29 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion relata una ‘apertura’ de una cabeza colosal en 1938, lo que no aparece en la fuente. En la fuente se menciona la excavación de la cabeza en 1938 por Matthew Stirling después de un hallazgo pr`
 - 2026-11-24T16:35 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-24T16:17 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
-- 2026-11-24T14:55 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
-- 2026-11-24T14:39 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
