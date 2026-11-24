@@ -3847,5 +3847,47 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-24-short-dancing-plague-of-1518",
+    "fecha": "2026-11-24T13:33:24+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Dancing plague of 1518",
+    "tema_clave": "Dancing plague of 1518",
+    "categoria": "leyendas",
+    "interes_wikipedia": 4.71,
+    "titulo_yt": "El enigma de la peste del baile de 1518 #PesteDelBaile #Estrasburgo1518 #Shorts",
+    "estructura": "tres_detalles",
+    "estilo": "luna_fria",
+    "duracion": 58.5,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+      "https://es.wikipedia.org/wiki/Epidemia_de_baile_de_1518"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
