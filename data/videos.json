@@ -3596,5 +3596,80 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-24-largo-7-leyendas-de-espana",
+    "fecha": "2026-11-24T04:37:39+00:00",
+    "formato": "largo",
+    "estado": "error_subida",
+    "tema": "7 leyendas de España",
+    "tema_clave": "lista:leyendas_espana:Dip (mitología)|El Dorado|El beso (Bécquer)|La flor del lilo-va|Nuestra Señora de la Salud (Algemesí)|Pena Molexa|Tributo de las cien vírgenes",
+    "categoria": "lista_leyendas_espana",
+    "interes_wikipedia": null,
+    "titulo_yt": "7 LEYENDAS de España que Todavía Desconciertan",
+    "estructura": null,
+    "estilo": "archivo_antiguo",
+    "duracion": 811.6,
+    "escenas": 60,
+    "clips_reales": 35,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://es.wikipedia.org/wiki/El_Dorado",
+      "https://es.wikipedia.org/wiki/Pena_Molexa",
+      "https://es.wikipedia.org/wiki/Dip_(mitolog%C3%ADa)",
+      "https://es.wikipedia.org/wiki/Tributo_de_las_cien_v%C3%ADrgenes",
+      "https://es.wikipedia.org/wiki/El_beso_(B%C3%A9cquer)",
+      "https://es.wikipedia.org/wiki/La_flor_del_lilo-va",
+      "https://es.wikipedia.org/wiki/Nuestra_Se%C3%B1ora_de_la_Salud_(Algemes%C3%AD)"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.5-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.5-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "tipo_largo": "lista",
+    "miniatura_estilo": "lista",
+    "lista_id": "leyendas_espana",
+    "casos": [
+      "El Dorado",
+      "Pena Molexa",
+      "Dip (mitología)",
+      "Tributo de las cien vírgenes",
+      "El beso (Bécquer)",
+      "La flor del lilo-va",
+      "Nuestra Señora de la Salud (Algemesí)"
+    ]
   }
 ]
