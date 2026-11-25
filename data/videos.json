@@ -4249,5 +4249,49 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-25-largo-rendlesham-forest-incident",
+    "fecha": "2026-11-25T04:29:10+00:00",
+    "formato": "largo",
+    "estado": "error_subida",
+    "tema": "Rendlesham Forest incident",
+    "tema_clave": "Rendlesham Forest incident",
+    "categoria": "paranormal",
+    "interes_wikipedia": 4.76,
+    "titulo_yt": "El MISTERIO del Roswell británico en Rendlesham | Incidente de Rendlesham",
+    "estructura": null,
+    "estilo": "noche_turquesa",
+    "duracion": 838.1,
+    "escenas": 73,
+    "clips_reales": 43,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Rendlesham_Forest_incident",
+      "https://es.wikipedia.org/wiki/Incidente_ovni_de_Rendlesham_Forest"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.5-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "tipo_largo": "caso",
+    "miniatura_estilo": "clasico"
   }
 ]

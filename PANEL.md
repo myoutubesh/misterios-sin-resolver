@@ -1,15 +1,16 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-24 23:46 UTC*
+*Actualizado: 2026-11-25 04:29 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 17 080 | 94 | 36 | 3 | 71 | $0.00 |
+| 53 | 17 080 | 95 | 36 | 3 | 73 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-25 | largo | El MISTERIO del Roswell británico en Rendlesham / Incidente de Rendlesham | error_subida | — |
 | 2026-11-24 | short | El asesinato que nadie pudo detonar / Caso del Zodiaco #Zodiac #California1968 #Shorts | retenido_calidad | — |
 | 2026-11-24 | short | El secreto real detrás de las emisoras de números #AtencionCuba #ENIGMA2000 #Shorts | error_subida | — |
 | 2026-11-24 | short | Sobrevivió con una barra de hierro en el cráneo #PhineasGage #Vermont1848 #Shorts | error_subida | — |
@@ -39,7 +40,6 @@
 | 2026-11-23 | short | Sobrevivió caer de 3000 metros a la selva / Juliane Koepcke #JulianeKoepcke #Peru1971 #Shorts | error_subida | — |
 | 2026-11-23 | short | El flautista que guiaba a las ratas y los niños #PiedPiper #Hamelín1284 #Shorts | retenido_calidad | — |
 | 2026-11-23 | short | ¿Es el Triángulo de las Bermudas un mito? #TrianguloDeLasBermudas #Atlantico1950 #Shorts | error_subida | — |
-| 2026-11-23 | short | El único secuestro aéreo jamás resuelto / D. B. Cooper #DBCooper #Portland1971 #Shorts | error_subida | — |
 
 ## Aprendizajes
 
@@ -53,6 +53,8 @@
 
 ## Errores recientes
 
+- 2026-11-25T03:47 · largo · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
+- 2026-11-25T03:38 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.g | pollinations: 17 escenas (esperaba 50-120) | gemini: None | pollinations: 17 escenas (esperaba 50-120)`
 - 2026-11-24T23:37 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-24T23:33 · short · `RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: 77 palabras (esperaba 90-185) | gemini: None | pollinations: 86 palabras (esperaba 90-185)`
 - 2026-11-24T22:22 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
@@ -61,5 +63,3 @@
 - 2026-11-24T20:30 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-24T19:15 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-24T19:04 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-24T17:40 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
-- 2026-11-24T17:29 · short · `GuionNoFiel: el editor detectó que el guion no sale de la fuente: El guion relata una ‘apertura’ de una cabeza colosal en 1938, lo que no aparece en la fuente. En la fuente se menciona la excavación de la cabeza en 1938 por Matthew Stirling después de un hallazgo pr`
