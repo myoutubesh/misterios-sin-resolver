@@ -4463,18 +4463,18 @@
   },
   {
     "id": "2026-11-25-short-zodiac-killer",
-    "fecha": "2026-11-25T13:37:07+00:00",
+    "fecha": "2026-11-25T17:51:16+00:00",
     "formato": "short",
     "estado": "error_subida",
     "tema": "Zodiac Killer",
     "tema_clave": "Zodiac Killer",
     "categoria": "casos_sin_resolver",
-    "interes_wikipedia": 5.95,
-    "titulo_yt": "¿Quién fue el verdadero Asesino del Zodiaco? | El caso sin resolver #AsesinoDelZodiaco #Shorts",
-    "estructura": "pregunta",
-    "estilo": "archivo_antiguo",
-    "duracion": 58.5,
-    "escenas": 9,
+    "interes_wikipedia": 5.82,
+    "titulo_yt": "Tres detalles inquietantes del Asesino del Zodiaco #AsesinoDelZodiaco #California1969 #Shorts",
+    "estructura": "tres_detalles",
+    "estilo": "carmesi",
+    "duracion": 57.6,
+    "escenas": 8,
     "clips_reales": 2,
     "musica": "drone sintetizado",
     "verificacion": "solo contra Wikipedia (EN y ES)",
@@ -4486,7 +4486,7 @@
     "ia": [
       {
         "proveedor": "gemini",
-        "modelo": "gemini-3.6-flash",
+        "modelo": "gemini-3.5-flash",
         "entrada": 0,
         "salida": 0,
         "busquedas": 0,
@@ -4655,6 +4655,48 @@
       {
         "proveedor": "gemini",
         "modelo": "gemini-3.5-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-25-short-ss-baychimo",
+    "fecha": "2026-11-25T17:37:21+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "SS Baychimo",
+    "tema_clave": "SS Baychimo",
+    "categoria": "lugares",
+    "interes_wikipedia": 4.22,
+    "titulo_yt": "El carguero fantasma atrapado en Alaska | SS Baychimo #SSBaychimo #Alaska1931 #Shorts",
+    "estructura": "segunda_persona",
+    "estilo": "luna_fria",
+    "duracion": 67.4,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/SS_Baychimo",
+      "https://es.wikipedia.org/wiki/SS_Baychimo"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
         "entrada": 0,
         "salida": 0,
         "busquedas": 0,
