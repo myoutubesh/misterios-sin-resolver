@@ -4463,18 +4463,18 @@
   },
   {
     "id": "2026-11-25-short-zodiac-killer",
-    "fecha": "2026-11-25T17:51:16+00:00",
+    "fecha": "2026-11-25T19:07:54+00:00",
     "formato": "short",
     "estado": "error_subida",
     "tema": "Zodiac Killer",
     "tema_clave": "Zodiac Killer",
-    "categoria": "casos_sin_resolver",
-    "interes_wikipedia": 5.82,
-    "titulo_yt": "Tres detalles inquietantes del Asesino del Zodiaco #AsesinoDelZodiaco #California1969 #Shorts",
+    "categoria": "curiosidades",
+    "interes_wikipedia": 5.52,
+    "titulo_yt": "Tres datos del Asesino del Zodiaco | Caso sin resolver #ZodiacKiller #SanFrancisco1969 #Shorts",
     "estructura": "tres_detalles",
-    "estilo": "carmesi",
-    "duracion": 57.6,
-    "escenas": 8,
+    "estilo": "noche_turquesa",
+    "duracion": 62.1,
+    "escenas": 7,
     "clips_reales": 2,
     "musica": "drone sintetizado",
     "verificacion": "solo contra Wikipedia (EN y ES)",
@@ -4484,14 +4484,6 @@
     ],
     "costo_usd": 0.0,
     "ia": [
-      {
-        "proveedor": "gemini",
-        "modelo": "gemini-3.5-flash",
-        "entrada": 0,
-        "salida": 0,
-        "busquedas": 0,
-        "usd": 0.0
-      },
       {
         "proveedor": "gemini",
         "modelo": "gemini-3.6-flash",
@@ -4689,6 +4681,48 @@
       {
         "proveedor": "gemini",
         "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-25-short-d-b-cooper",
+    "fecha": "2026-11-25T19:26:01+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "D. B. Cooper",
+    "tema_clave": "D. B. Cooper",
+    "categoria": "casos_sin_resolver",
+    "interes_wikipedia": 5.91,
+    "titulo_yt": "El secuestro y salto de D. B. Cooper #DBCooper #Vuelo305 #Shorts",
+    "estructura": "en_medias_res",
+    "estilo": "grabado",
+    "duracion": 48.1,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/D._B._Cooper",
+      "https://es.wikipedia.org/wiki/D._B._Cooper"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
         "entrada": 0,
         "salida": 0,
         "busquedas": 0,

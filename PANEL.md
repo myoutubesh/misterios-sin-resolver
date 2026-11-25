@@ -1,16 +1,17 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-25 17:51 UTC*
+*Actualizado: 2026-11-25 19:26 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 17 080 | 105 | 36 | 3 | 81 | $0.00 |
+| 53 | 17 080 | 106 | 36 | 3 | 81 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
-| 2026-11-25 | short | Tres detalles inquietantes del Asesino del Zodiaco #AsesinoDelZodiaco #California1969 #Shorts | error_subida | — |
+| 2026-11-25 | short | El secuestro y salto de D. B. Cooper #DBCooper #Vuelo305 #Shorts | error_subida | — |
+| 2026-11-25 | short | Tres datos del Asesino del Zodiaco / Caso sin resolver #ZodiacKiller #SanFrancisco1969 #Shorts | error_subida | — |
 | 2026-11-25 | short | El carguero fantasma atrapado en Alaska / SS Baychimo #SSBaychimo #Alaska1931 #Shorts | error_subida | — |
 | 2026-11-25 | short | El misterio de Jack el saltarín en Londres #SpringHeeledJack #Londres1837 #Shorts | error_subida | — |
 | 2026-11-25 | short | La ciudad subterránea que salvó a 20,000 personas / Derinkuyu #Derinkuyu #Turquia #Shorts | error_subida | — |
@@ -39,7 +40,6 @@
 | 2026-11-23 | short | El misterio de Göbekli Tepe: El santuario más antiguo #GobekliTepe #Turquia #Shorts | error_subida | — |
 | 2026-11-23 | short | El secreto real detrás del Área 51 #Area51 #Nevada1955 #Shorts | error_subida | — |
 | 2026-11-23 | short | ¿Qué ocurrió con Ambrose Bierce? / El misterio de 1913 #AmbroseBierce #Mexico1913 #Shorts | error_subida | — |
-| 2026-11-23 | short | El misterio de las cabezas olmecas #Olmecas #Veracruz #Shorts | error_subida | — |
 
 ## Aprendizajes
 
@@ -53,6 +53,8 @@
 
 ## Errores recientes
 
+- 2026-11-25T19:09 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
+- 2026-11-25T18:58 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-25T17:39 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-25T17:28 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-25T16:23 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
@@ -61,5 +63,3 @@
 - 2026-11-25T14:47 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-25T13:39 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-25T13:28 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-25T12:53 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})`
-- 2026-11-25T12:42 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
