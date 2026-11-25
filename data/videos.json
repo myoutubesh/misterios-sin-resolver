@@ -4544,5 +4544,89 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-25-short-paul-is-dead",
+    "fecha": "2026-11-25T14:54:32+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Paul is dead",
+    "tema_clave": "Paul is dead",
+    "categoria": "conspiraciones",
+    "interes_wikipedia": 5.67,
+    "titulo_yt": "¿Paul McCartney murió en 1966? La verdad oculta #PaulIsDead #Beatles1969 #Shorts",
+    "estructura": "cronologica",
+    "estilo": "noche_turquesa",
+    "duracion": 52.4,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Paul_is_dead",
+      "https://es.wikipedia.org/wiki/Paul_est%C3%A1_muerto"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-25-short-derinkuyu-underground-city",
+    "fecha": "2026-11-25T15:06:21+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Derinkuyu underground city",
+    "tema_clave": "Derinkuyu underground city",
+    "categoria": "civilizaciones",
+    "interes_wikipedia": 5.31,
+    "titulo_yt": "La ciudad subterránea que salvó a 20,000 personas | Derinkuyu #Derinkuyu #Turquia #Shorts",
+    "estructura": "en_medias_res",
+    "estilo": "archivo_antiguo",
+    "duracion": 59.3,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Derinkuyu_underground_city",
+      "https://es.wikipedia.org/wiki/Ciudad_subterr%C3%A1nea_de_Derinkuyu"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
