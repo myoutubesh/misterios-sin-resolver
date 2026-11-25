@@ -4293,5 +4293,89 @@
     "prueba": false,
     "tipo_largo": "caso",
     "miniatura_estilo": "clasico"
+  },
+  {
+    "id": "2026-11-25-short-pied-piper-of-hamelin",
+    "fecha": "2026-11-25T11:15:25+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Pied Piper of Hamelin",
+    "tema_clave": "Pied Piper of Hamelin",
+    "categoria": "leyendas",
+    "interes_wikipedia": 5.65,
+    "titulo_yt": "El misterio tras el Flautista de Hamelín #Hamelin1284 #FlautistaDeHamelin #Shorts",
+    "estructura": "en_medias_res",
+    "estilo": "archivo_antiguo",
+    "duracion": 50.4,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Pied_Piper_of_Hamelin",
+      "https://es.wikipedia.org/wiki/El_flautista_de_Hamel%C3%ADn"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-25-short-hiroo-onoda",
+    "fecha": "2026-11-25T11:25:22+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Hiroo Onoda",
+    "tema_clave": "Hiroo Onoda",
+    "categoria": "historias",
+    "interes_wikipedia": 5.51,
+    "titulo_yt": "Los tres detalles inquietantes sobre el soldado Hiroo Onoda #HirooOnoda #SegundaGuerraMundial",
+    "estructura": "tres_detalles",
+    "estilo": "grabado",
+    "duracion": 59.4,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Hiroo_Onoda",
+      "https://es.wikipedia.org/wiki/Hir%C5%8D_Onoda"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]

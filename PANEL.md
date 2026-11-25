@@ -1,15 +1,17 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-25 04:29 UTC*
+*Actualizado: 2026-11-25 11:25 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 17 080 | 95 | 36 | 3 | 73 | $0.00 |
+| 53 | 17 080 | 97 | 36 | 3 | 75 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-25 | short | Los tres detalles inquietantes sobre el soldado Hiroo Onoda #HirooOnoda #SegundaGuerraMundial | error_subida | — |
+| 2026-11-25 | short | El misterio tras el Flautista de Hamelín #Hamelin1284 #FlautistaDeHamelin #Shorts | error_subida | — |
 | 2026-11-25 | largo | El MISTERIO del Roswell británico en Rendlesham / Incidente de Rendlesham | error_subida | — |
 | 2026-11-24 | short | El asesinato que nadie pudo detonar / Caso del Zodiaco #Zodiac #California1968 #Shorts | retenido_calidad | — |
 | 2026-11-24 | short | El secreto real detrás de las emisoras de números #AtencionCuba #ENIGMA2000 #Shorts | error_subida | — |
@@ -38,8 +40,6 @@
 | 2026-11-23 | short | Pistas secretas alrededor del mundo: Cicada 3301 #Cicada3301 #MysteriosInternet #Shorts | retenido_calidad | — |
 | 2026-11-23 | short | El atacante victoriano que saltaba muros / Spring-heeled Jack #SpringHeeledJack #Londres1838 #Shorts | error_subida | — |
 | 2026-11-23 | short | Sobrevivió caer de 3000 metros a la selva / Juliane Koepcke #JulianeKoepcke #Peru1971 #Shorts | error_subida | — |
-| 2026-11-23 | short | El flautista que guiaba a las ratas y los niños #PiedPiper #Hamelín1284 #Shorts | retenido_calidad | — |
-| 2026-11-23 | short | ¿Es el Triángulo de las Bermudas un mito? #TrianguloDeLasBermudas #Atlantico1950 #Shorts | error_subida | — |
 
 ## Aprendizajes
 
@@ -53,6 +53,8 @@
 
 ## Errores recientes
 
+- 2026-11-25T11:17 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
+- 2026-11-25T11:04 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-25T03:47 · largo · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-25T03:38 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.g | pollinations: 17 escenas (esperaba 50-120) | gemini: None | pollinations: 17 escenas (esperaba 50-120)`
 - 2026-11-24T23:37 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
@@ -61,5 +63,3 @@
 - 2026-11-24T22:04 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-24T20:39 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-24T20:30 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-24T19:15 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-24T19:04 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
