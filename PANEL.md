@@ -1,15 +1,16 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-25 15:06 UTC*
+*Actualizado: 2026-11-25 16:32 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 17 080 | 103 | 36 | 3 | 78 | $0.00 |
+| 53 | 17 080 | 104 | 36 | 3 | 80 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-25 | short | El misterio de Jack el saltarín en Londres #SpringHeeledJack #Londres1837 #Shorts | error_subida | — |
 | 2026-11-25 | short | La ciudad subterránea que salvó a 20,000 personas / Derinkuyu #Derinkuyu #Turquia #Shorts | error_subida | — |
 | 2026-11-25 | short | ¿Paul McCartney murió en 1966? La verdad oculta #PaulIsDead #Beatles1969 #Shorts | error_subida | — |
 | 2026-11-25 | short | El misterio del Zumbido que pocos pueden oír / The Hum #TheHum #TaosHum #Shorts | error_subida | — |
@@ -39,7 +40,6 @@
 | 2026-11-23 | short | ¿Qué ocurrió con Ambrose Bierce? / El misterio de 1913 #AmbroseBierce #Mexico1913 #Shorts | error_subida | — |
 | 2026-11-23 | short | El misterio de las cabezas olmecas #Olmecas #Veracruz #Shorts | error_subida | — |
 | 2026-11-23 | short | El baile que dejó al mundo sin aliento #dancesmanie #Estrasburgo1518 #Shorts | retenido_calidad | — |
-| 2026-11-23 | short | La nave que desapareció sin pruebas / Mary Celeste #MaryCeleste #Azores1872 #Shorts | retenido_calidad | — |
 
 ## Aprendizajes
 
@@ -53,6 +53,8 @@
 
 ## Errores recientes
 
+- 2026-11-25T16:23 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
+- 2026-11-25T16:16 · short · `RuntimeError: Ninguna IA pudo responder: gemini: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}} | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: 429 RESOURCE_EXHAUSTED. {'err`
 - 2026-11-25T14:56 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-25T14:47 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-25T13:39 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
@@ -61,5 +63,3 @@
 - 2026-11-25T12:42 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-25T12:02 · estadisticas · `RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-25T11:17 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-25T11:04 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-25T03:47 · largo · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
