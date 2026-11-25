@@ -1,15 +1,17 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-25 12:02 UTC*
+*Actualizado: 2026-11-25 13:07 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 17 080 | 97 | 36 | 3 | 76 | $0.00 |
+| 53 | 17 080 | 99 | 36 | 3 | 78 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-25 | short | El pozo que tragó a 6 buscadores de tesoros / Oak Island #OakIsland #Canadá1795 #Shorts | error_subida | — |
+| 2026-11-25 | short | El secreto mejor guardado de Nevada / Área 51 #Area51 #Nevada1955 #Shorts | error_subida | — |
 | 2026-11-25 | short | Los tres detalles inquietantes sobre el soldado Hiroo Onoda #HirooOnoda #SegundaGuerraMundial | error_subida | — |
 | 2026-11-25 | short | El misterio tras el Flautista de Hamelín #Hamelin1284 #FlautistaDeHamelin #Shorts | error_subida | — |
 | 2026-11-25 | largo | El MISTERIO del Roswell británico en Rendlesham / Incidente de Rendlesham | error_subida | — |
@@ -38,8 +40,6 @@
 | 2026-11-23 | short | La leyenda del Holandés Errante: ¿El barco fantasma real? #HolandesErrante #CaboDeBuenaEsperanza | error_subida | — |
 | 2026-11-23 | short | Los asesinatos del lago Bodom / Misterio sin resolver #Shorts | retenido_calidad | — |
 | 2026-11-23 | short | Pistas secretas alrededor del mundo: Cicada 3301 #Cicada3301 #MysteriosInternet #Shorts | retenido_calidad | — |
-| 2026-11-23 | short | El atacante victoriano que saltaba muros / Spring-heeled Jack #SpringHeeledJack #Londres1838 #Shorts | error_subida | — |
-| 2026-11-23 | short | Sobrevivió caer de 3000 metros a la selva / Juliane Koepcke #JulianeKoepcke #Peru1971 #Shorts | error_subida | — |
 
 ## Aprendizajes
 
@@ -53,6 +53,8 @@
 
 ## Errores recientes
 
+- 2026-11-25T12:53 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})`
+- 2026-11-25T12:42 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-25T12:02 · estadisticas · `RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-25T11:17 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-25T11:04 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
@@ -61,5 +63,3 @@
 - 2026-11-24T23:37 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-24T23:33 · short · `RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: 77 palabras (esperaba 90-185) | gemini: None | pollinations: 86 palabras (esperaba 90-185)`
 - 2026-11-24T22:22 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-24T22:04 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-24T20:39 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`

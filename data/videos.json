@@ -4377,5 +4377,88 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-25-short-area-51",
+    "fecha": "2026-11-25T12:51:55+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Area 51",
+    "tema_clave": "Area 51",
+    "categoria": "conspiraciones",
+    "interes_wikipedia": 6.14,
+    "titulo_yt": "El secreto mejor guardado de Nevada | Área 51 #Area51 #Nevada1955 #Shorts",
+    "estructura": "en_medias_res",
+    "estilo": "archivo_antiguo",
+    "duracion": 59.4,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Area_51",
+      "https://es.wikipedia.org/wiki/%C3%81rea_51"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-25-short-oak-island-mystery",
+    "fecha": "2026-11-25T13:07:18+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Oak Island mystery",
+    "tema_clave": "Oak Island mystery",
+    "categoria": "lugares",
+    "interes_wikipedia": 4.98,
+    "titulo_yt": "El pozo que tragó a 6 buscadores de tesoros | Oak Island #OakIsland #Canadá1795 #Shorts",
+    "estructura": "segunda_persona",
+    "estilo": "carmesi",
+    "duracion": 47.8,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Oak_Island_mystery"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
