@@ -4982,5 +4982,39 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-26-short-toynbee-tiles",
+    "fecha": "2026-11-26T16:39:21+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Toynbee tiles",
+    "tema_clave": "Toynbee tiles",
+    "categoria": "curiosidades",
+    "interes_wikipedia": 4.91,
+    "titulo_yt": "Las misteriosas placas de Toynbee en el asfalto | Toynbee tiles #ToynbeeTiles #Filadelfia1983",
+    "estructura": "cronologica",
+    "estilo": "noche_turquesa",
+    "duracion": 55.7,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Toynbee_tiles",
+      "https://es.wikipedia.org/wiki/Placas_de_Toynbee"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.5-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
