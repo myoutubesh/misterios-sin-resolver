@@ -4814,5 +4814,89 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-26-short-olmec-colossal-heads",
+    "fecha": "2026-11-26T11:28:30+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Olmec colossal heads",
+    "tema_clave": "Olmec colossal heads",
+    "categoria": "civilizaciones",
+    "interes_wikipedia": 5.01,
+    "titulo_yt": "El misterio sin resolver de las cabezas colosales olmecas #CabezasOlmecas #Veracruz1862 #Shorts",
+    "estructura": "tres_detalles",
+    "estilo": "noche_turquesa",
+    "duracion": 39.6,
+    "escenas": 6,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Olmec_colossal_heads",
+      "https://es.wikipedia.org/wiki/Cabeza_colosal"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.5-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-26-short-rendlesham-forest-incident",
+    "fecha": "2026-11-26T11:56:08+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Rendlesham Forest incident",
+    "tema_clave": "Rendlesham Forest incident",
+    "categoria": "paranormal",
+    "interes_wikipedia": 4.75,
+    "titulo_yt": "El incidente OVNI de Rendlesham Forest (1980) #RendleshamForest #IncidenteRendlesham #Shorts",
+    "estructura": "segunda_persona",
+    "estilo": "noche_turquesa",
+    "duracion": 52.5,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Rendlesham_Forest_incident",
+      "https://es.wikipedia.org/wiki/Incidente_ovni_de_Rendlesham_Forest"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]

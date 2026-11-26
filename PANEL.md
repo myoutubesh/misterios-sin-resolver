@@ -1,15 +1,17 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-26 03:44 UTC*
+*Actualizado: 2026-11-26 11:56 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 17 080 | 108 | 36 | 3 | 83 | $0.00 |
+| 53 | 17 080 | 110 | 36 | 3 | 85 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-26 | short | El incidente OVNI de Rendlesham Forest (1980) #RendleshamForest #IncidenteRendlesham #Shorts | error_subida | — |
+| 2026-11-26 | short | El misterio sin resolver de las cabezas colosales olmecas #CabezasOlmecas #Veracruz1862 #Shorts | error_subida | — |
 | 2026-11-25 | short | El enigma que desveló a los criptógrafos / El Asesino del Zodiaco #AsesinoDelZodiaco #Shorts | error_subida | — |
 | 2026-11-25 | short | ¿Qué barco fantasma condenó a su propia tripulación? #HolandesErrante #CaboDeBuenaEsperanza #Shorts | error_subida | — |
 | 2026-11-25 | short | El misterio de los cinco de Yuba en California #YubaCountyFive #PlumasNationalForest #Shorts | error_subida | — |
@@ -38,8 +40,6 @@
 | 2026-11-24 | short | El misterio de Jack el saltarín / El terror victoriano #SpringHeeledJack #Londres1837 #Shorts | error_subida | — |
 | 2026-11-24 | short | El Holandés Errante: ¿mito o fenómeno real? #FlyingDutchman #HolandésErrante #Shorts | error_subida | — |
 | 2026-11-24 | largo | 7 LEYENDAS de España que Todavía Desconciertan | error_subida | — |
-| 2026-11-23 | short | El misterioso zumbido que solo pocos escuchan #TheHum #ZumbidoDeTaos #Shorts | error_subida | — |
-| 2026-11-23 | short | El misterio de Göbekli Tepe: El santuario más antiguo #GobekliTepe #Turquia #Shorts | error_subida | — |
 
 ## Aprendizajes
 
@@ -53,6 +53,8 @@
 
 ## Errores recientes
 
+- 2026-11-26T11:30 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
+- 2026-11-26T11:03 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-26T03:43 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po`
 - 2026-11-26T03:37 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po`
 - 2026-11-25T23:39 · short · `RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po`
@@ -61,5 +63,3 @@
 - 2026-11-25T22:02 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-25T20:44 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-25T20:31 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-25T19:09 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-25T18:58 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
