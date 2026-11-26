@@ -5058,5 +5058,39 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-26-short-gobekli-tepe",
+    "fecha": "2026-11-26T23:49:38+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Göbekli Tepe",
+    "tema_clave": "Göbekli Tepe",
+    "categoria": "civilizaciones",
+    "interes_wikipedia": 5.84,
+    "titulo_yt": "El misterio de Göbekli Tepe | El templo imposible #GobekliTepe #TurquiaArqueologia #Shorts",
+    "estructura": "en_medias_res",
+    "estilo": "noche_turquesa",
+    "duracion": 47.7,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe",
+      "https://es.wikipedia.org/wiki/G%C3%B6bekli_Tepe"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
