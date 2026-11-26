@@ -1723,5 +1723,25 @@
     "fin": "2026-11-26T13:48:31+00:00",
     "error": "RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).",
     "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 252, in crear_video\n    raise RuntimeError(\"Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. \"\nRuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).\n"
+  },
+  {
+    "id": "20261126-144305-short",
+    "tipo": "short",
+    "inicio": "2026-11-26T14:43:05+00:00",
+    "estado": "error",
+    "tema": "Bloody Mary (folklore)",
+    "fin": "2026-11-26T14:51:00+00:00",
+    "error": "RuntimeError: Ninguna IA pudo responder: gemini: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.g | pollinations: 78 palabras (esperaba 90-185) | gemini: None | pollinations: Pollinations 503: {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now. Retry after 10s, or get full acce",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 172, in crear_video\n    g = guion.guion_short(art)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/guion.py\", line 265, in guion_short\n    g = ia.generar_json(prompt, validar=lambda d: _normalizar(d, 5, 11, 90, 185))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/ia.py\", line 225, in generar_json\n    raise RuntimeError(\"Ninguna IA pudo responder: \" + \" | \".join(errores))\nRuntimeError: Ninguna IA pudo responder: gemini: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.g | pollinations: 78 palabras (esperaba 90-185) | gemini: None | pollinations: Pollinations 503: {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now. Retry after 10s, or get full access to every model with a Po\n"
+  },
+  {
+    "id": "20261126-145300-short",
+    "tipo": "short",
+    "inicio": "2026-11-26T14:53:00+00:00",
+    "estado": "error",
+    "tema": "Area 51",
+    "fin": "2026-11-26T15:01:49+00:00",
+    "error": "RuntimeError: Ninguna IA pudo responder: gemini: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}} | pollinations: Pollinations 413: {\"status\":413,\"success\":false,\"error\":{\"code\":\"PAYLOAD_TOO_LARGE\",\"message\":\"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: 429 RESOURCE_EXHAUSTED. {'err",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 172, in crear_video\n    g = guion.guion_short(art)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/guion.py\", line 265, in guion_short\n    g = ia.generar_json(prompt, validar=lambda d: _normalizar(d, 5, 11, 90, 185))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/ia.py\", line 225, in generar_json\n    raise RuntimeError(\"Ninguna IA pudo responder: \" + \" | \".join(errores))\nRuntimeError: Ninguna IA pudo responder: gemini: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}} | pollinations: Pollinations 413: {\"status\":413,\"success\":false,\"error\":{\"code\":\"PAYLOAD_TOO_LARGE\",\"message\":\"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.g | pollinations: Pollinations 413: {\"status\":413,\"success\":false,\"error\":{\"code\":\"PAYLOAD_TOO_LARGE\",\"message\":\"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a\n"
   }
 ]
