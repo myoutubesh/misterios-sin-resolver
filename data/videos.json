@@ -4898,5 +4898,89 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-26-short-juliane-koepcke",
+    "fecha": "2026-11-26T13:34:26+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Juliane Koepcke",
+    "tema_clave": "Juliane Koepcke",
+    "categoria": "historias",
+    "interes_wikipedia": 5.56,
+    "titulo_yt": "Cayó de 3000 metros en la selva y sobrevivió | Vuelo 508 #JulianeKoepcke #LANSA508 #Shorts",
+    "estructura": "cronologica",
+    "estilo": "luna_fria",
+    "duracion": 43.5,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Juliane_Koepcke",
+      "https://es.wikipedia.org/wiki/Juliane_Koepcke"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.5-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-26-short-island-of-the-dolls",
+    "fecha": "2026-11-26T13:48:31+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Island of the Dolls",
+    "tema_clave": "Island of the Dolls",
+    "categoria": "lugares",
+    "interes_wikipedia": 4.88,
+    "titulo_yt": "El secreto de los muñecos que se mueven | Isla de las Muñecas #IslaDeLasMuñecas #Xochimilco #Shorts",
+    "estructura": "pregunta",
+    "estilo": "noche_turquesa",
+    "duracion": 71.0,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Island_of_the_Dolls",
+      "https://es.wikipedia.org/wiki/Isla_de_las_mu%C3%B1ecas"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
