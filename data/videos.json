@@ -5428,5 +5428,47 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-27-short-area-51",
+    "fecha": "2026-11-27T17:48:21+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Area 51",
+    "tema_clave": "Area 51",
+    "categoria": "conspiraciones",
+    "interes_wikipedia": 5.11,
+    "titulo_yt": "El secreto del Área 51 desclasificado #Area51 #Nevada1955 #Shorts",
+    "estructura": "segunda_persona",
+    "estilo": "carmesi",
+    "duracion": 47.8,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Area_51",
+      "https://es.wikipedia.org/wiki/%C3%81rea_51"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
