@@ -5176,5 +5176,89 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-27-short-bloody-mary-folklore",
+    "fecha": "2026-11-27T12:50:41+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Bloody Mary (folklore)",
+    "tema_clave": "Bloody Mary (folklore)",
+    "categoria": "leyendas",
+    "interes_wikipedia": 5.39,
+    "titulo_yt": "El ritual de Bloody Mary frente al espejo #BloodyMary #LeyendaBloodyMary #Shorts",
+    "estructura": "pregunta",
+    "estilo": "archivo_antiguo",
+    "duracion": 47.6,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Bloody_Mary_(folklore)",
+      "https://es.wikipedia.org/wiki/Ver%C3%B3nica_(leyenda_urbana)"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-27-short-zodiac-killer",
+    "fecha": "2026-11-27T13:04:49+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Zodiac Killer",
+    "tema_clave": "Zodiac Killer",
+    "categoria": "casos_sin_resolver",
+    "interes_wikipedia": 5.71,
+    "titulo_yt": "¿Quién fue el Asesino del Zodiaco? | Caso no resuelto #ZodiacKiller #SanFrancisco1969 #Shorts",
+    "estructura": "pregunta",
+    "estilo": "archivo_antiguo",
+    "duracion": 50.6,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Zodiac_Killer",
+      "https://es.wikipedia.org/wiki/Asesino_del_Zodiaco"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]

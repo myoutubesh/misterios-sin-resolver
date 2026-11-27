@@ -1,15 +1,17 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-27 11:58 UTC*
+*Actualizado: 2026-11-27 13:04 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 17 080 | 117 | 36 | 3 | 109 | $0.00 |
+| 53 | 17 080 | 119 | 36 | 3 | 111 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-27 | short | ¿Quién fue el Asesino del Zodiaco? / Caso no resuelto #ZodiacKiller #SanFrancisco1969 #Shorts | error_subida | — |
+| 2026-11-27 | short | El ritual de Bloody Mary frente al espejo #BloodyMary #LeyendaBloodyMary #Shorts | error_subida | — |
 | 2026-11-27 | short | Tres detalles inquietantes de los Cinco de Yuba #YubaCountyFive #California1978 #Shorts | error_subida | — |
 | 2026-11-27 | short | El misterio del Zumbido que pocos pueden oír #ElZumbido #TaosHum #Shorts | error_subida | — |
 | 2026-11-26 | short | El misterio de Göbekli Tepe / El templo imposible #GobekliTepe #TurquiaArqueologia #Shorts | error_subida | — |
@@ -38,8 +40,6 @@
 | 2026-11-24 | short | Sobrevivió con una barra de hierro en el cráneo #PhineasGage #Vermont1848 #Shorts | error_subida | — |
 | 2026-11-24 | short | ¡Réquiem de Hamelín! / ¿Qué verdad tiene el flautista? #Hamelín1284 #RatasMisterio #Shorts | retenido_calidad | — |
 | 2026-11-24 | short | El misterio subterráneo de Derinkuyu / Capadocia #Derinkuyu #Capadocia #Shorts | error_subida | — |
-| 2026-11-24 | short | La aterradora peste del baile de 1518 #PlagaDeBaile #Estrasburgo1518 #Shorts | error_subida | — |
-| 2026-11-24 | short | El enigma del bergantín Mary Celeste #MaryCeleste #Azores1872 #Shorts | error_subida | — |
 
 ## Aprendizajes
 
@@ -53,6 +53,8 @@
 
 ## Errores recientes
 
+- 2026-11-27T12:52 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
+- 2026-11-27T12:39 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-27T11:58 · estadisticas · `RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-27T11:12 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-27T11:00 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
@@ -61,5 +63,3 @@
 - 2026-11-26T23:51 · short · `RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po`
 - 2026-11-26T23:38 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-26T22:19 · short · `RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po`
-- 2026-11-26T22:01 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-26T20:45 · short · `RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po`
