@@ -1,15 +1,17 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-27 03:47 UTC*
+*Actualizado: 2026-11-27 11:23 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 17 080 | 115 | 36 | 3 | 106 | $0.00 |
+| 53 | 17 080 | 117 | 36 | 3 | 108 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-27 | short | Tres detalles inquietantes de los Cinco de Yuba #YubaCountyFive #California1978 #Shorts | error_subida | — |
+| 2026-11-27 | short | El misterio del Zumbido que pocos pueden oír #ElZumbido #TaosHum #Shorts | error_subida | — |
 | 2026-11-26 | short | El misterio de Göbekli Tepe / El templo imposible #GobekliTepe #TurquiaArqueologia #Shorts | error_subida | — |
 | 2026-11-26 | short | El secreto mejor guardado de Nevada / Área 51 #Area51 #Nevada1955 #Shorts | error_subida | — |
 | 2026-11-26 | short | Las misteriosas placas de Toynbee en el asfalto / Toynbee tiles #ToynbeeTiles #Filadelfia1983 | error_subida | — |
@@ -38,8 +40,6 @@
 | 2026-11-24 | short | El misterio subterráneo de Derinkuyu / Capadocia #Derinkuyu #Capadocia #Shorts | error_subida | — |
 | 2026-11-24 | short | La aterradora peste del baile de 1518 #PlagaDeBaile #Estrasburgo1518 #Shorts | error_subida | — |
 | 2026-11-24 | short | El enigma del bergantín Mary Celeste #MaryCeleste #Azores1872 #Shorts | error_subida | — |
-| 2026-11-24 | short | El coche abandonado a 70 km de casa / Yuba County Five #YubaCountyFive #PlumasNationalForest #Shorts | retenido_calidad | — |
-| 2026-11-24 | short | Luces flotantes en el valle de Hessdalen #HessdalenLights #Noruega1950s #Shorts | retenido_calidad | — |
 
 ## Aprendizajes
 
@@ -53,6 +53,8 @@
 
 ## Errores recientes
 
+- 2026-11-27T11:12 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
+- 2026-11-27T11:00 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-27T03:44 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.g | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po`
 - 2026-11-27T03:38 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po`
 - 2026-11-26T23:51 · short · `RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po`
@@ -61,5 +63,3 @@
 - 2026-11-26T22:01 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-26T20:45 · short · `RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po`
 - 2026-11-26T20:31 · short · `RuntimeError: Ninguna IA pudo responder: gemini: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.g | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po`
-- 2026-11-26T19:07 · short · `RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po`
-- 2026-11-26T19:04 · short · `RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po`

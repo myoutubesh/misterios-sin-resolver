@@ -5092,5 +5092,89 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-27-short-the-hum",
+    "fecha": "2026-11-27T11:10:11+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "The Hum",
+    "tema_clave": "The Hum",
+    "categoria": "fenomenos",
+    "interes_wikipedia": 4.58,
+    "titulo_yt": "El misterio del Zumbido que pocos pueden oír #ElZumbido #TaosHum #Shorts",
+    "estructura": "segunda_persona",
+    "estilo": "luna_fria",
+    "duracion": 44.1,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/The_Hum",
+      "https://es.wikipedia.org/wiki/El_Zumbido"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-27-short-yuba-county-five",
+    "fecha": "2026-11-27T11:23:24+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Yuba County Five",
+    "tema_clave": "Yuba County Five",
+    "categoria": "desapariciones",
+    "interes_wikipedia": 5.2,
+    "titulo_yt": "Tres detalles inquietantes de los Cinco de Yuba #YubaCountyFive #California1978 #Shorts",
+    "estructura": "tres_detalles",
+    "estilo": "carmesi",
+    "duracion": 55.9,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Yuba_County_Five",
+      "https://es.wikipedia.org/wiki/Cinco_de_Yuba"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
