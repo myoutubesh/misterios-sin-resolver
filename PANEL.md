@@ -1,15 +1,17 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-27 20:42 UTC*
+*Actualizado: 2026-11-27 22:22 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 17 080 | 125 | 36 | 3 | 123 | $0.00 |
+| 53 | 17 080 | 126 | 36 | 3 | 125 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-27 | short | El enigma del bosque Rendlesham / El Roswell británico #Rendlesham1980 #BosqueRendlesham #Shorts | error_subida | — |
+| 2026-11-27 | short | El fenómeno del Zumbido que pocos pueden oír #TheHum #TaosHum #Shorts | error_subida | — |
 | 2026-11-27 | short | El mito del Triángulo de las Bermudas / ExpedienteUmbral #TrianguloDeLasBermudas #BermudaTriangle | error_subida | — |
 | 2026-11-27 | short | El asesino que se burló de la policía con cartas #AsesinoDelZodiaco #ZodiacKiller #Shorts | error_subida | — |
 | 2026-11-27 | short | El insaciable estómago de Tarrare #Tarrare #Francia1772 #Shorts | error_subida | — |
@@ -19,7 +21,6 @@
 | 2026-11-27 | short | El misterio real del Flautista de Hamelín #FlautistaDeHamelin #Hameln1284 #Shorts | error_subida | — |
 | 2026-11-27 | short | El ritual de Bloody Mary frente al espejo #BloodyMary #LeyendaBloodyMary #Shorts | error_subida | — |
 | 2026-11-27 | short | Tres detalles inquietantes de los Cinco de Yuba #YubaCountyFive #California1978 #Shorts | error_subida | — |
-| 2026-11-27 | short | El misterio del Zumbido que pocos pueden oír #ElZumbido #TaosHum #Shorts | error_subida | — |
 | 2026-11-26 | short | El misterio de Göbekli Tepe / El templo imposible #GobekliTepe #TurquiaArqueologia #Shorts | error_subida | — |
 | 2026-11-26 | short | El secreto mejor guardado de Nevada / Área 51 #Area51 #Nevada1955 #Shorts | error_subida | — |
 | 2026-11-26 | short | Las misteriosas placas de Toynbee en el asfalto / Toynbee tiles #ToynbeeTiles #Filadelfia1983 | error_subida | — |
@@ -39,7 +40,6 @@
 | 2026-11-25 | short | El pozo que tragó a 6 buscadores de tesoros / Oak Island #OakIsland #Canadá1795 #Shorts | error_subida | — |
 | 2026-11-25 | short | El secreto mejor guardado de Nevada / Área 51 #Area51 #Nevada1955 #Shorts | error_subida | — |
 | 2026-11-25 | short | Los tres detalles inquietantes sobre el soldado Hiroo Onoda #HirooOnoda #SegundaGuerraMundial | error_subida | — |
-| 2026-11-25 | short | El misterio tras el Flautista de Hamelín #Hamelin1284 #FlautistaDeHamelin #Shorts | error_subida | — |
 
 ## Aprendizajes
 
@@ -53,6 +53,8 @@
 
 ## Errores recientes
 
+- 2026-11-27T22:13 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
+- 2026-11-27T22:02 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-27T20:41 · short · `RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po`
 - 2026-11-27T20:31 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-27T19:16 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
@@ -61,5 +63,3 @@
 - 2026-11-27T17:33 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-27T16:17 · short · `RuntimeError: Ninguna IA pudo responder: gemini: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.g | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po`
 - 2026-11-27T16:09 · short · `RuntimeError: Ninguna IA pudo responder: gemini: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}} | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: 429 RESOURCE_EXHAUSTED. {'err`
-- 2026-11-27T14:52 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-27T14:37 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`

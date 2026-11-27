@@ -5095,16 +5095,16 @@
   },
   {
     "id": "2026-11-27-short-the-hum",
-    "fecha": "2026-11-27T11:10:11+00:00",
+    "fecha": "2026-11-27T22:11:19+00:00",
     "formato": "short",
     "estado": "error_subida",
     "tema": "The Hum",
     "tema_clave": "The Hum",
     "categoria": "fenomenos",
-    "interes_wikipedia": 4.58,
-    "titulo_yt": "El misterio del Zumbido que pocos pueden oír #ElZumbido #TaosHum #Shorts",
+    "interes_wikipedia": 5.23,
+    "titulo_yt": "El fenómeno del Zumbido que pocos pueden oír #TheHum #TaosHum #Shorts",
     "estructura": "segunda_persona",
-    "estilo": "luna_fria",
+    "estilo": "archivo_antiguo",
     "duracion": 44.1,
     "escenas": 8,
     "clips_reales": 2,
@@ -5497,6 +5497,40 @@
       {
         "proveedor": "gemini",
         "modelo": "gemini-3.7-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-27-short-rendlesham-forest-incident",
+    "fecha": "2026-11-27T22:22:51+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Rendlesham Forest incident",
+    "tema_clave": "Rendlesham Forest incident",
+    "categoria": "paranormal",
+    "interes_wikipedia": 4.67,
+    "titulo_yt": "El enigma del bosque Rendlesham | El Roswell británico #Rendlesham1980 #BosqueRendlesham #Shorts",
+    "estructura": "pregunta",
+    "estilo": "archivo_antiguo",
+    "duracion": 55.3,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Rendlesham_Forest_incident",
+      "https://es.wikipedia.org/wiki/Incidente_ovni_de_Rendlesham_Forest"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.5-flash",
         "entrada": 0,
         "salida": 0,
         "busquedas": 0,
