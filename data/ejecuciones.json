@@ -2072,5 +2072,25 @@
     "fin": "2026-11-27T22:22:51+00:00",
     "error": "RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})",
     "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 276, in crear_video\n    raise RuntimeError(f\"No se pudo subir a YouTube: {ultimo}\")\nRuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})\n"
+  },
+  {
+    "id": "20261127-233625-short",
+    "tipo": "short",
+    "inicio": "2026-11-27T23:36:25+00:00",
+    "estado": "error",
+    "tema": "Dancing plague of 1518",
+    "fin": "2026-11-27T23:43:54+00:00",
+    "error": "RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 276, in crear_video\n    raise RuntimeError(f\"No se pudo subir a YouTube: {ultimo}\")\nRuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})\n"
+  },
+  {
+    "id": "20261127-234554-short",
+    "tipo": "short",
+    "inicio": "2026-11-27T23:45:54+00:00",
+    "estado": "error",
+    "tema": "Toynbee tiles",
+    "fin": "2026-11-27T23:53:09+00:00",
+    "error": "RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/misterios-sin-resolver/misterios-sin-resolver/pipeline/main.py\", line 276, in crear_video\n    raise RuntimeError(f\"No se pudo subir a YouTube: {ultimo}\")\nRuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})\n"
   }
 ]

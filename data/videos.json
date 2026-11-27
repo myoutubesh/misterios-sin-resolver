@@ -5538,5 +5538,89 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-27-short-dancing-plague-of-1518",
+    "fecha": "2026-11-27T23:43:53+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Dancing plague of 1518",
+    "tema_clave": "Dancing plague of 1518",
+    "categoria": "leyendas",
+    "interes_wikipedia": 5.59,
+    "titulo_yt": "La plaga del baile de 1518 #PlagaDelBaile #Estrasburgo1518 #Shorts",
+    "estructura": "en_medias_res",
+    "estilo": "carmesi",
+    "duracion": 52.6,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+      "https://es.wikipedia.org/wiki/Epidemia_de_baile_de_1518"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.7-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-27-short-toynbee-tiles",
+    "fecha": "2026-11-27T23:53:09+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Toynbee tiles",
+    "tema_clave": "Toynbee tiles",
+    "categoria": "curiosidades",
+    "interes_wikipedia": 4.56,
+    "titulo_yt": "El enigma de las placas de Toynbee en el asfalto #ToynbeeTiles #Filadelfia1983 #Shorts",
+    "estructura": "en_medias_res",
+    "estilo": "archivo_antiguo",
+    "duracion": 51.7,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Toynbee_tiles",
+      "https://es.wikipedia.org/wiki/Placas_de_Toynbee"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
