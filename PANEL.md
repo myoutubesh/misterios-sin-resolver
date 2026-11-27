@@ -1,15 +1,17 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-27 13:54 UTC*
+*Actualizado: 2026-11-27 15:07 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 17 080 | 121 | 36 | 3 | 113 | $0.00 |
+| 53 | 17 080 | 123 | 36 | 3 | 115 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-27 | short | El atacante que saltaba muros en el Londres victoriano / Spring-heeled Jack #SpringHeeledJack | error_subida | — |
+| 2026-11-27 | short | El misterio de los incendios de Teotihuacán #Teotihuacan #MexicoAntiguo #Shorts | error_subida | — |
 | 2026-11-27 | short | El misterio real del Flautista de Hamelín #FlautistaDeHamelin #Hameln1284 #Shorts | error_subida | — |
 | 2026-11-27 | short | La verdad sobre el Triángulo de las Bermudas #TrianguloDeLasBermudas #Bermudas1945 #Shorts | error_subida | — |
 | 2026-11-27 | short | ¿Quién fue el Asesino del Zodiaco? / Caso no resuelto #ZodiacKiller #SanFrancisco1969 #Shorts | error_subida | — |
@@ -38,8 +40,6 @@
 | 2026-11-25 | short | El misterio tras el Flautista de Hamelín #Hamelin1284 #FlautistaDeHamelin #Shorts | error_subida | — |
 | 2026-11-25 | largo | El MISTERIO del Roswell británico en Rendlesham / Incidente de Rendlesham | error_subida | — |
 | 2026-11-24 | short | El asesinato que nadie pudo detonar / Caso del Zodiaco #Zodiac #California1968 #Shorts | retenido_calidad | — |
-| 2026-11-24 | short | El secreto real detrás de las emisoras de números #AtencionCuba #ENIGMA2000 #Shorts | error_subida | — |
-| 2026-11-24 | short | Sobrevivió con una barra de hierro en el cráneo #PhineasGage #Vermont1848 #Shorts | error_subida | — |
 
 ## Aprendizajes
 
@@ -53,6 +53,8 @@
 
 ## Errores recientes
 
+- 2026-11-27T14:52 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
+- 2026-11-27T14:37 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-27T13:40 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-27T13:22 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-27T12:52 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
@@ -61,5 +63,3 @@
 - 2026-11-27T11:12 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-27T11:00 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-27T03:44 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.g | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po`
-- 2026-11-27T03:38 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po`
-- 2026-11-26T23:51 · short · `RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po`

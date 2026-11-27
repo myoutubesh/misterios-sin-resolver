@@ -5344,5 +5344,89 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-27-short-teotihuacan",
+    "fecha": "2026-11-27T14:50:34+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Teotihuacan",
+    "tema_clave": "Teotihuacan",
+    "categoria": "civilizaciones",
+    "interes_wikipedia": 4.78,
+    "titulo_yt": "El misterio de los incendios de Teotihuacán #Teotihuacan #MexicoAntiguo #Shorts",
+    "estructura": "cronologica",
+    "estilo": "carmesi",
+    "duracion": 66.3,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Teotihuacan",
+      "https://es.wikipedia.org/wiki/Teotihuac%C3%A1n"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.5-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-27-short-spring-heeled-jack",
+    "fecha": "2026-11-27T15:07:05+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Spring-heeled Jack",
+    "tema_clave": "Spring-heeled Jack",
+    "categoria": "paranormal",
+    "interes_wikipedia": 4.74,
+    "titulo_yt": "El atacante que saltaba muros en el Londres victoriano | Spring-heeled Jack #SpringHeeledJack",
+    "estructura": "en_medias_res",
+    "estilo": "luna_fria",
+    "duracion": 53.4,
+    "escenas": 10,
+    "clips_reales": 3,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Spring-heeled_Jack",
+      "https://es.wikipedia.org/wiki/Spring_Heeled_Jack"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
