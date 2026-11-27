@@ -5260,5 +5260,89 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-27-short-bermuda-triangle",
+    "fecha": "2026-11-27T13:38:04+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Bermuda Triangle",
+    "tema_clave": "Bermuda Triangle",
+    "categoria": "desapariciones",
+    "interes_wikipedia": 5.2,
+    "titulo_yt": "La verdad sobre el Triángulo de las Bermudas #TrianguloDeLasBermudas #Bermudas1945 #Shorts",
+    "estructura": "cronologica",
+    "estilo": "noche_turquesa",
+    "duracion": 55.6,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Bermuda_Triangle",
+      "https://es.wikipedia.org/wiki/Tri%C3%A1ngulo_de_las_Bermudas"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-27-short-pied-piper-of-hamelin",
+    "fecha": "2026-11-27T13:54:47+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Pied Piper of Hamelin",
+    "tema_clave": "Pied Piper of Hamelin",
+    "categoria": "leyendas",
+    "interes_wikipedia": 5.66,
+    "titulo_yt": "El misterio real del Flautista de Hamelín #FlautistaDeHamelin #Hameln1284 #Shorts",
+    "estructura": "segunda_persona",
+    "estilo": "noche_turquesa",
+    "duracion": 48.3,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Pied_Piper_of_Hamelin",
+      "https://es.wikipedia.org/wiki/El_flautista_de_Hamel%C3%ADn"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
