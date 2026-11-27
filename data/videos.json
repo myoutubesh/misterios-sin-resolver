@@ -5221,18 +5221,18 @@
   },
   {
     "id": "2026-11-27-short-zodiac-killer",
-    "fecha": "2026-11-27T13:04:49+00:00",
+    "fecha": "2026-11-27T19:27:09+00:00",
     "formato": "short",
     "estado": "error_subida",
     "tema": "Zodiac Killer",
     "tema_clave": "Zodiac Killer",
     "categoria": "casos_sin_resolver",
-    "interes_wikipedia": 5.71,
-    "titulo_yt": "¿Quién fue el Asesino del Zodiaco? | Caso no resuelto #ZodiacKiller #SanFrancisco1969 #Shorts",
+    "interes_wikipedia": 6.08,
+    "titulo_yt": "El asesino que se burló de la policía con cartas #AsesinoDelZodiaco #ZodiacKiller #Shorts",
     "estructura": "pregunta",
-    "estilo": "archivo_antiguo",
-    "duracion": 50.6,
-    "escenas": 9,
+    "estilo": "carmesi",
+    "duracion": 47.4,
+    "escenas": 7,
     "clips_reales": 2,
     "musica": "drone sintetizado",
     "verificacion": "solo contra Wikipedia (EN y ES)",
@@ -5244,7 +5244,7 @@
     "ia": [
       {
         "proveedor": "gemini",
-        "modelo": "gemini-3.6-flash",
+        "modelo": "gemini-3.8-flash",
         "entrada": 0,
         "salida": 0,
         "busquedas": 0,
@@ -5252,7 +5252,7 @@
       },
       {
         "proveedor": "gemini",
-        "modelo": "gemini-3.6-flash",
+        "modelo": "gemini-3.7-flash",
         "entrada": 0,
         "salida": 0,
         "busquedas": 0,
@@ -5463,6 +5463,48 @@
       {
         "proveedor": "gemini",
         "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-27-short-tarrare",
+    "fecha": "2026-11-27T19:14:57+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Tarrare",
+    "tema_clave": "Tarrare",
+    "categoria": "historias",
+    "interes_wikipedia": 5.49,
+    "titulo_yt": "El insaciable estómago de Tarrare #Tarrare #Francia1772 #Shorts",
+    "estructura": "tres_detalles",
+    "estilo": "grabado",
+    "duracion": 45.7,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Tarrare",
+      "https://es.wikipedia.org/wiki/Tarrare"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.7-flash",
         "entrada": 0,
         "salida": 0,
         "busquedas": 0,
