@@ -5706,5 +5706,89 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-28-short-d-b-cooper",
+    "fecha": "2026-11-28T12:40:38+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "D. B. Cooper",
+    "tema_clave": "D. B. Cooper",
+    "categoria": "casos_sin_resolver",
+    "interes_wikipedia": 6.02,
+    "titulo_yt": "El secuestrador que saltó de un avión y desapareció | D. B. Cooper #DBCooper #Washington1971 #Shorts",
+    "estructura": "cronologica",
+    "estilo": "grabado",
+    "duracion": 48.9,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/D._B._Cooper",
+      "https://es.wikipedia.org/wiki/D._B._Cooper"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-28-short-zodiac-killer",
+    "fecha": "2026-11-28T12:49:18+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Zodiac Killer",
+    "tema_clave": "Zodiac Killer",
+    "categoria": "curiosidades",
+    "interes_wikipedia": 6.5,
+    "titulo_yt": "Tres detalles oscuros del Asesino del Zodiaco #ZodiacKiller #SanFrancisco1969 #Shorts",
+    "estructura": "tres_detalles",
+    "estilo": "archivo_antiguo",
+    "duracion": 48.9,
+    "escenas": 6,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Zodiac_Killer",
+      "https://es.wikipedia.org/wiki/Asesino_del_Zodiaco"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]

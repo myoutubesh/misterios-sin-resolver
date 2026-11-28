@@ -1,15 +1,17 @@
 # Panel: ExpedienteUmbral
 
-*Actualizado: 2026-11-28 11:50 UTC*
+*Actualizado: 2026-11-28 12:49 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 53 | 17 080 | 130 | 36 | 3 | 130 | $0.00 |
+| 53 | 17 080 | 132 | 36 | 3 | 132 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-28 | short | Tres detalles oscuros del Asesino del Zodiaco #ZodiacKiller #SanFrancisco1969 #Shorts | error_subida | — |
+| 2026-11-28 | short | El secuestrador que saltó de un avión y desapareció / D. B. Cooper #DBCooper #Washington1971 #Shorts | error_subida | — |
 | 2026-11-28 | short | Tres detalles inquietantes de la plaga del baile de 1518 #PlagaDelBaile1518 #Estrasburgo1518 #Shorts | error_subida | — |
 | 2026-11-28 | short | El misterio de las rocas que caminan solas #SailingStones #ValleDeLaMuerte #Shorts | error_subida | — |
 | 2026-11-27 | short | El enigma de las placas de Toynbee en el asfalto #ToynbeeTiles #Filadelfia1983 #Shorts | error_subida | — |
@@ -38,8 +40,6 @@
 | 2026-11-25 | short | El secuestro y salto de D. B. Cooper #DBCooper #Vuelo305 #Shorts | error_subida | — |
 | 2026-11-25 | short | El carguero fantasma atrapado en Alaska / SS Baychimo #SSBaychimo #Alaska1931 #Shorts | error_subida | — |
 | 2026-11-25 | short | El misterio de Jack el saltarín en Londres #SpringHeeledJack #Londres1837 #Shorts | error_subida | — |
-| 2026-11-25 | short | La ciudad subterránea que salvó a 20,000 personas / Derinkuyu #Derinkuyu #Turquia #Shorts | error_subida | — |
-| 2026-11-25 | short | ¿Paul McCartney murió en 1966? La verdad oculta #PaulIsDead #Beatles1969 #Shorts | error_subida | — |
 
 ## Aprendizajes
 
@@ -53,6 +53,8 @@
 
 ## Errores recientes
 
+- 2026-11-28T12:42 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
+- 2026-11-28T12:30 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-28T11:50 · estadisticas · `RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-28T11:12 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-28T10:56 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
@@ -61,5 +63,3 @@
 - 2026-11-27T23:45 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-27T23:36 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-27T22:13 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-27T22:02 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
-- 2026-11-27T20:41 · short · `RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po`
