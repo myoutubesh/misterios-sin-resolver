@@ -5622,5 +5622,89 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-28-short-sailing-stones",
+    "fecha": "2026-11-28T11:10:09+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Sailing stones",
+    "tema_clave": "Sailing stones",
+    "categoria": "fenomenos",
+    "interes_wikipedia": 4.69,
+    "titulo_yt": "El misterio de las rocas que caminan solas #SailingStones #ValleDeLaMuerte #Shorts",
+    "estructura": "cronologica",
+    "estilo": "luna_fria",
+    "duracion": 47.9,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Sailing_stones",
+      "https://es.wikipedia.org/wiki/Piedras_deslizantes"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-28-short-dancing-plague-of-1518",
+    "fecha": "2026-11-28T11:26:24+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Dancing plague of 1518",
+    "tema_clave": "Dancing plague of 1518",
+    "categoria": "leyendas",
+    "interes_wikipedia": 5.68,
+    "titulo_yt": "Tres detalles inquietantes de la plaga del baile de 1518 #PlagaDelBaile1518 #Estrasburgo1518 #Shorts",
+    "estructura": "tres_detalles",
+    "estilo": "luna_fria",
+    "duracion": 49.5,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "drone sintetizado",
+    "verificacion": "solo contra Wikipedia (EN y ES)",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+      "https://es.wikipedia.org/wiki/Epidemia_de_baile_de_1518"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
